@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>FX RADAR v4</title>
+<title>FX RADAR TEST v4</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
@@ -18,6 +18,7 @@ const gk=n=>{try{return localStorage.getItem("fxr_"+n)||""}catch{return""}};cons
 const jf=async u=>{const r=await fetch(u);if(!r.ok)throw new Error(r.status);return r.json()};
 async function fFr(d,sym){try{return await jf("https://api.frankfurter.dev/v1/"+d+"?base=USD&symbols="+sym)}catch{return null}}
 async function fFD(){try{const r=await fetch("/.netlify/functions/fred-yields");if(!r.ok)throw new Error("fred-yields failed");return await r.json()}catch{return null}}
+async function fECB(){try{const r=await fetch("/.netlify/functions/ecb-yields");if(!r.ok)throw new Error("ecb-yields failed");return await r.json()}catch(err){console.error("ECB yields fetch failed",err);return null}}
 async function fFh(ep,p,k){if(!k)return null;try{const q=new URLSearchParams({...p,token:k}).toString();return await jf("https://finnhub.io/api/v1/"+ep+"?"+q)}catch{return null}}
 const ago=n=>{const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10)};const fwd=n=>{const d=new Date();d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)};const jan2=()=>new Date().getFullYear()+"-01-02";
 
@@ -365,6 +366,7 @@ function App(){
     sLd(true);
     try{const [now,d1,w1,m1,ytd]=await Promise.all([fFr("latest",SYM),fFr(ago(1),SYM),fFr(ago(7),SYM),fFr(ago(30),SYM),fFr(jan2(),SYM)]);if(now?.rates){const bld=defs=>defs.map(d=>{const s=now.rates[d.q];if(!s)return{pair:d.p,spot:null,d1:null,w1:null,m1:null,ytd:null};const sp=d.i?1/s:s;const ch=h=>{const v=h?.rates?.[d.q];if(!v)return null;return d.i?pc(1/s,1/v):pc(s,v)};return{pair:d.p,spot:sp,d1:ch(d1),w1:ch(w1),m1:ch(m1),ytd:ch(ytd)}});sG10(bld(G10));sEM(bld(EMP));sFxL(true);const eur=now.rates.EUR,eurY=d1?.rates?.EUR;if(eur)sRisk(p=>({...p,DXY:{level:+(1/eur*104.5).toFixed(2),chg:eurY?+pc(1/eur,1/eurY):null}}))}}catch{}
     try{const usYields=await fFD();if(usYields){sYld(p=>({...p,US:usYields}));sYL(true);if(usYields.y10!=null)sRisk(p=>({...p,"US 10Y":{level:usYields.y10,chg:null}}))}}catch{}
+    try{const euYields=await fECB();if(euYields){sYld(p=>({...p,Eurozone:euYields}))}}catch(err){console.error("Eurozone yields load failed",err)}
     if(keys.finnhub){
       const [vR,gR,wR,bR]=await Promise.allSettled([fFh("quote",{symbol:"CBOE:VIX"},keys.finnhub),fFh("forex/rates",{base:"USD"},keys.finnhub),fFh("quote",{symbol:"NYMEX:CL1!"},keys.finnhub),fFh("quote",{symbol:"NYMEX:BZ1!"},keys.finnhub)]);
       const v=vR.status==="fulfilled"?vR.value:null;if(v?.c)sRisk(p=>({...p,VIX:{level:v.c,chg:+(v.c-v.pc).toFixed(2)}}));
