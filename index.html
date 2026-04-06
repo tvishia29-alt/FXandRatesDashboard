@@ -34,23 +34,23 @@ const nKw={US:["fed","fomc","treasury","dollar","powell","nonfarm"],Eurozone:["e
 
 // ═══ FULL MACRO DATABASE ═════════════════════════════════════════
 const MD={
-US:{cpi:"3.2%",cpiP:"3.1%",cpiT:"re-accelerating",core:"3.8%",gdp:"2.5%",gdpT:"resilient",unemp:"3.7%",unempT:"near cycle lows",wages:"4.1% YoY",pmi:"52.6",tb:"-$68.5B",stance:"Hawkish hold",next:"2026-05-01",last:"Hold 5.50%",pricing:"2 cuts in 12m",narr:"Good morning everyone. We're seeing the DXY firmly bid this morning, holding above the 104.50 level after yesterday's slightly hotter-than-expected CPI print at 3.2% YoY, up from 3.1%. That number has effectively killed any lingering hopes of an early Fed pivot, pushing back rate cut expectations and reaffirming the Fed's cautious stance; the market is now unwinding some of the aggressive cut pricing we saw earlier, with only two cuts now fully priced in for the next 12 months. This shifts the narrative firmly back to 'higher for longer,' supporting the dollar as Treasury yields edge up across the curve. We're watching for any further commentary from FOMC members today, but my bias remains firmly long DXY, especially heading into next week's retail sales data, which could reinforce the resilient consumer story."},
-Eurozone:{cpi:"2.6%",cpiP:"2.8%",cpiT:"falling toward target",core:"3.1%",gdp:"0.3%",gdpT:"anaemic",unemp:"6.4%",unempT:"stable",wages:"3.5% YoY",pmi:"49.2",tb:"+€28B",stance:"Easing bias",next:"2026-04-10",last:"Hold 4.50%",pricing:"3 cuts in 12m",narr:"The euro is trading heavy around 1.0840 ahead of Thursday's ECB decision, where a 25bp cut to 4.25% is now 90% priced. Headline CPI has fallen to 2.6% from 2.8% — the disinflationary trend is intact — but core at 3.1% and services inflation above 4% give the hawks enough ammunition to push for gradualism. German manufacturing remains in deep contraction (PMI 49.2) and GDP at 0.3% is barely positive. The fundamental picture supports EUR weakness vs USD given the widening rate differential. However, the current account surplus (+€28B) provides structural support. My bias is to sell EURUSD rallies toward 1.0900, targeting a move back to 1.0750 post-ECB. Lagarde's press conference tone will be decisive."},
-UK:{cpi:"3.4%",cpiP:"4.0%",cpiT:"falling but sticky services",core:"4.5%",gdp:"0.2%",gdpT:"tepid",unemp:"4.2%",unempT:"rising",wages:"5.6% YoY",pmi:"53.8",tb:"-£4.8B",stance:"Cautious hold",next:"2026-05-09",last:"Hold 5.25%",pricing:"2 cuts in 12m",narr:"Sterling is the most interesting G10 story this week with UK GDP data due Thursday. Cable is holding 1.2715 — resilient given the broader USD bid — supported by the BoE's relatively hawkish stance at 5.25%. The problem is the UK is stuck: CPI has fallen to 3.4% but services inflation is still running above 5%, wages are growing 5.6% YoY, and the BoE simply cannot cut until that services component breaks lower. Growth at 0.2% is barely positive and unemployment is creeping higher to 4.2%. The gilt curve is inverted at -20bp (2s10s), signalling recession risk. I'm constructive on GBP vs EUR (short EURGBP) given the carry advantage, but cautious on GBPUSD given the dollar strength. Thursday's GDP print is binary — a positive surprise could push cable toward 1.28."},
-Japan:{cpi:"2.8%",cpiP:"2.5%",cpiT:"rising and broadening",core:"2.5%",gdp:"1.2%",gdpT:"recovering",unemp:"2.5%",unempT:"tight",wages:"2.1% (Shunto: 5.3%)",pmi:"51.4",tb:"-¥580B",stance:"Cautious normalisation",next:"2026-04-26",last:"Hold 0.10%",pricing:"1 hike in 12m",narr:"All eyes on the yen. USDJPY is at 156.82 — dangerously close to the level where the MoF intervened last time around 160. The BoJ has exited negative rates but is moving at a glacial pace, with CPI at 2.8% and Shunto wage negotiations delivering a historic 5.3% increase. Wednesday's BoJ Summary of Opinions will be critical — any hints of accelerated normalisation could trigger a sharp JPY rally. Implied vol at 9.4% is elevated, reflecting the two-way intervention risk. The carry trade (borrowing JPY to fund higher-yielding positions) remains massive and crowded. My key concern is that a disorderly unwind of JPY shorts could cascade across global risk assets. For now, I'm flat USDJPY — the risk-reward of being long above 155 is poor given intervention risk, but fighting the carry is expensive."},
-Switzerland:{cpi:"1.4%",cpiP:"1.2%",cpiT:"low",core:"1.2%",gdp:"0.6%",gdpT:"modest",unemp:"2.3%",unempT:"stable",wages:"1.8% YoY",pmi:"48.5",tb:"+CHF5.2B",stance:"Easing",next:"2026-06-19",last:"Cut to 1.75%",pricing:"1-2 more cuts",narr:"The SNB remains the most dovish G10 central bank, having already cut to 1.75% with CPI at just 1.4%. The core issue for CHF is persistent safe-haven inflows — whenever risk deteriorates globally, money flows into Switzerland, effectively tightening financial conditions. The SNB has been actively intervening in FX markets to weaken the franc. For traders, EURCHF is the key cross — the implicit SNB floor means dips toward 0.93 have been bought. USDCHF is tracking the broader USD narrative. With Swiss PMI at 48.5 and growth at just 0.6%, further easing is coming. Short CHF against higher-yielders (like GBP or NOK) is the cleanest expression of the policy divergence."},
-Australia:{cpi:"3.6%",cpiP:"3.4%",cpiT:"sticky",core:"3.9%",gdp:"1.5%",gdpT:"slowing",unemp:"3.9%",unempT:"stable",wages:"4.2% YoY",pmi:"50.1",tb:"+A$8.5B",stance:"On hold",next:"2026-05-20",last:"Hold 4.35%",pricing:"2 cuts in 12m",narr:"AUDUSD is trading at 0.6540, under pressure from the broad USD bid and China demand concerns. The RBA is the most cautious G10 central bank — CPI at 3.6% with core at 3.9% doesn't allow for cuts, but growth at 1.5% and slowing momentum argues against hikes. Australia is a China proxy play: iron ore prices, Chinese PMIs, and any stimulus signals from Beijing directly impact AUD. The trade surplus (+A$8.5B) provides fundamental support. For carry, AUD offers decent pickup vs JPY/CHF but the China tail risk keeps me cautious. I'd look to buy AUDUSD dips toward 0.6450 for a tactical bounce, with a stop below 0.6400."},
-"New Zealand":{cpi:"4.7%",cpiP:"4.7%",cpiT:"sticky",core:"4.3%",gdp:"-0.3%",gdpT:"recession",unemp:"4.3%",unempT:"rising",wages:"3.8% YoY",pmi:"47.1",tb:"-NZ$1.2B",stance:"Easing",next:"2026-05-28",last:"Cut to 5.50%",pricing:"3-4 cuts",narr:"New Zealand is in the worst shape of all G10 economies. GDP is negative at -0.3%, inflation is stubbornly high at 4.7%, and unemployment is climbing. It's a textbook stagflation setup. The RBNZ has begun cutting to 5.50% but started late. NZD is the weakest G10 currency YTD. The housing correction has been brutal. The dairy sector (Fonterra) is the key export driver. I'm bearish NZD vs USD and AUD — NZDUSD has further downside toward 0.5850. The only positive: NZD still carries well vs JPY/CHF, so the timing of shorts matters."},
-Canada:{cpi:"2.9%",cpiP:"2.8%",cpiT:"near target",core:"3.2%",gdp:"1.0%",gdpT:"slowing",unemp:"5.8%",unempT:"rising",wages:"3.9% YoY",pmi:"49.8",tb:"-C$1.5B",stance:"Easing",next:"2026-04-16",last:"Cut to 5.00%",pricing:"2-3 more cuts",narr:"Canada is the canary in the coal mine for the US — the BoC has already cut to 5.00% while the Fed holds at 5.50%, and this divergence is pushing USDCAD higher. CPI at 2.9% is close enough to target to justify continued easing. The housing market is the key vulnerability: massively leveraged households face mortgage renewal shocks. GDP at 1.0% is below trend and unemployment is rising toward 6%. Oil is the swing factor for CAD — WTI strength helps, but the rate differential is dominating. I'm biased toward USDCAD upside, targeting 1.3800+, with the BoC likely to cut again in April while the Fed holds."},
-Sweden:{cpi:"2.2%",cpiP:"2.5%",cpiT:"at target",core:"2.5%",gdp:"0.1%",gdpT:"stagnant",unemp:"8.2%",unempT:"high",wages:"3.5% YoY",pmi:"48.2",tb:"+SEK12B",stance:"Easing",next:"2026-05-07",last:"Cut to 4.00%",pricing:"2-3 more cuts",narr:"Sweden is in a domestic recession. GDP at 0.1% with 8.2% unemployment — the worst in G10. The Riksbank is cutting aggressively as CPI has normalised to 2.2%. The housing correction has been among the worst in Europe. SEK weakness actually helps the export sector, creating a tension between the Riksbank's desire to ease and its concern about further currency depreciation. EURSEK is the key cross. I'd be cautious with long SEK positions given the economic backdrop — the carry is diminishing rapidly as the Riksbank cuts."},
-Norway:{cpi:"3.6%",cpiP:"3.9%",cpiT:"sticky",core:"4.1%",gdp:"0.8%",gdpT:"stable",unemp:"3.7%",unempT:"low",wages:"5.2% YoY",pmi:"51.8",tb:"+NOK80B",stance:"Hawkish hold",next:"2026-05-08",last:"Hold 4.50%",pricing:"1-2 cuts",narr:"Norway is the hawkish outlier in Scandinavia. Norges Bank holds at 4.50% with CPI sticky at 3.6% and wages running at 5.2%. The massive oil-driven trade surplus (+NOK80B) keeps the current account strong. NOK has been surprisingly weak despite the hawkish stance — it trades like a risk proxy with high beta to oil and global sentiment. EURNOK is the key cross. The sovereign wealth fund ($1.6T) provides a structural buffer. For carry traders, NOK offers reasonable pickup vs EUR/CHF but requires a strong stomach for the volatility."},
-Brazil:{cpi:"4.5%",cpiP:"4.2%",cpiT:"rising",core:"4.0%",gdp:"2.1%",gdpT:"strong",unemp:"7.8%",unempT:"falling",wages:"N/A",pmi:"52.1",tb:"+$7.2B",stance:"Tightening",next:"2026-05-07",last:"Hike to 10.75%",pricing:"Terminal ~12%",narr:"Brazil is the highest real yield story in EM. The BCB is hiking (to 10.75%) as CPI re-accelerates to 4.5%, driven by fiscal spending under Lula. BRL carry is extremely attractive (10%+ vs USD) but FX vol is high. The fiscal deficit is the core risk — Lula's spending clashes with BCB tightening. The agricultural trade surplus (+$7.2B) helps. Long BRL vs JPY/CHF for carry, but size conservatively given political tail risk."},
-Mexico:{cpi:"4.2%",cpiP:"4.4%",cpiT:"slowly falling",core:"4.6%",gdp:"2.5%",gdpT:"resilient",unemp:"2.8%",unempT:"tight",wages:"N/A",pmi:"51.5",tb:"-$5.8B",stance:"Cautious hold",next:"2026-05-15",last:"Hold 11.00%",pricing:"2-3 cuts",narr:"Mexico is the EM carry darling with Banxico at 11.00% and CPI gradually falling. Nearshoring FDI flows have surged as companies diversify from China. MXN has been a top performer. The risk is a shift in US trade policy and Banxico eventually cutting, which would compress carry. USDMXN dips are well-bought by carry funds. I like being structurally long MXN vs low-yielders, but the entry point matters."},
-"South Africa":{cpi:"5.3%",cpiP:"5.1%",cpiT:"elevated",core:"4.6%",gdp:"0.7%",gdpT:"weak",unemp:"32.1%",unempT:"structural",wages:"N/A",pmi:"49.5",tb:"-ZAR15B",stance:"Hold",next:"2026-05-29",last:"Hold 8.25%",pricing:"1-2 cuts",narr:"South Africa: sophisticated financial markets, challenged real economy. 32% unemployment is structural. The GNU coalition has brought some stability, load shedding has improved. ZAR carry (8.25%) is high but the rand is extremely volatile. Mining exports drive the balance of payments. I'd only hold ZAR carry in a risk-on environment with a tight stop."},
-India:{cpi:"5.1%",cpiP:"5.3%",cpiT:"moderating",core:"4.2%",gdp:"6.5%",gdpT:"strong",unemp:"7.1%",unempT:"stable",wages:"N/A",pmi:"58.3",tb:"-$20B",stance:"Easing bias",next:"2026-04-09",last:"Cut to 6.50%",pricing:"2 more cuts",narr:"India is the global growth standout — 6.5% GDP with PMI at 58.3 (highest in the world). The RBI has begun cutting as CPI falls within its 2-6% band. INR is one of the most stable EM currencies thanks to RBI intervention. The key risk is oil: every $10/bbl move impacts the current account by ~0.4% of GDP. Modi's reform agenda continues to attract FDI. INR is the 'boring carry' trade — moderate yield with low vol."},
-"South Korea":{cpi:"2.1%",cpiP:"2.3%",cpiT:"at target",core:"2.0%",gdp:"2.0%",gdpT:"recovering",unemp:"2.7%",unempT:"stable",wages:"N/A",pmi:"50.8",tb:"+$4.5B",stance:"Easing",next:"2026-05-29",last:"Cut to 3.50%",pricing:"1-2 cuts",narr:"South Korea is a semiconductor cycle play. Samsung and SK Hynix are at the heart of the AI chip supply chain. CPI at target gives the BoK room to ease. KRW tracks global risk sentiment and tech — essentially a beta play on the AI trade. Modest carry vs JPY/CHF. USDKRW is influenced by DXY and broader EM flows."},
-Turkey:{cpi:"65%",cpiP:"67%",cpiT:"falling from peak",core:"70%",gdp:"3.2%",gdpT:"slowing",unemp:"9.4%",unempT:"stable",wages:"N/A",pmi:"49.1",tb:"-$7.5B",stance:"Hawkish hold",next:"2026-04-17",last:"Hold 50.00%",pricing:"Cuts H2 2026",narr:"Turkey is the ultimate carry trade paradox. 50% policy rate with 65% CPI inflation — real rates are deeply negative, but disinflation is underway from the 85% peak. The orthodox pivot under Governor Erkan has been dramatic. TRY carry is astronomical on paper but lira depreciation has historically consumed it all. If orthodoxy holds, real rates will become positive as inflation falls toward 40-45% by year-end. For sophisticated carry traders, the risk-reward is improving, but political interference risk never fully goes away."},
-Poland:{cpi:"3.9%",cpiP:"3.7%",cpiT:"rising",core:"4.1%",gdp:"2.8%",gdpT:"solid",unemp:"5.1%",unempT:"stable",wages:"12% YoY",pmi:"50.2",tb:"-PLN5B",stance:"On hold",next:"2026-05-07",last:"Hold 5.75%",pricing:"Cuts unlikely H1",narr:"Poland is the CEE standout. GDP at 2.8% driven by EU fund absorption and strong domestic demand. The NBP holds at 5.75% as CPI re-accelerates to 3.9% — Glapinski has signalled no rush to cut. Wage growth at 12% is extraordinary. PLN has been well-supported by hawkish NBP and EU fund inflows. EURPLN trending lower. For carry, PLN offers 1.25%+ vs EUR with supportive flow dynamics. The Tusk government's reform agenda is being watched by investors."},
+US:{cpi:"3.2%",cpiP:"3.1%",cpiT:"re-accelerating",core:"3.8%",gdp:"2.5%",gdpT:"resilient",unemp:"3.7%",unempT:"near cycle lows",wages:"4.1% YoY",pmi:"52.6",tb:"-$68.5B",stance:"Hawkish hold",next:"2026-05-01",last:"Hold 5.50%",pricing:"2 cuts in 12m"},
+Eurozone:{cpi:"2.6%",cpiP:"2.8%",cpiT:"falling toward target",core:"3.1%",gdp:"0.3%",gdpT:"anaemic",unemp:"6.4%",unempT:"stable",wages:"3.5% YoY",pmi:"49.2",tb:"+€28B",stance:"Easing bias",next:"2026-04-10",last:"Hold 4.50%",pricing:"3 cuts in 12m"},
+UK:{cpi:"3.4%",cpiP:"4.0%",cpiT:"falling but sticky services",core:"4.5%",gdp:"0.2%",gdpT:"tepid",unemp:"4.2%",unempT:"rising",wages:"5.6% YoY",pmi:"53.8",tb:"-£4.8B",stance:"Cautious hold",next:"2026-05-09",last:"Hold 5.25%",pricing:"2 cuts in 12m"},
+Japan:{cpi:"2.8%",cpiP:"2.5%",cpiT:"rising and broadening",core:"2.5%",gdp:"1.2%",gdpT:"recovering",unemp:"2.5%",unempT:"tight",wages:"2.1% (Shunto: 5.3%)",pmi:"51.4",tb:"-¥580B",stance:"Cautious normalisation",next:"2026-04-26",last:"Hold 0.10%",pricing:"1 hike in 12m"},
+Switzerland:{cpi:"1.4%",cpiP:"1.2%",cpiT:"low",core:"1.2%",gdp:"0.6%",gdpT:"modest",unemp:"2.3%",unempT:"stable",wages:"1.8% YoY",pmi:"48.5",tb:"+CHF5.2B",stance:"Easing",next:"2026-06-19",last:"Cut to 1.75%",pricing:"1-2 more cuts"},
+Australia:{cpi:"3.6%",cpiP:"3.4%",cpiT:"sticky",core:"3.9%",gdp:"1.5%",gdpT:"slowing",unemp:"3.9%",unempT:"stable",wages:"4.2% YoY",pmi:"50.1",tb:"+A$8.5B",stance:"On hold",next:"2026-05-20",last:"Hold 4.35%",pricing:"2 cuts in 12m"},
+"New Zealand":{cpi:"4.7%",cpiP:"4.7%",cpiT:"sticky",core:"4.3%",gdp:"-0.3%",gdpT:"recession",unemp:"4.3%",unempT:"rising",wages:"3.8% YoY",pmi:"47.1",tb:"-NZ$1.2B",stance:"Easing",next:"2026-05-28",last:"Cut to 5.50%",pricing:"3-4 cuts"},
+Canada:{cpi:"2.9%",cpiP:"2.8%",cpiT:"near target",core:"3.2%",gdp:"1.0%",gdpT:"slowing",unemp:"5.8%",unempT:"rising",wages:"3.9% YoY",pmi:"49.8",tb:"-C$1.5B",stance:"Easing",next:"2026-04-16",last:"Cut to 5.00%",pricing:"2-3 more cuts"},
+Sweden:{cpi:"2.2%",cpiP:"2.5%",cpiT:"at target",core:"2.5%",gdp:"0.1%",gdpT:"stagnant",unemp:"8.2%",unempT:"high",wages:"3.5% YoY",pmi:"48.2",tb:"+SEK12B",stance:"Easing",next:"2026-05-07",last:"Cut to 4.00%",pricing:"2-3 more cuts"},
+Norway:{cpi:"3.6%",cpiP:"3.9%",cpiT:"sticky",core:"4.1%",gdp:"0.8%",gdpT:"stable",unemp:"3.7%",unempT:"low",wages:"5.2% YoY",pmi:"51.8",tb:"+NOK80B",stance:"Hawkish hold",next:"2026-05-08",last:"Hold 4.50%",pricing:"1-2 cuts"},
+Brazil:{cpi:"4.5%",cpiP:"4.2%",cpiT:"rising",core:"4.0%",gdp:"2.1%",gdpT:"strong",unemp:"7.8%",unempT:"falling",wages:"N/A",pmi:"52.1",tb:"+$7.2B",stance:"Tightening",next:"2026-05-07",last:"Hike to 10.75%",pricing:"Terminal ~12%"},
+Mexico:{cpi:"4.2%",cpiP:"4.4%",cpiT:"slowly falling",core:"4.6%",gdp:"2.5%",gdpT:"resilient",unemp:"2.8%",unempT:"tight",wages:"N/A",pmi:"51.5",tb:"-$5.8B",stance:"Cautious hold",next:"2026-05-15",last:"Hold 11.00%",pricing:"2-3 cuts"},
+"South Africa":{cpi:"5.3%",cpiP:"5.1%",cpiT:"elevated",core:"4.6%",gdp:"0.7%",gdpT:"weak",unemp:"32.1%",unempT:"structural",wages:"N/A",pmi:"49.5",tb:"-ZAR15B",stance:"Hold",next:"2026-05-29",last:"Hold 8.25%",pricing:"1-2 cuts"},
+India:{cpi:"5.1%",cpiP:"5.3%",cpiT:"moderating",core:"4.2%",gdp:"6.5%",gdpT:"strong",unemp:"7.1%",unempT:"stable",wages:"N/A",pmi:"58.3",tb:"-$20B",stance:"Easing bias",next:"2026-04-09",last:"Cut to 6.50%",pricing:"2 more cuts"},
+"South Korea":{cpi:"2.1%",cpiP:"2.3%",cpiT:"at target",core:"2.0%",gdp:"2.0%",gdpT:"recovering",unemp:"2.7%",unempT:"stable",wages:"N/A",pmi:"50.8",tb:"+$4.5B",stance:"Easing",next:"2026-05-29",last:"Cut to 3.50%",pricing:"1-2 cuts"},
+Turkey:{cpi:"65%",cpiP:"67%",cpiT:"falling from peak",core:"70%",gdp:"3.2%",gdpT:"slowing",unemp:"9.4%",unempT:"stable",wages:"N/A",pmi:"49.1",tb:"-$7.5B",stance:"Hawkish hold",next:"2026-04-17",last:"Hold 50.00%",pricing:"Cuts H2 2026"},
+Poland:{cpi:"3.9%",cpiP:"3.7%",cpiT:"rising",core:"4.1%",gdp:"2.8%",gdpT:"solid",unemp:"5.1%",unempT:"stable",wages:"12% YoY",pmi:"50.2",tb:"-PLN5B",stance:"On hold",next:"2026-05-07",last:"Hold 5.75%",pricing:"Cuts unlikely H1"},
 };
 
 const DCAL=[{date:"2026-04-08",time:"12:30",ctry:"🇺🇸",ev:"FOMC Minutes",prev:"—",fcast:"—",act:"—",imp:"red"},{date:"2026-04-09",time:"12:30",ctry:"🇺🇸",ev:"US CPI YoY",prev:"3.2%",fcast:"3.1%",act:"—",imp:"red"},{date:"2026-04-10",time:"11:00",ctry:"🇪🇺",ev:"ECB Rate Decision",prev:"4.50%",fcast:"4.25%",act:"—",imp:"red"},{date:"2026-04-10",time:"07:00",ctry:"🇬🇧",ev:"UK GDP MoM",prev:"-0.1%",fcast:"0.2%",act:"—",imp:"red"}];
@@ -60,7 +60,7 @@ const CP=["EURUSD","GBPUSD","USDJPY","AUDUSD","USDCAD","NZDUSD","Gold","US10Y"];
 const Dot=({on})=><span style={{display:"inline-block",width:6,height:6,borderRadius:"50%",background:on?C.g:C.am,marginRight:5}}/>;
 function Tabs({tabs,act,set}){return <div style={{display:"flex",gap:2,borderBottom:"1px solid "+C.bd,marginBottom:12,overflowX:"auto"}}>{tabs.map(t=><button key={t} onClick={()=>set(t)} style={{padding:"8px 16px",fontSize:12,fontWeight:600,background:act===t?C.ac+"20":"transparent",color:act===t?C.ac:C.txD,border:"none",borderBottom:act===t?"2px solid "+C.ac:"2px solid transparent",whiteSpace:"nowrap"}}>{t}</button>)}</div>}
 function Tbl({cols,rows,sm}){return <div style={{overflowX:"auto"}}><table style={{width:"100%",borderCollapse:"collapse",fontSize:sm?11:12}}><thead><tr>{cols.map(c=><th key={c.k} style={{padding:"6px 10px",textAlign:c.a||"right",color:C.txM,fontWeight:600,fontSize:10,letterSpacing:1,textTransform:"uppercase",borderBottom:"1px solid "+C.bd,whiteSpace:"nowrap",background:C.bgC}}>{c.l}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i} style={{background:i%2?C.bg+"60":"transparent"}}>{cols.map(c=>{const v=c.rn?c.rn(r):r[c.k];return <td key={c.k} style={{padding:"5px 10px",textAlign:c.a||"right",fontFamily:c.nm?"inherit":Mn,fontSize:sm?11:12,color:c.cl?c.cl(r):C.tx,whiteSpace:"nowrap",borderBottom:"1px solid "+C.bd+"20"}}>{v!=null?v:"—"}</td>})}</tr>)}</tbody></table></div>}
-function TV({sym,h=280}){if(!sym)return <div style={{height:h,borderRadius:6,border:"1px solid "+C.bd,display:"flex",alignItems:"center",justifyContent:"center",color:C.txM,fontSize:11}}>No chart</div>;return <iframe src={"https://s.tradingview.com/widgetembed/?frameElementId=tv_"+sym.replace(/[^a-zA-Z0-9]/g,"")+"&symbol="+encodeURIComponent(sym)+"&interval=D&range=3M&theme=dark&style=1&locale=en&hide_legend=1&hide_volume=1&hide_side_toolbar=1&allow_symbol_change=0&withdateranges=1&backgroundColor=111827&gridColor=1e293b"} style={{width:"100%",height:h,borderRadius:6,border:"1px solid "+C.bd}} frameBorder="0"/>}
+function TV({sym,h=280}){const ref=useRef(null);const [vis,setVis]=useState(false);useEffect(()=>{if(!ref.current||!sym)return;const obs=new IntersectionObserver(([e])=>{if(e.isIntersecting){setVis(true);obs.disconnect()}},{rootMargin:"200px"});obs.observe(ref.current);return()=>obs.disconnect()},[sym]);const ph={height:h,borderRadius:6,border:"1px solid "+C.bd,display:"flex",alignItems:"center",justifyContent:"center",color:C.txM,fontSize:11,background:C.bg};if(!sym)return <div style={ph}>No chart</div>;return <div ref={ref} style={{width:"100%",height:h}}>{vis?<iframe src={"https://s.tradingview.com/widgetembed/?frameElementId=tv_"+sym.replace(/[^a-zA-Z0-9]/g,"")+"&symbol="+encodeURIComponent(sym)+"&interval=D&range=3M&theme=dark&style=1&locale=en&hide_legend=1&hide_volume=1&hide_side_toolbar=1&allow_symbol_change=0&withdateranges=1&backgroundColor=111827&gridColor=1e293b"} style={{width:"100%",height:h,borderRadius:6,border:"1px solid "+C.bd}} frameBorder="0" loading="lazy"/>:<div style={ph}>Loading chart…</div>}</div>}
 function RiskBar({d,live}){const vd=(d.VIX?.chg||0)<0,dd=(d.DXY?.chg||0)<0,on=vd&&dd,off=!vd&&!dd,bc=on?C.g:off?C.r:C.am;return <div style={{background:"linear-gradient(90deg,"+bc+"18 0%,"+C.bg+" 50%,"+bc+"18 100%)",borderBottom:"1px solid "+bc+"40",padding:"5px 16px",display:"flex",alignItems:"center",gap:16,overflowX:"auto",whiteSpace:"nowrap",fontSize:12}}><span style={{color:bc,fontWeight:700,fontSize:10,letterSpacing:2,padding:"2px 8px",border:"1px solid "+bc+"60",borderRadius:3}}>{on?"RISK ON":off?"RISK OFF":"MIXED"}</span><Dot on={live}/>{Object.entries(d).map(([k,v])=><span key={k} style={{display:"inline-flex",gap:4,alignItems:"center"}}><span style={{color:C.txM,fontWeight:600,fontSize:11}}>{k}</span><span style={{color:C.tx,fontFamily:Mn,fontWeight:600,fontSize:12}}>{v.level!=null?Number(v.level).toLocaleString(undefined,{maximumFractionDigits:2}):"—"}</span>{v.chg!=null&&<span style={{color:cc(v.chg),fontFamily:Mn,fontSize:10}}>{k.includes("10Y")?fb(v.chg):fc(v.chg,k==="VIX"?"":"%")}</span>}</span>)}</div>}
 
 /* ═══ PAGES ═══════════════════════════════════════════════════════ */
@@ -74,38 +74,272 @@ function Markets({g10,em,fxL,yld,yL}){const [t,sT]=useState("G10 FX");return <di
 function CorrMx(){const cC=v=>v>=.7?"rgba(34,197,94,"+v*.7+")":v>=.3?"rgba(34,197,94,"+v*.4+")":v>=-.3?"rgba(148,163,184,0.1)":v>=-.7?"rgba(239,68,68,"+Math.abs(v)*.4+")":"rgba(239,68,68,"+Math.abs(v)*.7+")";return <div><div style={{marginBottom:12}}><span style={{color:C.ac,fontSize:13,fontWeight:700}}>30-Day Correlation Matrix</span></div><div style={{overflowX:"auto"}}><div style={{display:"inline-block"}}><div style={{display:"flex"}}><div style={{width:70}}/>{CP.map(p=><div key={p} style={{width:40,textAlign:"center",fontSize:8,color:C.txM,fontWeight:600,transform:"rotate(-45deg)",height:40,display:"flex",alignItems:"flex-end",justifyContent:"center",paddingBottom:4}}>{p}</div>)}</div>{CP.map((p,i)=><div key={p} style={{display:"flex"}}><div style={{width:70,fontSize:10,color:C.txD,fontWeight:600,textAlign:"right",paddingRight:8,display:"flex",alignItems:"center",justifyContent:"flex-end"}}>{p}</div>{CM[i].map((v,j)=><div key={j} title={v.toFixed(2)} style={{width:40,height:40,display:"flex",alignItems:"center",justifyContent:"center",background:i===j?"rgba(99,102,241,0.3)":cC(v),border:"1px solid "+C.bd+"40",fontSize:9,fontFamily:Mn,fontWeight:600,color:Math.abs(v)>.5?C.tx:C.txM}}>{i===j?"1":v.toFixed(1)}</div>)}</div>)}</div></div></div>}
 
 /* ═══ DEEP DIVE ═══════════════════════════════════════════════════ */
-function Deep({ctry,g10,em,yld,news,nL}){
+function Deep({ctry,g10,em,yld,news,nL,risk}){
   const ccy=cOf[ctry],fp=[...g10,...em].find(x=>x.pair===pOf[ctry]),y=yld[ctry]||{},tpl=RT.find(x=>x.c===ctry),m=MD[ctry]||{};
   const kws=nKw[ctry]||[ccy.toLowerCase()];const cN=news.filter(n=>kws.some(kw=>(n.headline||"").toLowerCase().includes(kw)));const dN=cN.length>=2?cN:news;
   const ce=Object.entries(y).filter(([k,v])=>v!=null&&k.startsWith("y")).map(([k,v])=>[k.replace("y","").toUpperCase(),v]);
-  const [view,setView]=useState(null);const [vLd,sVL]=useState(false);
-  const gen=()=>{sVL(true);setTimeout(()=>{setView(m.narr||"No detailed profile available for "+ctry);sVL(false)},500)};
+  const [ai,setAi]=useState(null);
+  const [aiLd,setAiLd]=useState(false);
+  const [aiErr,setAiErr]=useState("");
+
+  const gen = async () => {
+    setAiLd(true);
+    setAiErr("");
+
+    try {
+      const body = {
+        country: ctry,
+        currency: ccy,
+        fx: fp ? {
+          pair: fp.pair,
+          spot: fp.spot,
+          d1: fp.d1,
+          w1: fp.w1,
+          m1: fp.m1,
+          ytd: fp.ytd
+        } : null,
+        yields: y,
+        centralBank: tpl ? {
+          country: tpl.c,
+          policyRate: tpl.cb
+        } : null,
+        macro: m,
+        riskBar: risk,
+        headlines: dN.slice(0, 8).map(n => ({
+          headline: n.headline,
+          source: n.source,
+          datetime: n.datetime
+        }))
+      };
+
+      const res = await fetch("/.netlify/functions/deep-dive-summary", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(body)
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to generate AI summary");
+      }
+
+      setAi(data);
+    } catch (err) {
+      setAiErr(err.message || "AI request failed");
+    } finally {
+      setAiLd(false);
+    }
+  };
 
   return <div>
     <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20,marginBottom:16}}>
       <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:12}}>
-        <div style={{color:C.tx,fontSize:15,fontWeight:700}}>🧠 AI Macro Summary — {ctry} ({ccy})</div>
-        <button onClick={gen} disabled={vLd} style={{padding:"8px 18px",background:view?C.tl+"18":"linear-gradient(135deg,"+C.tl+",#06b6d4)",color:view?C.tl:"#fff",border:view?"1px solid "+C.tl+"40":"none",borderRadius:6,fontSize:12,fontWeight:700}}>{vLd?<><span className="sp" style={{marginRight:4}}/>...</>:view?"↻ Regenerate":"🔊 Generate View"}</button>
+        <div style={{color:C.tx,fontSize:15,fontWeight:700}}>🧠 AI MACRO SUMMARY — {ctry} ({ccy})</div>
+        <button
+          onClick={gen}
+          disabled={aiLd}
+          style={{
+            padding:"8px 18px",
+            background:"linear-gradient(135deg,"+C.tl+",#38bdf8)",
+            color:"#fff",
+            border:"none",
+            borderRadius:6,
+            fontSize:12,
+            fontWeight:700
+          }}
+        >
+          {aiLd ? "Generating..." : ai ? "↻ Regenerate View" : "Generate View"}
+        </button>
       </div>
-      {view?<div>
-        <div style={{marginBottom:14}}><div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:6}}>Trading Narrative</div><div style={{padding:14,background:C.bg,borderRadius:6,border:"1px solid "+C.tl+"25",color:C.tx,fontSize:13,lineHeight:1.7,fontStyle:"italic"}}>{view}</div></div>
-        <div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>Macroeconomic Data & Trends</div>
-        <div className="g3" style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:1,marginBottom:12}}>
-          <div style={{background:C.bg,padding:12,borderRadius:4}}><div style={{color:C.am,fontSize:10,fontWeight:700,letterSpacing:1,marginBottom:6}}>INFLATION</div><div style={{fontSize:11,color:C.txD,lineHeight:1.6}}><div>CPI YoY: <b style={{color:C.tx}}>{m.cpi||"—"}</b> (prior: {m.cpiP||"—"})</div><div>Core: <b style={{color:C.tx}}>{m.core||"—"}</b></div><div>Trend: <b style={{color:m.cpiT?.includes("fall")?C.g:m.cpiT?.includes("ris")?C.r:C.am}}>{m.cpiT||"—"}</b></div></div></div>
-          <div style={{background:C.bg,padding:12,borderRadius:4}}><div style={{color:C.b,fontSize:10,fontWeight:700,letterSpacing:1,marginBottom:6}}>GROWTH & ACTIVITY</div><div style={{fontSize:11,color:C.txD,lineHeight:1.6}}><div>GDP: <b style={{color:C.tx}}>{m.gdp||"—"}</b> ({m.gdpT||"—"})</div><div>PMI: <b style={{color:C.tx}}>{m.pmi||"—"}</b></div><div>Wages: <b style={{color:C.tx}}>{m.wages||"—"}</b></div></div></div>
-          <div style={{background:C.bg,padding:12,borderRadius:4}}><div style={{color:C.ac,fontSize:10,fontWeight:700,letterSpacing:1,marginBottom:6}}>LABOUR & EXTERNAL</div><div style={{fontSize:11,color:C.txD,lineHeight:1.6}}><div>Unemployment: <b style={{color:C.tx}}>{m.unemp||"—"}</b> ({m.unempT||"—"})</div><div>Trade Bal: <b style={{color:C.tx}}>{m.tb||"—"}</b></div></div></div>
+
+      {aiErr && (
+        <div style={{padding:12,background:"#2a1111",border:"1px solid #7f1d1d",borderRadius:6,color:"#fca5a5",marginBottom:12}}>
+          {aiErr}
         </div>
-        <div className="g2" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12}}>
-          <div style={{background:C.bg,padding:12,borderRadius:4}}><div style={{color:C.r,fontSize:10,fontWeight:700,letterSpacing:1,marginBottom:6}}>CENTRAL BANK</div><div style={{fontSize:11,color:C.txD,lineHeight:1.6}}><div>Rate: <span style={{color:C.tx,fontWeight:700,fontSize:16}}>{tpl?.cb}%</span></div><div>Stance: <b style={{color:m.stance?.includes("Eas")?C.g:m.stance?.includes("Hawk")?C.r:C.am}}>{m.stance||"—"}</b></div><div>Last: {m.last||"—"} · Next: <b style={{color:C.am}}>{m.next||"—"}</b></div></div></div>
-          <div style={{background:C.bg,padding:12,borderRadius:4}}><div style={{color:C.g,fontSize:10,fontWeight:700,letterSpacing:1,marginBottom:6}}>MARKET PRICING</div><div style={{fontSize:11,color:C.txD,lineHeight:1.6}}><div>{m.pricing||"—"}</div>{fp&&<div style={{marginTop:4}}>FX: {fc(fp.d1)} 1D · {fc(fp.w1)} 1W · {fc(fp.m1)} 1M · {fc(fp.ytd)} YTD</div>}</div></div>
+      )}
+
+      {!ai && !aiLd && !aiErr && (
+        <div style={{padding:20,background:C.bg,borderRadius:6,border:"1px dashed "+C.bd,textAlign:"center",color:C.txM,fontSize:12}}>
+          Click "Generate View" for a live AI deep dive
         </div>
-      </div>:<div style={{padding:20,background:C.bg,borderRadius:6,border:"1px dashed "+C.bd,textAlign:"center",color:C.txM,fontSize:12}}>Click "Generate View" for full trading narrative & macro breakdown</div>}
+      )}
+
+      {ai && (
+        <>
+          <div style={{marginBottom:14}}>
+            <div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:6}}>
+              Trading Narrative
+            </div>
+            <div style={{padding:14,background:C.bg,borderRadius:6,border:"1px solid "+C.tl+"25",color:C.tx,fontSize:13,lineHeight:1.75}}>
+              {ai.narrative}
+            </div>
+          </div>
+
+          <div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
+            Macroeconomic Data & Trends
+          </div>
+
+          <div style={{display:"grid",gridTemplateColumns:"1fr",gap:10,marginBottom:14}}>
+            {ai.macro_sections.map((sec, i) => (
+              <div key={i} style={{background:C.bg,padding:14,borderRadius:6,border:"1px solid "+C.bd}}>
+                <div style={{color:C.b,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
+                  {sec.title}
+                </div>
+                <div style={{display:"grid",gap:6}}>
+                  {sec.bullets.map((b, j) => (
+                    <div key={j} style={{color:C.txD,fontSize:12,lineHeight:1.6}}>
+                      • {b}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="g2" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12}}>
+            <div style={{background:C.bg,padding:14,borderRadius:6,border:"1px solid "+C.bd}}>
+              <div style={{color:C.g,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
+                FX View
+              </div>
+              <div style={{color:C.tx,fontWeight:700,marginBottom:6}}>{ai.fx_view.direction}</div>
+              <div style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:8}}>{ai.fx_view.rationale}</div>
+              {ai.fx_view.levels_to_watch.map((x, i) => (
+                <div key={i} style={{color:C.am,fontSize:11,marginBottom:4}}>• {x}</div>
+              ))}
+            </div>
+
+            <div style={{background:C.bg,padding:14,borderRadius:6,border:"1px solid "+C.bd}}>
+              <div style={{color:C.r,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
+                Rates View
+              </div>
+              <div style={{color:C.tx,fontWeight:700,marginBottom:6}}>{ai.rates_view.bias}</div>
+              <div style={{color:C.txD,fontSize:12,lineHeight:1.6}}>{ai.rates_view.rationale}</div>
+            </div>
+          </div>
+
+          <div className="g2" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginTop:12}}>
+            <div style={{background:C.bg,padding:14,borderRadius:6,border:"1px solid "+C.bd}}>
+              <div style={{color:C.am,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
+                Key Risks
+              </div>
+              {ai.key_risks.map((x, i) => (
+                <div key={i} style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:4}}>• {x}</div>
+              ))}
+            </div>
+
+            <div style={{background:C.bg,padding:14,borderRadius:6,border:"1px solid "+C.bd}}>
+              <div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
+                Headline Takeaways
+              </div>
+              {ai.headline_takeaways.map((x, i) => (
+                <div key={i} style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:4}}>• {x}</div>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
     </div>
-    <div className="g2" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16}}>
-      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}><div><span style={{color:C.b,fontSize:16,fontWeight:700}}>{pOf[ctry]}</span><span style={{color:C.tx,fontSize:20,fontWeight:700,fontFamily:Mn,marginLeft:10}}>{fp?.spot!=null?Number(fp.spot).toFixed(fp.spot>100?2:4):"—"}</span></div><div style={{display:"flex",gap:3}}>{[["1D",fp?.d1],["1W",fp?.w1],["1M",fp?.m1],["YTD",fp?.ytd]].map(([t,v])=><span key={t} style={{padding:"2px 6px",borderRadius:3,fontSize:10,fontFamily:Mn,background:v!=null?cc(v)+"18":C.bg,color:v!=null?cc(v):C.txM}}>{t}{v!=null?" "+fc(v):""}</span>)}</div></div><TV sym={tvF[ctry]} h={280}/></div>
-      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:14,fontWeight:700,marginBottom:8}}>Rates — {ccy}</div><div style={{display:"flex",gap:8,marginBottom:10}}><div style={{background:C.bg,padding:"8px 12px",borderRadius:4,flex:1}}><div style={{color:C.txM,fontSize:9,textTransform:"uppercase"}}>CB Rate</div><div style={{color:C.tx,fontSize:20,fontWeight:700,fontFamily:Mn}}>{tpl?.cb}%</div></div>{y.y2!=null&&<div style={{background:C.bg,padding:"8px 12px",borderRadius:4,flex:1}}><div style={{color:C.txM,fontSize:9,textTransform:"uppercase"}}>2Y</div><div style={{color:C.tx,fontSize:20,fontWeight:700,fontFamily:Mn}}>{y.y2.toFixed(2)}%</div></div>}{y.y10!=null&&<div style={{background:C.bg,padding:"8px 12px",borderRadius:4,flex:1}}><div style={{color:C.txM,fontSize:9,textTransform:"uppercase"}}>10Y</div><div style={{color:C.tx,fontSize:20,fontWeight:700,fontFamily:Mn}}>{y.y10.toFixed(2)}%</div></div>}</div>{ce.length>0&&<div style={{display:"flex",gap:2,alignItems:"flex-end",height:80,padding:"0 4px",marginBottom:8}}>{ce.map(([l,v])=>{const mx=Math.max(...ce.map(([,x])=>Math.abs(x)),1);return <div key={l} style={{flex:1,display:"flex",flexDirection:"column",alignItems:"center",gap:2}}><span style={{fontSize:8,color:C.tx,fontFamily:Mn}}>{v.toFixed(1)}</span><div style={{width:"80%",height:Math.max(Math.abs(v)/mx*70,3),background:"linear-gradient(to top,"+C.ac+","+C.b+")",borderRadius:"2px 2px 0 0"}}/><span style={{fontSize:7,color:C.txM}}>{l}</span></div>})}</div>}{tvY[ctry]?<TV sym={tvY[ctry]} h={160}/>:<div style={{height:120,borderRadius:6,border:"1px solid "+C.bd,display:"flex",alignItems:"center",justifyContent:"center",color:C.txM,fontSize:11}}>Yield chart: US, DE, GB, JP, CA, AU only</div>}</div>
+
+    <div className="g2" style={{display:"grid",gridTemplateColumns:"1.1fr 0.9fr",gap:16}}>
+      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:8}}>
+          <div>
+            <div style={{color:C.txM,fontSize:10,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>
+              FX — {pOf[ctry]}
+            </div>
+            <div style={{color:C.tx,fontSize:34,fontWeight:800,fontFamily:Mn}}>
+              {fp?.spot!=null?Number(fp.spot).toFixed(fp.spot>100?2:4):"—"}
+            </div>
+            <div style={{display:"flex",gap:8,flexWrap:"wrap",marginTop:6}}>
+              {[["1D",fp?.d1],["1W",fp?.w1],["1M",fp?.m1],["YTD",fp?.ytd]].map(([t,v])=>(
+                <span key={t} style={{fontSize:11,fontFamily:Mn,color:v!=null?cc(v):C.txM}}>
+                  {t}: {v!=null?fc(v):"—"}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+        <TV sym={tvF[ctry]} h={290}/>
+      </div>
+
+      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
+        <div style={{color:C.tx,fontSize:14,fontWeight:700,marginBottom:10}}>Yield Curve</div>
+
+        <div style={{display:"grid",gap:6,marginBottom:12}}>
+          {Object.entries(y)
+            .filter(([k,v]) => k.startsWith("y") && v != null)
+            .map(([k,v]) => (
+              <div key={k} style={{display:"flex",justifyContent:"space-between",padding:"4px 0",borderBottom:"1px solid "+C.bd+"30"}}>
+                <span style={{color:C.txD,fontSize:11}}>{k.replace("y","").toUpperCase()}</span>
+                <span style={{color:C.tx,fontFamily:Mn,fontSize:12}}>{v.toFixed(2)}%</span>
+              </div>
+            ))}
+        </div>
+
+        {tvY[ctry]
+          ? <TV sym={tvY[ctry]} h={170}/>
+          : <div style={{height:170,borderRadius:6,border:"1px solid "+C.bd,display:"flex",alignItems:"center",justifyContent:"center",color:C.txM,fontSize:11}}>
+              Yield chart available for US, Eurozone, UK, Japan, Canada, Australia
+            </div>
+        }
+      </div>
     </div>
-    <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16,marginTop:16}}><div style={{display:"flex",alignItems:"center",gap:8,marginBottom:10}}><span style={{color:C.tx,fontSize:14,fontWeight:700}}>News — {ctry}</span><Dot on={nL}/>{cN.length>=2&&<span style={{color:C.tl,fontSize:10}}>Filtered</span>}</div><div className="g2" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8}}>{dN.slice(0,8).map((n,i)=><div key={i} style={{padding:"8px 10px",background:C.bg,borderRadius:4}}><a href={n.url||"#"} target="_blank" rel="noopener" style={{color:C.tx,fontSize:11,fontWeight:500,lineHeight:1.4,textDecoration:"none",display:"block"}}>{n.headline}</a><div style={{color:C.txM,fontSize:9,marginTop:3}}>{n.source} · {n.datetime?new Date(n.datetime*1000).toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"—"}</div></div>)}</div>{!dN.length&&<div style={{color:C.txM,fontSize:11,textAlign:"center",padding:16}}>No news</div>}</div>
+
+    <div className="g3" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:16,marginTop:16}}>
+      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
+        <div style={{color:C.tx,fontSize:13,fontWeight:700,marginBottom:10}}>Central Bank</div>
+        <div style={{display:"grid",gap:8}}>
+          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Policy Rate</span><span style={{color:C.tx,fontWeight:700,fontFamily:Mn}}>{tpl?.cb!=null ? tpl.cb.toFixed(2)+"%" : "—"}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Stance</span><span style={{color:C.am,fontSize:11,fontWeight:700}}>{m.stance||"—"}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Last Decision</span><span style={{color:C.tx,fontSize:11}}>{m.last||"—"}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Next Meeting</span><span style={{color:C.g,fontSize:11}}>{m.next||"—"}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Pricing</span><span style={{color:C.tx,fontSize:11}}>{m.pricing||"—"}</span></div>
+        </div>
+      </div>
+
+      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
+        <div style={{color:C.tx,fontSize:13,fontWeight:700,marginBottom:10}}>Macro Snapshot</div>
+        <div className="g3" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8}}>
+          <div style={{background:C.bg,padding:10,borderRadius:6}}>
+            <div style={{color:C.txM,fontSize:10}}>CPI YoY</div>
+            <div style={{color:C.tx,fontSize:22,fontWeight:700,fontFamily:Mn}}>{m.cpi||"—"}</div>
+            <div style={{color:C.am,fontSize:10}}>Prior {m.cpiP||"—"}</div>
+          </div>
+          <div style={{background:C.bg,padding:10,borderRadius:6}}>
+            <div style={{color:C.txM,fontSize:10}}>GDP</div>
+            <div style={{color:C.tx,fontSize:22,fontWeight:700,fontFamily:Mn}}>{m.gdp||"—"}</div>
+            <div style={{color:C.am,fontSize:10}}>{m.gdpT||"—"}</div>
+          </div>
+          <div style={{background:C.bg,padding:10,borderRadius:6}}>
+            <div style={{color:C.txM,fontSize:10}}>Unemployment</div>
+            <div style={{color:C.tx,fontSize:22,fontWeight:700,fontFamily:Mn}}>{m.unemp||"—"}</div>
+            <div style={{color:C.am,fontSize:10}}>{m.unempT||"—"}</div>
+          </div>
+        </div>
+      </div>
+
+      <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
+        <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:10}}>
+          <span style={{color:C.tx,fontSize:13,fontWeight:700}}>News</span>
+          <Dot on={nL}/>
+        </div>
+        <div style={{display:"grid",gap:8}}>
+          {dN.slice(0,4).map((n,i)=>(
+            <div key={i} style={{padding:"8px 10px",background:C.bg,borderRadius:6}}>
+              <a href={n.url||"#"} target="_blank" rel="noopener" style={{color:C.tx,fontSize:11,fontWeight:500,lineHeight:1.4,textDecoration:"none",display:"block"}}>
+                {n.headline}
+              </a>
+              <div style={{color:C.txM,fontSize:9,marginTop:3}}>
+                {n.source} · {n.datetime?new Date(n.datetime*1000).toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"—"}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   </div>;
 }
 
@@ -115,9 +349,11 @@ function Brief({g10,em,yld,risk,cal,cmd}){const [br,sBr]=useState(null);const [t
 function Cal({evts,live}){const [fl,sF]=useState("All");const gF=["🇺🇸","🇪🇺","🇬🇧","🇯🇵","🇨🇭","🇦🇺","🇳🇿","🇨🇦","🇸🇪","🇳🇴"];return <div><div style={{display:"flex",gap:6,marginBottom:10,alignItems:"center"}}><Dot on={live}/>{["All","G10","EM","CB"].map(f=><button key={f} onClick={()=>sF(f)} style={{padding:"5px 14px",fontSize:11,fontWeight:600,borderRadius:4,background:fl===f?C.ac+"25":C.bg,color:fl===f?C.ac:C.txD,border:"1px solid "+(fl===f?C.ac+"50":C.bd)}}>{f}</button>)}</div><Tbl cols={[{k:"date",l:"Date",a:"left"},{k:"time",l:"Time",a:"left"},{k:"ctry",l:"",a:"center",nm:1},{k:"ev",l:"Event",a:"left",nm:1,cl:r=>r.imp==="red"?C.r:C.am},{k:"prev",l:"Prev"},{k:"fcast",l:"Fcst"},{k:"act",l:"Act",cl:r=>(r.act&&r.act!=="—")?C.g:C.txM}]} rows={evts.filter(e=>{if(fl==="G10")return gF.includes(e.ctry);if(fl==="EM")return!gF.includes(e.ctry);if(fl==="CB")return(e.ev||"").toLowerCase().match(/rate|fomc|boj|ecb|rba|rbnz|boc/);return true})}/></div>}
 function Sett({open,close,keys,save}){const [lk,sL]=useState(keys);useEffect(()=>sL(keys),[keys,open]);if(!open)return null;return <div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.7)",zIndex:1000,display:"flex",alignItems:"center",justifyContent:"center"}} onClick={close}><div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:10,padding:24,width:520,maxWidth:"92vw"}} onClick={e=>e.stopPropagation()}><div style={{display:"flex",justifyContent:"space-between",marginBottom:16}}><span style={{color:C.tx,fontSize:16,fontWeight:700}}>⚙ API Keys</span><button onClick={close} style={{background:"none",border:"none",color:C.txM,fontSize:20}}>✕</button></div>{[{k:"fred",l:"FRED — US yields",u:"https://fred.stlouisfed.org/docs/api/api_key.html"},{k:"finnhub",l:"Finnhub — VIX, commodities, news, calendar",u:"https://finnhub.io/register"}].map(a=><div key={a.k} style={{marginBottom:14,padding:12,background:C.bg,borderRadius:6,border:"1px solid "+C.bd}}><div style={{display:"flex",justifyContent:"space-between",marginBottom:4}}><span style={{color:C.tx,fontSize:12,fontWeight:600}}>{a.l}</span><a href={a.u} target="_blank" rel="noopener" style={{color:C.ac,fontSize:10,textDecoration:"none"}}>Get key →</a></div><input type="password" value={lk[a.k]||""} onChange={e=>sL({...lk,[a.k]:e.target.value})} style={{width:"100%",padding:"8px 12px",background:C.bgC,border:"1px solid "+C.bd,borderRadius:4,color:C.tx,fontSize:12,fontFamily:Mn,boxSizing:"border-box"}}/></div>)}<button onClick={()=>{save(lk);close()}} style={{width:"100%",padding:"12px",background:"linear-gradient(135deg,"+C.ac+","+C.acD+")",color:"#fff",border:"none",borderRadius:6,fontSize:13,fontWeight:700}}>Save</button></div></div>}
 
+function Clock(){const [clk,setClk]=useState(new Date());useEffect(()=>{const t=setInterval(()=>setClk(new Date()),1000);return()=>clearInterval(t)},[]);const lt=clk.toLocaleString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false});const nt=clk.toLocaleString("en-US",{timeZone:"America/New_York",hour:"2-digit",minute:"2-digit",hour12:false});const tt=clk.toLocaleString("en-US",{timeZone:"Asia/Tokyo",hour:"2-digit",minute:"2-digit",hour12:false});return <span className="hmob" style={{fontSize:10,color:C.txM}}>LON <span style={{color:C.tx,fontFamily:Mn}}>{lt}</span> NY <span style={{color:C.tx,fontFamily:Mn}}>{nt}</span> TKY <span style={{color:C.tx,fontFamily:Mn}}>{tt}</span></span>}
+
 /* ═══ APP ══════════════════════════════════════════════════════════ */
 function App(){
-  const [sec,setSec]=useState("brief");const [ctry,setCtry]=useState("US");const [sO,setSO]=useState(false);const [clk,setClk]=useState(new Date());
+  const [sec,setSec]=useState("brief");const [ctry,setCtry]=useState("US");const [sO,setSO]=useState(false);
   const [keys,setKeys]=useState({fred:gk("fred")||_K.fred,finnhub:gk("finnhub")||_K.finnhub});
   const [g10D,sG10]=useState([]);const [emD,sEM]=useState([]);const [fxL,sFxL]=useState(false);
   const [yld,sYld]=useState({});const [yL,sYL]=useState(false);
@@ -125,35 +361,34 @@ function App(){
   const [rL,sRL]=useState(false);const [cal,sCal]=useState(DCAL);const [cL,sCL]=useState(false);const [news,sNews]=useState([]);const [nL,sNL]=useState(false);
   const [cmd,sCmd]=useState({gold:{},wti:{},brent:{}});const [ld,sLd]=useState(false);const [lr,sLR]=useState(null);
   const svK=useCallback(nk=>{setKeys(nk);Object.entries(nk).forEach(([k,v])=>sk(k,v))},[]);
-  useEffect(()=>{const t=setInterval(()=>setClk(new Date()),1000);return()=>clearInterval(t)},[]);
   const load=useCallback(async()=>{
     sLd(true);
     try{const [now,d1,w1,m1,ytd]=await Promise.all([fFr("latest",SYM),fFr(ago(1),SYM),fFr(ago(7),SYM),fFr(ago(30),SYM),fFr(jan2(),SYM)]);if(now?.rates){const bld=defs=>defs.map(d=>{const s=now.rates[d.q];if(!s)return{pair:d.p,spot:null,d1:null,w1:null,m1:null,ytd:null};const sp=d.i?1/s:s;const ch=h=>{const v=h?.rates?.[d.q];if(!v)return null;return d.i?pc(1/s,1/v):pc(s,v)};return{pair:d.p,spot:sp,d1:ch(d1),w1:ch(w1),m1:ch(m1),ytd:ch(ytd)}});sG10(bld(G10));sEM(bld(EMP));sFxL(true);const eur=now.rates.EUR,eurY=d1?.rates?.EUR;if(eur)sRisk(p=>({...p,DXY:{level:+(1/eur*104.5).toFixed(2),chg:eurY?+pc(1/eur,1/eurY):null}}))}}catch{}
     if(keys.fred){try{const ids=Object.keys(FY);const res=await Promise.all(ids.map(s=>fFD(s,keys.fred)));const uy={};ids.forEach((s,i)=>{if(res[i]!=null)uy[FY[s]]=res[i]});sYld(p=>({...p,US:uy}));sYL(true);if(uy.y10!=null)sRisk(p=>({...p,"US 10Y":{level:uy.y10,chg:null}}))}catch{}}
     if(keys.finnhub){
-      try{const v=await fFh("quote",{symbol:"CBOE:VIX"},keys.finnhub);if(v?.c)sRisk(p=>({...p,VIX:{level:v.c,chg:+(v.c-v.pc).toFixed(2)}}))}catch{}
-      try{const g=await fFh("forex/rates",{base:"USD"},keys.finnhub);if(g?.quote?.XAU){const gp=1/g.quote.XAU;sCmd(p=>({...p,gold:{level:gp,chg:null}}));sRisk(p=>({...p,Gold:{level:gp,chg:null}}))}}catch{}
-      try{const w=await fFh("quote",{symbol:"NYMEX:CL1!"},keys.finnhub);if(w?.c){sCmd(p=>({...p,wti:{level:w.c,chg:w.pc?+pc(w.c,w.pc):null}}));sRisk(p=>({...p,WTI:{level:w.c,chg:w.pc?+pc(w.c,w.pc):null}}))}}catch{}
-      try{const b=await fFh("quote",{symbol:"NYMEX:BZ1!"},keys.finnhub);if(b?.c){sCmd(p=>({...p,brent:{level:b.c,chg:b.pc?+pc(b.c,b.pc):null}}));sRisk(p=>({...p,Brent:{level:b.c,chg:b.pc?+pc(b.c,b.pc):null}}))}}catch{}
-      try{const nd=await fFh("news",{category:"forex"},keys.finnhub);if(Array.isArray(nd)){sNews(nd.slice(0,30));sNL(true)}}catch{}
-      try{const cd=await fFh("calendar/economic",{from:ago(0),to:fwd(7)},keys.finnhub);if(cd?.economicCalendar?.length){const fl={"US":"🇺🇸","EU":"🇪🇺","GB":"🇬🇧","JP":"🇯🇵","CH":"🇨🇭","AU":"🇦🇺","NZ":"🇳🇿","CA":"🇨🇦","SE":"🇸🇪","NO":"🇳🇴","BR":"🇧🇷","MX":"🇲🇽","ZA":"🇿🇦","IN":"🇮🇳","KR":"🇰🇷","TR":"🇹🇷","PL":"🇵🇱","CN":"🇨🇳","DE":"🇩🇪"};sCal(cd.economicCalendar.slice(0,30).map(e=>({date:e.time?.slice(0,10)||"",time:e.time?.slice(11,16)||"",ctry:fl[e.country]||e.country||"",ev:e.event||"",prev:e.prev!=null?String(e.prev):"—",fcast:e.estimate!=null?String(e.estimate):"—",act:e.actual!=null?String(e.actual):"—",imp:e.impact==="high"?"red":"orange"})));sCL(true)}}catch{}
+      const [vR,gR,wR,bR]=await Promise.allSettled([fFh("quote",{symbol:"CBOE:VIX"},keys.finnhub),fFh("forex/rates",{base:"USD"},keys.finnhub),fFh("quote",{symbol:"NYMEX:CL1!"},keys.finnhub),fFh("quote",{symbol:"NYMEX:BZ1!"},keys.finnhub)]);
+      const v=vR.status==="fulfilled"?vR.value:null;if(v?.c)sRisk(p=>({...p,VIX:{level:v.c,chg:+(v.c-v.pc).toFixed(2)}}));
+      const g=gR.status==="fulfilled"?gR.value:null;if(g?.quote?.XAU){const gp=1/g.quote.XAU;sCmd(p=>({...p,gold:{level:gp,chg:null}}));sRisk(p=>({...p,Gold:{level:gp,chg:null}}));}
+      const w=wR.status==="fulfilled"?wR.value:null;if(w?.c){sCmd(p=>({...p,wti:{level:w.c,chg:w.pc?+pc(w.c,w.pc):null}}));sRisk(p=>({...p,WTI:{level:w.c,chg:w.pc?+pc(w.c,w.pc):null}}));}
+      const b=bR.status==="fulfilled"?bR.value:null;if(b?.c){sCmd(p=>({...p,brent:{level:b.c,chg:b.pc?+pc(b.c,b.pc):null}}));sRisk(p=>({...p,Brent:{level:b.c,chg:b.pc?+pc(b.c,b.pc):null}}));}
       sRL(true)}
     sLd(false);sLR(new Date());
   },[keys]);
   useEffect(()=>{load()},[load]);
-  const lt=clk.toLocaleString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false});const nt=clk.toLocaleString("en-US",{timeZone:"America/New_York",hour:"2-digit",minute:"2-digit",hour12:false});const tt=clk.toLocaleString("en-US",{timeZone:"Asia/Tokyo",hour:"2-digit",minute:"2-digit",hour12:false});
+  useEffect(()=>{if((sec==="deep"||sec==="brief")&&keys.finnhub&&!nL){(async()=>{try{const nd=await fFh("news",{category:"forex"},keys.finnhub);if(Array.isArray(nd)){sNews(nd.slice(0,30));sNL(true)}}catch{}})()}},[sec,keys.finnhub,nL]);
+  useEffect(()=>{if(sec==="cal"&&keys.finnhub&&!cL){(async()=>{try{const cd=await fFh("calendar/economic",{from:ago(0),to:fwd(7)},keys.finnhub);if(cd?.economicCalendar?.length){const fl={"US":"🇺🇸","EU":"🇪🇺","GB":"🇬🇧","JP":"🇯🇵","CH":"🇨🇭","AU":"🇦🇺","NZ":"🇳🇿","CA":"🇨🇦","SE":"🇸🇪","NO":"🇳🇴","BR":"🇧🇷","MX":"🇲🇽","ZA":"🇿🇦","IN":"🇮🇳","KR":"🇰🇷","TR":"🇹🇷","PL":"🇵🇱","CN":"🇨🇳","DE":"🇩🇪"};sCal(cd.economicCalendar.slice(0,30).map(e=>({date:e.time?.slice(0,10)||"",time:e.time?.slice(11,16)||"",ctry:fl[e.country]||e.country||"",ev:e.event||"",prev:e.prev!=null?String(e.prev):"—",fcast:e.estimate!=null?String(e.estimate):"—",act:e.actual!=null?String(e.actual):"—",imp:e.impact==="high"?"red":"orange"})));sCL(true)}}catch{}})()}},[sec,keys.finnhub,cL]);
   return <div style={{minHeight:"100vh",background:C.bg}}>
     <RiskBar d={risk} live={rL||fxL}/>
     <div style={{position:"sticky",top:0,zIndex:100,background:C.bgC,borderBottom:"1px solid "+C.bd,padding:"0 16px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap"}}>
       <div style={{display:"flex",alignItems:"center",gap:6,overflowX:"auto"}}><span style={{fontWeight:800,fontSize:14,color:C.ac,padding:"12px 0"}}>FX</span><span style={{fontWeight:800,fontSize:14,color:C.tx}}>RADAR</span><div style={{width:1,height:20,background:C.bd,margin:"0 8px"}}/>{[{id:"brief",l:"🧠 Brief"},{id:"markets",l:"📊 Markets"},{id:"commod",l:"🛢 Commodities"},{id:"corr",l:"🔗 Correlations"},{id:"deep",l:"🌍 Deep Dive"},{id:"cal",l:"📅 Calendar"}].map(s=><button key={s.id} onClick={()=>setSec(s.id)} style={{padding:"12px 10px",fontSize:12,fontWeight:600,background:"transparent",border:"none",color:sec===s.id?C.tx:C.txM,borderBottom:sec===s.id?"2px solid "+C.ac:"2px solid transparent",whiteSpace:"nowrap"}}>{s.l}</button>)}</div>
-      <div style={{display:"flex",alignItems:"center",gap:8,padding:"8px 0"}}><button onClick={load} disabled={ld} style={{background:C.tl+"18",border:"1px solid "+C.tl+"40",borderRadius:4,color:C.tl,padding:"4px 12px",fontSize:11,fontWeight:600}}>{ld?"...":"↻ Refresh"}</button>{lr&&<span style={{color:C.txM,fontSize:9}}>⏱{lr.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",second:"2-digit"})}</span>}<span className="hmob" style={{fontSize:10,color:C.txM}}>LON <span style={{color:C.tx,fontFamily:Mn}}>{lt}</span> NY <span style={{color:C.tx,fontFamily:Mn}}>{nt}</span> TKY <span style={{color:C.tx,fontFamily:Mn}}>{tt}</span></span><button onClick={()=>setSO(true)} style={{background:C.g+"18",border:"1px solid "+C.g+"50",borderRadius:4,color:C.g,padding:"4px 8px",fontSize:11,fontWeight:600}}>✓</button></div>
+      <div style={{display:"flex",alignItems:"center",gap:8,padding:"8px 0"}}><button onClick={load} disabled={ld} style={{background:C.tl+"18",border:"1px solid "+C.tl+"40",borderRadius:4,color:C.tl,padding:"4px 12px",fontSize:11,fontWeight:600}}>{ld?"...":"↻ Refresh"}</button>{lr&&<span style={{color:C.txM,fontSize:9}}>⏱{lr.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",second:"2-digit"})}</span>}<Clock/><button onClick={()=>setSO(true)} style={{background:C.g+"18",border:"1px solid "+C.g+"50",borderRadius:4,color:C.g,padding:"4px 8px",fontSize:11,fontWeight:600}}>✓</button></div>
     </div>
     <div style={{padding:"16px 20px",maxWidth:1600,margin:"0 auto"}}>
       {sec==="brief"&&<Brief g10={g10D} em={emD} yld={yld} risk={risk} cal={cal} cmd={cmd}/>}
       {sec==="markets"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><Markets g10={g10D} em={emD} fxL={fxL} yld={yld} yL={yL}/></div>}
       {sec==="commod"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:15,fontWeight:700,marginBottom:12}}>Commodities</div><Cmdt d={cmd}/></div>}
       {sec==="corr"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20}}><CorrMx/></div>}
-      {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL}/></div>}
+      {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL} risk={risk}/></div>}
       {sec==="cal"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{marginBottom:12}}><span style={{color:C.tx,fontSize:15,fontWeight:700}}>Economic Calendar</span></div><Cal evts={cal} live={cL}/></div>}
     </div>
     <div style={{textAlign:"center",padding:"12px 0",borderTop:"1px solid "+C.bd+"20"}}><span style={{color:C.txM,fontSize:10}}>FX RADAR v4 · <Dot on={fxL}/>{fxL?"Live":"..."}</span></div>
