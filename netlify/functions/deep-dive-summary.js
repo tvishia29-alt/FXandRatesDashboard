@@ -105,6 +105,7 @@ ${JSON.stringify(payload, null, 2)}
         text: {
           format: {
             type: "json_schema",
+            name: "country_deep_dive",
             strict: true,
             schema
           }
