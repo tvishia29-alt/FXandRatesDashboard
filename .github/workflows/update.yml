@@ -1,0 +1,48 @@
+name: Generate FX Radar Data
+
+on:
+  # Run 4x per day on weekdays (London market hours)
+  schedule:
+    - cron: '30 7 * * 1-5'   # 7:30 AM UTC (pre-London open)
+    - cron: '0 12 * * 1-5'   # 12:00 PM UTC (midday)
+    - cron: '0 15 * * 1-5'   # 3:00 PM UTC (US open)
+    - cron: '30 20 * * 1-5'  # 8:30 PM UTC (post-US close)
+  
+  # Also run on manual trigger (click "Run workflow" in GitHub)
+  workflow_dispatch:
+
+  # Also run when you push changes to generate.py
+  push:
+    paths:
+      - 'generate.py'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run data generation
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python generate.py
+
+      - name: Commit and push data.json
+        run: |
+          git config user.name "FX Radar Bot"
+          git config user.email "bot@fxradar.app"
+          git add data.json
+          git diff --staged --quiet || git commit -m "📊 Update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
