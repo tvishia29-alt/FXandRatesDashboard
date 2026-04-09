@@ -3,10 +3,16 @@ name: Generate FX Radar Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 7 * * 1-5'
-    - cron: '0 12 * * 1-5'
-    - cron: '0 15 * * 1-5'
-    - cron: '30 20 * * 1-5'
+    # every 30 mins from 08:00 to 16:30 London time
+    - cron: '0,30 7-15 * * 1-5'
+    # 17:00 London time
+    - cron: '0 16 * * 1-5'
+
+    # every 2 hours after that: 19:00, 21:00, 23:00 London time
+    - cron: '0 18,20,22 * * 1-5'
+
+    # overnight: 01:00, 03:00, 05:00, 07:00 London time
+    - cron: '0 0,2,4,6 * * 2-6'
 
 permissions:
   contents: write
