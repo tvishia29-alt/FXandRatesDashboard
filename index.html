@@ -52,12 +52,15 @@ function Cmdt({d}){const items=[{k:"gold",l:"Gold XAU",s:"TVC:GOLD"},{k:"wti",l:
 function XCry({yld}){const g=RT.filter(r=>["US","Eurozone","UK","Japan","Switzerland","Australia","New Zealand","Canada","Sweden","Norway"].includes(r.c));const gY=c=>yld[c]?.y2??null;const pairs=[];for(let i=0;i<g.length;i++)for(let j=i+1;j<g.length;j++){const a=g[i],b=g[j],ya=gY(a.c),yb=gY(b.c);if(ya==null||yb==null)continue;const d=Math.abs(ya-yb),lc=ya>yb?a:b,sc=ya>yb?b:a;pairs.push({lc:lc.ccy,sc:sc.ccy,lf:lc.f,sf:sc.f,ly:Math.max(ya,yb),sy:Math.min(ya,yb),carry:d})}if(!pairs.length)return <div style={{padding:20,textAlign:"center",color:C.txM,fontSize:12}}>Carry data requires live yield feeds (FRED / ECB)</div>;return <Tbl cols={[{k:"rk",l:"#",a:"center",cl:r=>r.rk<=5?C.g:C.txD},{k:"t",l:"Trade",a:"left",nm:1,rn:r=>r.lf+" Long "+r.lc+" / "+r.sf+" Short "+r.sc},{k:"ly",l:"Long Yld",rn:r=>r.ly.toFixed(2)+"%"},{k:"sy",l:"Short Yld",rn:r=>r.sy.toFixed(2)+"%"},{k:"carry",l:"Carry",rn:r=>"+"+r.carry.toFixed(2)+"%",cl:r=>r.carry>3?C.g:r.carry>1?C.tl:C.txD},{k:"bp",l:"bps",rn:r=>"+"+(r.carry*100).toFixed(0),cl:r=>r.carry>3?C.g:r.carry>1?C.tl:C.txD}]} rows={pairs.sort((a,b)=>b.carry-a.carry).map((r,i)=>({...r,rk:i+1}))} sm/>}
 function UCry({yld}){const uY=yld.US?.y2;if(uY==null)return <div style={{padding:20,textAlign:"center",color:C.txM,fontSize:12}}>Carry data requires live US yield feed (FRED)</div>;const rows=RT.filter(r=>r.c!=="US").map(r=>{const ry=yld[r.c]?.y2;return {...r,carry:ry!=null?+((ry-uY).toFixed(2)):null}}).filter(r=>r.carry!=null).sort((a,b)=>b.carry-a.carry).map((r,i)=>({...r,rk:i+1}));if(!rows.length)return <div style={{padding:20,textAlign:"center",color:C.txM,fontSize:12}}>No foreign yield data available yet</div>;return <Tbl cols={[{k:"rk",l:"#",a:"center",cl:r=>r.rk<=3?C.g:r.rk>=13?C.r:C.txD},{k:"c",l:"Currency",a:"left",nm:1,rn:r=>r.f+" "+r.ccy},{k:"y",l:"2Y Yield",rn:r=>(yld[r.c]?.y2!=null?yld[r.c].y2.toFixed(2)+"%":"—")},{k:"carry",l:"vs USD",rn:r=>fc(r.carry),cl:r=>cc(r.carry)},{k:"dir",l:"Direction",a:"left",nm:1,rn:r=>r.carry>0.3?"Long "+r.ccy:"Short "+r.ccy,cl:r=>r.carry>0.3?C.g:C.r}]} rows={rows} sm/>}
 function CarryP({yld}){const [t,sT]=useState("Cross G10");return <div><Tabs tabs={["Cross G10","vs USD"]} act={t} set={sT}/>{t==="Cross G10"?<XCry yld={yld}/>:<UCry yld={yld}/>}</div>}
-function Markets({g10,em,fxL,yld,yL}){const [t,sT]=useState("G10 FX");return <div><Tabs tabs={["G10 FX","EM FX","Rates","Carry"]} act={t} set={sT}/>{t==="G10 FX"&&<FxTbl data={g10} live={fxL}/>}{t==="EM FX"&&<FxTbl data={em} live={fxL}/>}{t==="Rates"&&<YldTbl yld={yld} live={yL}/>}{t==="Carry"&&<CarryP yld={yld}/>}</div>}
+function EtfTbl({etfs}){const rows=Object.entries(etfs||{}).map(([name,v])=>({name,price:v?.price??null,d1:v?.d1_pct??null,w1:v?.w1_pct??null,m1:v?.m1_pct??null}));if(!rows.length)return <div style={{padding:20,textAlign:"center",color:C.txM,fontSize:12}}>No ETF data available</div>;return <Tbl cols={[{k:"name",l:"ETF",a:"left",nm:1,cl:()=>C.b},{k:"price",l:"Price",rn:r=>r.price!=null?Number(r.price).toFixed(2):"—"},{k:"d1",l:"1D %",rn:r=>fc(r.d1),cl:r=>cc(r.d1)},{k:"w1",l:"1W %",rn:r=>fc(r.w1),cl:r=>cc(r.w1)},{k:"m1",l:"1M %",rn:r=>fc(r.m1),cl:r=>cc(r.m1)}]} rows={rows}/>}
+function VolTbl({vol}){const rows=Object.entries(vol||{}).map(([name,v])=>({name,price:v?.price??null,prev:v?.prev_close??null,chg:v?.change_pct??null}));if(!rows.length)return <div style={{padding:20,textAlign:"center",color:C.txM,fontSize:12}}>No volatility data available</div>;return <Tbl cols={[{k:"name",l:"Instrument",a:"left",nm:1,cl:()=>C.b},{k:"price",l:"Level",rn:r=>r.price!=null?Number(r.price).toFixed(2):"—"},{k:"prev",l:"Prev",rn:r=>r.prev!=null?Number(r.prev).toFixed(2):"—"},{k:"chg",l:"Change",rn:r=>r.chg!=null?fc(r.chg,""):"—",cl:r=>cc(r.chg)}]} rows={rows}/>}
+function BondEtfTbl({bondEtfs}){const rows=Object.entries(bondEtfs||{}).map(([name,v])=>({name,country:v?.country??"",duration:v?.duration??"",price:v?.price??null,d1:v?.d1_pct??null,w1:v?.w1_pct??null,m1:v?.m1_pct??null}));if(!rows.length)return <div style={{padding:20,textAlign:"center",color:C.txM,fontSize:12}}>No bond ETF data available</div>;return <Tbl cols={[{k:"name",l:"Bond ETF",a:"left",nm:1,cl:()=>C.b},{k:"country",l:"Country",a:"left"},{k:"duration",l:"Duration",a:"left"},{k:"price",l:"Price",rn:r=>r.price!=null?Number(r.price).toFixed(2):"—"},{k:"d1",l:"1D %",rn:r=>fc(r.d1),cl:r=>cc(r.d1)},{k:"w1",l:"1W %",rn:r=>fc(r.w1),cl:r=>cc(r.w1)},{k:"m1",l:"1M %",rn:r=>fc(r.m1),cl:r=>cc(r.m1)}]} rows={rows} sm/>}
+function Markets({g10,em,fxL,yld,yL,etfs,vol,bondEtfs}){const [t,sT]=useState("G10 FX");return <div><Tabs tabs={["G10 FX","EM FX","Rates","Carry","ETFs","Volatility","Bond ETFs"]} act={t} set={sT}/>{t==="G10 FX"&&<FxTbl data={g10} live={fxL}/>}{t==="EM FX"&&<FxTbl data={em} live={fxL}/>}{t==="Rates"&&<YldTbl yld={yld} live={yL}/>}{t==="Carry"&&<CarryP yld={yld}/>}{t==="ETFs"&&<EtfTbl etfs={etfs}/>}{t==="Volatility"&&<VolTbl vol={vol}/>}{t==="Bond ETFs"&&<BondEtfTbl bondEtfs={bondEtfs}/>}</div>}
 function CorrMx(){return <div><div style={{marginBottom:12}}><span style={{color:C.ac,fontSize:13,fontWeight:700}}>30-Day Correlation Matrix</span></div><div style={{padding:40,textAlign:"center",color:C.txM,fontSize:12,border:"1px dashed "+C.bd,borderRadius:6}}>—<br/><span style={{fontSize:11,marginTop:8,display:"inline-block"}}>Correlation data not available — requires a live feed</span></div></div>}
 
 /* ═══ DEEP DIVE ═══════════════════════════════════════════════════ */
-function Deep({ctry,g10,em,yld,news,nL,risk}){
-  const ccy=cOf[ctry],fp=[...g10,...em].find(x=>x.pair===pOf[ctry]),y=yld[ctry]||{},tpl=RT.find(x=>x.c===ctry),m=MD[ctry]||{};
+function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates}){
+  const ccy=cOf[ctry],fp=[...g10,...em].find(x=>x.pair===pOf[ctry]),y=yld[ctry]||{},tpl=RT.find(x=>x.c===ctry),m=macro?.[ctry]||{},cbRate=policyRates?.[ctry]??null;
   const kws=nKw[ctry]||[ccy.toLowerCase()];const cN=news.filter(n=>kws.some(kw=>(n.headline||"").toLowerCase().includes(kw)));const dN=cN.length>=2?cN:news;
   const ce=Object.entries(y).filter(([k,v])=>v!=null&&k.startsWith("y")).map(([k,v])=>[k.replace("y","").toUpperCase(),v]);
   const [ai,setAi]=useState(null);
@@ -83,7 +86,7 @@ function Deep({ctry,g10,em,yld,news,nL,risk}){
         yields: y,
         centralBank: tpl ? {
           country: tpl.c,
-          policyRate: tpl.cb
+          policyRate: cbRate
         } : null,
         macro: m,
         riskBar: risk,
@@ -274,7 +277,7 @@ function Deep({ctry,g10,em,yld,news,nL,risk}){
       <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
         <div style={{color:C.tx,fontSize:13,fontWeight:700,marginBottom:10}}>Central Bank</div>
         <div style={{display:"grid",gap:8}}>
-          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Policy Rate</span><span style={{color:C.tx,fontWeight:700,fontFamily:Mn}}>{tpl?.cb!=null ? tpl.cb.toFixed(2)+"%" : "—"}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Policy Rate</span><span style={{color:C.tx,fontWeight:700,fontFamily:Mn}}>{cbRate!=null ? cbRate.toFixed(2)+"%" : "—"}</span></div>
           <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Stance</span><span style={{color:C.am,fontSize:11,fontWeight:700}}>{m.stance||"—"}</span></div>
           <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Last Decision</span><span style={{color:C.tx,fontSize:11}}>{m.last||"—"}</span></div>
           <div style={{display:"flex",justifyContent:"space-between"}}><span style={{color:C.txM,fontSize:11}}>Next Meeting</span><span style={{color:C.g,fontSize:11}}>{m.next||"—"}</span></div>
@@ -342,11 +345,15 @@ function App(){
   const [risk,sRisk]=useState({DXY:{level:null,chg:null},VIX:{level:null,chg:null},Gold:{level:null,chg:null},WTI:{level:null,chg:null},Brent:{level:null,chg:null},"US 10Y":{level:null,chg:null}});
   const [rL,sRL]=useState(false);const [cal,sCal]=useState([]);const [cL,sCL]=useState(false);const [news,sNews]=useState([]);const [nL,sNL]=useState(false);
   const [cmd,sCmd]=useState({gold:{},wti:{},brent:{}});const [ld,sLd]=useState(false);const [lr,sLR]=useState(null);
+  const [etfs,setEtfs]=useState({});const [vol,setVol]=useState({});const [bondEtfs,setBondEtfs]=useState({});
+  const [macro,setMacro]=useState({});const [policyRates,setPolicyRates]=useState({});
   const svK=useCallback(nk=>{setKeys(nk);Object.entries(nk).forEach(([k,v])=>sk(k,v))},[]);
   const load=useCallback(async()=>{
     sLd(true);
     try{
       const data=await fData();
+      setEtfs(data.etfs||{});setVol(data.volatility||{});setBondEtfs(data.bond_etfs||{});
+      setMacro(data.macro||{});setPolicyRates(data.policy_rates||{});
       const mapFx=defs=>defs.map(d=>{const x=data.fx?.[d.p];return{pair:d.p,spot:x?.price??null,d1:x?.d1_pct??null,w1:x?.w1_pct??null,m1:x?.m1_pct??null,ytd:null}});
       sG10(mapFx(G10));sEM(mapFx(EMP));sFxL(true);
       const mappedYields={};
@@ -370,10 +377,10 @@ function App(){
     </div>
     <div style={{padding:"16px 20px",maxWidth:1600,margin:"0 auto"}}>
       {sec==="brief"&&<Brief g10={g10D} em={emD} yld={yld} risk={risk} cal={cal} cmd={cmd}/>}
-      {sec==="markets"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><Markets g10={g10D} em={emD} fxL={fxL} yld={yld} yL={yL}/></div>}
+      {sec==="markets"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><Markets g10={g10D} em={emD} fxL={fxL} yld={yld} yL={yL} etfs={etfs} vol={vol} bondEtfs={bondEtfs}/></div>}
       {sec==="commod"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:15,fontWeight:700,marginBottom:12}}>Commodities</div><Cmdt d={cmd}/></div>}
       {sec==="corr"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20}}><CorrMx/></div>}
-      {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL} risk={risk}/></div>}
+      {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL} risk={risk} macro={macro} policyRates={policyRates}/></div>}
       {sec==="cal"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{marginBottom:12}}><span style={{color:C.tx,fontSize:15,fontWeight:700}}>Economic Calendar</span></div><Cal evts={cal} live={cL}/></div>}
     </div>
     <div style={{textAlign:"center",padding:"12px 0",borderTop:"1px solid "+C.bd+"20"}}><span style={{color:C.txM,fontSize:10}}>FX RADAR v4 · <Dot on={fxL}/>{fxL?"Live":"..."}</span></div>
