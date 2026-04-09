@@ -84,14 +84,14 @@ BOND_ETFS = {
 
 # ─── COMMODITY TICKERS ───────────────────────────────────────────────────────
 COMMODITIES = {
-    "GC=F": {"name": "Gold", "unit": "$/oz"},
-    "SI=F": {"name": "Silver", "unit": "$/oz"},
-    "CL=F": {"name": "WTI Crude", "unit": "$/bbl"},
-    "BZ=F": {"name": "Brent Crude", "unit": "$/bbl"},
-    "NG=F": {"name": "Natural Gas", "unit": "$/MMBtu"},
-    "HG=F": {"name": "Copper", "unit": "$/lb"},
-    "ZW=F": {"name": "Wheat", "unit": "¢/bu"},
-    "ZC=F": {"name": "Corn", "unit": "¢/bu"},
+    "GC=F": {"key": "gold", "name": "Gold", "unit": "$/oz"},
+    "SI=F": {"key": "silver", "name": "Silver", "unit": "$/oz"},
+    "CL=F": {"key": "wti", "name": "WTI Crude", "unit": "$/bbl"},
+    "BZ=F": {"key": "brent", "name": "Brent Crude", "unit": "$/bbl"},
+    "NG=F": {"key": "natgas", "name": "Natural Gas", "unit": "$/MMBtu"},
+    "HG=F": {"key": "copper", "name": "Copper", "unit": "$/lb"},
+    "ZW=F": {"key": "wheat", "name": "Wheat", "unit": "¢/bu"},
+    "ZC=F": {"key": "corn", "name": "Corn", "unit": "¢/bu"},
 }
 
 # ─── KEY ETFs ────────────────────────────────────────────────────────────────
@@ -278,12 +278,12 @@ def fetch_finnhub_calendar():
             {
                 "date": e.get("time", "")[:10],
                 "time": e.get("time", "")[11:16],
-                "country": e.get("country", ""),
-                "event": e.get("event", ""),
-                "prev": e.get("prev"),
-                "estimate": e.get("estimate"),
-                "actual": e.get("actual"),
-                "impact": e.get("impact", ""),
+                "ctry": e.get("country", ""),
+                "ev": e.get("event", ""),
+                "prev": e.get("prev") if e.get("prev") is not None else "\u2014",
+                "fcast": e.get("estimate") if e.get("estimate") is not None else "\u2014",
+                "act": e.get("actual") if e.get("actual") is not None else "\u2014",
+                "imp": "red" if e.get("impact") == "high" else "orange",
             }
             for e in events[:40]
         ]
@@ -309,17 +309,43 @@ def fetch_rss_news():
                 title = item.findtext("title", "")
                 link = item.findtext("link", "")
                 pub = item.findtext("pubDate", "")
+                try:
+                    pub_ts = int(datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %Z").timestamp())
+                except Exception:
+                    pub_ts = 0
                 if title:
                     articles.append({
                         "headline": title,
                         "source": source,
                         "url": link,
-                        "datetime": pub,
+                        "datetime": pub_ts,
                         "category": "general",
                     })
         except Exception as e:
             print(f"  RSS error ({source}): {e}")
     return articles
+
+
+def fetch_single_ticker_history(ticker, name, period="3mo"):
+    """Fallback: fetch a single ticker individually if batch download fails."""
+    try:
+        data = yf.download(ticker, period=period, progress=False, threads=False)
+        closes = data["Close"].dropna()
+        if len(closes) < 2:
+            return None
+        last = float(closes.iloc[-1])
+        d1 = float(closes.iloc[-2]) if len(closes) >= 2 else None
+        w1 = float(closes.iloc[-6]) if len(closes) >= 6 else None
+        m1 = float(closes.iloc[-22]) if len(closes) >= 22 else None
+        return {
+            "price": round(last, 4),
+            "d1_pct": round((last / d1 - 1) * 100, 2) if d1 else None,
+            "w1_pct": round((last / w1 - 1) * 100, 2) if w1 else None,
+            "m1_pct": round((last / m1 - 1) * 100, 2) if m1 else None,
+        }
+    except Exception as e:
+        print(f"  Single ticker history error ({ticker}): {e}")
+        return None
 
 
 def main():
@@ -348,7 +374,19 @@ def main():
             us_yields[tenor] = val
             print(f"  US {tenor}: {val}%")
         time.sleep(0.2)  # Rate limit
-    output["yields"]["US"] = us_yields
+    output["yields"]["US"] = {
+        "y1m": us_yields.get("1M"),
+        "y3m": us_yields.get("3M"),
+        "y6m": us_yields.get("6M"),
+        "y1": us_yields.get("1Y"),
+        "y2": us_yields.get("2Y"),
+        "y3": us_yields.get("3Y"),
+        "y5": us_yields.get("5Y"),
+        "y7": us_yields.get("7Y"),
+        "y10": us_yields.get("10Y"),
+        "y20": us_yields.get("20Y"),
+        "y30": us_yields.get("30Y"),
+    }
 
     # 2. Global yields from FRED (limited but free)
     print("\n[2/8] Fetching global yields from FRED...")
@@ -361,7 +399,11 @@ def main():
                 print(f"  {country} {tenor}: {val}%")
             time.sleep(0.2)
         if country_yields:
-            output["yields"][country] = country_yields
+            output["yields"][country] = {
+                "y10": country_yields.get("10Y"),
+                "y2": country_yields.get("2Y"),
+                "y5": country_yields.get("5Y"),
+            }
 
     # 3. Yield proxies from Yahoo Finance (US treasuries)
     print("\n[3/8] Fetching yield data from Yahoo Finance...")
@@ -370,15 +412,39 @@ def main():
     })
     for name, data in yf_yields.items():
         print(f"  {name}: {data['price']}")
+    # Fill missing US yields from Yahoo proxies if FRED missing
+    us_out = output["yields"].get("US", {})
+    if us_out.get("y3m") is None and yf_yields.get("US_3M"):
+        us_out["y3m"] = yf_yields["US_3M"]["price"]
+    if us_out.get("y5") is None and yf_yields.get("US_5Y"):
+        us_out["y5"] = yf_yields["US_5Y"]["price"]
+    if us_out.get("y10") is None and yf_yields.get("US_10Y"):
+        us_out["y10"] = yf_yields["US_10Y"]["price"]
+    if us_out.get("y30") is None and yf_yields.get("US_30Y"):
+        us_out["y30"] = yf_yields["US_30Y"]["price"]
+    output["yields"]["US"] = us_out
     output["yields"]["US_yf"] = yf_yields
 
     # 4. Commodities
     print("\n[4/8] Fetching commodities...")
-    commod_data = fetch_yf_history(COMMODITIES)
-    for name, data in commod_data.items():
-        info = next((v for k, v in COMMODITIES.items() if v["name"] == name), {})
-        data["unit"] = info.get("unit", "")
-        print(f"  {name}: ${data['price']} ({data.get('d1_pct', '?')}%)")
+    commod_data_raw = fetch_yf_history({k: v["name"] for k, v in COMMODITIES.items()})
+    commod_data = {}
+    print("  Commodity raw keys:", list(commod_data_raw.keys()))
+    for ticker, info in COMMODITIES.items():
+        name = info["name"]
+        key = info["key"]
+        row = commod_data_raw.get(name)
+        if row:
+            row["unit"] = info.get("unit", "")
+            commod_data[key] = row
+            print(f"  {name}: ${row['price']} ({row.get('d1_pct', '?')}%)")
+        else:
+            # Fallback: try single ticker download
+            single = fetch_single_ticker_history(ticker, name)
+            if single:
+                single["unit"] = info.get("unit", "")
+                commod_data[key] = single
+                print(f"  {name} (fallback): ${single['price']} ({single.get('d1_pct', '?')}%)")
     output["commodities"] = commod_data
 
     # 5. Key ETFs

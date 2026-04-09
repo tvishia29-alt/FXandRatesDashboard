@@ -20,6 +20,7 @@ async function fFr(d,sym){try{return await jf("https://api.frankfurter.dev/v1/"+
 async function fFD(){try{const r=await fetch("/.netlify/functions/fred-yields");if(!r.ok)throw new Error("fred-yields failed");return await r.json()}catch{return null}}
 async function fECB(){try{const r=await fetch("/.netlify/functions/ecb-yields");if(!r.ok)throw new Error("ecb-yields failed");return await r.json()}catch(err){console.error("ECB yields fetch failed",err);return null}}
 async function fFh(ep,p,k){if(!k)return null;try{const q=new URLSearchParams({...p,token:k}).toString();return await jf("https://finnhub.io/api/v1/"+ep+"?"+q)}catch{return null}}
+async function fData(){const r=await fetch("/data.json?_="+Date.now());if(!r.ok)throw new Error("Failed to load data.json");return await r.json()}
 const ago=n=>{const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10)};const fwd=n=>{const d=new Date();d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)};const jan2=()=>new Date().getFullYear()+"-01-02";
 
 const G10=[{p:"EURUSD",q:"EUR",i:1},{p:"GBPUSD",q:"GBP",i:1},{p:"USDJPY",q:"JPY",i:0},{p:"USDCHF",q:"CHF",i:0},{p:"AUDUSD",q:"AUD",i:1},{p:"NZDUSD",q:"NZD",i:1},{p:"USDCAD",q:"CAD",i:0},{p:"USDSEK",q:"SEK",i:0},{p:"USDNOK",q:"NOK",i:0}];
@@ -344,21 +345,23 @@ function App(){
   const svK=useCallback(nk=>{setKeys(nk);Object.entries(nk).forEach(([k,v])=>sk(k,v))},[]);
   const load=useCallback(async()=>{
     sLd(true);
-    try{const [now,d1,w1,m1,ytd]=await Promise.all([fFr("latest",SYM),fFr(ago(1),SYM),fFr(ago(7),SYM),fFr(ago(30),SYM),fFr(jan2(),SYM)]);if(now?.rates){const bld=defs=>defs.map(d=>{const s=now.rates[d.q];if(!s)return{pair:d.p,spot:null,d1:null,w1:null,m1:null,ytd:null};const sp=d.i?1/s:s;const ch=h=>{const v=h?.rates?.[d.q];if(!v)return null;return d.i?pc(1/s,1/v):pc(s,v)};return{pair:d.p,spot:sp,d1:ch(d1),w1:ch(w1),m1:ch(m1),ytd:ch(ytd)}});sG10(bld(G10));sEM(bld(EMP));sFxL(true);const eur=now.rates.EUR,eurY=d1?.rates?.EUR;if(eur)sRisk(p=>({...p,DXY:{level:+(1/eur*104.5).toFixed(2),chg:eurY?+pc(1/eur,1/eurY):null}}))}}catch{}
-    try{const usYields=await fFD();if(usYields){sYld(p=>({...p,US:usYields}));sYL(true);if(usYields.y10!=null)sRisk(p=>({...p,"US 10Y":{level:usYields.y10,chg:null}}))}}catch{}
-    try{const euYields=await fECB();if(euYields){sYld(p=>({...p,Eurozone:euYields}))}}catch(err){console.error("Eurozone yields load failed",err)}
-    if(keys.finnhub){
-      const [vR,gR,wR,bR]=await Promise.allSettled([fFh("quote",{symbol:"CBOE:VIX"},keys.finnhub),fFh("forex/rates",{base:"USD"},keys.finnhub),fFh("quote",{symbol:"NYMEX:CL1!"},keys.finnhub),fFh("quote",{symbol:"NYMEX:BZ1!"},keys.finnhub)]);
-      const v=vR.status==="fulfilled"?vR.value:null;if(v?.c)sRisk(p=>({...p,VIX:{level:v.c,chg:+(v.c-v.pc).toFixed(2)}}));
-      const g=gR.status==="fulfilled"?gR.value:null;if(g?.quote?.XAU){const gp=1/g.quote.XAU;sCmd(p=>({...p,gold:{level:gp,chg:null}}));sRisk(p=>({...p,Gold:{level:gp,chg:null}}));}
-      const w=wR.status==="fulfilled"?wR.value:null;if(w?.c){sCmd(p=>({...p,wti:{level:w.c,chg:w.pc?+pc(w.c,w.pc):null}}));sRisk(p=>({...p,WTI:{level:w.c,chg:w.pc?+pc(w.c,w.pc):null}}));}
-      const b=bR.status==="fulfilled"?bR.value:null;if(b?.c){sCmd(p=>({...p,brent:{level:b.c,chg:b.pc?+pc(b.c,b.pc):null}}));sRisk(p=>({...p,Brent:{level:b.c,chg:b.pc?+pc(b.c,b.pc):null}}));}
-      sRL(true)}
-    sLd(false);sLR(new Date());
-  },[keys]);
+    try{
+      const data=await fData();
+      const mapFx=defs=>defs.map(d=>{const x=data.fx?.[d.p];return{pair:d.p,spot:x?.price??null,d1:x?.d1_pct??null,w1:x?.w1_pct??null,m1:x?.m1_pct??null,ytd:null}});
+      sG10(mapFx(G10));sEM(mapFx(EMP));sFxL(true);
+      const mappedYields={};
+      if(data.yields){Object.entries(data.yields).forEach(([k,v])=>{if(k!=="US_yf")mappedYields[k]=v})}
+      sYld(mappedYields);sYL(true);
+      const dxy=data.fx?.DXY;const vix=data.volatility?.["VIX (S&P 500 Vol)"];const move=data.volatility?.["MOVE (Bond Vol)"];const usY=mappedYields.US||{};
+      sRisk({DXY:{level:dxy?.price??null,chg:dxy?.d1_pct??null},VIX:{level:vix?.price??null,chg:vix?.change_pct??null},Gold:{level:data.commodities?.gold?.price??null,chg:data.commodities?.gold?.d1_pct??null},WTI:{level:data.commodities?.wti?.price??null,chg:data.commodities?.wti?.d1_pct??null},Brent:{level:data.commodities?.brent?.price??null,chg:data.commodities?.brent?.d1_pct??null},"US 10Y":{level:usY.y10??null,chg:null},MOVE:{level:move?.price??null,chg:move?.change_pct??null}});
+      sRL(true);
+      sCmd({gold:{level:data.commodities?.gold?.price??null,chg:data.commodities?.gold?.d1_pct??null},wti:{level:data.commodities?.wti?.price??null,chg:data.commodities?.wti?.d1_pct??null},brent:{level:data.commodities?.brent?.price??null,chg:data.commodities?.brent?.d1_pct??null}});
+      const parsedNews=(data.news||[]).map(n=>{const dt=typeof n.datetime==="number"?n.datetime:Math.floor(Date.parse(n.datetime)/1000)||0;return{...n,datetime:dt}});sNews(parsedNews);sNL(true);
+      const parsedCal=(data.calendar||[]).map(e=>({date:e.date||"",time:e.time||"",ctry:e.ctry||"",ev:e.ev||"",prev:e.prev??"—",fcast:e.fcast??"—",act:e.act??"—",imp:e.imp||"orange"}));sCal(parsedCal);sCL(true);
+      sLR(new Date());
+    }catch(err){console.error("Failed to load dashboard data",err)}finally{sLd(false)}
+  },[]);
   useEffect(()=>{load()},[load]);
-  useEffect(()=>{if((sec==="deep"||sec==="brief")&&keys.finnhub&&!nL){(async()=>{try{const nd=await fFh("news",{category:"forex"},keys.finnhub);if(Array.isArray(nd)){sNews(nd.slice(0,30));sNL(true)}}catch{}})()}},[sec,keys.finnhub,nL]);
-  useEffect(()=>{if(sec==="cal"&&keys.finnhub&&!cL){(async()=>{try{const cd=await fFh("calendar/economic",{from:ago(0),to:fwd(7)},keys.finnhub);if(cd?.economicCalendar?.length){const fl={"US":"🇺🇸","EU":"🇪🇺","GB":"🇬🇧","JP":"🇯🇵","CH":"🇨🇭","AU":"🇦🇺","NZ":"🇳🇿","CA":"🇨🇦","SE":"🇸🇪","NO":"🇳🇴","BR":"🇧🇷","MX":"🇲🇽","ZA":"🇿🇦","IN":"🇮🇳","KR":"🇰🇷","TR":"🇹🇷","PL":"🇵🇱","CN":"🇨🇳","DE":"🇩🇪"};sCal(cd.economicCalendar.slice(0,30).map(e=>({date:e.time?.slice(0,10)||"",time:e.time?.slice(11,16)||"",ctry:fl[e.country]||e.country||"",ev:e.event||"",prev:e.prev!=null?String(e.prev):"—",fcast:e.estimate!=null?String(e.estimate):"—",act:e.actual!=null?String(e.actual):"—",imp:e.impact==="high"?"red":"orange"})));sCL(true)}}catch{}})()}},[sec,keys.finnhub,cL]);
   return <div style={{minHeight:"100vh",background:C.bg}}>
     <RiskBar d={risk} live={rL||fxL}/>
     <div style={{position:"sticky",top:0,zIndex:100,background:C.bgC,borderBottom:"1px solid "+C.bd,padding:"0 16px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap"}}>
