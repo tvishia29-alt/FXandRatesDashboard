@@ -292,6 +292,117 @@ def fetch_finnhub_calendar():
         return []
 
 
+def fetch_finviz_calendar():
+    """Scrape economic calendar from Finviz for richer data with beat/miss info."""
+    try:
+        from html.parser import HTMLParser
+
+        url = "https://finviz.com/calendar.ashx"
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        r = requests.get(url, timeout=15, headers=headers)
+        if r.status_code != 200:
+            print(f"  Finviz calendar HTTP {r.status_code}")
+            return []
+
+        class CalParser(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.in_table = False
+                self.in_row = False
+                self.in_cell = False
+                self.cells = []
+                self.current_cell = ""
+                self.rows = []
+                self.table_depth = 0
+                self.target_table = False
+
+            def handle_starttag(self, tag, attrs):
+                attrs_d = dict(attrs)
+                if tag == "table" and attrs_d.get("class", "") == "calendar_table":
+                    self.target_table = True
+                    self.table_depth = 0
+                if self.target_table and tag == "table":
+                    self.table_depth += 1
+                if self.target_table and tag == "tr":
+                    self.in_row = True
+                    self.cells = []
+                if self.target_table and self.in_row and tag == "td":
+                    self.in_cell = True
+                    self.current_cell = ""
+
+            def handle_endtag(self, tag):
+                if self.target_table and tag == "td" and self.in_cell:
+                    self.in_cell = False
+                    self.cells.append(self.current_cell.strip())
+                if self.target_table and tag == "tr" and self.in_row:
+                    self.in_row = False
+                    if len(self.cells) >= 6:
+                        self.rows.append(self.cells[:])
+                if self.target_table and tag == "table":
+                    self.table_depth -= 1
+                    if self.table_depth <= 0:
+                        self.target_table = False
+
+            def handle_data(self, data):
+                if self.in_cell:
+                    self.current_cell += data
+
+        parser = CalParser()
+        parser.feed(r.text)
+
+        events = []
+        current_date = ""
+        today = datetime.now().strftime("%Y-%m-%d")
+        for row in parser.rows:
+            # Finviz columns: Date, Time, Release, For, Actual, Expected, Prior
+            date_str = row[0].strip() if row[0].strip() else current_date
+            if date_str:
+                current_date = date_str
+            time_str = row[1].strip() if len(row) > 1 else ""
+            release = row[2].strip() if len(row) > 2 else ""
+            period = row[3].strip() if len(row) > 3 else ""
+            actual = row[4].strip() if len(row) > 4 else ""
+            expected = row[5].strip() if len(row) > 5 else ""
+            prior = row[6].strip() if len(row) > 6 else ""
+
+            if not release:
+                continue
+
+            # Determine beat/miss
+            beat = None
+            if actual and expected and actual != "" and expected != "":
+                try:
+                    a_val = float(actual.replace("%", "").replace(",", ""))
+                    e_val = float(expected.replace("%", "").replace(",", ""))
+                    if a_val > e_val:
+                        beat = "beat"
+                    elif a_val < e_val:
+                        beat = "miss"
+                    else:
+                        beat = "inline"
+                except ValueError:
+                    pass
+
+            events.append({
+                "date": current_date,
+                "time": time_str,
+                "ctry": "US",
+                "ev": f"{release}" + (f" ({period})" if period else ""),
+                "prev": prior if prior else "\u2014",
+                "fcast": expected if expected else "\u2014",
+                "act": actual if actual else "\u2014",
+                "imp": "red",
+                "beat": beat,
+                "source": "finviz",
+            })
+
+        print(f"  Finviz: {len(events)} calendar events scraped")
+        return events
+    except Exception as e:
+        print(f"  Finviz calendar error: {e}")
+        return []
+
+
 def fetch_rss_news():
     """Fetch news from free RSS feeds (no API key needed)."""
     import xml.etree.ElementTree as ET
@@ -493,10 +604,18 @@ def main():
     output["news"] = unique_news[:40]
     print(f"  {len(unique_news)} unique articles")
 
-    # 10. Economic Calendar
+    # 10. Economic Calendar (Finnhub + Finviz)
     print("\n[10] Fetching calendar...")
-    output["calendar"] = fetch_finnhub_calendar()
-    print(f"  {len(output['calendar'])} events")
+    finnhub_cal = fetch_finnhub_calendar()
+    finviz_cal = fetch_finviz_calendar()
+    # Merge: prefer Finviz for US events (has beat/miss), keep Finnhub for non-US
+    if finviz_cal:
+        # Use Finviz as primary, add non-US Finnhub events
+        non_us = [e for e in finnhub_cal if e.get("ctry", "US") != "US"]
+        output["calendar"] = finviz_cal + non_us
+    else:
+        output["calendar"] = finnhub_cal
+    print(f"  {len(output['calendar'])} total events")
 
     # Write output
     output_path = Path(OUTPUT_FILE)
