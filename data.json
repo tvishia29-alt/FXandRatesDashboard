@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-04-09T20:06:57.241114Z",
+  "generated_at": "2026-04-09T20:17:58.867834Z",
   "yields": {
-    "US": {},
+    "US": {
+      "y1m": null,
+      "y3m": 3.588,
+      "y6m": null,
+      "y1": null,
+      "y2": null,
+      "y3": null,
+      "y5": 3.915,
+      "y7": null,
+      "y10": 4.293,
+      "y20": null,
+      "y30": 4.897
+    },
     "US_yf": {
       "US_3M": {
         "price": 3.588,
@@ -29,7 +41,64 @@
       }
     }
   },
-  "commodities": {},
+  "commodities": {
+    "gold": {
+      "price": 4793.1001,
+      "d1_pct": 0.92,
+      "w1_pct": 0.21,
+      "m1_pct": -8.35,
+      "unit": "$/oz"
+    },
+    "silver": {
+      "price": 75.745,
+      "d1_pct": 0.69,
+      "w1_pct": -0.16,
+      "m1_pct": -14.97,
+      "unit": "$/oz"
+    },
+    "wti": {
+      "price": 99.02,
+      "d1_pct": 4.88,
+      "w1_pct": -1.1,
+      "m1_pct": 18.66,
+      "unit": "$/bbl"
+    },
+    "brent": {
+      "price": 97.19,
+      "d1_pct": 2.58,
+      "w1_pct": -3.92,
+      "m1_pct": 10.69,
+      "unit": "$/bbl"
+    },
+    "natgas": {
+      "price": 2.677,
+      "d1_pct": -1.73,
+      "w1_pct": -5.04,
+      "m1_pct": -11.36,
+      "unit": "$/MMBtu"
+    },
+    "copper": {
+      "price": 5.757,
+      "d1_pct": -0.04,
+      "w1_pct": 2.36,
+      "m1_pct": -2.49,
+      "unit": "$/lb"
+    },
+    "wheat": {
+      "price": 573.5,
+      "d1_pct": -1.16,
+      "w1_pct": -4.02,
+      "m1_pct": -1.92,
+      "unit": "\u00a2/bu"
+    },
+    "corn": {
+      "price": 444.5,
+      "d1_pct": -0.61,
+      "w1_pct": -2.15,
+      "m1_pct": 1.89,
+      "unit": "\u00a2/bu"
+    }
+  },
   "etfs": {
     "S&P 500": {
       "price": 679.86,
@@ -50,22 +119,22 @@
       "m1_pct": 3.59
     },
     "EM Equities": {
-      "price": 60.29,
-      "d1_pct": -0.25,
-      "w1_pct": 5.35,
-      "m1_pct": 2.74
+      "price": 60.28,
+      "d1_pct": -0.26,
+      "w1_pct": 5.33,
+      "m1_pct": 2.73
     },
     "China Large Cap": {
-      "price": 36.285,
-      "d1_pct": -0.18,
-      "w1_pct": 2.04,
-      "m1_pct": -0.83
+      "price": 36.29,
+      "d1_pct": -0.17,
+      "w1_pct": 2.05,
+      "m1_pct": -0.82
     },
     "Japan Equities": {
-      "price": 88.21,
-      "d1_pct": -1.34,
-      "w1_pct": 2.0,
-      "m1_pct": 2.02
+      "price": 88.22,
+      "d1_pct": -1.33,
+      "w1_pct": 2.01,
+      "m1_pct": 2.04
     },
     "Brazil Equities": {
       "price": 40.54,
@@ -74,16 +143,16 @@
       "m1_pct": 8.02
     },
     "Germany Equities": {
-      "price": 41.63,
-      "d1_pct": -0.26,
-      "w1_pct": 3.56,
-      "m1_pct": 1.29
+      "price": 41.62,
+      "d1_pct": -0.29,
+      "w1_pct": 3.53,
+      "m1_pct": 1.27
     },
     "UK Equities": {
-      "price": 47.635,
-      "d1_pct": -0.39,
-      "w1_pct": 2.77,
-      "m1_pct": 2.64
+      "price": 47.64,
+      "d1_pct": -0.38,
+      "w1_pct": 2.78,
+      "m1_pct": 2.65
     },
     "US Dollar Index": {
       "price": 27.48,
@@ -92,10 +161,10 @@
       "m1_pct": 0.11
     },
     "Euro ETF": {
-      "price": 107.955,
+      "price": 107.96,
       "d1_pct": 0.25,
-      "w1_pct": 1.07,
-      "m1_pct": 0.78
+      "w1_pct": 1.08,
+      "m1_pct": 0.79
     },
     "Yen ETF": {
       "price": 57.7,
@@ -122,10 +191,10 @@
       "m1_pct": -1.71
     },
     "Gold ETF": {
-      "price": 437.85,
-      "d1_pct": 0.76,
-      "w1_pct": 0.01,
-      "m1_pct": -8.37
+      "price": 437.91,
+      "d1_pct": 0.78,
+      "w1_pct": 0.02,
+      "m1_pct": -8.36
     },
     "Oil ETF": {
       "price": 126.96,
@@ -140,10 +209,10 @@
       "m1_pct": 0.98
     },
     "Energy Sector": {
-      "price": 57.345,
-      "d1_pct": -1.21,
-      "w1_pct": -2.76,
-      "m1_pct": 3.81
+      "price": 57.33,
+      "d1_pct": -1.24,
+      "w1_pct": -2.78,
+      "m1_pct": 3.79
     },
     "Financials Sector": {
       "price": 51.34,
@@ -160,52 +229,52 @@
       "m1_pct": 0.78
     },
     "GBPUSD": {
-      "price": 1.3434,
-      "d1_pct": 0.24,
+      "price": 1.3435,
+      "d1_pct": 0.25,
       "w1_pct": 0.99,
-      "m1_pct": 0.11
+      "m1_pct": 0.12
     },
     "USDJPY": {
-      "price": 159.11,
-      "d1_pct": 0.25,
-      "w1_pct": 0.27,
-      "m1_pct": 0.63
+      "price": 159.062,
+      "d1_pct": 0.22,
+      "w1_pct": 0.24,
+      "m1_pct": 0.6
     },
     "USDCHF": {
-      "price": 0.7906,
-      "d1_pct": 0.02,
-      "w1_pct": -0.43,
-      "m1_pct": 1.54
+      "price": 0.7905,
+      "d1_pct": 0.01,
+      "w1_pct": -0.44,
+      "m1_pct": 1.53
     },
     "AUDUSD": {
-      "price": 0.7085,
-      "d1_pct": 0.11,
-      "w1_pct": 2.32,
-      "m1_pct": -0.51
+      "price": 0.7084,
+      "d1_pct": 0.1,
+      "w1_pct": 2.31,
+      "m1_pct": -0.52
     },
     "NZDUSD": {
       "price": 0.5861,
-      "d1_pct": 0.89,
+      "d1_pct": 0.9,
       "w1_pct": 1.93,
       "m1_pct": -1.07
     },
     "USDCAD": {
-      "price": 1.3814,
-      "d1_pct": -0.2,
-      "w1_pct": -0.45,
-      "m1_pct": 1.7
+      "price": 1.3818,
+      "d1_pct": -0.17,
+      "w1_pct": -0.42,
+      "m1_pct": 1.73
     },
     "USDSEK": {
-      "price": 9.2701,
-      "d1_pct": -0.65,
-      "w1_pct": -1.44,
-      "m1_pct": 1.18
+      "price": 9.2717,
+      "d1_pct": -0.63,
+      "w1_pct": -1.42,
+      "m1_pct": 1.19
     },
     "USDNOK": {
-      "price": 9.4908,
-      "d1_pct": -0.95,
-      "w1_pct": -2.31,
-      "m1_pct": -1.44
+      "price": 9.4934,
+      "d1_pct": -0.93,
+      "w1_pct": -2.28,
+      "m1_pct": -1.41
     },
     "USDCNY": {
       "price": 6.8309,
@@ -214,64 +283,64 @@
       "m1_pct": -0.66
     },
     "USDMXN": {
-      "price": 17.358,
-      "d1_pct": -0.89,
-      "w1_pct": -2.61,
-      "m1_pct": -1.32
+      "price": 17.3655,
+      "d1_pct": -0.85,
+      "w1_pct": -2.57,
+      "m1_pct": -1.28
     },
     "USDBRL": {
-      "price": 5.063,
-      "d1_pct": -1.7,
-      "w1_pct": -1.78,
-      "m1_pct": -1.93
+      "price": 5.0641,
+      "d1_pct": -1.68,
+      "w1_pct": -1.75,
+      "m1_pct": -1.9
     },
     "USDZAR": {
-      "price": 16.3752,
-      "d1_pct": -0.43,
-      "w1_pct": -2.63,
-      "m1_pct": 0.57
+      "price": 16.3783,
+      "d1_pct": -0.42,
+      "w1_pct": -2.61,
+      "m1_pct": 0.59
     },
     "USDINR": {
-      "price": 92.436,
+      "price": 92.429,
       "d1_pct": -0.46,
-      "w1_pct": -0.22,
+      "w1_pct": -0.23,
       "m1_pct": 0.29
     },
     "USDKRW": {
-      "price": 1474.16,
-      "d1_pct": -1.67,
-      "w1_pct": -2.51,
-      "m1_pct": 0.09
+      "price": 1473.99,
+      "d1_pct": -1.68,
+      "w1_pct": -2.52,
+      "m1_pct": 0.08
     },
     "USDTRY": {
-      "price": 44.5731,
-      "d1_pct": 0.01,
-      "w1_pct": 0.19,
-      "m1_pct": 1.1
+      "price": 44.5668,
+      "d1_pct": -0.0,
+      "w1_pct": 0.18,
+      "m1_pct": 1.09
     },
     "USDPLN": {
-      "price": 3.6284,
-      "d1_pct": -0.46,
-      "w1_pct": -1.81,
-      "m1_pct": -1.2
+      "price": 3.6276,
+      "d1_pct": -0.49,
+      "w1_pct": -1.84,
+      "m1_pct": -1.22
     },
     "USDHUF": {
-      "price": 321.647,
-      "d1_pct": -0.25,
-      "w1_pct": -2.53,
-      "m1_pct": -3.33
+      "price": 321.71,
+      "d1_pct": -0.23,
+      "w1_pct": -2.51,
+      "m1_pct": -3.31
     },
     "USDCZK": {
-      "price": 20.824,
-      "d1_pct": -0.47,
-      "w1_pct": -1.45,
-      "m1_pct": -0.75
+      "price": 20.821,
+      "d1_pct": -0.49,
+      "w1_pct": -1.47,
+      "m1_pct": -0.77
     },
     "USDSGD": {
-      "price": 1.2728,
-      "d1_pct": -0.23,
-      "w1_pct": -0.77,
-      "m1_pct": -0.02
+      "price": 1.2726,
+      "d1_pct": -0.25,
+      "w1_pct": -0.78,
+      "m1_pct": -0.03
     },
     "USDIDR": {
       "price": 17077.0,
@@ -286,23 +355,23 @@
       "m1_pct": 1.36
     },
     "DXY": {
-      "price": 98.797,
-      "d1_pct": -0.34,
-      "w1_pct": -0.86,
-      "m1_pct": -0.03
+      "price": 98.828,
+      "d1_pct": -0.3,
+      "w1_pct": -0.82,
+      "m1_pct": -0.0
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 19.5,
+      "price": 19.52,
       "prev_close": 21.04,
-      "change_pct": -7.32,
+      "change_pct": -7.22,
       "timestamp": "2026-04-09 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
-      "price": 23.51,
+      "price": 23.44,
       "prev_close": 25.24,
-      "change_pct": -6.85,
+      "change_pct": -7.13,
       "timestamp": "2026-04-09 00:00:00"
     },
     "MOVE (Bond Vol)": {
@@ -312,9 +381,9 @@
       "timestamp": "2026-04-09 00:00:00"
     },
     "VIX Short-Term ETF": {
-      "price": 29.405,
+      "price": 29.4,
       "prev_close": 30.51,
-      "change_pct": -3.62,
+      "change_pct": -3.64,
       "timestamp": "2026-04-09 00:00:00"
     }
   },
@@ -360,10 +429,10 @@
       "duration": "mixed"
     },
     "US Total Treasury": {
-      "price": 22.895,
-      "d1_pct": -0.07,
-      "w1_pct": 0.28,
-      "m1_pct": -0.51,
+      "price": 22.89,
+      "d1_pct": -0.09,
+      "w1_pct": 0.26,
+      "m1_pct": -0.53,
       "country": "US",
       "duration": "mixed"
     }
@@ -373,140 +442,140 @@
       "headline": "Software stocks are having a \u2018full-fledged breakdown\u2019 \u2014 and they may fall even further",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/software-stocks-are-having-a-full-fledged-breakdown-and-they-may-fall-even-further-47ecd965?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 19:51:00 GMT",
+      "datetime": 1775764260,
       "category": "general"
     },
     {
       "headline": "CoreWeave\u2019s stock bounces back. Why investors are cheering the new Meta deal.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/coreweaves-stock-dips-as-the-hype-around-new-meta-deal-quickly-subsides-5208fa9c?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 19:43:00 GMT",
+      "datetime": 1775763780,
       "category": "general"
     },
     {
       "headline": "Bitcoin miners are losing money minting coins. It\u2019s the same problem that killed the penny.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/bitcoin-miners-are-losing-money-minting-coins-its-the-same-problem-that-killed-the-penny-f907db5c?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 19:40:00 GMT",
+      "datetime": 1775763600,
       "category": "general"
     },
     {
       "headline": "\u2018I feel pressured\u2019: My husband has early Alzheimer\u2019s and wants to visit Europe, but I\u2019m terrified of flying. What should I do?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/i-feel-pressured-my-husband-has-early-alzheimers-and-wants-to-visit-europe-but-im-terrified-of-flying-what-should-i-do-c5cc01bf?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 19:30:00 GMT",
+      "datetime": 1775763000,
       "category": "general"
     },
     {
       "headline": "The stock-market correction isn\u2019t over yet. Here\u2019s why the Iran cease-fire is actually a bad omen.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-stock-market-correction-isnt-over-yet-heres-why-the-iran-cease-fire-is-actually-a-bad-omen-67732442?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 18:58:00 GMT",
+      "datetime": 1775761080,
       "category": "general"
     },
     {
       "headline": "The Cassidy-Kaine proposal does virtually nothing to solve Social Security\u2019s financial problems",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-cassidy-kaine-proposal-does-virtually-nothing-to-solve-social-securitys-financial-problems-39957c52?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 18:51:00 GMT",
+      "datetime": 1775760660,
       "category": "general"
     },
     {
       "headline": "Your grocery bill will be the next casualty of the Iran war. Make these investment moves now to counter food inflation.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/you-think-iran-is-only-about-oil-no-its-also-about-your-dinner-table-636de6a5?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 18:20:00 GMT",
+      "datetime": 1775758800,
       "category": "general"
     },
     {
       "headline": "The shaky Trump-Iran cease-fire means being ready to exit any \u2018war\u2019s over\u2019 stock-market rally",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/these-signals-will-make-or-break-the-iran-cease-fire-and-oil-prices-8f415515?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 18:05:00 GMT",
+      "datetime": 1775757900,
       "category": "general"
     },
     {
       "headline": "Here\u2019s how much weight-loss drugs Wegovy, Zepbound and Foundayo cost \u2014 and how to pick the best GLP-1 for you",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/heres-how-much-weight-loss-drugs-wegovy-zepbound-and-foundayo-cost-and-how-to-pick-the-best-glp-1-for-you-48598e2f?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 17:37:00 GMT",
+      "datetime": 1775756220,
       "category": "general"
     },
     {
       "headline": "Tesla may take another stab at making a cheap EV as the competition heats up",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/tesla-may-take-another-stab-at-making-a-cheap-ev-as-the-competition-heats-up-1b82aeb0?mod=mw_rss_topstories",
-      "datetime": "Thu, 09 Apr 2026 17:32:00 GMT",
+      "datetime": 1775755920,
       "category": "general"
     },
     {
       "headline": "Petrol and diesel prices rise again as concerns grow over ceasefire",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&at_campaign=rss",
-      "datetime": "Thu, 09 Apr 2026 18:27:14 GMT",
+      "datetime": 1775765228,
       "category": "general"
     },
     {
       "headline": "Jo Malone hopes 'sense will prevail' in lawsuit over her name",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c7471n0lm2vo?at_medium=RSS&at_campaign=rss",
-      "datetime": "Thu, 09 Apr 2026 15:45:16 GMT",
+      "datetime": 1775749516,
       "category": "general"
     },
     {
       "headline": "UK farmers warn Iran ceasefire too late to stop higher food costs",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c0q98w57k25o?at_medium=RSS&at_campaign=rss",
-      "datetime": "Thu, 09 Apr 2026 08:34:04 GMT",
+      "datetime": 1775723644,
       "category": "general"
     },
     {
       "headline": "Ships remain cautious approaching Strait of Hormuz amid fragile ceasefire",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
-      "datetime": "Thu, 09 Apr 2026 13:58:43 GMT",
+      "datetime": 1775743123,
       "category": "general"
     },
     {
       "headline": "OpenAI pauses UK data centre deal over energy costs and regulation",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/clyd032ej70o?at_medium=RSS&at_campaign=rss",
-      "datetime": "Thu, 09 Apr 2026 17:04:50 GMT",
+      "datetime": 1775754290,
       "category": "general"
     },
     {
       "headline": "The construction boss who built a new life after three years in prison",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/ckge155rz10o?at_medium=RSS&at_campaign=rss",
-      "datetime": "Wed, 08 Apr 2026 23:04:10 GMT",
+      "datetime": 1775689450,
       "category": "general"
     },
     {
       "headline": "Lidl begins building its first ever pub",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cy814qd9j95o?at_medium=RSS&at_campaign=rss",
-      "datetime": "Thu, 09 Apr 2026 11:29:35 GMT",
+      "datetime": 1775734175,
       "category": "general"
     },
     {
       "headline": "Why fuel and food prices could still be affected for months",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c5ywpv1d4geo?at_medium=RSS&at_campaign=rss",
-      "datetime": "Wed, 08 Apr 2026 14:07:41 GMT",
+      "datetime": 1775657261,
       "category": "general"
     },
     {
       "headline": "Faisal Islam: Iran war pause is welcome but the economic scars will last",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c5yx4e9d8pdo?at_medium=RSS&at_campaign=rss",
-      "datetime": "Wed, 08 Apr 2026 12:44:15 GMT",
+      "datetime": 1775652255,
       "category": "general"
     },
     {
       "headline": "UK house prices fall as Iran war uncertainty dampens demand",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cj401ll8j5zo?at_medium=RSS&at_campaign=rss",
-      "datetime": "Wed, 08 Apr 2026 11:09:49 GMT",
+      "datetime": 1775646589,
       "category": "general"
     }
   ],
