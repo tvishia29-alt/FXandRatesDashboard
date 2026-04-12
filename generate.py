@@ -83,6 +83,35 @@ BOND_ETFS = {
     "GOVT": {"name": "US Total Treasury", "country": "US", "duration": "mixed"},
 }
 
+# ─── EODHD GOVERNMENT BONDS ─────────────────────────────────────────────────
+EODHD_BONDS = {
+    "US2Y.GBOND":  {"key": "us2y",  "label": "US 2Y",           "country": "US"},
+    "US10Y.GBOND": {"key": "us10y", "label": "US 10Y",          "country": "US"},
+    "US30Y.GBOND": {"key": "us30y", "label": "US 30Y",          "country": "US"},
+    "UK2Y.GBOND":  {"key": "uk2y",  "label": "UK 2Y",           "country": "UK"},
+    "UK10Y.GBOND": {"key": "uk10y", "label": "UK 10Y",          "country": "UK"},
+    "UK30Y.GBOND": {"key": "uk30y", "label": "UK 30Y",          "country": "UK"},
+    "DE2Y.GBOND":  {"key": "de2y",  "label": "Germany 2Y",      "country": "Eurozone"},
+    "DE10Y.GBOND": {"key": "de10y", "label": "Germany 10Y",     "country": "Eurozone"},
+    "DE30Y.GBOND": {"key": "de30y", "label": "Germany 30Y",     "country": "Eurozone"},
+    "JP2Y.GBOND":  {"key": "jp2y",  "label": "Japan 2Y",        "country": "Japan"},
+    "JP10Y.GBOND": {"key": "jp10y", "label": "Japan 10Y",       "country": "Japan"},
+    "JP30Y.GBOND": {"key": "jp30y", "label": "Japan 30Y",       "country": "Japan"},
+    "IT2Y.GBOND":  {"key": "it2y",  "label": "Italy 2Y",        "country": "Eurozone"},
+    "IT10Y.GBOND": {"key": "it10y", "label": "Italy 10Y",       "country": "Eurozone"},
+    "FR10Y.GBOND": {"key": "fr10y", "label": "France 10Y",      "country": "Eurozone"},
+    "ES10Y.GBOND": {"key": "es10y", "label": "Spain 10Y",       "country": "Eurozone"},
+    "CA2Y.GBOND":  {"key": "ca2y",  "label": "Canada 2Y",       "country": "Canada"},
+    "CA10Y.GBOND": {"key": "ca10y", "label": "Canada 10Y",      "country": "Canada"},
+    "AU2Y.GBOND":  {"key": "au2y",  "label": "Australia 2Y",    "country": "Australia"},
+    "AU10Y.GBOND": {"key": "au10y", "label": "Australia 10Y",   "country": "Australia"},
+    "NZ2Y.GBOND":  {"key": "nz2y",  "label": "New Zealand 2Y",  "country": "New Zealand"},
+    "NZ10Y.GBOND": {"key": "nz10y", "label": "New Zealand 10Y", "country": "New Zealand"},
+    "SW10Y.GBOND": {"key": "ch10y", "label": "Switzerland 10Y", "country": "Switzerland"},
+    "SE10Y.GBOND": {"key": "se10y", "label": "Sweden 10Y",      "country": "Sweden"},
+    "NO10Y.GBOND": {"key": "no10y", "label": "Norway 10Y",      "country": "Norway"},
+}
+
 # ─── COMMODITY TICKERS ───────────────────────────────────────────────────────
 COMMODITIES = {
     "GC=F": {"key": "gold", "name": "Gold", "unit": "$/oz"},
@@ -140,25 +169,36 @@ FX_PAIRS = {
 }
 
 
-def fetch_gov_data(endpoint, params=None):
-    """Fetch data from the government API."""
+def fetch_eodhd_eod(symbol):
+    """Fetch latest EOD data from EODHD for a bond/rate symbol."""
     if not GOV_KEY:
-        print("  GOV API key missing")
         return None
-
-    if params is None:
-        params = {}
-
     try:
-        base_url = "https://YOUR-GOV-API-ENDPOINT-HERE"
-        params["api_key"] = GOV_KEY
-
-        r = requests.get(base_url + endpoint, params=params, timeout=15)
+        url = f"https://eodhd.com/api/eod/{symbol}"
+        params = {"api_token": GOV_KEY, "fmt": "json", "order": "d", "limit": 2}
+        r = requests.get(url, params=params, timeout=15)
         r.raise_for_status()
-        return r.json()
-
+        data = r.json()
+        if not isinstance(data, list) or len(data) < 1:
+            return None
+        latest = data[0]
+        prev = data[1] if len(data) >= 2 else None
+        value = latest.get("close")
+        prev_value = prev.get("close") if prev else None
+        change = round(value - prev_value, 4) if value is not None and prev_value is not None else None
+        pct_change = (
+            round((value - prev_value) / prev_value * 100, 4)
+            if value is not None and prev_value is not None and prev_value != 0
+            else None
+        )
+        return {
+            "value": value,
+            "change": change,
+            "pct_change": pct_change,
+            "date": latest.get("date"),
+        }
     except Exception as e:
-        print(f"  Government API error ({endpoint}): {e}")
+        print(f"  EODHD error ({symbol}): {e}")
         return None
 
 
@@ -477,6 +517,7 @@ def main():
         "macro": {},
         "sentiment": {},
         "scenarios": {},
+        "gov_bonds": {},
     }
 
     # 1. US YIELD CURVE from FRED (most reliable)
@@ -663,24 +704,23 @@ def main():
         }]
     print(f"  Final calendar rows: {len(output['calendar'])}")
 
-    # 11. Government API data
-    print("\n[11] Fetching government data...")
-    gov_data = fetch_gov_data("/some/endpoint", params={"country": "US"})
-    if gov_data:
-        output["policy_rates"]["US"] = gov_data.get("policy_rate")
-
-        output["macro"]["US"] = {
-            "cpi": f"{gov_data.get('cpi_yoy')}%" if gov_data.get("cpi_yoy") is not None else "\u2014",
-            "cpiP": "\u2014",
-            "gdp": f"{gov_data.get('gdp_qoq')}%" if gov_data.get("gdp_qoq") is not None else "\u2014",
-            "gdpT": "QoQ",
-            "unemp": f"{gov_data.get('unemployment')}%" if gov_data.get("unemployment") is not None else "\u2014",
-            "unempT": "latest",
-            "stance": "\u2014",
-            "last": "\u2014",
-            "next": "\u2014",
-            "pricing": "\u2014",
-        }
+    # 11. Government bonds (EODHD)
+    print("\n[11] Fetching government bonds from EODHD...")
+    if GOV_KEY:
+        for symbol, info in EODHD_BONDS.items():
+            result = fetch_eodhd_eod(symbol)
+            if result:
+                result["label"] = info["label"]
+                result["country"] = info["country"]
+                output["gov_bonds"][info["key"]] = result
+                v = result["value"]
+                c = result.get("change")
+                chg_str = f" ({c:+.3f})" if c is not None else ""
+                print(f"  {info['label']}: {v}%{chg_str}")
+            time.sleep(0.3)  # Rate limit
+        print(f"  Fetched {len(output['gov_bonds'])} bonds")
+    else:
+        print("  EODHD API key not set — skipping government bonds")
 
     # Write output
     output_path = Path(OUTPUT_FILE)
@@ -696,6 +736,7 @@ def main():
     print(f"  FX: {len(output['fx'])} pairs")
     print(f"  News: {len(output['news'])} articles")
     print(f"  Calendar: {len(output['calendar'])} events")
+    print(f"  Gov bonds: {len(output['gov_bonds'])} instruments")
     print(f"{'=' * 60}")
 
 

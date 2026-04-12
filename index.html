@@ -35,6 +35,7 @@ const pOf={US:"DXY",Eurozone:"EURUSD",UK:"GBPUSD",Japan:"USDJPY",Switzerland:"US
 const nKw={US:["fed","fomc","treasury","dollar","powell","nonfarm"],Eurozone:["ecb","lagarde","eurozone","bund"],UK:["boe","bailey","gilt","sterling","uk gdp","uk cpi"],Japan:["boj","ueda","yen","jgb","japan"],Switzerland:["snb","swiss","franc"],Australia:["rba","aussie","australia"],Canada:["boc","canada","loonie"],"New Zealand":["rbnz","kiwi","new zealand"],Sweden:["riksbank","sweden"],Norway:["norges","norway"],Brazil:["bcb","brazil","real"],Mexico:["banxico","mexico","peso"],"South Africa":["sarb","south africa","rand"],India:["rbi","india","rupee"],"South Korea":["bok","korea","won"],Turkey:["cbrt","turkey","lira"],Poland:["nbp","poland","zloty"]};
 
 const MD={};
+const bondPfx={"US":["us"],"UK":["uk"],"Eurozone":["de","it","fr","es"],"Japan":["jp"],"Canada":["ca"],"Australia":["au"],"New Zealand":["nz"],"Switzerland":["ch"],"Sweden":["se"],"Norway":["no"]};
 
 
 
@@ -221,8 +222,9 @@ function Scenarios({risk,yld,g10,em,cmd}){
 function CorrMx(){return <div><div style={{marginBottom:12}}><span style={{color:C.ac,fontSize:13,fontWeight:700}}>30-Day Correlation Matrix</span></div><div style={{padding:40,textAlign:"center",color:C.txM,fontSize:12,border:"1px dashed "+C.bd,borderRadius:6}}>—<br/><span style={{fontSize:11,marginTop:8,display:"inline-block"}}>Correlation data not available — requires a live feed</span></div></div>}
 
 /* ═══ DEEP DIVE ═══════════════════════════════════════════════════ */
-function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates}){
+function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
   const ccy=cOf[ctry],fp=[...g10,...em].find(x=>x.pair===pOf[ctry]),y=yld[ctry]||{},tpl=RT.find(x=>x.c===ctry),m=macro?.[ctry]||{},cbRate=policyRates?.[ctry]??null;
+  const pfxList=bondPfx[ctry]||[];const cBonds=Object.entries(govBonds||{}).filter(([k])=>pfxList.some(p=>k.startsWith(p))).map(([k,v])=>({key:k,...v}));
   const kws=nKw[ctry]||[ccy.toLowerCase()];const cN=news.filter(n=>kws.some(kw=>(n.headline||"").toLowerCase().includes(kw)));const dN=cN.length>=2?cN:news;
   const ce=Object.entries(y).filter(([k,v])=>v!=null&&k.startsWith("y")).map(([k,v])=>[k.replace("y","").toUpperCase(),v]);
   const [ai,setAi]=useState(null);
@@ -252,6 +254,7 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates}){
         } : null,
         macro: m,
         riskBar: risk,
+        govBonds: cBonds,
         headlines: dN.slice(0, 8).map(n => ({
           headline: n.headline,
           source: n.source,
@@ -435,6 +438,8 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates}){
       </div>
     </div>
 
+    {cBonds.length>0&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16,marginTop:16}}><div style={{color:C.tx,fontSize:14,fontWeight:700,marginBottom:10}}>🏦 Government Bonds</div><Tbl cols={[{k:"label",l:"Bond",a:"left",nm:1,cl:()=>C.b},{k:"value",l:"Yield %",rn:r=>r.value!=null?Number(r.value).toFixed(3):"\u2014"},{k:"change",l:"Chg (bp)",rn:r=>r.change!=null?fb(r.change*100):"\u2014",cl:r=>cc(r.change)},{k:"date",l:"Date",a:"left",cl:()=>C.txM}]} rows={cBonds} sm/></div>}
+
     <div className="g3" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:16,marginTop:16}}>
       <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}>
         <div style={{color:C.tx,fontSize:13,fontWeight:700,marginBottom:10}}>Central Bank</div>
@@ -508,14 +513,14 @@ function App(){
   const [rL,sRL]=useState(false);const [cal,sCal]=useState([]);const [cL,sCL]=useState(false);const [news,sNews]=useState([]);const [nL,sNL]=useState(false);
   const [cmd,sCmd]=useState({gold:{},wti:{},brent:{}});const [ld,sLd]=useState(false);const [lr,sLR]=useState(null);
   const [etfs,setEtfs]=useState({});const [vol,setVol]=useState({});const [bondEtfs,setBondEtfs]=useState({});
-  const [macro,setMacro]=useState({});const [policyRates,setPolicyRates]=useState({});
+  const [macro,setMacro]=useState({});const [policyRates,setPolicyRates]=useState({});const [govBonds,setGovBonds]=useState({});
   const svK=useCallback(nk=>{setKeys(nk);Object.entries(nk).forEach(([k,v])=>sk(k,v))},[]);
   const load=useCallback(async()=>{
     sLd(true);
     try{
       const data=await fData();
       setEtfs(data.etfs||{});setVol(data.volatility||{});setBondEtfs(data.bond_etfs||{});
-      setMacro(data.macro||{});setPolicyRates(data.policy_rates||{});
+      setMacro(data.macro||{});setPolicyRates(data.policy_rates||{});setGovBonds(data.gov_bonds||{});
       const mapFx=defs=>defs.map(d=>{const x=data.fx?.[d.p];return{pair:d.p,spot:x?.price??null,d1:x?.d1_pct??null,w1:x?.w1_pct??null,m1:x?.m1_pct??null,ytd:null}});
       sG10(mapFx(G10));sEM(mapFx(EMP));sFxL(true);
       const mappedYields={};
@@ -544,7 +549,7 @@ function App(){
       {sec==="commod"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:15,fontWeight:700,marginBottom:12}}>Commodities</div><Cmdt d={cmd}/></div>}
       {sec==="scenarios"&&<Scenarios risk={risk} yld={yld} g10={g10D} em={emD} cmd={cmd}/>}
       {sec==="corr"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20}}><CorrMx/></div>}
-      {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL} risk={risk} macro={macro} policyRates={policyRates}/></div>}
+      {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL} risk={risk} macro={macro} policyRates={policyRates} govBonds={govBonds}/></div>}
       {sec==="cal"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{marginBottom:12}}><span style={{color:C.tx,fontSize:15,fontWeight:700}}>Economic Calendar</span></div><Cal evts={cal} live={cL}/></div>}
     </div>
     <div style={{textAlign:"center",padding:"12px 0",borderTop:"1px solid "+C.bd+"20"}}><span style={{color:C.txM,fontSize:10}}>FX RADAR v4 · <Dot on={fxL}/>{fxL?"Live":"..."}</span></div>
