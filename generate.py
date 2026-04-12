@@ -112,6 +112,36 @@ EODHD_BONDS = {
     "NO10Y.GBOND": {"key": "no10y", "label": "Norway 10Y",      "country": "Norway"},
 }
 
+# ─── CENTRAL BANK POLICY RATES ───────────────────────────────────────────────
+# Updated periodically — these change at most ~8 times/year per central bank
+POLICY_RATES = {
+    "US":           4.50,   # Fed Funds upper bound
+    "Eurozone":     2.65,   # ECB deposit facility rate
+    "UK":           4.50,   # BoE Bank Rate
+    "Japan":        0.50,   # BoJ overnight rate
+    "Switzerland":  0.25,   # SNB policy rate
+    "Canada":       2.75,   # BoC overnight rate
+    "Australia":    3.85,   # RBA cash rate
+    "New Zealand":  3.50,   # RBNZ OCR
+    "Sweden":       2.25,   # Riksbank repo rate
+    "Norway":       4.50,   # Norges Bank sight deposit rate
+}
+
+# ─── MACRO SNAPSHOT DATA ─────────────────────────────────────────────────────
+# Updated periodically — CPI/GDP/unemployment are published monthly/quarterly
+MACRO_DATA = {
+    "US":           {"cpi": "2.8%",  "cpiP": "3.0%",  "gdp": "2.4%",  "gdpT": "Q1 2025", "unemp": "4.2%",  "unempT": "Jun 2025", "stance": "Hawkish Hold", "last": "Hold 4.50%",  "next": "Jul 30",  "pricing": "1 cut by Sep"},
+    "Eurozone":     {"cpi": "2.1%",  "cpiP": "2.2%",  "gdp": "1.0%",  "gdpT": "Q1 2025", "unemp": "6.3%",  "unempT": "May 2025", "stance": "Dovish Easing", "last": "Cut to 2.65%", "next": "Jul 17",  "pricing": "1 more cut 2025"},
+    "UK":           {"cpi": "3.5%",  "cpiP": "3.3%",  "gdp": "1.3%",  "gdpT": "Q1 2025", "unemp": "4.4%",  "unempT": "May 2025", "stance": "Cautious Hold", "last": "Hold 4.50%",  "next": "Aug 7",   "pricing": "1 cut by Nov"},
+    "Japan":        {"cpi": "3.6%",  "cpiP": "3.2%",  "gdp": "-0.7%", "gdpT": "Q1 2025", "unemp": "2.5%",  "unempT": "May 2025", "stance": "Gradual Tightening", "last": "Hold 0.50%", "next": "Jul 31", "pricing": "Hike to 0.75% H2"},
+    "Switzerland":  {"cpi": "0.6%",  "cpiP": "0.3%",  "gdp": "1.4%",  "gdpT": "Q1 2025", "unemp": "2.8%",  "unempT": "Jun 2025", "stance": "Neutral",    "last": "Cut to 0.25%", "next": "Sep 18",  "pricing": "Hold through 2025"},
+    "Canada":       {"cpi": "2.9%",  "cpiP": "2.7%",  "gdp": "1.7%",  "gdpT": "Q1 2025", "unemp": "6.7%",  "unempT": "Jun 2025", "stance": "Easing",      "last": "Cut to 2.75%", "next": "Jul 30",  "pricing": "1 more cut 2025"},
+    "Australia":    {"cpi": "2.4%",  "cpiP": "2.8%",  "gdp": "1.3%",  "gdpT": "Q1 2025", "unemp": "4.0%",  "unempT": "May 2025", "stance": "Easing",      "last": "Cut to 3.85%", "next": "Aug 5",   "pricing": "1-2 cuts by Dec"},
+    "New Zealand":  {"cpi": "2.5%",  "cpiP": "2.2%",  "gdp": "0.7%",  "gdpT": "Q1 2025", "unemp": "5.1%",  "unempT": "Q1 2025",  "stance": "Easing Cycle","last": "Cut to 3.50%", "next": "Jul 9",   "pricing": "2 more cuts 2025"},
+    "Sweden":       {"cpi": "2.3%",  "cpiP": "2.5%",  "gdp": "1.1%",  "gdpT": "Q1 2025", "unemp": "8.9%",  "unempT": "May 2025", "stance": "Dovish Hold", "last": "Hold 2.25%",   "next": "Aug 20",  "pricing": "Hold through 2025"},
+    "Norway":       {"cpi": "2.7%",  "cpiP": "2.8%",  "gdp": "1.5%",  "gdpT": "Q1 2025", "unemp": "4.1%",  "unempT": "May 2025", "stance": "Hawkish Hold","last": "Hold 4.50%",   "next": "Aug 14",  "pricing": "Cut Q4 2025"},
+}
+
 # ─── COMMODITY TICKERS ───────────────────────────────────────────────────────
 COMMODITIES = {
     "GC=F": {"key": "gold", "name": "Gold", "unit": "$/oz"},
@@ -704,8 +734,15 @@ def main():
         }]
     print(f"  Final calendar rows: {len(output['calendar'])}")
 
-    # 11. Government bonds (EODHD)
-    print("\n[11] Fetching government bonds from EODHD...")
+    # 11. Policy rates & macro data
+    print("\n[11] Loading policy rates & macro data...")
+    output["policy_rates"] = POLICY_RATES
+    output["macro"] = MACRO_DATA
+    print(f"  Policy rates: {len(output['policy_rates'])} countries")
+    print(f"  Macro data: {len(output['macro'])} countries")
+
+    # 12. Government bonds (EODHD)
+    print("\n[12] Fetching government bonds from EODHD...")
     if GOV_KEY:
         for symbol, info in EODHD_BONDS.items():
             result = fetch_eodhd_eod(symbol)

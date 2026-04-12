@@ -538,6 +538,7 @@ function App(){
     try{
       const data=await fData();
       setEtfs(data.etfs||{});setVol(data.volatility||{});setBondEtfs(data.bond_etfs||{});
+      console.log("FULL DATA",data);console.log("POLICY_RATES",data.policy_rates);console.log("MACRO",data.macro);console.log("YIELDS",data.yields);
       setMacro(data.macro||{});setPolicyRates(data.policy_rates||{});setGovBonds(data.gov_bonds||{});
       const mapFx=defs=>defs.map(d=>{const x=data.fx?.[d.p];return{pair:d.p,spot:x?.price??null,d1:x?.d1_pct??null,w1:x?.w1_pct??null,m1:x?.m1_pct??null,ytd:null}});
       sG10(mapFx(G10));sEM(mapFx(EMP));sFxL(true);
