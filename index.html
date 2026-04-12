@@ -219,13 +219,105 @@ function Scenarios({risk,yld,g10,em,cmd}){
   </div>;
 }
 
-function CorrMx(){return <div><div style={{marginBottom:12}}><span style={{color:C.ac,fontSize:13,fontWeight:700}}>30-Day Correlation Matrix</span></div><div style={{padding:40,textAlign:"center",color:C.txM,fontSize:12,border:"1px dashed "+C.bd,borderRadius:6}}>—<br/><span style={{fontSize:11,marginTop:8,display:"inline-block"}}>Correlation data not available — requires a live feed</span></div></div>}
 
 /* ═══ CURVES ══════════════════════════════════════════════════════ */
 function Curves({yld,policyRates}){const majors=["US","UK","Eurozone","Japan","Canada","Australia","New Zealand","Switzerland","Sweden","Norway"];const rows=majors.map(c=>{const y=yld[c]||{};const cb=policyRates?.[c]??null;return{c,f:RT.find(r=>r.c===c)?.f||"",cb,y2:y.y2??null,y5:y.y5??null,y10:y.y10??null,y30:y.y30??null,s2s10:(y.y2!=null&&y.y10!=null)?y.y10-y.y2:null,s10s30:(y.y10!=null&&y.y30!=null)?y.y30-y.y10:null,term:(cb!=null&&y.y10!=null)?y.y10-cb:null}});return <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:15,fontWeight:700,marginBottom:12}}>Curve Monitor</div><Tbl cols={[{k:"c",l:"Country",a:"left",nm:1,rn:r=>r.f+" "+r.c},{k:"cb",l:"Policy",rn:r=>r.cb!=null?r.cb.toFixed(2)+"%":"\u2014"},{k:"y2",l:"2Y",rn:r=>r.y2!=null?r.y2.toFixed(2)+"%":"\u2014"},{k:"y5",l:"5Y",rn:r=>r.y5!=null?r.y5.toFixed(2)+"%":"\u2014"},{k:"y10",l:"10Y",rn:r=>r.y10!=null?r.y10.toFixed(2)+"%":"\u2014"},{k:"y30",l:"30Y",rn:r=>r.y30!=null?r.y30.toFixed(2)+"%":"\u2014"},{k:"s2s10",l:"2s10s",rn:r=>r.s2s10!=null?fb(r.s2s10*100):"\u2014",cl:r=>r.s2s10!=null?cc(r.s2s10):C.txM},{k:"s10s30",l:"10s30s",rn:r=>r.s10s30!=null?fb(r.s10s30*100):"\u2014",cl:r=>r.s10s30!=null?cc(r.s10s30):C.txM},{k:"term",l:"10Y-Policy",rn:r=>r.term!=null?fb(r.term*100):"\u2014",cl:r=>r.term!=null?cc(r.term):C.txM}]} rows={rows} sm/></div>}
 
 /* ═══ SPREADS ═════════════════════════════════════════════════════ */
 function Spreads({yld}){const us10=yld.US?.y10??null;const de10=yld.Eurozone?.y10??yld.Germany?.y10??null;const jp10=yld.Japan?.y10??null;const uk10=yld.UK?.y10??null;const it10=yld.Italy?.y10??null;const fr10=yld.France?.y10??null;const es10=yld.Spain?.y10??null;const ca10=yld.Canada?.y10??null;const au10=yld.Australia?.y10??null;const rows=[{name:"UST 10Y \u2013 Bund 10Y",spread:(us10!=null&&de10!=null)?us10-de10:null},{name:"UST 10Y \u2013 JGB 10Y",spread:(us10!=null&&jp10!=null)?us10-jp10:null},{name:"Gilt 10Y \u2013 Bund 10Y",spread:(uk10!=null&&de10!=null)?uk10-de10:null},{name:"BTP 10Y \u2013 Bund 10Y",spread:(it10!=null&&de10!=null)?it10-de10:null},{name:"OAT 10Y \u2013 Bund 10Y",spread:(fr10!=null&&de10!=null)?fr10-de10:null},{name:"Spain 10Y \u2013 Bund 10Y",spread:(es10!=null&&de10!=null)?es10-de10:null},{name:"Canada 10Y \u2013 UST 10Y",spread:(ca10!=null&&us10!=null)?ca10-us10:null},{name:"Australia 10Y \u2013 UST 10Y",spread:(au10!=null&&us10!=null)?au10-us10:null}];return <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:15,fontWeight:700,marginBottom:12}}>Cross-Market Spreads</div><Tbl cols={[{k:"name",l:"Spread",a:"left",nm:1},{k:"spread",l:"Value",rn:r=>r.spread!=null?fb(r.spread*100):"\u2014",cl:r=>r.spread!=null?cc(r.spread):C.txM}]} rows={rows} sm/></div>}
+
+/* ═══ DESK VIEW BUILDER ═══════════════════════════════════════════ */
+function buildDeskView({ctry,ccy,fx,y,cbRate,m,risk,headlines,yld}){
+  const s2s10=(y.y2!=null&&y.y10!=null)?y.y10-y.y2:null;
+  const s10s30=(y.y10!=null&&y.y30!=null)?y.y30-y.y10:null;
+  const pGap=(cbRate!=null&&y.y10!=null)?y.y10-cbRate:null;
+  const frontGap=(cbRate!=null&&y.y2!=null)?y.y2-cbRate:null;
+  const us10=yld?.US?.y10??null;
+  const spreadVsUS=(us10!=null&&y.y10!=null&&ctry!=="US")?(y.y10-us10):null;
+  const vix=risk?.VIX,dxy=risk?.DXY,gold=risk?.Gold,wti=risk?.WTI;
+
+  // ── Trading Narrative ──
+  const nL=[];
+  nL.push(ctry+" ("+ccy+") is trading in a "+(fx?.d1>0.5?"constructive FX tone on the session":fx?.d1<-0.5?"softer FX tone on the session":"largely range-bound FX environment")+".");
+  if(s2s10!=null){
+    if(s2s10<-0.001)nL.push("The yield curve remains inverted at "+(s2s10*100).toFixed(0)+"bp (2s10s), pointing to restrictive policy and easing expectations priced further out.");
+    else if(s2s10<0.005)nL.push("The curve is essentially flat at "+(s2s10*100).toFixed(0)+"bp (2s10s), a transitional shape between restrictive and normal regimes.");
+    else nL.push("The curve is positively sloped at +"+(s2s10*100).toFixed(0)+"bp (2s10s), consistent with a more normal term structure.");
+  }
+  if(frontGap!=null){
+    if(frontGap<-0.25)nL.push("Front-end yields sit below the policy rate, suggesting the market is pricing a softer path for rates.");
+    else if(frontGap>0.25)nL.push("Front-end yields sit above the policy rate, suggesting higher-for-longer or tightening risk remains priced.");
+    else nL.push("Front-end yields are broadly aligned with the current policy rate.");
+  }
+  if(spreadVsUS!=null)nL.push("The 10Y spread vs UST is "+(spreadVsUS>0?"+":"")+(spreadVsUS*100).toFixed(0)+"bp"+(spreadVsUS>0.5?", indicating a significant local risk premium.":spreadVsUS<-0.5?", reflecting lower local yields versus the US benchmark.":"."));
+  if(m?.stance)nL.push("Central bank stance is currently assessed as "+m.stance.toLowerCase()+".");
+  // Cross-asset overlay
+  const vixLvl=vix?.level,dxyChg=dxy?.chg,goldChg=gold?.chg;
+  if(vixLvl!=null&&vixLvl>25&&goldChg>0&&dxyChg>0)nL.push("Cross-asset signals point to a defensive tone — elevated VIX, gold bid, and USD strength.");
+  else if(vixLvl!=null&&vixLvl<18&&dxyChg<0)nL.push("Cross-asset backdrop is supportive for carry and risk — VIX subdued, USD softer.");
+
+  // ── Macro Sections ──
+  const ratesBullets=[];
+  if(cbRate!=null)ratesBullets.push("Policy rate: "+cbRate.toFixed(2)+"%.");
+  if(y.y2!=null)ratesBullets.push("2Y yield: "+y.y2.toFixed(2)+"%.");
+  if(y.y5!=null)ratesBullets.push("5Y yield: "+y.y5.toFixed(2)+"%.");
+  if(y.y10!=null)ratesBullets.push("10Y yield: "+y.y10.toFixed(2)+"%.");
+  if(y.y30!=null)ratesBullets.push("30Y yield: "+y.y30.toFixed(2)+"%.");
+  if(s2s10!=null)ratesBullets.push("2s10s spread: "+(s2s10>0?"+":"")+(s2s10*100).toFixed(0)+"bp"+(s2s10<0?" (inverted)":s2s10<0.005?" (flat)":" (positive slope)")+".");
+  if(s10s30!=null)ratesBullets.push("10s30s spread: "+(s10s30>0?"+":"")+(s10s30*100).toFixed(0)+"bp.");
+  if(pGap!=null)ratesBullets.push("10Y minus policy rate: "+(pGap>0?"+":"")+(pGap*100).toFixed(0)+"bp"+(pGap<0?" — long end pricing below policy.":"."));
+  if(spreadVsUS!=null)ratesBullets.push("10Y vs UST: "+(spreadVsUS>0?"+":"")+(spreadVsUS*100).toFixed(0)+"bp.");
+
+  const macroBullets=[];
+  if(m.cpi)macroBullets.push("CPI YoY: "+m.cpi+(m.cpiP?" (prior "+m.cpiP+")":"")+".");
+  if(m.gdp)macroBullets.push("GDP: "+m.gdp+(m.gdpT?" ("+m.gdpT+")":"")+".");
+  if(m.unemp)macroBullets.push("Unemployment: "+m.unemp+(m.unempT?" ("+m.unempT+")":"")+".");
+  if(m.stance)macroBullets.push("CB stance: "+m.stance+".");
+  if(m.last)macroBullets.push("Last decision: "+m.last+".");
+  if(m.next)macroBullets.push("Next meeting: "+m.next+".");
+  if(m.pricing)macroBullets.push("Market pricing: "+m.pricing+".");
+
+  const causeEffect=[];
+  if(m.cpi){
+    const cpiNum=parseFloat(m.cpi);
+    if(cpiNum>3)causeEffect.push("Elevated CPI → cuts repriced out → front-end yields supported → "+ccy+" backstopped by rate differentials.");
+    else if(cpiNum<2)causeEffect.push("Low inflation → easing expectations firm → front-end yields drift lower → "+ccy+" under pressure from rate convergence.");
+  }
+  if(s2s10!=null&&s2s10<0)causeEffect.push("Inverted curve → recession signal / late-cycle dynamics → defensive positioning favoured.");
+  if(wti?.chg!=null&&wti.chg>2)causeEffect.push("Oil rally → inflation expectations rise → long-end yields pushed higher → commodity FX supported.");
+  if(goldChg!=null&&goldChg>1&&vixLvl!=null&&vixLvl>20)causeEffect.push("Gold bid + elevated VIX → haven demand → JPY/CHF supported, risk FX under pressure.");
+
+  // ── FX View ──
+  const fxDir=fx?.d1>0.5?"Constructive — "+ccy+" stronger on the day":fx?.d1<-0.5?"Defensive — "+ccy+" weaker on the day":"Neutral — "+ccy+" range-bound";
+  const fxRat=fx?.d1>0.5?"Spot performance is positive, suggesting supportive macro backdrop, yield backing, or favourable positioning flows.":fx?.d1<-0.5?"Spot performance is weaker, pointing to softer domestic drivers, external headwinds, or positioning unwind.":"No strong directional break. Watch for catalyst from rates or calendar events to establish direction.";
+  const fxLevels=[];
+  if(fx?.spot!=null)fxLevels.push("Spot: "+Number(fx.spot).toFixed(fx.spot>100?2:4));
+  if(fx?.d1!=null)fxLevels.push("1D move: "+fc(fx.d1));
+  if(fx?.w1!=null)fxLevels.push("1W move: "+fc(fx.w1));
+  if(y.y2!=null)fxLevels.push("2Y yield: "+y.y2.toFixed(2)+"%");
+  if(y.y10!=null)fxLevels.push("10Y yield: "+y.y10.toFixed(2)+"%");
+  if(s2s10!=null)fxLevels.push("2s10s: "+(s2s10*100).toFixed(0)+"bp");
+
+  // ── Rates View ──
+  let rBias,rRat;
+  if(s2s10==null){rBias="Insufficient curve data";rRat="Not enough tenor data to assess curve regime.";}
+  else if(s2s10<-0.001){rBias="Inverted curve — restrictive regime";rRat="Short-end yields remain above the long end, usually consistent with restrictive policy and easing expectations priced for later. Historically associated with late-cycle dynamics.";}
+  else if(s2s10<0.005){rBias="Flat curve — transitional regime";rRat="The curve is essentially flat, often a transition point between restrictive and easing cycles. Duration positioning becomes more tactical.";}
+  else if(s2s10<0.005){rBias="Mildly positive — early normalisation";rRat="Curve is gently positive, consistent with early-stage normalisation as the market prices a return to more conventional term premium.";}
+  else{rBias="Positive slope — normal term structure";rRat="Long-end yields sit above the front end, consistent with normal growth/inflation pricing and positive term premium.";}
+
+  // ── Risks ──
+  const risks=["Unexpected central bank rhetoric shift or inter-meeting action","Domestic inflation surprise — either direction","Global risk-off event lifting USD and safe havens"];
+  if(wti?.level!=null&&wti.level>85)risks.push("Elevated energy prices feeding through to inflation expectations");
+  if(vixLvl!=null&&vixLvl>25)risks.push("VIX remains elevated — volatility regime may persist");
+  if(s2s10!=null&&s2s10<-0.3)risks.push("Deeply inverted curve — historical recession signal");
+  if(m.next)risks.push("Upcoming CB meeting ("+m.next+") — potential for vol around decision");
+
+  // ── Headline Takeaways ──
+  const hlTakeaways=headlines.slice(0,4).map(h=>h.headline||"No headline available");
+
+  return{narrative:nL,macro_sections:[{title:"Rates Structure",bullets:ratesBullets.length?ratesBullets:["No rate data available."]},{title:"Macro Backdrop",bullets:macroBullets.length?macroBullets:["No macro data available."]},{title:"Cause → Effect",bullets:causeEffect.length?causeEffect:["No strong directional signals from current data."]}],fx_view:{direction:fxDir,rationale:fxRat,levels_to_watch:fxLevels.length?fxLevels:["Watch for rate/calendar catalysts"]},rates_view:{bias:rBias,rationale:rRat},key_risks:risks,headline_takeaways:hlTakeaways};
+}
 
 /* ═══ DEEP DIVE ═══════════════════════════════════════════════════ */
 function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
@@ -238,70 +330,19 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
   const policyGap=(cbRate!=null&&y.y10!=null)?y.y10-cbRate:null;
   const us10=yld.US?.y10??null;
   const localSpreadVsUS=(us10!=null&&y.y10!=null&&ctry!=="US")?y.y10-us10:null;
-  const [ai,setAi]=useState(null);
-  const [aiLd,setAiLd]=useState(false);
-  const [aiErr,setAiErr]=useState("");
+  const [dv,setDv]=useState(null);
 
-  const gen = async () => {
-    setAiLd(true);
-    setAiErr("");
-
-    try {
-      const body = {
-        country: ctry,
-        currency: ccy,
-        fx: fp ? {
-          pair: fp.pair,
-          spot: fp.spot,
-          d1: fp.d1,
-          w1: fp.w1,
-          m1: fp.m1,
-          ytd: fp.ytd
-        } : null,
-        yields: y,
-        centralBank: tpl ? {
-          country: tpl.c,
-          policyRate: cbRate
-        } : null,
-        macro: m,
-        riskBar: risk,
-        govBonds: cBonds,
-        headlines: dN.slice(0, 8).map(n => ({
-          headline: n.headline,
-          source: n.source,
-          datetime: n.datetime
-        }))
-      };
-
-      const res = await fetch("/.netlify/functions/deep-dive-summary", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(body)
-      });
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        throw new Error(data.error || "Failed to generate AI summary");
-      }
-
-      setAi(data);
-    } catch (err) {
-      setAiErr(err.message || "AI request failed");
-    } finally {
-      setAiLd(false);
-    }
+  const gen=()=>{
+    const view=buildDeskView({ctry,ccy,fx:fp?{pair:fp.pair,spot:fp.spot,d1:fp.d1,w1:fp.w1,m1:fp.m1,ytd:fp.ytd}:null,y,cbRate,m,risk,headlines:dN.slice(0,8),yld});
+    setDv(view);
   };
 
   return <div>
     <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20,marginBottom:16}}>
       <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:12}}>
-        <div style={{color:C.tx,fontSize:15,fontWeight:700}}>🧠 AI MACRO SUMMARY — {ctry} ({ccy})</div>
+        <div style={{color:C.tx,fontSize:15,fontWeight:700}}>📋 DESK NOTE — {ctry} ({ccy})</div>
         <button
           onClick={gen}
-          disabled={aiLd}
           style={{
             padding:"8px 18px",
             background:"linear-gradient(135deg,"+C.tl+",#38bdf8)",
@@ -312,30 +353,24 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
             fontWeight:700
           }}
         >
-          {aiLd ? "Generating..." : ai ? "↻ Regenerate View" : "Generate View"}
+          {dv ? "↻ Refresh View" : "Generate Desk Note"}
         </button>
       </div>
 
-      {aiErr && (
-        <div style={{padding:12,background:"#2a1111",border:"1px solid #7f1d1d",borderRadius:6,color:"#fca5a5",marginBottom:12}}>
-          {aiErr}
-        </div>
-      )}
-
-      {!ai && !aiLd && !aiErr && (
+      {!dv && (
         <div style={{padding:20,background:C.bg,borderRadius:6,border:"1px dashed "+C.bd,textAlign:"center",color:C.txM,fontSize:12}}>
-          Click "Generate View" for a live AI deep dive
+          Click "Generate Desk Note" for a signal-based macro view
         </div>
       )}
 
-      {ai && (
+      {dv && (
         <>
           <div style={{marginBottom:14}}>
             <div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:6}}>
               Trading Narrative
             </div>
-            <div style={{padding:14,background:C.bg,borderRadius:6,border:"1px solid "+C.tl+"25",color:C.tx,fontSize:13,lineHeight:1.75}}>
-              {ai.narrative}
+            <div style={{padding:14,background:C.bg,borderRadius:6,border:"1px solid "+C.tl+"25"}}>
+              <div style={{display:"grid",gap:8}}>{dv.narrative.map((b,i)=><div key={i} style={{display:"flex",gap:8,alignItems:"flex-start"}}><span style={{color:C.tl,fontSize:13,flexShrink:0}}>•</span><span style={{color:C.tx,fontSize:13,lineHeight:1.7}}>{b}</span></div>)}</div>
             </div>
           </div>
 
@@ -344,7 +379,7 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
           </div>
 
           <div style={{display:"grid",gridTemplateColumns:"1fr",gap:10,marginBottom:14}}>
-            {ai.macro_sections.map((sec, i) => (
+            {dv.macro_sections.map((sec, i) => (
               <div key={i} style={{background:C.bg,padding:14,borderRadius:6,border:"1px solid "+C.bd}}>
                 <div style={{color:C.b,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
                   {sec.title}
@@ -365,9 +400,9 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
               <div style={{color:C.g,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
                 FX View
               </div>
-              <div style={{color:C.tx,fontWeight:700,marginBottom:6}}>{ai.fx_view.direction}</div>
-              <div style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:8}}>{ai.fx_view.rationale}</div>
-              {ai.fx_view.levels_to_watch.map((x, i) => (
+              <div style={{color:C.tx,fontWeight:700,marginBottom:6}}>{dv.fx_view.direction}</div>
+              <div style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:8}}>{dv.fx_view.rationale}</div>
+              {dv.fx_view.levels_to_watch.map((x, i) => (
                 <div key={i} style={{color:C.am,fontSize:11,marginBottom:4}}>• {x}</div>
               ))}
             </div>
@@ -376,8 +411,8 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
               <div style={{color:C.r,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
                 Rates View
               </div>
-              <div style={{color:C.tx,fontWeight:700,marginBottom:6}}>{ai.rates_view.bias}</div>
-              <div style={{color:C.txD,fontSize:12,lineHeight:1.6}}>{ai.rates_view.rationale}</div>
+              <div style={{color:C.tx,fontWeight:700,marginBottom:6}}>{dv.rates_view.bias}</div>
+              <div style={{color:C.txD,fontSize:12,lineHeight:1.6}}>{dv.rates_view.rationale}</div>
             </div>
           </div>
 
@@ -386,7 +421,7 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
               <div style={{color:C.am,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
                 Key Risks
               </div>
-              {ai.key_risks.map((x, i) => (
+              {dv.key_risks.map((x, i) => (
                 <div key={i} style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:4}}>• {x}</div>
               ))}
             </div>
@@ -395,7 +430,7 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
               <div style={{color:C.tl,fontSize:11,fontWeight:700,textTransform:"uppercase",letterSpacing:1,marginBottom:8}}>
                 Headline Takeaways
               </div>
-              {ai.headline_takeaways.map((x, i) => (
+              {dv.headline_takeaways.map((x, i) => (
                 <div key={i} style={{color:C.txD,fontSize:12,lineHeight:1.6,marginBottom:4}}>• {x}</div>
               ))}
             </div>
@@ -514,8 +549,8 @@ function Deep({ctry,g10,em,yld,news,nL,risk,macro,policyRates,govBonds}){
 }
 
 /* ═══ BRIEF ═══════════════════════════════════════════════════════ */
-function genBr(g10,em,risk,yld,cal,cmd){const L=[];const vix=risk.VIX,dxy=risk.DXY;const vD=(vix?.chg||0)<0,dD=(dxy?.chg||0)<0;if(vD&&dD)L.push("Risk on — VIX down "+Math.abs(vix?.chg||0).toFixed(1)+" at "+(vix?.level?.toFixed(1)||"—")+", USD softer at "+(dxy?.level?.toFixed(1)||"—")+" ("+fc(dxy?.chg)+"). Supportive for carry.");else if(!vD&&!dD)L.push("Defensive tone — VIX up at "+(vix?.level?.toFixed(1)||"—")+", USD bid at "+(dxy?.level?.toFixed(1)||"—")+" ("+fc(dxy?.chg)+"). JPY/CHF finding support.");else L.push("Mixed — VIX "+(vix?.level?.toFixed(1)||"—")+" ("+fc(vix?.chg,"")+"), DXY "+(dxy?.level?.toFixed(1)||"—")+" ("+fc(dxy?.chg)+"). Positioning ahead of events.");const mv=[...g10,...em].filter(x=>x.d1!=null).sort((a,b)=>Math.abs(b.d1)-Math.abs(a.d1)).slice(0,4);if(mv.length)L.push("Movers: "+mv.map(x=>x.pair+" "+(x.d1>0?"▲":"▼")+Math.abs(x.d1).toFixed(2)+"%").join(", ")+".");if(cmd.gold?.level)L.push("Gold $"+cmd.gold.level.toFixed(0)+(cmd.gold.chg!=null?" ("+fc(cmd.gold.chg)+")":"")+"."+(cmd.wti?.level?" WTI $"+cmd.wti.level.toFixed(2)+(cmd.wti.chg!=null?" ("+fc(cmd.wti.chg)+")":"")+".":" "));const u2=yld.US?.y2;if(u2!=null){const tc=RT.filter(r=>r.c!=="US"&&yld[r.c]?.y2!=null).map(r=>({ccy:r.ccy,c:+((yld[r.c].y2)-u2).toFixed(2)})).filter(x=>x.c>1).sort((a,b)=>b.c-a.c).slice(0,3);L.push("US 2Y "+u2.toFixed(2)+"%."+(tc.length?" Top carry: "+tc.map(x=>x.ccy+" +"+x.c+"%").join(", ")+".":" "))}const us10=yld.US?.y10;if(u2!=null&&us10!=null){const curve=us10-u2;L.push("US curve at "+((curve*100)>0?"+":"")+(curve*100).toFixed(1)+"bp (2s10s).")}const de10=yld.Eurozone?.y10;if(us10!=null&&de10!=null){L.push("UST-Bund spread "+(((us10-de10)*100).toFixed(0))+"bp.")}const hi=cal.filter(e=>e.imp==="red").slice(0,4);if(hi.length)L.push("Watch: "+hi.map(e=>e.ctry+" "+e.ev+" ("+e.date+")").join(", ")+".");return L.join(" ")}
-function Brief({g10,em,yld,risk,cal,cmd}){const [br,sBr]=useState(null);const [ts,sTs]=useState(null);const [ld,sLd]=useState(false);const gen=()=>{sLd(true);setTimeout(()=>{sBr(genBr(g10,em,risk,yld,cal,cmd));sTs(new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"}));sLd(false)},600)};return <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20}}><div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:16,flexWrap:"wrap",gap:8}}><div style={{display:"flex",alignItems:"center",gap:10}}><span style={{fontSize:20}}>🧠</span><div><div style={{color:C.tx,fontSize:16,fontWeight:700}}>AI Morning Brief</div><div style={{color:C.txM,fontSize:11}}>Live FX, yields, carry, commodities & calendar</div></div></div><div style={{display:"flex",alignItems:"center",gap:8}}>{ts&&<span style={{color:C.txM,fontSize:10}}>Generated {ts}</span>}<button onClick={gen} disabled={ld} style={{padding:"10px 24px",background:ld?"transparent":"linear-gradient(135deg,"+C.ac+","+C.acD+")",color:ld?C.ac:"#fff",border:ld?"1px solid "+C.ac+"40":"none",borderRadius:6,fontSize:12,fontWeight:700}}>{ld?<><span className="sp" style={{marginRight:4}}/>Analysing</>:br?"↻ Regen":"⚡ Generate Brief"}</button></div></div>{br?<div style={{padding:16,background:C.bg,borderRadius:8,border:"1px solid "+C.ac+"25"}}><div style={{color:C.tx,fontSize:13,fontStyle:"italic",lineHeight:1.7}}>{br}</div></div>:<div style={{padding:24,background:C.bg,borderRadius:8,border:"1px dashed "+C.bd,textAlign:"center",color:C.txM,fontSize:12}}>Click "Generate Brief"</div>}</div>}
+function genBr(g10,em,risk,yld,cal,cmd){const L=[];const vix=risk.VIX,dxy=risk.DXY;const vD=(vix?.chg||0)<0,dD=(dxy?.chg||0)<0;if(vD&&dD)L.push("Risk on — VIX down "+Math.abs(vix?.chg||0).toFixed(1)+" at "+(vix?.level?.toFixed(1)||"—")+", USD softer at "+(dxy?.level?.toFixed(1)||"—")+" ("+fc(dxy?.chg)+"). Supportive for carry.");else if(!vD&&!dD)L.push("Defensive tone — VIX up at "+(vix?.level?.toFixed(1)||"—")+", USD bid at "+(dxy?.level?.toFixed(1)||"—")+" ("+fc(dxy?.chg)+"). JPY/CHF finding support.");else L.push("Mixed — VIX "+(vix?.level?.toFixed(1)||"—")+" ("+fc(vix?.chg,"")+"), DXY "+(dxy?.level?.toFixed(1)||"—")+" ("+fc(dxy?.chg)+"). Positioning ahead of events.");const mv=[...g10,...em].filter(x=>x.d1!=null).sort((a,b)=>Math.abs(b.d1)-Math.abs(a.d1)).slice(0,4);if(mv.length)L.push("Movers: "+mv.map(x=>x.pair+" "+(x.d1>0?"▲":"▼")+Math.abs(x.d1).toFixed(2)+"%").join(", ")+".");if(cmd.gold?.level)L.push("Gold $"+cmd.gold.level.toFixed(0)+(cmd.gold.chg!=null?" ("+fc(cmd.gold.chg)+")":"")+"."+(cmd.wti?.level?" WTI $"+cmd.wti.level.toFixed(2)+(cmd.wti.chg!=null?" ("+fc(cmd.wti.chg)+")":"")+".":" "));const u2=yld.US?.y2;if(u2!=null){const tc=RT.filter(r=>r.c!=="US"&&yld[r.c]?.y2!=null).map(r=>({ccy:r.ccy,c:+((yld[r.c].y2)-u2).toFixed(2)})).filter(x=>x.c>1).sort((a,b)=>b.c-a.c).slice(0,3);L.push("US 2Y "+u2.toFixed(2)+"%."+(tc.length?" Top carry: "+tc.map(x=>x.ccy+" +"+x.c+"%").join(", ")+".":" "))}const us10=yld.US?.y10;if(u2!=null&&us10!=null){const curve=us10-u2;L.push("US curve at "+((curve*100)>0?"+":"")+(curve*100).toFixed(1)+"bp (2s10s).")}const de10=yld.Eurozone?.y10;if(us10!=null&&de10!=null){L.push("UST-Bund spread "+(((us10-de10)*100).toFixed(0))+"bp.")}const hi=cal.filter(e=>e.imp==="red").slice(0,4);if(hi.length)L.push("Watch: "+hi.map(e=>e.ctry+" "+e.ev+" ("+e.date+")").join(", ")+".");return L}
+function Brief({g10,em,yld,risk,cal,cmd}){const [br,sBr]=useState(null);const [ts,sTs]=useState(null);const [ld,sLd]=useState(false);const gen=()=>{sLd(true);setTimeout(()=>{sBr(genBr(g10,em,risk,yld,cal,cmd));sTs(new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"}));sLd(false)},600)};return <div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20}}><div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:16,flexWrap:"wrap",gap:8}}><div style={{display:"flex",alignItems:"center",gap:10}}><span style={{fontSize:20}}>📋</span><div><div style={{color:C.tx,fontSize:16,fontWeight:700}}>Signal-Based Morning Brief</div><div style={{color:C.txM,fontSize:11}}>Auto-generated from live FX, yields, carry, commodities & calendar</div></div></div><div style={{display:"flex",alignItems:"center",gap:8}}>{ts&&<span style={{color:C.txM,fontSize:10}}>Generated {ts}</span>}<button onClick={gen} disabled={ld} style={{padding:"10px 24px",background:ld?"transparent":"linear-gradient(135deg,"+C.ac+","+C.acD+")",color:ld?C.ac:"#fff",border:ld?"1px solid "+C.ac+"40":"none",borderRadius:6,fontSize:12,fontWeight:700}}>{ld?<><span className="sp" style={{marginRight:4}}/>Analysing</>:br?"↻ Regen":"⚡ Generate Brief"}</button></div></div>{br?<div style={{padding:16,background:C.bg,borderRadius:8,border:"1px solid "+C.ac+"25"}}><div style={{display:"grid",gap:8}}>{br.map((b,i)=><div key={i} style={{display:"flex",gap:8,alignItems:"flex-start"}}><span style={{color:C.ac,fontSize:13,flexShrink:0}}>•</span><span style={{color:C.tx,fontSize:13,lineHeight:1.7}}>{b}</span></div>)}</div></div>:<div style={{padding:24,background:C.bg,borderRadius:8,border:"1px dashed "+C.bd,textAlign:"center",color:C.txM,fontSize:12}}>Click "Generate Brief"</div>}</div>}
 function Cal({evts,live}){const [fl,sF]=useState("All");const gF=["🇺🇸","🇪🇺","🇬🇧","🇯🇵","🇨🇭","🇦🇺","🇳🇿","🇨🇦","🇸🇪","🇳🇴"];return <div><div style={{display:"flex",gap:6,marginBottom:10,alignItems:"center"}}><Dot on={live}/>{["All","G10","EM","CB"].map(f=><button key={f} onClick={()=>sF(f)} style={{padding:"5px 14px",fontSize:11,fontWeight:600,borderRadius:4,background:fl===f?C.ac+"25":C.bg,color:fl===f?C.ac:C.txD,border:"1px solid "+(fl===f?C.ac+"50":C.bd)}}>{f}</button>)}</div><Tbl cols={[{k:"date",l:"Date",a:"left"},{k:"time",l:"Time",a:"left"},{k:"ctry",l:"",a:"center",nm:1},{k:"ev",l:"Event",a:"left",nm:1,cl:r=>r.imp==="red"?C.r:C.am},{k:"prev",l:"Prev"},{k:"fcast",l:"Fcst"},{k:"act",l:"Act",cl:r=>r.beat==="beat"?C.g:r.beat==="miss"?C.r:r.beat==="inline"?C.am:(r.act&&r.act!=="—")?C.g:C.txM},{k:"beat",l:"B/M",cl:r=>r.beat==="beat"?C.g:r.beat==="miss"?C.r:C.am,rn:r=>r.beat==="beat"?"▲ Beat":r.beat==="miss"?"▼ Miss":r.beat==="inline"?"● Inline":"—"}]} rows={evts.filter(e=>{if(fl==="G10")return gF.includes(e.ctry);if(fl==="EM")return!gF.includes(e.ctry);if(fl==="CB")return(e.ev||"").toLowerCase().match(/rate|fomc|boj|ecb|rba|rbnz|boc/);return true})}/></div>}
 function Sett({open,close,keys,save}){const [lk,sL]=useState(keys);useEffect(()=>sL(keys),[keys,open]);if(!open)return null;return <div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.7)",zIndex:1000,display:"flex",alignItems:"center",justifyContent:"center"}} onClick={close}><div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:10,padding:24,width:520,maxWidth:"92vw"}} onClick={e=>e.stopPropagation()}><div style={{display:"flex",justifyContent:"space-between",marginBottom:16}}><span style={{color:C.tx,fontSize:16,fontWeight:700}}>⚙ API Keys</span><button onClick={close} style={{background:"none",border:"none",color:C.txM,fontSize:20}}>✕</button></div>{[{k:"finnhub",l:"Finnhub — VIX, commodities, news, calendar",u:"https://finnhub.io/register"}].map(a=><div key={a.k} style={{marginBottom:14,padding:12,background:C.bg,borderRadius:6,border:"1px solid "+C.bd}}><div style={{display:"flex",justifyContent:"space-between",marginBottom:4}}><span style={{color:C.tx,fontSize:12,fontWeight:600}}>{a.l}</span><a href={a.u} target="_blank" rel="noopener" style={{color:C.ac,fontSize:10,textDecoration:"none"}}>Get key →</a></div><input type="password" value={lk[a.k]||""} onChange={e=>sL({...lk,[a.k]:e.target.value})} style={{width:"100%",padding:"8px 12px",background:C.bgC,border:"1px solid "+C.bd,borderRadius:4,color:C.tx,fontSize:12,fontFamily:Mn,boxSizing:"border-box"}}/></div>)}<button onClick={()=>{save(lk);close()}} style={{width:"100%",padding:"12px",background:"linear-gradient(135deg,"+C.ac+","+C.acD+")",color:"#fff",border:"none",borderRadius:6,fontSize:13,fontWeight:700}}>Save</button></div></div>}
 
@@ -558,7 +593,7 @@ function App(){
   return <div style={{minHeight:"100vh",background:C.bg}}>
     <RiskBar d={risk} live={rL||fxL}/>
     <div style={{position:"sticky",top:0,zIndex:100,background:C.bgC,borderBottom:"1px solid "+C.bd,padding:"0 16px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap"}}>
-      <div style={{display:"flex",alignItems:"center",gap:6,overflowX:"auto"}}><span style={{fontWeight:800,fontSize:14,color:C.ac,padding:"12px 0"}}>FX</span><span style={{fontWeight:800,fontSize:14,color:C.tx}}>RADAR</span><div style={{width:1,height:20,background:C.bd,margin:"0 8px"}}/>{[{id:"brief",l:"🧠 Brief"},{id:"sentiment",l:"🧭 Sentiment"},{id:"markets",l:"📊 Markets"},{id:"curves",l:"📈 Curves"},{id:"spreads",l:"↔ Spreads"},{id:"commod",l:"🛢 Commodities"},{id:"scenarios",l:"🎯 Scenarios"},{id:"corr",l:"🔗 Correlations"},{id:"deep",l:"🌍 Deep Dive"},{id:"cal",l:"📅 Calendar"}].map(s=><button key={s.id} onClick={()=>setSec(s.id)} style={{padding:"12px 10px",fontSize:12,fontWeight:600,background:"transparent",border:"none",color:sec===s.id?C.tx:C.txM,borderBottom:sec===s.id?"2px solid "+C.ac:"2px solid transparent",whiteSpace:"nowrap"}}>{s.l}</button>)}</div>
+      <div style={{display:"flex",alignItems:"center",gap:6,overflowX:"auto"}}><span style={{fontWeight:800,fontSize:14,color:C.ac,padding:"12px 0"}}>FX</span><span style={{fontWeight:800,fontSize:14,color:C.tx}}>RADAR</span><div style={{width:1,height:20,background:C.bd,margin:"0 8px"}}/>{[{id:"brief",l:"📋 Brief"},{id:"sentiment",l:"🧭 Sentiment"},{id:"markets",l:"📊 Markets"},{id:"curves",l:"📈 Curves"},{id:"spreads",l:"↔ Spreads"},{id:"commod",l:"🛢 Commodities"},{id:"scenarios",l:"🎯 Scenarios"},{id:"deep",l:"🌍 Deep Dive"},{id:"cal",l:"📅 Calendar"}].map(s=><button key={s.id} onClick={()=>setSec(s.id)} style={{padding:"12px 10px",fontSize:12,fontWeight:600,background:"transparent",border:"none",color:sec===s.id?C.tx:C.txM,borderBottom:sec===s.id?"2px solid "+C.ac:"2px solid transparent",whiteSpace:"nowrap"}}>{s.l}</button>)}</div>
       <div style={{display:"flex",alignItems:"center",gap:8,padding:"8px 0"}}><button onClick={load} disabled={ld} style={{background:C.tl+"18",border:"1px solid "+C.tl+"40",borderRadius:4,color:C.tl,padding:"4px 12px",fontSize:11,fontWeight:600}}>{ld?"...":"↻ Refresh"}</button>{lr&&<span style={{color:C.txM,fontSize:9}}>⏱{lr.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",second:"2-digit"})}</span>}<Clock/><button onClick={()=>setSO(true)} style={{background:C.g+"18",border:"1px solid "+C.g+"50",borderRadius:4,color:C.g,padding:"4px 8px",fontSize:11,fontWeight:600}}>✓</button></div>
     </div>
     <div style={{padding:"16px 20px",maxWidth:1600,margin:"0 auto"}}>
@@ -569,7 +604,6 @@ function App(){
       {sec==="spreads"&&<Spreads yld={yld}/>}
       {sec==="commod"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{color:C.tx,fontSize:15,fontWeight:700,marginBottom:12}}>Commodities</div><Cmdt d={cmd}/></div>}
       {sec==="scenarios"&&<Scenarios risk={risk} yld={yld} g10={g10D} em={emD} cmd={cmd}/>}
-      {sec==="corr"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:20}}><CorrMx/></div>}
       {sec==="deep"&&<div><div style={{display:"flex",flexWrap:"wrap",gap:4,marginBottom:16}}>{RT.map(c=><button key={c.c} onClick={()=>setCtry(c.c)} style={{padding:"6px 12px",fontSize:11,fontWeight:600,borderRadius:4,background:ctry===c.c?C.ac+"25":C.bgC,color:ctry===c.c?C.ac:C.txD,border:"1px solid "+(ctry===c.c?C.ac+"50":C.bd)}}>{c.f} {c.c}</button>)}</div><Deep ctry={ctry} g10={g10D} em={emD} yld={yld} news={news} nL={nL} risk={risk} macro={macro} policyRates={policyRates} govBonds={govBonds}/></div>}
       {sec==="cal"&&<div style={{background:C.bgC,border:"1px solid "+C.bd,borderRadius:8,padding:16}}><div style={{marginBottom:12}}><span style={{color:C.tx,fontSize:15,fontWeight:700}}>Economic Calendar</span></div><Cal evts={cal} live={cL}/></div>}
     </div>
