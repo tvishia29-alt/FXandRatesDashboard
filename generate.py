@@ -19,6 +19,7 @@ import yfinance as yf
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
 FRED_KEY = os.environ.get("FRED_API_KEY", "")
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
+GOV_KEY = os.environ.get("GOV_API_KEY", "")
 OUTPUT_FILE = "data.json"
 
 # ─── YIELD CURVE TICKERS (yfinance) ─────────────────────────────────────────
@@ -137,6 +138,28 @@ FX_PAIRS = {
     "USDCZK=X": "USDCZK", "USDSGD=X": "USDSGD", "USDIDR=X": "USDIDR",
     "USDTHB=X": "USDTHB", "DX-Y.NYB": "DXY",
 }
+
+
+def fetch_gov_data(endpoint, params=None):
+    """Fetch data from the government API."""
+    if not GOV_KEY:
+        print("  GOV API key missing")
+        return None
+
+    if params is None:
+        params = {}
+
+    try:
+        base_url = "https://YOUR-GOV-API-ENDPOINT-HERE"
+        params["api_key"] = GOV_KEY
+
+        r = requests.get(base_url + endpoint, params=params, timeout=15)
+        r.raise_for_status()
+        return r.json()
+
+    except Exception as e:
+        print(f"  Government API error ({endpoint}): {e}")
+        return None
 
 
 def fetch_fred(series_id, limit=5):
@@ -450,6 +473,10 @@ def main():
         "bond_etfs": {},
         "news": [],
         "calendar": [],
+        "policy_rates": {},
+        "macro": {},
+        "sentiment": {},
+        "scenarios": {},
     }
 
     # 1. US YIELD CURVE from FRED (most reliable)
@@ -635,6 +662,25 @@ def main():
             "beat": None,
         }]
     print(f"  Final calendar rows: {len(output['calendar'])}")
+
+    # 11. Government API data
+    print("\n[11] Fetching government data...")
+    gov_data = fetch_gov_data("/some/endpoint", params={"country": "US"})
+    if gov_data:
+        output["policy_rates"]["US"] = gov_data.get("policy_rate")
+
+        output["macro"]["US"] = {
+            "cpi": f"{gov_data.get('cpi_yoy')}%" if gov_data.get("cpi_yoy") is not None else "\u2014",
+            "cpiP": "\u2014",
+            "gdp": f"{gov_data.get('gdp_qoq')}%" if gov_data.get("gdp_qoq") is not None else "\u2014",
+            "gdpT": "QoQ",
+            "unemp": f"{gov_data.get('unemployment')}%" if gov_data.get("unemployment") is not None else "\u2014",
+            "unempT": "latest",
+            "stance": "\u2014",
+            "last": "\u2014",
+            "next": "\u2014",
+            "pricing": "\u2014",
+        }
 
     # Write output
     output_path = Path(OUTPUT_FILE)
