@@ -40,20 +40,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run data generation
-        env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          GOV_API_KEY: ${{ secrets.GOV_API_KEY }}
-        run: python generate.py
-
       - name: Sync with remote main
         run: |
           git fetch origin main
           git checkout main
           git reset --hard origin/main
 
-      - name: Regenerate data after sync
+      - name: Run data generation
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
