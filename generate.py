@@ -719,6 +719,29 @@ def main():
                 print(f"  {info['label']}: {v}%{chg_str}")
             time.sleep(0.3)  # Rate limit
         print(f"  Fetched {len(output['gov_bonds'])} bonds")
+
+        # Backfill yields from EODHD bonds for the curve/spreads views
+        bond_to_yield = {
+            "us2y": ("US", "y2"), "us10y": ("US", "y10"), "us30y": ("US", "y30"),
+            "uk2y": ("UK", "y2"), "uk10y": ("UK", "y10"), "uk30y": ("UK", "y30"),
+            "de2y": ("Eurozone", "y2"), "de10y": ("Eurozone", "y10"), "de30y": ("Eurozone", "y30"),
+            "jp2y": ("Japan", "y2"), "jp10y": ("Japan", "y10"), "jp30y": ("Japan", "y30"),
+            "it2y": ("Italy", "y2"), "it10y": ("Italy", "y10"),
+            "fr10y": ("France", "y10"), "es10y": ("Spain", "y10"),
+            "ca2y": ("Canada", "y2"), "ca10y": ("Canada", "y10"),
+            "au2y": ("Australia", "y2"), "au10y": ("Australia", "y10"),
+            "nz2y": ("New Zealand", "y2"), "nz10y": ("New Zealand", "y10"),
+            "ch10y": ("Switzerland", "y10"), "se10y": ("Sweden", "y10"), "no10y": ("Norway", "y10"),
+        }
+        for bond_key, (country, tenor) in bond_to_yield.items():
+            bond = output["gov_bonds"].get(bond_key)
+            if bond and bond.get("value") is not None:
+                if country not in output["yields"]:
+                    output["yields"][country] = {}
+                # Only fill if not already set from FRED/yfinance
+                if output["yields"][country].get(tenor) is None:
+                    output["yields"][country][tenor] = bond["value"]
+        print("  Backfilled yields from EODHD bonds")
     else:
         print("  EODHD API key not set — skipping government bonds")
 
