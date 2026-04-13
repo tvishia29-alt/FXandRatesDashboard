@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-13T16:19:24.497603Z",
+  "generated_at": "2026-04-13T17:12:57.820333Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 3.6,
       "y6m": null,
       "y1": null,
-      "y2": 3.729,
+      "y2": 3.718,
       "y3": null,
-      "y5": 3.959,
+      "y5": 3.927,
       "y7": null,
-      "y10": 4.335,
+      "y10": 4.309,
       "y20": null,
-      "y30": 4.929
+      "y30": 4.909
     },
     "US_yf": {
       "US_3M": {
@@ -22,21 +22,21 @@
         "timestamp": "2026-04-13 00:00:00"
       },
       "US_5Y": {
-        "price": 3.959,
+        "price": 3.927,
         "prev_close": 3.939,
-        "change_pct": 0.51,
+        "change_pct": -0.3,
         "timestamp": "2026-04-13 00:00:00"
       },
       "US_10Y": {
-        "price": 4.335,
+        "price": 4.309,
         "prev_close": 4.317,
-        "change_pct": 0.42,
+        "change_pct": -0.19,
         "timestamp": "2026-04-13 00:00:00"
       },
       "US_30Y": {
-        "price": 4.929,
+        "price": 4.909,
         "prev_close": 4.914,
-        "change_pct": 0.31,
+        "change_pct": -0.1,
         "timestamp": "2026-04-13 00:00:00"
       }
     },
@@ -89,262 +89,262 @@
   },
   "commodities": {
     "gold": {
-      "price": 4739.2002,
-      "d1_pct": -0.48,
-      "w1_pct": 1.77,
-      "m1_pct": -7.36,
+      "price": 4760.6001,
+      "d1_pct": -0.03,
+      "w1_pct": 2.23,
+      "m1_pct": -6.94,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 74.285,
-      "d1_pct": -2.67,
-      "w1_pct": 2.24,
-      "m1_pct": -12.27,
+      "price": 75.535,
+      "d1_pct": -1.03,
+      "w1_pct": 3.96,
+      "m1_pct": -10.79,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 102.32,
-      "d1_pct": 5.95,
-      "w1_pct": -8.98,
-      "m1_pct": 6.88,
+      "price": 99.25,
+      "d1_pct": 2.78,
+      "w1_pct": -11.71,
+      "m1_pct": 3.68,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 101.56,
-      "d1_pct": 6.68,
-      "w1_pct": -7.48,
-      "m1_pct": 1.09,
+      "price": 99.77,
+      "d1_pct": 4.8,
+      "w1_pct": -9.11,
+      "m1_pct": -0.69,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.64,
-      "d1_pct": -0.3,
-      "w1_pct": -6.08,
-      "m1_pct": -18.34,
+      "price": 2.625,
+      "d1_pct": -0.87,
+      "w1_pct": -6.62,
+      "m1_pct": -18.81,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.958,
-      "d1_pct": 1.49,
-      "w1_pct": 6.71,
-      "m1_pct": 2.29,
+      "price": 5.9985,
+      "d1_pct": 2.18,
+      "w1_pct": 7.43,
+      "m1_pct": 2.99,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 588.5,
-      "d1_pct": 3.06,
-      "w1_pct": -1.13,
-      "m1_pct": -0.63,
+      "price": 585.75,
+      "d1_pct": 2.58,
+      "w1_pct": -1.6,
+      "m1_pct": -1.1,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 444.75,
-      "d1_pct": 0.85,
-      "w1_pct": -2.04,
-      "m1_pct": -0.78,
+      "price": 443.75,
+      "d1_pct": 0.62,
+      "w1_pct": -2.26,
+      "m1_pct": -1.0,
       "unit": "\u00a2/bu"
     }
   },
   "etfs": {
     "S&P 500": {
-      "price": 680.185,
-      "d1_pct": 0.11,
-      "w1_pct": 3.23,
-      "m1_pct": 2.4
+      "price": 682.2,
+      "d1_pct": 0.4,
+      "w1_pct": 3.53,
+      "m1_pct": 2.7
     },
     "Nasdaq 100": {
-      "price": 612.23,
-      "d1_pct": 0.19,
-      "w1_pct": 4.03,
-      "m1_pct": 2.64
+      "price": 614.08,
+      "d1_pct": 0.49,
+      "w1_pct": 4.35,
+      "m1_pct": 2.95
     },
     "Russell 2000": {
-      "price": 262.425,
-      "d1_pct": 0.43,
-      "w1_pct": 3.99,
-      "m1_pct": 6.26
+      "price": 263.77,
+      "d1_pct": 0.95,
+      "w1_pct": 4.52,
+      "m1_pct": 6.8
     },
     "EM Equities": {
-      "price": 60.47,
-      "d1_pct": -0.15,
-      "w1_pct": 5.88,
-      "m1_pct": 6.18
+      "price": 60.82,
+      "d1_pct": 0.43,
+      "w1_pct": 6.5,
+      "m1_pct": 6.8
     },
     "China Large Cap": {
-      "price": 36.22,
-      "d1_pct": -0.08,
-      "w1_pct": 1.88,
-      "m1_pct": 0.17
+      "price": 36.315,
+      "d1_pct": 0.18,
+      "w1_pct": 2.15,
+      "m1_pct": 0.43
     },
     "Japan Equities": {
-      "price": 87.445,
-      "d1_pct": -0.78,
-      "w1_pct": 2.19,
-      "m1_pct": 3.87
+      "price": 87.915,
+      "d1_pct": -0.24,
+      "w1_pct": 2.74,
+      "m1_pct": 4.42
     },
     "Brazil Equities": {
-      "price": 41.1729,
-      "d1_pct": -0.38,
-      "w1_pct": 6.83,
-      "m1_pct": 13.99
+      "price": 41.44,
+      "d1_pct": 0.27,
+      "w1_pct": 7.52,
+      "m1_pct": 14.73
     },
     "Germany Equities": {
-      "price": 41.46,
-      "d1_pct": -0.34,
-      "w1_pct": 3.11,
-      "m1_pct": 2.78
+      "price": 41.73,
+      "d1_pct": 0.31,
+      "w1_pct": 3.78,
+      "m1_pct": 3.45
     },
     "UK Equities": {
-      "price": 47.6101,
-      "d1_pct": -0.13,
-      "w1_pct": 2.56,
-      "m1_pct": 3.77
+      "price": 47.77,
+      "d1_pct": 0.21,
+      "w1_pct": 2.91,
+      "m1_pct": 4.12
     },
     "US Dollar Index": {
-      "price": 27.495,
-      "d1_pct": 0.2,
-      "w1_pct": -1.2,
-      "m1_pct": -0.67
+      "price": 27.45,
+      "d1_pct": 0.04,
+      "w1_pct": -1.37,
+      "m1_pct": -0.83
     },
     "Euro ETF": {
-      "price": 108.11,
-      "d1_pct": -0.14,
-      "w1_pct": 1.45,
-      "m1_pct": 1.82
+      "price": 108.235,
+      "d1_pct": -0.02,
+      "w1_pct": 1.57,
+      "m1_pct": 1.94
     },
     "Yen ETF": {
-      "price": 57.5,
-      "d1_pct": -0.24,
-      "w1_pct": -0.05,
-      "m1_pct": -0.23
+      "price": 57.575,
+      "d1_pct": -0.11,
+      "w1_pct": 0.08,
+      "m1_pct": -0.1
     },
     "GBP ETF": {
-      "price": 129.405,
-      "d1_pct": -0.07,
-      "w1_pct": 1.76,
-      "m1_pct": 1.05
+      "price": 129.56,
+      "d1_pct": 0.05,
+      "w1_pct": 1.88,
+      "m1_pct": 1.17
     },
     "AUD ETF": {
-      "price": 69.9244,
-      "d1_pct": -0.22,
-      "w1_pct": 2.03,
-      "m1_pct": -0.25
+      "price": 70.13,
+      "d1_pct": 0.07,
+      "w1_pct": 2.33,
+      "m1_pct": 0.04
     },
     "CAD ETF": {
-      "price": 70.74,
-      "d1_pct": 0.21,
-      "w1_pct": 0.77,
-      "m1_pct": -1.32
+      "price": 70.8,
+      "d1_pct": 0.3,
+      "w1_pct": 0.85,
+      "m1_pct": -1.23
     },
     "Gold ETF": {
-      "price": 434.02,
-      "d1_pct": -0.71,
-      "w1_pct": 1.49,
-      "m1_pct": -7.04
+      "price": 434.4,
+      "d1_pct": -0.62,
+      "w1_pct": 1.58,
+      "m1_pct": -6.96
     },
     "Oil ETF": {
-      "price": 132.48,
-      "d1_pct": 6.14,
-      "w1_pct": -4.65,
-      "m1_pct": 11.9
+      "price": 130.215,
+      "d1_pct": 4.32,
+      "w1_pct": -6.28,
+      "m1_pct": 9.99
     },
     "Agriculture ETF": {
-      "price": 27.075,
-      "d1_pct": 0.69,
-      "w1_pct": -0.75,
-      "m1_pct": 1.21
+      "price": 27.05,
+      "d1_pct": 0.6,
+      "w1_pct": -0.84,
+      "m1_pct": 1.12
     },
     "Energy Sector": {
-      "price": 57.445,
-      "d1_pct": 0.89,
-      "w1_pct": -3.74,
-      "m1_pct": 0.54
+      "price": 57.135,
+      "d1_pct": 0.34,
+      "w1_pct": -4.26,
+      "m1_pct": -0.0
     },
     "Financials Sector": {
-      "price": 51.045,
-      "d1_pct": 0.54,
-      "w1_pct": 2.34,
-      "m1_pct": 5.07
+      "price": 51.285,
+      "d1_pct": 1.01,
+      "w1_pct": 2.82,
+      "m1_pct": 5.57
     }
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1714,
-      "d1_pct": 0.19,
-      "w1_pct": 1.77,
-      "m1_pct": 1.67
+      "price": 1.1734,
+      "d1_pct": 0.37,
+      "w1_pct": 1.95,
+      "m1_pct": 1.85
     },
     "GBPUSD": {
-      "price": 1.3459,
-      "d1_pct": 0.21,
-      "w1_pct": 2.07,
-      "m1_pct": 0.8
+      "price": 1.348,
+      "d1_pct": 0.37,
+      "w1_pct": 2.23,
+      "m1_pct": 0.96
     },
     "USDJPY": {
-      "price": 159.746,
-      "d1_pct": 0.4,
-      "w1_pct": -0.02,
-      "m1_pct": 0.34
+      "price": 159.425,
+      "d1_pct": 0.2,
+      "w1_pct": -0.22,
+      "m1_pct": 0.14
     },
     "USDCHF": {
-      "price": 0.7874,
-      "d1_pct": -0.44,
-      "w1_pct": -1.72,
-      "m1_pct": 0.26
+      "price": 0.7852,
+      "d1_pct": -0.72,
+      "w1_pct": -1.99,
+      "m1_pct": -0.02
     },
     "AUDUSD": {
-      "price": 0.7064,
-      "d1_pct": -0.17,
-      "w1_pct": 2.59,
-      "m1_pct": -0.17
+      "price": 0.7086,
+      "d1_pct": 0.14,
+      "w1_pct": 2.91,
+      "m1_pct": 0.15
     },
     "NZDUSD": {
-      "price": 0.5844,
-      "d1_pct": -0.11,
-      "w1_pct": 2.77,
-      "m1_pct": -0.15
+      "price": 0.5862,
+      "d1_pct": 0.2,
+      "w1_pct": 3.08,
+      "m1_pct": 0.15
     },
     "USDCAD": {
-      "price": 1.3809,
-      "d1_pct": -0.1,
-      "w1_pct": -0.98,
-      "m1_pct": 1.3
+      "price": 1.3794,
+      "d1_pct": -0.21,
+      "w1_pct": -1.09,
+      "m1_pct": 1.18
     },
     "USDSEK": {
-      "price": 9.2251,
-      "d1_pct": -0.62,
-      "w1_pct": -2.62,
-      "m1_pct": -1.26
+      "price": 9.1913,
+      "d1_pct": -0.99,
+      "w1_pct": -2.98,
+      "m1_pct": -1.62
     },
     "USDNOK": {
-      "price": 9.4747,
-      "d1_pct": -0.23,
-      "w1_pct": -2.91,
-      "m1_pct": -2.2
+      "price": 9.4666,
+      "d1_pct": -0.31,
+      "w1_pct": -2.99,
+      "m1_pct": -2.29
     },
     "USDCNY": {
-      "price": 6.8298,
+      "price": 6.8303,
       "d1_pct": -0.02,
       "w1_pct": -0.76,
-      "m1_pct": -0.57
+      "m1_pct": -0.56
     },
     "USDMXN": {
-      "price": 17.3625,
-      "d1_pct": -0.05,
-      "w1_pct": -2.9,
-      "m1_pct": -2.65
+      "price": 17.3165,
+      "d1_pct": -0.31,
+      "w1_pct": -3.15,
+      "m1_pct": -2.9
     },
     "USDBRL": {
-      "price": 5.0193,
-      "d1_pct": -1.5,
-      "w1_pct": -2.69,
-      "m1_pct": -4.28
+      "price": 4.9903,
+      "d1_pct": -2.07,
+      "w1_pct": -3.25,
+      "m1_pct": -4.84
     },
     "USDZAR": {
-      "price": 16.5102,
-      "d1_pct": 0.81,
-      "w1_pct": -2.71,
-      "m1_pct": -1.47
+      "price": 16.4112,
+      "d1_pct": 0.2,
+      "w1_pct": -3.29,
+      "m1_pct": -2.06
     },
     "USDINR": {
       "price": 93.366,
@@ -353,71 +353,71 @@
       "m1_pct": 1.06
     },
     "USDKRW": {
-      "price": 1487.46,
-      "d1_pct": 0.96,
-      "w1_pct": -1.44,
-      "m1_pct": 1.15
+      "price": 1481.63,
+      "d1_pct": 0.57,
+      "w1_pct": -1.83,
+      "m1_pct": 0.75
     },
     "USDTRY": {
-      "price": 44.7114,
-      "d1_pct": 0.16,
-      "w1_pct": 0.29,
-      "m1_pct": 1.19
+      "price": 44.7061,
+      "d1_pct": 0.15,
+      "w1_pct": 0.27,
+      "m1_pct": 1.18
     },
     "USDPLN": {
-      "price": 3.6238,
-      "d1_pct": -0.11,
-      "w1_pct": -2.39,
-      "m1_pct": -2.13
+      "price": 3.6161,
+      "d1_pct": -0.32,
+      "w1_pct": -2.6,
+      "m1_pct": -2.34
     },
     "USDHUF": {
-      "price": 309.739,
-      "d1_pct": -3.65,
-      "w1_pct": -7.22,
-      "m1_pct": -8.72
+      "price": 308.975,
+      "d1_pct": -3.89,
+      "w1_pct": -7.45,
+      "m1_pct": -8.94
     },
     "USDCZK": {
-      "price": 20.7839,
-      "d1_pct": -0.19,
-      "w1_pct": -2.33,
-      "m1_pct": -1.9
+      "price": 20.7753,
+      "d1_pct": -0.23,
+      "w1_pct": -2.37,
+      "m1_pct": -1.94
     },
     "USDSGD": {
-      "price": 1.2745,
-      "d1_pct": 0.1,
-      "w1_pct": -1.01,
-      "m1_pct": -0.31
+      "price": 1.2731,
+      "d1_pct": -0.01,
+      "w1_pct": -1.12,
+      "m1_pct": -0.42
     },
     "USDIDR": {
-      "price": 17117.0,
-      "d1_pct": 0.34,
-      "w1_pct": 0.76,
-      "m1_pct": 1.24
+      "price": 17095.0,
+      "d1_pct": 0.21,
+      "w1_pct": 0.63,
+      "m1_pct": 1.11
     },
     "USDTHB": {
-      "price": 32.17,
-      "d1_pct": 0.37,
-      "w1_pct": -1.59,
-      "m1_pct": 0.06
+      "price": 32.08,
+      "d1_pct": 0.09,
+      "w1_pct": -1.87,
+      "m1_pct": -0.22
     },
     "DXY": {
-      "price": 98.77,
-      "d1_pct": 0.12,
-      "w1_pct": -1.21,
-      "m1_pct": -0.97
+      "price": 98.602,
+      "d1_pct": -0.05,
+      "w1_pct": -1.38,
+      "m1_pct": -1.14
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 20.02,
+      "price": 19.5,
       "prev_close": 19.23,
-      "change_pct": 4.11,
+      "change_pct": 1.4,
       "timestamp": "2026-04-13 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
-      "price": 23.46,
+      "price": 22.85,
       "prev_close": 23.09,
-      "change_pct": 1.6,
+      "change_pct": -1.04,
       "timestamp": "2026-04-13 00:00:00"
     },
     "MOVE (Bond Vol)": {
@@ -427,34 +427,34 @@
       "timestamp": "2026-04-10 00:00:00"
     },
     "VIX Short-Term ETF": {
-      "price": 29.3226,
+      "price": 29.105,
       "prev_close": 29.75,
-      "change_pct": -1.44,
+      "change_pct": -2.17,
       "timestamp": "2026-04-13 00:00:00"
     }
   },
   "bond_etfs": {
     "US 20Y+ Treasury": {
-      "price": 86.37,
-      "d1_pct": -0.14,
-      "w1_pct": -0.32,
-      "m1_pct": -0.29,
+      "price": 86.5977,
+      "d1_pct": 0.12,
+      "w1_pct": -0.06,
+      "m1_pct": -0.03,
       "country": "US",
       "duration": "long"
     },
     "US 7-10Y Treasury": {
-      "price": 95.235,
-      "d1_pct": -0.04,
-      "w1_pct": 0.24,
-      "m1_pct": -0.14,
+      "price": 95.385,
+      "d1_pct": 0.12,
+      "w1_pct": 0.39,
+      "m1_pct": 0.01,
       "country": "US",
       "duration": "medium"
     },
     "US 1-3Y Treasury": {
-      "price": 82.415,
-      "d1_pct": 0.01,
-      "w1_pct": 0.16,
-      "m1_pct": 0.2,
+      "price": 82.455,
+      "d1_pct": 0.05,
+      "w1_pct": 0.21,
+      "m1_pct": 0.25,
       "country": "US",
       "duration": "short"
     },
@@ -475,15 +475,50 @@
       "duration": "mixed"
     },
     "US Total Treasury": {
-      "price": 22.865,
-      "d1_pct": -0.07,
-      "w1_pct": 0.07,
-      "m1_pct": 0.01,
+      "price": 22.895,
+      "d1_pct": 0.07,
+      "w1_pct": 0.2,
+      "m1_pct": 0.14,
       "country": "US",
       "duration": "mixed"
     }
   },
   "news": [
+    {
+      "headline": "Streaming viewers are OK with double the commercials as \u2018subscription fatigue\u2019 sets in",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/streaming-viewers-are-ok-with-double-the-commercials-as-subscription-fatigue-sets-in-5fa4d005?mod=mw_rss_topstories",
+      "datetime": 1776099660,
+      "category": "general"
+    },
+    {
+      "headline": "My friend\u2019s girlfriend went \u2018ballistic\u2019 after learning he gives his kids $19,000 a year. Is this a red flag?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-friends-girlfriend-went-ballistic-after-he-gave-his-kids-19-000-a-year-is-this-a-red-flag-c894366f?mod=mw_rss_topstories",
+      "datetime": 1776099600,
+      "category": "general"
+    },
+    {
+      "headline": "The $20 billion drone-killer trade most investors are missing",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-20-billion-drone-killer-trade-most-investors-are-missing-7fff2293?mod=mw_rss_topstories",
+      "datetime": 1776098880,
+      "category": "general"
+    },
+    {
+      "headline": "If you\u2019ve ever been tempted to \u2018sell in May and go away\u2019 \u2014 now is the time",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/if-youve-ever-been-tempted-to-sell-in-may-and-go-away-now-is-the-time-7b8b3a04?mod=mw_rss_topstories",
+      "datetime": 1776098400,
+      "category": "general"
+    },
+    {
+      "headline": "Trump\u2019s blockade of Iran ports takes effect. Stocks are shrugging off escalation concerns.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/trumps-blockade-is-starting-heres-why-stocks-are-only-off-modestly-for-now-bcbb67d8?mod=mw_rss_topstories",
+      "datetime": 1776097800,
+      "category": "general"
+    },
     {
       "headline": "Alzheimer\u2019s affects men and women\u2019s brains differently, new research shows. What it could mean for testing and care.",
       "source": "MarketWatch",
@@ -520,45 +555,17 @@
       "category": "general"
     },
     {
-      "headline": "Buyers and sellers are both sitting out the spring home-buying season",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/buyers-and-sellers-are-both-sitting-out-the-spring-home-buying-season-006e0bfb?mod=mw_rss_topstories",
-      "datetime": 1776095160,
-      "category": "general"
-    },
-    {
-      "headline": "Here\u2019s how much weight-loss drugs Wegovy, Zepbound and Foundayo cost \u2014 and how to pick the best GLP-1 for you",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/heres-how-much-weight-loss-drugs-wegovy-zepbound-and-foundayo-cost-and-how-to-pick-the-best-glp-1-for-you-48598e2f?mod=mw_rss_topstories",
-      "datetime": 1776094320,
-      "category": "general"
-    },
-    {
-      "headline": "How to use bond/CD ladders as the ultimate hedge to keep your money safe",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-to-use-bond-cd-ladders-as-the-ultimate-hedge-to-keep-your-money-safe-6e79894b?mod=mw_rss_topstories",
-      "datetime": 1776094140,
-      "category": "general"
-    },
-    {
-      "headline": "I gave my friend\u2019s daughter cash for her wedding. I did not receive a thank-you card. Do I say something?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/it-feels-awkward-i-gave-my-friends-daughter-cash-for-her-wedding-silence-do-i-say-something-2d4c9562?mod=mw_rss_topstories",
-      "datetime": 1776094020,
-      "category": "general"
-    },
-    {
-      "headline": "There are years-long waiting lists to retire on college campuses. 6 steps to take before enrolling.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/there-are-years-long-waiting-lists-to-retire-on-college-campuses-6-steps-to-take-before-enrolling-d7bd2d2d?mod=mw_rss_topstories",
-      "datetime": 1776093960,
-      "category": "general"
-    },
-    {
       "headline": "Oil jumps back above $100 after US-Iran peace talks fail",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&at_campaign=rss",
       "datetime": 1776088580,
+      "category": "general"
+    },
+    {
+      "headline": "US home buyers 'frozen' as sales slump over Iran war fears",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cn08ep6d5ndo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1776097508,
       "category": "general"
     },
     {
@@ -579,14 +586,7 @@
       "headline": "How many ships are crossing the Strait of Hormuz?",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776075482,
-      "category": "general"
-    },
-    {
-      "headline": "UK could adopt EU single market rules under new legislation",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c937jkvp3w8o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776079113,
+      "datetime": 1776098277,
       "category": "general"
     },
     {
@@ -594,6 +594,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cm2k8v027k0o?at_medium=RSS&at_campaign=rss",
       "datetime": 1776036052,
+      "category": "general"
+    },
+    {
+      "headline": "UK could adopt EU single market rules under new legislation",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c937jkvp3w8o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1776079113,
       "category": "general"
     },
     {
@@ -615,13 +622,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cnv82v3n6yqo?at_medium=RSS&at_campaign=rss",
       "datetime": 1775949178,
-      "category": "general"
-    },
-    {
-      "headline": "British Steel 'needs nationalising by the summer'",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cddq5zqvvejo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1775975111,
       "category": "general"
     }
   ],
