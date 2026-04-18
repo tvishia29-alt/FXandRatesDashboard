@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T01:26:15.610869Z",
+  "generated_at": "2026-04-18T04:25:29.127687Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,96 +39,63 @@
         "change_pct": -0.89,
         "timestamp": "2026-04-17 00:00:00"
       }
-    },
-    "UK": {
-      "y2": 4.1321,
-      "y10": 4.6856,
-      "y30": 5.4932
-    },
-    "Eurozone": {
-      "y2": 2.4104,
-      "y10": 2.9641,
-      "y30": 3.5437
-    },
-    "Japan": {
-      "y2": 1.3588,
-      "y10": 2.4203,
-      "y30": 3.6055
-    },
-    "Italy": {
-      "y2": 2.6019,
-      "y10": 3.6943
-    },
-    "France": {
-      "y10": 3.5789
-    },
-    "Spain": {
-      "y10": 3.3846
-    },
-    "Canada": {
-      "y2": 2.7871,
-      "y10": 3.4456
-    },
-    "Australia": {
-      "y2": 4.6756,
-      "y10": 5.004
     }
   },
   "commodities": {
     "gold": {
-      "price": 4849.3999,
-      "d1_pct": 1.34,
-      "w1_pct": 1.84,
-      "m1_pct": -0.83,
+      "price": 4857.6001,
+      "d1_pct": 1.51,
+      "w1_pct": 2.01,
+      "m1_pct": -0.66,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 80.93,
-      "d1_pct": 2.96,
-      "w1_pct": 6.03,
-      "m1_pct": 4.78,
+      "price": 81.738,
+      "d1_pct": 3.98,
+      "w1_pct": 7.09,
+      "m1_pct": 5.83,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 84.0,
-      "d1_pct": -11.29,
-      "w1_pct": -13.02,
-      "m1_pct": -12.79,
+      "price": 83.85,
+      "d1_pct": -11.45,
+      "w1_pct": -13.17,
+      "m1_pct": -12.95,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 91.87,
-      "d1_pct": -7.57,
-      "w1_pct": -3.5,
-      "m1_pct": -14.44,
+      "price": 90.38,
+      "d1_pct": -9.07,
+      "w1_pct": -5.06,
+      "m1_pct": -15.83,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.675,
-      "d1_pct": 1.06,
-      "w1_pct": 1.02,
-      "m1_pct": -12.72,
+      "price": 2.674,
+      "d1_pct": 1.02,
+      "w1_pct": 0.98,
+      "m1_pct": -12.76,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.0815,
-      "d1_pct": 0.25,
-      "w1_pct": 3.59,
-      "m1_pct": 9.5,
+      "price": 6.1035,
+      "d1_pct": 0.61,
+      "w1_pct": 3.97,
+      "m1_pct": 9.89,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 598.0,
-      "d1_pct": -0.08,
-      "w1_pct": 4.73,
-      "m1_pct": -1.03,
+      "price": 591.25,
+      "d1_pct": -1.21,
+      "w1_pct": 3.55,
+      "m1_pct": -2.15,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 457.0,
-      "d1_pct": 1.9,
-      "w1_pct": 3.63,
-      "m1_pct": -1.35,
+      "price": 448.75,
+      "d1_pct": 0.06,
+      "w1_pct": 1.76,
+      "m1_pct": -3.13,
       "unit": "\u00a2/bu"
     }
   },
@@ -212,10 +179,10 @@
       "m1_pct": 2.0
     },
     "AUD ETF": {
-      "price": 71.0479,
+      "price": 71.05,
       "d1_pct": 0.17,
       "w1_pct": 1.38,
-      "m1_pct": 1.96
+      "m1_pct": 1.97
     },
     "CAD ETF": {
       "price": 71.33,
@@ -281,20 +248,20 @@
     },
     "AUDUSD": {
       "price": 0.7168,
-      "d1_pct": -0.11,
-      "w1_pct": 1.31,
-      "m1_pct": 1.97
+      "d1_pct": 0.13,
+      "w1_pct": 2.11,
+      "m1_pct": 1.23
     },
     "NZDUSD": {
       "price": 0.5885,
-      "d1_pct": -0.46,
-      "w1_pct": 0.59,
-      "m1_pct": 1.54
+      "d1_pct": -0.02,
+      "w1_pct": 1.39,
+      "m1_pct": 0.29
     },
     "USDCAD": {
-      "price": 1.3687,
-      "d1_pct": -0.32,
-      "w1_pct": -0.98,
+      "price": 1.3693,
+      "d1_pct": -0.05,
+      "w1_pct": -1.3,
       "m1_pct": -0.31
     },
     "USDSEK": {
@@ -328,10 +295,10 @@
       "m1_pct": -5.18
     },
     "USDZAR": {
-      "price": 16.2955,
-      "d1_pct": -0.33,
-      "w1_pct": -0.5,
-      "m1_pct": -3.94
+      "price": 16.2965,
+      "d1_pct": -0.63,
+      "w1_pct": -1.52,
+      "m1_pct": -2.55
     },
     "USDINR": {
       "price": 92.575,
@@ -388,10 +355,10 @@
       "m1_pct": -2.77
     },
     "DXY": {
-      "price": 98.227,
-      "d1_pct": 0.01,
-      "w1_pct": -0.43,
-      "m1_pct": -1.86
+      "price": 98.1,
+      "d1_pct": -0.12,
+      "w1_pct": -0.56,
+      "m1_pct": -1.99
     }
   },
   "volatility": {
@@ -408,9 +375,9 @@
       "timestamp": "2026-04-17 00:00:00"
     },
     "MOVE (Bond Vol)": {
-      "price": 65.6953,
+      "price": 65.7,
       "prev_close": 65.89,
-      "change_pct": -0.3,
+      "change_pct": -0.29,
       "timestamp": "2026-04-17 00:00:00"
     },
     "VIX Short-Term ETF": {
@@ -1470,166 +1437,5 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {
-    "us2y": {
-      "value": 3.712,
-      "change": -0.074,
-      "pct_change": -1.9546,
-      "date": "2026-04-17",
-      "label": "US 2Y",
-      "country": "US"
-    },
-    "us10y": {
-      "value": 4.251,
-      "change": -0.069,
-      "pct_change": -1.5972,
-      "date": "2026-04-17",
-      "label": "US 10Y",
-      "country": "US"
-    },
-    "us30y": {
-      "value": 4.912,
-      "change": -0.023,
-      "pct_change": -0.4661,
-      "date": "2026-04-17",
-      "label": "US 30Y",
-      "country": "US"
-    },
-    "uk2y": {
-      "value": 4.1321,
-      "change": -0.1769,
-      "pct_change": -4.1054,
-      "date": "2026-04-17",
-      "label": "UK 2Y",
-      "country": "UK"
-    },
-    "uk10y": {
-      "value": 4.6856,
-      "change": -0.1514,
-      "pct_change": -3.13,
-      "date": "2026-04-17",
-      "label": "UK 10Y",
-      "country": "UK"
-    },
-    "uk30y": {
-      "value": 5.4932,
-      "change": -0.1162,
-      "pct_change": -2.0715,
-      "date": "2026-04-17",
-      "label": "UK 30Y",
-      "country": "UK"
-    },
-    "de2y": {
-      "value": 2.4104,
-      "change": -0.1153,
-      "pct_change": -4.5651,
-      "date": "2026-04-17",
-      "label": "Germany 2Y",
-      "country": "Eurozone"
-    },
-    "de10y": {
-      "value": 2.9641,
-      "change": -0.069,
-      "pct_change": -2.2749,
-      "date": "2026-04-17",
-      "label": "Germany 10Y",
-      "country": "Eurozone"
-    },
-    "de30y": {
-      "value": 3.5437,
-      "change": -0.0497,
-      "pct_change": -1.3831,
-      "date": "2026-04-17",
-      "label": "Germany 30Y",
-      "country": "Eurozone"
-    },
-    "jp2y": {
-      "value": 1.3588,
-      "change": -0.0029,
-      "pct_change": -0.213,
-      "date": "2026-04-17",
-      "label": "Japan 2Y",
-      "country": "Japan"
-    },
-    "jp10y": {
-      "value": 2.4203,
-      "change": 0.0146,
-      "pct_change": 0.6069,
-      "date": "2026-04-17",
-      "label": "Japan 10Y",
-      "country": "Japan"
-    },
-    "jp30y": {
-      "value": 3.6055,
-      "change": -0.0044,
-      "pct_change": -0.1219,
-      "date": "2026-04-17",
-      "label": "Japan 30Y",
-      "country": "Japan"
-    },
-    "it2y": {
-      "value": 2.6019,
-      "change": -0.1232,
-      "pct_change": -4.5209,
-      "date": "2026-04-17",
-      "label": "Italy 2Y",
-      "country": "Eurozone"
-    },
-    "it10y": {
-      "value": 3.6943,
-      "change": -0.1139,
-      "pct_change": -2.9909,
-      "date": "2026-04-17",
-      "label": "Italy 10Y",
-      "country": "Eurozone"
-    },
-    "fr10y": {
-      "value": 3.5789,
-      "change": -0.0936,
-      "pct_change": -2.5487,
-      "date": "2026-04-17",
-      "label": "France 10Y",
-      "country": "Eurozone"
-    },
-    "es10y": {
-      "value": 3.3846,
-      "change": -0.0941,
-      "pct_change": -2.705,
-      "date": "2026-04-17",
-      "label": "Spain 10Y",
-      "country": "Eurozone"
-    },
-    "ca2y": {
-      "value": 2.7871,
-      "change": -0.0361,
-      "pct_change": -1.2787,
-      "date": "2026-04-17",
-      "label": "Canada 2Y",
-      "country": "Canada"
-    },
-    "ca10y": {
-      "value": 3.4456,
-      "change": -0.056,
-      "pct_change": -1.5993,
-      "date": "2026-04-17",
-      "label": "Canada 10Y",
-      "country": "Canada"
-    },
-    "au2y": {
-      "value": 4.6756,
-      "change": 0.0153,
-      "pct_change": 0.3283,
-      "date": "2026-04-17",
-      "label": "Australia 2Y",
-      "country": "Australia"
-    },
-    "au10y": {
-      "value": 5.004,
-      "change": 0.0373,
-      "pct_change": 0.751,
-      "date": "2026-04-17",
-      "label": "Australia 10Y",
-      "country": "Australia"
-    }
-  }
+  "gov_bonds": {}
 }
