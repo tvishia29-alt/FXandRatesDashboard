@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-04-20T11:05:10.214874Z",
+  "generated_at": "2026-04-20T12:47:37.282596Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 3.6,
       "y6m": null,
       "y1": null,
-      "y2": 3.686,
+      "y2": 3.693,
       "y3": null,
-      "y5": 3.838,
+      "y5": 3.859,
       "y7": null,
-      "y10": 4.246,
+      "y10": 4.258,
       "y20": null,
-      "y30": 4.885
+      "y30": 4.89
     },
     "US_yf": {
       "US_3M": {
         "price": 3.6,
-        "prev_close": 3.61,
-        "change_pct": -0.28,
-        "timestamp": "2026-04-17 00:00:00"
+        "prev_close": 3.6,
+        "change_pct": 0.0,
+        "timestamp": "2026-04-20 00:00:00"
       },
       "US_5Y": {
-        "price": 3.838,
-        "prev_close": 3.913,
-        "change_pct": -1.92,
-        "timestamp": "2026-04-17 00:00:00"
+        "price": 3.859,
+        "prev_close": 3.838,
+        "change_pct": 0.55,
+        "timestamp": "2026-04-20 00:00:00"
       },
       "US_10Y": {
-        "price": 4.246,
-        "prev_close": 4.309,
-        "change_pct": -1.46,
-        "timestamp": "2026-04-17 00:00:00"
+        "price": 4.258,
+        "prev_close": 4.246,
+        "change_pct": 0.28,
+        "timestamp": "2026-04-20 00:00:00"
       },
       "US_30Y": {
-        "price": 4.885,
-        "prev_close": 4.929,
-        "change_pct": -0.89,
-        "timestamp": "2026-04-17 00:00:00"
+        "price": 4.89,
+        "prev_close": 4.885,
+        "change_pct": 0.1,
+        "timestamp": "2026-04-20 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4815.6001,
-      "d1_pct": -0.86,
-      "w1_pct": 1.54,
-      "m1_pct": 4.67,
+      "price": 4823.2998,
+      "d1_pct": -0.71,
+      "w1_pct": 1.71,
+      "m1_pct": 4.84,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 79.39,
-      "d1_pct": -2.87,
-      "w1_pct": 5.12,
-      "m1_pct": 11.97,
+      "price": 79.62,
+      "d1_pct": -2.59,
+      "w1_pct": 5.42,
+      "m1_pct": 12.3,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 87.26,
-      "d1_pct": 4.07,
-      "w1_pct": -11.93,
-      "m1_pct": -9.24,
+      "price": 87.05,
+      "d1_pct": 3.82,
+      "w1_pct": -12.14,
+      "m1_pct": -9.45,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 94.72,
-      "d1_pct": 4.8,
-      "w1_pct": -4.67,
-      "m1_pct": -12.82,
+      "price": 94.92,
+      "d1_pct": 5.02,
+      "w1_pct": -4.47,
+      "m1_pct": -12.64,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.732,
-      "d1_pct": 2.17,
-      "w1_pct": 4.0,
-      "m1_pct": -13.71,
+      "price": 2.723,
+      "d1_pct": 1.83,
+      "w1_pct": 3.65,
+      "m1_pct": -13.99,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.0235,
-      "d1_pct": -1.31,
-      "w1_pct": 0.79,
-      "m1_pct": 10.87,
+      "price": 6.027,
+      "d1_pct": -1.25,
+      "w1_pct": 0.85,
+      "m1_pct": 10.93,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 607.25,
-      "d1_pct": 2.71,
-      "w1_pct": 4.29,
-      "m1_pct": -0.12,
+      "price": 602.75,
+      "d1_pct": 1.95,
+      "w1_pct": 3.52,
+      "m1_pct": -0.86,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 458.5,
-      "d1_pct": 2.17,
-      "w1_pct": 4.15,
-      "m1_pct": -2.39,
+      "price": 457.0,
+      "d1_pct": 1.84,
+      "w1_pct": 3.8,
+      "m1_pct": -2.71,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,149 +223,149 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1773,
-      "d1_pct": -0.08,
-      "w1_pct": 0.84,
-      "m1_pct": 1.69
+      "price": 1.1769,
+      "d1_pct": -0.12,
+      "w1_pct": 0.8,
+      "m1_pct": 1.65
     },
     "GBPUSD": {
-      "price": 1.3516,
+      "price": 1.3515,
       "d1_pct": -0.08,
-      "w1_pct": 0.91,
-      "m1_pct": 0.67
+      "w1_pct": 0.9,
+      "m1_pct": 0.66
     },
     "USDJPY": {
-      "price": 158.941,
-      "d1_pct": -0.16,
-      "w1_pct": -0.46,
-      "m1_pct": 0.64
+      "price": 158.899,
+      "d1_pct": -0.19,
+      "w1_pct": -0.49,
+      "m1_pct": 0.62
     },
     "USDCHF": {
-      "price": 0.7811,
-      "d1_pct": -0.27,
-      "w1_pct": -1.45,
-      "m1_pct": -0.96
+      "price": 0.7808,
+      "d1_pct": -0.31,
+      "w1_pct": -1.49,
+      "m1_pct": -1.0
     },
     "AUDUSD": {
-      "price": 0.7154,
-      "d1_pct": -0.07,
-      "w1_pct": 1.91,
-      "m1_pct": 1.03
+      "price": 0.7158,
+      "d1_pct": -0.02,
+      "w1_pct": 1.96,
+      "m1_pct": 1.08
     },
     "NZDUSD": {
-      "price": 0.5879,
-      "d1_pct": -0.12,
-      "w1_pct": 1.29,
-      "m1_pct": 0.18
+      "price": 0.5881,
+      "d1_pct": -0.09,
+      "w1_pct": 1.31,
+      "m1_pct": 0.21
     },
     "USDCAD": {
-      "price": 1.3685,
-      "d1_pct": -0.11,
-      "w1_pct": -1.35,
-      "m1_pct": -0.37
+      "price": 1.3695,
+      "d1_pct": -0.04,
+      "w1_pct": -1.28,
+      "m1_pct": -0.3
     },
     "USDSEK": {
-      "price": 9.1546,
-      "d1_pct": -0.41,
-      "w1_pct": -1.82,
-      "m1_pct": -1.43
+      "price": 9.1427,
+      "d1_pct": -0.53,
+      "w1_pct": -1.95,
+      "m1_pct": -1.55
     },
     "USDNOK": {
-      "price": 9.331,
-      "d1_pct": -0.24,
-      "w1_pct": -2.14,
+      "price": 9.3305,
+      "d1_pct": -0.25,
+      "w1_pct": -2.15,
       "m1_pct": -1.68
     },
     "USDCNY": {
-      "price": 6.8168,
+      "price": 6.8169,
       "d1_pct": -0.06,
       "w1_pct": -0.16,
       "m1_pct": -1.2
     },
     "USDMXN": {
-      "price": 17.3564,
-      "d1_pct": 0.62,
-      "w1_pct": -0.43,
-      "m1_pct": -2.15
+      "price": 17.3296,
+      "d1_pct": 0.46,
+      "w1_pct": -0.58,
+      "m1_pct": -2.3
     },
     "USDBRL": {
-      "price": 4.9904,
-      "d1_pct": 0.07,
-      "w1_pct": -0.29,
-      "m1_pct": -4.4
+      "price": 4.9831,
+      "d1_pct": -0.08,
+      "w1_pct": -0.44,
+      "m1_pct": -4.54
     },
     "USDZAR": {
-      "price": 16.3749,
-      "d1_pct": -0.15,
-      "w1_pct": -1.04,
-      "m1_pct": -2.08
+      "price": 16.3299,
+      "d1_pct": -0.42,
+      "w1_pct": -1.32,
+      "m1_pct": -2.35
     },
     "USDINR": {
-      "price": 93.048,
-      "d1_pct": 0.0,
-      "w1_pct": -1.55,
-      "m1_pct": -0.04
+      "price": 93.107,
+      "d1_pct": 0.06,
+      "w1_pct": -1.48,
+      "m1_pct": 0.03
     },
     "USDKRW": {
-      "price": 1472.2,
-      "d1_pct": -0.39,
-      "w1_pct": -0.67,
-      "m1_pct": -1.18
+      "price": 1472.72,
+      "d1_pct": -0.35,
+      "w1_pct": -0.64,
+      "m1_pct": -1.15
     },
     "USDTRY": {
-      "price": 44.8778,
-      "d1_pct": 0.07,
+      "price": 44.877,
+      "d1_pct": 0.06,
       "w1_pct": 0.4,
-      "m1_pct": 1.3
+      "m1_pct": 1.29
     },
     "USDPLN": {
-      "price": 3.5977,
-      "d1_pct": 0.06,
-      "w1_pct": -1.32,
-      "m1_pct": -2.28
+      "price": 3.5949,
+      "d1_pct": -0.02,
+      "w1_pct": -1.4,
+      "m1_pct": -2.35
     },
     "USDHUF": {
-      "price": 307.609,
-      "d1_pct": -0.53,
-      "w1_pct": -2.25,
-      "m1_pct": -8.58
+      "price": 307.384,
+      "d1_pct": -0.6,
+      "w1_pct": -2.33,
+      "m1_pct": -8.65
     },
     "USDCZK": {
-      "price": 20.622,
-      "d1_pct": -0.07,
-      "w1_pct": -1.15,
-      "m1_pct": -2.37
+      "price": 20.6362,
+      "d1_pct": 0.0,
+      "w1_pct": -1.08,
+      "m1_pct": -2.3
     },
     "USDSGD": {
-      "price": 1.2713,
-      "d1_pct": -0.15,
-      "w1_pct": -0.5,
-      "m1_pct": -0.49
+      "price": 1.271,
+      "d1_pct": -0.16,
+      "w1_pct": -0.52,
+      "m1_pct": -0.51
     },
     "USDIDR": {
-      "price": 17165.0,
-      "d1_pct": 0.25,
-      "w1_pct": 0.48,
-      "m1_pct": 1.47
+      "price": 17171.0,
+      "d1_pct": 0.28,
+      "w1_pct": 0.52,
+      "m1_pct": 1.51
     },
     "USDTHB": {
-      "price": 32.08,
-      "d1_pct": 0.12,
-      "w1_pct": -0.74,
-      "m1_pct": -1.29
+      "price": 32.02,
+      "d1_pct": -0.06,
+      "w1_pct": -0.93,
+      "m1_pct": -1.48
     },
     "DXY": {
-      "price": 98.231,
-      "d1_pct": 0.13,
-      "w1_pct": -0.14,
-      "m1_pct": -1.01
+      "price": 98.259,
+      "d1_pct": 0.16,
+      "w1_pct": -0.11,
+      "m1_pct": -0.98
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 19.45,
+      "price": 19.29,
       "prev_close": 17.48,
-      "change_pct": 11.27,
+      "change_pct": 10.35,
       "timestamp": "2026-04-20 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.835,
-      "d1_pct": -0.46,
-      "w1_pct": 0.36,
-      "m1_pct": -0.25,
+      "price": 9.8375,
+      "d1_pct": -0.43,
+      "w1_pct": 0.38,
+      "m1_pct": -0.23,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 143.315,
-      "d1_pct": 0.0,
-      "w1_pct": 1.84,
-      "m1_pct": 0.56,
+      "price": 142.78,
+      "d1_pct": -0.37,
+      "w1_pct": 1.46,
+      "m1_pct": 0.19,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +438,55 @@
     }
   },
   "news": [
+    {
+      "headline": "The S&P 500 has blown past 7,000 in an epic comeback rally. Here\u2019s why it can keep going.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-blowed-past-7-000-in-an-epic-comeback-rally-heres-why-it-can-keep-going-higher-632d6a38?mod=mw_rss_topstories",
+      "datetime": 1776689160,
+      "category": "general"
+    },
+    {
+      "headline": "Global oil prices climb back above $95 a barrel after Iran closes Strait of Hormuz again and says \u2018no plans\u2019 for new peace talks",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-futures-climb-after-strait-of-hormuz-closed-again-as-peace-talks-thrown-into-uncertainty-11988c5b?mod=mw_rss_topstories",
+      "datetime": 1776689040,
+      "category": "general"
+    },
+    {
+      "headline": "Psychedelic stocks rally with Trump\u2019s support",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/psychedelic-stocks-rally-with-trumps-support-addafa78?mod=mw_rss_topstories",
+      "datetime": 1776687960,
+      "category": "general"
+    },
+    {
+      "headline": "USA Rare Earth is taking on China, with a $2.8 billion move into Brazil",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/usa-rare-earth-is-taking-on-china-with-a-2-8-billion-move-into-brazil-1a2a22bf?mod=mw_rss_topstories",
+      "datetime": 1776685740,
+      "category": "general"
+    },
+    {
+      "headline": "SocGen benchmarked the Iran war to every crisis since 1956. Here\u2019s when oil prices return to normal.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/socgen-benchmarked-the-iran-war-to-every-crisis-since-1956-heres-when-oil-prices-return-to-normal-7549b537?mod=mw_rss_topstories",
+      "datetime": 1776684480,
+      "category": "general"
+    },
+    {
+      "headline": "The narrow foundations of the current rally \u2014 one company is responsible for half of S&P 500 earnings revisions",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-narrow-foundations-of-the-current-rally-one-company-is-responsible-for-half-of-s-p-500-earnings-revisions-68aadd26?mod=mw_rss_topstories",
+      "datetime": 1776683880,
+      "category": "general"
+    },
+    {
+      "headline": "The real meaning of UAE reportedly requesting a dollar swap line",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-real-meaning-of-uae-reportedly-requesting-a-dollar-swap-line-6a40d630?mod=mw_rss_topstories",
+      "datetime": 1776682980,
+      "category": "general"
+    },
     {
       "headline": "Why a $33 billion stock market buying spree is now winding down",
       "source": "MarketWatch",
@@ -460,55 +509,6 @@
       "category": "general"
     },
     {
-      "headline": "I will retire in my early 50s. I have $3.2 million \u2014 only $200,000 is in a traditional IRA. Have I beaten the IRS?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-will-retire-in-my-early-50s-i-have-3-2-million-only-200-000-is-in-a-traditional-ira-have-i-beaten-the-irs-3ab5df98?mod=mw_rss_topstories",
-      "datetime": 1776677400,
-      "category": "general"
-    },
-    {
-      "headline": "Oil futures climb after Strait of Hormuz closed again as peace talks thrown into uncertainty",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-futures-climb-after-strait-of-hormuz-closed-again-as-peace-talks-thrown-into-uncertainty-11988c5b?mod=mw_rss_topstories",
-      "datetime": 1776676860,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018I hope to retire at 59\u2019: I have $950,000 in my 401(k)s. When do I do a Roth conversion?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-hope-to-retire-at-59-i-have-950-000-in-my-401-k-s-when-do-i-do-a-roth-conversion-07bf2c58?mod=mw_rss_topstories",
-      "datetime": 1776676500,
-      "category": "general"
-    },
-    {
-      "headline": "Singer Meghan Trainor finally sold her SoCal home for $6.8 million just before canceling her tour",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/singer-meghan-trainor-finally-sold-her-socal-home-for-6-8-million-just-before-canceling-her-tour-f2d3c976?mod=mw_rss_topstories",
-      "datetime": 1776675900,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018Red flags\u2019: Ryan Seacrest on what he looks for in a date, and he lists stunning Napa Valley estate for $19.8 million",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/red-flags-ryan-seacrest-on-what-he-looks-for-in-a-date-and-he-lists-stunning-napa-valley-estate-for-19-8-million-aa52e6c2?mod=mw_rss_topstories",
-      "datetime": 1776675660,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018I have more money than I know what to do with\u2019: I\u2019m a single millionaire with no heirs and don\u2019t like spending. What\u2019s wrong with me?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-have-more-money-than-i-know-what-to-do-with-im-a-single-millionaire-with-no-heirs-and-dont-like-spending-whats-wrong-dd5acfb6?mod=mw_rss_topstories",
-      "datetime": 1776675600,
-      "category": "general"
-    },
-    {
-      "headline": "I\u2019m planning to retire at 60. Should I sell my house and invest the $500,000?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
-      "datetime": 1776675600,
-      "category": "general"
-    },
-    {
       "headline": "The insider trading suspicions looming over Trump's presidency",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
@@ -519,7 +519,7 @@
       "headline": "Oil prices rise after Trump says Iranian ship seized",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776674472,
+      "datetime": 1776684184,
       "category": "general"
     },
     {
