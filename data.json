@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-22T08:51:01.558789Z",
+  "generated_at": "2026-04-22T10:23:30.128095Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 3.598,
       "y6m": null,
       "y1": null,
-      "y2": null,
+      "y2": 3.71,
       "y3": null,
-      "y5": null,
+      "y5": 3.908,
       "y7": null,
       "y10": 4.292,
       "y20": null,
@@ -19,6 +19,12 @@
         "price": 3.598,
         "prev_close": 3.598,
         "change_pct": 0.0,
+        "timestamp": "2026-04-21 00:00:00"
+      },
+      "US_5Y": {
+        "price": 3.908,
+        "prev_close": 3.85,
+        "change_pct": 1.51,
         "timestamp": "2026-04-21 00:00:00"
       },
       "US_10Y": {
@@ -37,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4772.1001,
-      "d1_pct": 1.57,
-      "w1_pct": -0.58,
-      "m1_pct": 8.36,
+      "price": 4764.8999,
+      "d1_pct": 1.42,
+      "w1_pct": -0.73,
+      "m1_pct": 8.19,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 78.025,
-      "d1_pct": 2.11,
-      "w1_pct": -1.84,
-      "m1_pct": 13.0,
+      "price": 77.74,
+      "d1_pct": 1.74,
+      "w1_pct": -2.2,
+      "m1_pct": 12.59,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 91.23,
-      "d1_pct": -0.98,
-      "w1_pct": -0.07,
-      "m1_pct": 3.52,
+      "price": 90.94,
+      "d1_pct": -1.29,
+      "w1_pct": -0.38,
+      "m1_pct": 3.19,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 94.78,
-      "d1_pct": -3.76,
-      "w1_pct": -0.16,
-      "m1_pct": -5.16,
+      "price": 94.54,
+      "d1_pct": -4.0,
+      "w1_pct": -0.41,
+      "m1_pct": -5.4,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.727,
-      "d1_pct": 1.11,
-      "w1_pct": 4.48,
-      "m1_pct": -5.67,
+      "price": 2.737,
+      "d1_pct": 1.48,
+      "w1_pct": 4.87,
+      "m1_pct": -5.33,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.065,
-      "d1_pct": 1.06,
+      "price": 6.0645,
+      "d1_pct": 1.05,
       "w1_pct": -0.12,
-      "m1_pct": 11.5,
+      "m1_pct": 11.49,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 620.25,
-      "d1_pct": 2.52,
-      "w1_pct": 4.46,
-      "m1_pct": 5.53,
+      "price": 616.0,
+      "d1_pct": 1.82,
+      "w1_pct": 3.75,
+      "m1_pct": 4.81,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 465.5,
-      "d1_pct": 2.59,
-      "w1_pct": 3.16,
-      "m1_pct": 1.31,
+      "price": 465.0,
+      "d1_pct": 2.48,
+      "w1_pct": 3.05,
+      "m1_pct": 1.2,
       "unit": "\u00a2/bu"
     }
   },
@@ -217,70 +223,70 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1755,
-      "d1_pct": -0.25,
-      "w1_pct": -0.38,
-      "m1_pct": 1.27
+      "price": 1.1754,
+      "d1_pct": -0.26,
+      "w1_pct": -0.39,
+      "m1_pct": 1.26
     },
     "GBPUSD": {
-      "price": 1.3529,
-      "d1_pct": -0.02,
-      "w1_pct": -0.34,
-      "m1_pct": 0.78
+      "price": 1.352,
+      "d1_pct": -0.08,
+      "w1_pct": -0.41,
+      "m1_pct": 0.71
     },
     "USDJPY": {
-      "price": 159.34,
-      "d1_pct": 0.31,
-      "w1_pct": 0.35,
-      "m1_pct": 0.54
+      "price": 159.306,
+      "d1_pct": 0.29,
+      "w1_pct": 0.32,
+      "m1_pct": 0.52
     },
     "USDCHF": {
-      "price": 0.78,
-      "d1_pct": 0.2,
-      "w1_pct": -0.11,
-      "m1_pct": -0.81
+      "price": 0.781,
+      "d1_pct": 0.31,
+      "w1_pct": 0.01,
+      "m1_pct": -0.69
     },
     "AUDUSD": {
-      "price": 0.7165,
-      "d1_pct": -0.13,
-      "w1_pct": 0.49,
-      "m1_pct": 2.26
+      "price": 0.7161,
+      "d1_pct": -0.18,
+      "w1_pct": 0.45,
+      "m1_pct": 2.21
     },
     "NZDUSD": {
-      "price": 0.5917,
-      "d1_pct": 0.18,
-      "w1_pct": 0.23,
-      "m1_pct": 1.09
+      "price": 0.5913,
+      "d1_pct": 0.11,
+      "w1_pct": 0.16,
+      "m1_pct": 1.01
     },
     "USDCAD": {
-      "price": 1.3648,
-      "d1_pct": 0.03,
-      "w1_pct": -0.86,
-      "m1_pct": -0.61
+      "price": 1.3653,
+      "d1_pct": 0.07,
+      "w1_pct": -0.82,
+      "m1_pct": -0.56
     },
     "USDSEK": {
-      "price": 9.1617,
-      "d1_pct": 0.46,
-      "w1_pct": -0.1,
-      "m1_pct": -1.78
+      "price": 9.1658,
+      "d1_pct": 0.51,
+      "w1_pct": -0.06,
+      "m1_pct": -1.74
     },
     "USDNOK": {
-      "price": 9.2781,
-      "d1_pct": -0.26,
-      "w1_pct": -1.64,
-      "m1_pct": -4.63
+      "price": 9.2807,
+      "d1_pct": -0.23,
+      "w1_pct": -1.61,
+      "m1_pct": -4.6
     },
     "USDCNY": {
-      "price": 6.8215,
-      "d1_pct": 0.06,
-      "w1_pct": 0.09,
-      "m1_pct": -0.85
+      "price": 6.8233,
+      "d1_pct": 0.09,
+      "w1_pct": 0.11,
+      "m1_pct": -0.82
     },
     "USDMXN": {
-      "price": 17.3009,
-      "d1_pct": -0.05,
-      "w1_pct": 0.27,
-      "m1_pct": -2.71
+      "price": 17.304,
+      "d1_pct": -0.03,
+      "w1_pct": 0.29,
+      "m1_pct": -2.7
     },
     "USDBRL": {
       "price": 4.9646,
@@ -289,52 +295,52 @@
       "m1_pct": -5.13
     },
     "USDZAR": {
-      "price": 16.4815,
-      "d1_pct": 0.78,
-      "w1_pct": 1.0,
-      "m1_pct": -2.09
+      "price": 16.4798,
+      "d1_pct": 0.77,
+      "w1_pct": 0.98,
+      "m1_pct": -2.1
     },
     "USDINR": {
-      "price": 93.84,
-      "d1_pct": 0.77,
-      "w1_pct": 0.72,
-      "m1_pct": 0.64
+      "price": 93.775,
+      "d1_pct": 0.7,
+      "w1_pct": 0.65,
+      "m1_pct": 0.57
     },
     "USDKRW": {
-      "price": 1476.61,
-      "d1_pct": 0.5,
-      "w1_pct": 0.49,
-      "m1_pct": -0.59
+      "price": 1478.45,
+      "d1_pct": 0.63,
+      "w1_pct": 0.61,
+      "m1_pct": -0.47
     },
     "USDTRY": {
-      "price": 44.9237,
-      "d1_pct": 0.09,
+      "price": 44.9234,
+      "d1_pct": 0.08,
       "w1_pct": 0.43,
       "m1_pct": 1.32
     },
     "USDPLN": {
-      "price": 3.6082,
-      "d1_pct": 0.55,
-      "w1_pct": 0.48,
-      "m1_pct": -1.5
-    },
-    "USDHUF": {
-      "price": 309.691,
-      "d1_pct": 1.17,
-      "w1_pct": 0.71,
-      "m1_pct": -7.15
-    },
-    "USDCZK": {
-      "price": 20.7073,
-      "d1_pct": 0.53,
-      "w1_pct": 0.43,
+      "price": 3.611,
+      "d1_pct": 0.62,
+      "w1_pct": 0.56,
       "m1_pct": -1.43
     },
+    "USDHUF": {
+      "price": 309.939,
+      "d1_pct": 1.25,
+      "w1_pct": 0.79,
+      "m1_pct": -7.08
+    },
+    "USDCZK": {
+      "price": 20.716,
+      "d1_pct": 0.58,
+      "w1_pct": 0.48,
+      "m1_pct": -1.38
+    },
     "USDSGD": {
-      "price": 1.2728,
-      "d1_pct": 0.22,
-      "w1_pct": 0.16,
-      "m1_pct": -0.19
+      "price": 1.2731,
+      "d1_pct": 0.24,
+      "w1_pct": 0.18,
+      "m1_pct": -0.17
     },
     "USDIDR": {
       "price": 17170.0,
@@ -343,23 +349,23 @@
       "m1_pct": 1.81
     },
     "USDTHB": {
-      "price": 32.15,
-      "d1_pct": 0.47,
-      "w1_pct": 0.53,
-      "m1_pct": -0.8
+      "price": 32.13,
+      "d1_pct": 0.41,
+      "w1_pct": 0.47,
+      "m1_pct": -0.86
     },
     "DXY": {
-      "price": 98.319,
-      "d1_pct": -0.09,
-      "w1_pct": 0.26,
-      "m1_pct": -0.64
+      "price": 98.358,
+      "d1_pct": -0.05,
+      "w1_pct": 0.3,
+      "m1_pct": -0.6
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 19.32,
+      "price": 19.15,
       "prev_close": 19.5,
-      "change_pct": -0.92,
+      "change_pct": -1.79,
       "timestamp": "2026-04-22 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -407,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.785,
-      "d1_pct": 0.08,
-      "w1_pct": -0.51,
-      "m1_pct": 0.88,
+      "price": 9.795,
+      "d1_pct": 0.18,
+      "w1_pct": -0.41,
+      "m1_pct": 0.98,
       "country": "UK",
       "duration": "mixed"
     },
@@ -432,6 +438,41 @@
     }
   },
   "news": [
+    {
+      "headline": "Capital One increases provision for bad-debt expenses as earnings miss Wall Street consensus",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/capital-one-increases-provision-for-bad-debt-expenses-as-earnings-miss-wall-street-consensus-842d3c98?mod=mw_rss_topstories",
+      "datetime": 1776853260,
+      "category": "general"
+    },
+    {
+      "headline": "Adobe is betting a quarter of its value against the so-called SaaSpocalypse",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/adobe-is-betting-a-quarter-of-its-value-against-the-so-called-saaspocalypse-a2143e65?mod=mw_rss_topstories",
+      "datetime": 1776849540,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018The Lord has taken care of me\u2019: I\u2019m 74. I went from earning $14 an hour to retiring with $3.4 million. Here\u2019s how I did it.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-lord-has-taken-care-of-me-im-74-i-went-from-working-14-an-hour-to-3-4-million-heres-how-i-did-it-e0af1045?mod=mw_rss_topstories",
+      "datetime": 1776849300,
+      "category": "general"
+    },
+    {
+      "headline": "Lily Allen and David Harbour sell their quirky Brooklyn townhouse for $7 million, a year after breaking up",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/lily-allen-and-david-harbour-sell-their-quirky-brooklyn-townhouse-for-7-million-a-year-after-breaking-up-76cf01d7?mod=mw_rss_topstories",
+      "datetime": 1776848640,
+      "category": "general"
+    },
+    {
+      "headline": "Citadel founder Ken Griffin just added a $38 million Park Avenue apartment to his $1.5 billion real estate portfolio",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/citadel-founder-ken-griffin-just-added-a-38-million-park-avenue-apartment-to-his-1-5-billion-real-estate-portfolio-93ae762a?mod=mw_rss_topstories",
+      "datetime": 1776848520,
+      "category": "general"
+    },
     {
       "headline": "Why these strategists say 45% of portfolios should be invested in gold, metals and bitcoin",
       "source": "MarketWatch",
@@ -468,45 +509,24 @@
       "category": "general"
     },
     {
-      "headline": "Airlines cut flights as fuel costs surge \u2014 an economic fallout from the Iran war that markets may be missing",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/airlines-cut-flights-as-fuel-costs-surge-an-economic-fallout-from-the-iran-war-that-markets-may-be-missing-8b92f5ff?mod=mw_rss_topstories",
-      "datetime": 1776809040,
-      "category": "general"
-    },
-    {
-      "headline": "Bonds could lag stocks for the rest of 2026, according to this contrarian signal",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/bonds-could-lag-stocks-for-the-rest-of-2026-according-to-this-contrarian-signal-6b6c55de?mod=mw_rss_topstories",
-      "datetime": 1776808560,
-      "category": "general"
-    },
-    {
-      "headline": "What Apple investors need to know about the next steps for the company and its new CEO",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-is-what-apple-investors-need-to-know-about-whats-next-for-the-company-and-its-new-ceo-9997df15?mod=mw_rss_topstories",
-      "datetime": 1776806880,
-      "category": "general"
-    },
-    {
-      "headline": "ChatGPT is so 2025 \u2014 here are the real AI gold mines for investors in 2026",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-chatbot-era-is-over-these-3-sectors-are-the-real-ai-gold-mines-for-2026-002372c7?mod=mw_rss_topstories",
-      "datetime": 1776806220,
-      "category": "general"
-    },
-    {
-      "headline": "The meme-stock frenzy is a warning \u2014 these 7 high-quality stocks are better bets",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/from-allbirds-to-ai-the-meme-stock-frenzy-is-warning-you-to-own-this-quality-antimeme-portfolio-instead-6714bb16?mod=mw_rss_topstories",
-      "datetime": 1776805800,
-      "category": "general"
-    },
-    {
       "headline": "UK inflation rises after Iran war pushes up fuel prices",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cnv8l17r51ro?at_medium=RSS&at_campaign=rss",
       "datetime": 1776847091,
+      "category": "general"
+    },
+    {
+      "headline": "McDonald's boss on abuse claims: 'I don't want to talk about the past'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cp9v3lk34yvo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1776853095,
+      "category": "general"
+    },
+    {
+      "headline": "Car finance compensation scheme faces challenge and delay",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cj0v63v027lo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1776851508,
       "category": "general"
     },
     {
@@ -524,17 +544,17 @@
       "category": "general"
     },
     {
-      "headline": "War in Iran 'has put up our fuel bill by \u00a3100,000'",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c248j1r7qrdo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776835159,
-      "category": "general"
-    },
-    {
       "headline": "The 'dumb machine' promising a clean energy breakthrough",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c5yvm11xrn6o?at_medium=RSS&at_campaign=rss",
       "datetime": 1776726581,
+      "category": "general"
+    },
+    {
+      "headline": "War in Iran 'has put up our fuel bill by \u00a3100,000'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c248j1r7qrdo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1776835159,
       "category": "general"
     },
     {
@@ -556,20 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cvglyklz49jo?at_medium=RSS&at_campaign=rss",
       "datetime": 1776811676,
-      "category": "general"
-    },
-    {
-      "headline": "Hotpot, bubble tea and sportswear: China's new exports take on the world",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/crr1ln1575lo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776809422,
-      "category": "general"
-    },
-    {
-      "headline": "OpenAI faces criminal probe over role of ChatGPT in shooting",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c62j4ldp2jqo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776798934,
       "category": "general"
     }
   ],
