@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T07:03:38.442408Z",
+  "generated_at": "2026-04-27T09:24:46.567180Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,63 +39,96 @@
         "change_pct": -0.04,
         "timestamp": "2026-04-24 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.3917,
+      "y10": 4.9814,
+      "y30": 5.6325
+    },
+    "Eurozone": {
+      "y2": 2.571,
+      "y10": 3.0225,
+      "y30": 3.5479
+    },
+    "Japan": {
+      "y2": 1.3597,
+      "y10": 2.4713,
+      "y30": 3.6803
+    },
+    "Italy": {
+      "y2": 2.7698,
+      "y10": 3.8117
+    },
+    "France": {
+      "y10": 3.6705
+    },
+    "Spain": {
+      "y10": 3.476
+    },
+    "Canada": {
+      "y2": 2.8208,
+      "y10": 3.4597
+    },
+    "Australia": {
+      "y2": 4.701,
+      "y10": 4.9884
     }
   },
   "commodities": {
     "gold": {
-      "price": 4722.2998,
-      "d1_pct": 0.37,
-      "w1_pct": -2.79,
-      "m1_pct": 3.79,
+      "price": 4721.1001,
+      "d1_pct": -0.03,
+      "w1_pct": -1.78,
+      "m1_pct": 7.9,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 76.383,
-      "d1_pct": 1.22,
-      "w1_pct": -6.55,
-      "m1_pct": 5.56,
+      "price": 75.525,
+      "d1_pct": -1.12,
+      "w1_pct": -5.54,
+      "m1_pct": 11.61,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 94.4,
-      "d1_pct": -1.51,
-      "w1_pct": 12.58,
-      "m1_pct": 4.52,
+      "price": 96.36,
+      "d1_pct": 2.08,
+      "w1_pct": 7.53,
+      "m1_pct": 1.99,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 105.33,
-      "d1_pct": 0.25,
-      "w1_pct": 16.54,
-      "m1_pct": 3.04,
+      "price": 101.5,
+      "d1_pct": -3.64,
+      "w1_pct": 6.3,
+      "m1_pct": -6.03,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.523,
-      "d1_pct": -3.48,
-      "w1_pct": -5.65,
-      "m1_pct": -14.53,
+      "price": 2.709,
+      "d1_pct": 7.37,
+      "w1_pct": 0.74,
+      "m1_pct": -9.67,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.0235,
-      "d1_pct": -0.86,
-      "w1_pct": -1.31,
-      "m1_pct": 8.94,
+      "price": 6.1065,
+      "d1_pct": 1.38,
+      "w1_pct": 1.17,
+      "m1_pct": 12.12,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 608.25,
-      "d1_pct": -0.41,
-      "w1_pct": 2.88,
-      "m1_pct": 1.76,
+      "price": 622.0,
+      "d1_pct": 2.26,
+      "w1_pct": 4.19,
+      "m1_pct": 2.81,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 455.0,
-      "d1_pct": -0.11,
-      "w1_pct": 1.39,
-      "m1_pct": -2.62,
+      "price": 468.0,
+      "d1_pct": 2.86,
+      "w1_pct": 3.54,
+      "m1_pct": 0.21,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,70 +256,70 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1726,
-      "d1_pct": 0.17,
-      "w1_pct": -0.48,
-      "m1_pct": 1.42
+      "price": 1.175,
+      "d1_pct": 0.56,
+      "w1_pct": 0.07,
+      "m1_pct": 1.86
     },
     "GBPUSD": {
-      "price": 1.3528,
-      "d1_pct": 0.46,
-      "w1_pct": 0.33,
-      "m1_pct": 1.45
+      "price": 1.3554,
+      "d1_pct": 0.65,
+      "w1_pct": 0.52,
+      "m1_pct": 1.64
     },
     "USDJPY": {
-      "price": 159.333,
-      "d1_pct": -0.1,
-      "w1_pct": 0.09,
-      "m1_pct": -0.03
+      "price": 159.13,
+      "d1_pct": -0.39,
+      "w1_pct": -0.02,
+      "m1_pct": -0.36
     },
     "USDCHF": {
-      "price": 0.7843,
-      "d1_pct": -0.06,
-      "w1_pct": 0.14,
-      "m1_pct": -0.91
+      "price": 0.784,
+      "d1_pct": -0.29,
+      "w1_pct": 0.04,
+      "m1_pct": -1.35
     },
     "AUDUSD": {
-      "price": 0.7151,
-      "d1_pct": 0.3,
-      "w1_pct": 0.22,
-      "m1_pct": 3.82
+      "price": 0.7189,
+      "d1_pct": 0.83,
+      "w1_pct": 0.75,
+      "m1_pct": 4.37
     },
     "NZDUSD": {
-      "price": 0.588,
-      "d1_pct": 0.45,
-      "w1_pct": 0.26,
-      "m1_pct": 2.06
+      "price": 0.5913,
+      "d1_pct": 1.0,
+      "w1_pct": 0.81,
+      "m1_pct": 2.62
     },
     "USDCAD": {
-      "price": 1.3668,
-      "d1_pct": -0.22,
-      "w1_pct": -0.27,
-      "m1_pct": -1.33
+      "price": 1.3611,
+      "d1_pct": -0.64,
+      "w1_pct": -0.68,
+      "m1_pct": -1.74
     },
     "USDSEK": {
-      "price": 9.205,
-      "d1_pct": 0.03,
-      "w1_pct": 0.14,
-      "m1_pct": -1.54
+      "price": 9.1947,
+      "d1_pct": -0.67,
+      "w1_pct": 0.03,
+      "m1_pct": -2.41
     },
     "USDNOK": {
-      "price": 9.2959,
-      "d1_pct": -0.33,
-      "w1_pct": -0.89,
-      "m1_pct": -4.07
+      "price": 9.2642,
+      "d1_pct": -0.67,
+      "w1_pct": -1.23,
+      "m1_pct": -4.4
     },
     "USDCNY": {
-      "price": 6.8354,
-      "d1_pct": 0.14,
-      "w1_pct": 0.27,
-      "m1_pct": -1.09
+      "price": 6.8219,
+      "d1_pct": -0.06,
+      "w1_pct": 0.07,
+      "m1_pct": -1.28
     },
     "USDMXN": {
-      "price": 17.375,
-      "d1_pct": -0.23,
-      "w1_pct": 0.02,
-      "m1_pct": -3.01
+      "price": 17.3519,
+      "d1_pct": -0.36,
+      "w1_pct": -0.12,
+      "m1_pct": -3.14
     },
     "USDBRL": {
       "price": 4.9793,
@@ -295,78 +328,78 @@
       "m1_pct": -4.89
     },
     "USDZAR": {
-      "price": 16.5223,
-      "d1_pct": -0.62,
-      "w1_pct": 0.64,
-      "m1_pct": -3.25
+      "price": 16.4876,
+      "d1_pct": -0.83,
+      "w1_pct": 0.43,
+      "m1_pct": -3.46
     },
     "USDINR": {
-      "price": 94.22,
-      "d1_pct": 0.11,
-      "w1_pct": 1.75,
-      "m1_pct": -0.09
+      "price": 94.1825,
+      "d1_pct": 0.07,
+      "w1_pct": 1.71,
+      "m1_pct": -0.13
     },
     "USDKRW": {
-      "price": 1476.3199,
-      "d1_pct": -0.25,
-      "w1_pct": 0.76,
-      "m1_pct": -2.12
+      "price": 1470.1899,
+      "d1_pct": -0.66,
+      "w1_pct": 0.34,
+      "m1_pct": -2.53
     },
     "USDTRY": {
-      "price": 44.99,
-      "d1_pct": 0.03,
-      "w1_pct": 0.3,
-      "m1_pct": 1.2
+      "price": 45.0126,
+      "d1_pct": 0.08,
+      "w1_pct": 0.35,
+      "m1_pct": 1.25
     },
     "USDPLN": {
-      "price": 3.6147,
-      "d1_pct": -0.44,
-      "w1_pct": 0.35,
-      "m1_pct": -2.4
+      "price": 3.6141,
+      "d1_pct": -0.45,
+      "w1_pct": 0.33,
+      "m1_pct": -2.42
     },
     "USDHUF": {
-      "price": 311.08,
-      "d1_pct": -0.52,
-      "w1_pct": 1.13,
-      "m1_pct": -7.02
+      "price": 309.35,
+      "d1_pct": -1.08,
+      "w1_pct": 0.57,
+      "m1_pct": -7.54
     },
     "USDCZK": {
-      "price": 20.735,
+      "price": 20.7343,
       "d1_pct": -0.44,
       "w1_pct": 0.38,
       "m1_pct": -2.34
     },
     "USDSGD": {
-      "price": 1.2758,
-      "d1_pct": -0.16,
-      "w1_pct": 0.18,
-      "m1_pct": -0.78
+      "price": 1.2731,
+      "d1_pct": -0.36,
+      "w1_pct": -0.03,
+      "m1_pct": -0.99
     },
     "USDIDR": {
-      "price": 17273.0,
-      "d1_pct": -0.32,
-      "w1_pct": 0.82,
-      "m1_pct": 2.06
+      "price": 17190.0,
+      "d1_pct": -0.8,
+      "w1_pct": 0.33,
+      "m1_pct": 1.57
     },
     "USDTHB": {
-      "price": 32.31,
-      "d1_pct": -0.52,
-      "w1_pct": 0.56,
-      "m1_pct": -1.97
+      "price": 32.3,
+      "d1_pct": -0.55,
+      "w1_pct": 0.53,
+      "m1_pct": -2.0
     },
     "DXY": {
-      "price": 98.51,
-      "d1_pct": -0.29,
-      "w1_pct": 0.42,
-      "m1_pct": -1.09
+      "price": 98.269,
+      "d1_pct": -0.24,
+      "w1_pct": 0.22,
+      "m1_pct": -1.63
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 18.71,
-      "prev_close": 19.31,
-      "change_pct": -3.11,
-      "timestamp": "2026-04-24 00:00:00"
+      "price": 19.08,
+      "prev_close": 18.71,
+      "change_pct": 1.98,
+      "timestamp": "2026-04-27 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
       "price": 23.38,
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.7625,
-      "d1_pct": 0.05,
-      "w1_pct": -1.19,
-      "m1_pct": 0.31,
+      "price": 9.7575,
+      "d1_pct": -0.05,
+      "w1_pct": -0.66,
+      "m1_pct": -0.56,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 142.275,
-      "d1_pct": -0.04,
-      "w1_pct": -0.73,
-      "m1_pct": 0.6,
+      "price": 142.11,
+      "d1_pct": -0.12,
+      "w1_pct": -0.65,
+      "m1_pct": -0.62,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -439,73 +472,115 @@
   },
   "news": [
     {
-      "headline": "I\u2019m planning to retire at 60. Should I sell my house, rent and invest the $500,000?",
+      "headline": "\u2018I hope to retire early\u2019: I\u2019m 56 and have 80% in a traditional IRA and 20% in a Roth. Am I in trouble?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
-      "datetime": 1777068480,
+      "url": "https://www.marketwatch.com/story/i-hope-to-retire-early-im-56-and-have-80-in-a-traditional-ira-and-20-in-a-roth-am-i-in-trouble-8ec58195?mod=mw_rss_topstories",
+      "datetime": 1777281300,
       "category": "general"
     },
     {
-      "headline": "\u2018This is unbelievable\u2019: My adviser made $300,000 trading options. Now I\u2019m being killed by taxes. Do I fire him?",
+      "headline": "Skims co-founder Emma Grede and her $70 million California properties",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-is-unbelievable-my-adviser-made-300-000-trading-options-now-im-being-killed-by-taxes-do-i-complain-e30873b7?mod=mw_rss_topstories",
-      "datetime": 1777067640,
+      "url": "https://www.marketwatch.com/story/skims-co-founder-emma-grede-and-her-70-million-california-properties-6c82b3de?mod=mw_rss_topstories",
+      "datetime": 1777280340,
       "category": "general"
     },
     {
-      "headline": "\u2018AI genuinely freaks me out\u2019: Do I leave my $150,000 nonprofit job for a $215,000 data analytics position \u2014 with a 50-minute commute?",
+      "headline": "Global oil futures top $100 again after U.S.-Iran peace talks canceled",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/ai-genuinely-freaks-me-out-do-i-leave-my-150-000-job-for-a-215-000-role-in-data-analytics-with-a-50-minute-commute-440b4c36?mod=mw_rss_topstories",
-      "datetime": 1777066680,
+      "url": "https://www.marketwatch.com/story/global-oil-futures-top-100-again-after-u-s-iran-peace-talks-canceled-a50f6a7b?mod=mw_rss_topstories",
+      "datetime": 1777279740,
       "category": "general"
     },
     {
-      "headline": "\u2018My child requires lifelong support\u2019: I\u2019m in my 40s with $330,000 for retirement. How can I make this last both our lifetimes?",
+      "headline": "Why JPMorgan is telling investors to keep buying the dips even as market hits new highs",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-child-will-need-lifelong-support-im-in-my-40s-with-a-330-000-inherited-retirement-account-how-can-i-grow-it-4fc7f64a?mod=mw_rss_topstories",
-      "datetime": 1777065540,
+      "url": "https://www.marketwatch.com/story/why-jpmorgan-is-telling-investors-to-keep-buying-the-dips-even-as-market-hits-new-highs-4c8b7763?mod=mw_rss_topstories",
+      "datetime": 1777279260,
       "category": "general"
     },
     {
-      "headline": "Nvidia\u2019s stock sees its first record close in 6 months \u2014 thanks to Intel",
+      "headline": "Adidas claims the first sub 2-hour marathon winner. But good luck getting the winner\u2019s sneakers.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-first-record-close-in-6-months-thanks-to-intel-21af7d28?mod=mw_rss_topstories",
-      "datetime": 1777064400,
+      "url": "https://www.marketwatch.com/story/adidas-claims-the-first-sub-2-hour-marathon-winner-but-good-luck-getting-the-winners-sneakers-3aa995ef?mod=mw_rss_topstories",
+      "datetime": 1777275180,
       "category": "general"
     },
     {
-      "headline": "Intel\u2019s stock extends its spectacular run by posting its best day in nearly four decades",
+      "headline": "\u2018We are not close\u2019: My brother says our mother left no estate when she died. How on earth can I trust him?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/intels-stock-extends-its-spectacular-run-and-could-see-its-best-daily-gain-on-record-6e6ef0de?mod=mw_rss_topstories",
-      "datetime": 1777064040,
+      "url": "https://www.marketwatch.com/story/we-are-not-close-my-brother-says-our-mother-left-no-estate-when-she-died-how-on-earth-can-i-trust-him-0e4b46d9?mod=mw_rss_topstories",
+      "datetime": 1777274100,
       "category": "general"
     },
     {
-      "headline": "AMD\u2019s stock is red-hot \u2014 and just hit a major milestone",
+      "headline": "U.S. stock futures mixed, oil rises ahead of a busy week for Wall Street",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/amds-stock-is-red-hot-and-on-track-to-hit-a-major-milestone-0b3d9f9d?mod=mw_rss_topstories",
-      "datetime": 1777062960,
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-rises-ahead-of-a-busy-week-for-wall-street-c3e49958?mod=mw_rss_topstories",
+      "datetime": 1777259100,
       "category": "general"
     },
     {
-      "headline": "There\u2019s a new stock for the nuclear-power IPO trade, and Wall Street is piling in. Should you?",
+      "headline": "Wall Street\u2019s Super Bowl Wednesday: Alphabet, Amazon, Microsoft and Meta report along with Powell\u2019s last Fed meeting",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/theres-a-new-stock-for-the-nuclear-power-ipo-trade-and-wall-street-is-piling-in-should-you-b07269fa?mod=mw_rss_topstories",
-      "datetime": 1777062540,
+      "url": "https://www.marketwatch.com/story/wall-streets-super-bowl-wednesday-alphabet-amazon-microsoft-and-meta-report-along-with-powells-last-fed-meeting-88eb1710?mod=mw_rss_topstories",
+      "datetime": 1777237200,
       "category": "general"
     },
     {
-      "headline": "Charter\u2019s stock just got hammered. Here\u2019s what fueled its worst day on record.",
+      "headline": "I will inherit my parents\u2019 $1.5 million estate. Do I fire the adviser who charges a 3% fee?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/charters-stock-is-getting-hammered-heres-whats-fueling-its-worst-day-on-record-11f991a0?mod=mw_rss_topstories",
-      "datetime": 1777062360,
+      "url": "https://www.marketwatch.com/story/some-stocks-have-risen-but-others-have-flopped-i-will-soon-inherit-my-parents-1-5-million-estate-do-i-fire-the-adviser-who-charges-a-3-fee-6b5b2caa?mod=mw_rss_topstories",
+      "datetime": 1777236120,
       "category": "general"
     },
     {
-      "headline": "Why crude prices won\u2019t fall back to levels seen before the Iran war anytime soon",
+      "headline": "\u2018The Lord has taken care of me\u2019: I\u2019m 74. I went from earning $14 an hour to retiring with $3.4 million. Here\u2019s how I did it.",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-crude-prices-wont-fall-back-to-levels-seen-before-the-iran-war-anytime-soon-9bdceed1?mod=mw_rss_topstories",
-      "datetime": 1777057620,
+      "url": "https://www.marketwatch.com/story/the-lord-has-taken-care-of-me-im-74-i-went-from-working-14-an-hour-to-3-4-million-heres-how-i-did-it-e0af1045?mod=mw_rss_topstories",
+      "datetime": 1777235400,
+      "category": "general"
+    },
+    {
+      "headline": "Oil prices rise as US-Iran peace talks stall",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1777279117,
+      "category": "general"
+    },
+    {
+      "headline": "'I don't want the children to see how worried we are': UK family finances hit by Iran war",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/ckg9q2g88nzo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1777265734,
+      "category": "general"
+    },
+    {
+      "headline": "Less bread and WFH Fridays \u2013 what Pret boss knows about our habits",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c8dl3z9878no?at_medium=RSS&at_campaign=rss",
+      "datetime": 1777272294,
+      "category": "general"
+    },
+    {
+      "headline": "Higher prices could last for eight months after Iran war, minister says",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
+      "datetime": 1777211934,
+      "category": "general"
+    },
+    {
+      "headline": "The Chinese sports brand taking on Nike and Adidas",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c87r2d850q4o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1777273782,
+      "category": "general"
+    },
+    {
+      "headline": "How climate change threatens the economic backbone of the Pacific",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cq57vxjvdy4o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1777245401,
       "category": "general"
     },
     {
@@ -535,675 +610,9 @@
       "url": "https://www.bbc.com/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
       "datetime": 1777023588,
       "category": "general"
-    },
-    {
-      "headline": "White House memo claims mass AI theft by Chinese firms",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776992338,
-      "category": "general"
-    },
-    {
-      "headline": "From scientist to silk farmer: India's silk industry renewal",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c0e7le127v5o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776988201,
-      "category": "general"
-    },
-    {
-      "headline": "Which airlines are cancelling flights to the UK - and what can you do?",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cr41yel6v4eo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1777028518,
-      "category": "general"
-    },
-    {
-      "headline": "US soldier charged after winning $400,000 betting on removal of Maduro",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776990092,
-      "category": "general"
-    },
-    {
-      "headline": "Meta to cut one in 10 jobs after spending billions on AI",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1777015895,
-      "category": "general"
-    },
-    {
-      "headline": "Warner Bros shareholders approve Paramount's $111bn takeover",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cgj09ny0dq6o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1776960945,
-      "category": "general"
     }
   ],
   "calendar": [
-    {
-      "date": "2026-04-17",
-      "time": "14:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Fed Waller Speech",
-      "prev": "\u2014",
-      "fcast": "\u2014",
-      "act": "\u2014",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-20",
-      "time": "11:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "3-Month Bill Auction",
-      "prev": "3.62%",
-      "fcast": "\u2014",
-      "act": "3.61%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-20",
-      "time": "11:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "6-Month Bill Auction",
-      "prev": "3.610%",
-      "fcast": "\u2014",
-      "act": "3.590%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:15",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "ADP Employment Change Weekly",
-      "prev": "40.25K",
-      "fcast": "\u2014",
-      "act": "54.75K",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Retail Sales Control Group MoM (Mar)",
-      "prev": "0.6%",
-      "fcast": "0.2%",
-      "act": "0.7%",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Retail Sales Ex Autos MoM (Mar)",
-      "prev": "0.7%",
-      "fcast": "1.4%",
-      "act": "1.9%",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Retail Sales Ex Gas/Autos MoM (Mar)",
-      "prev": "0.6%",
-      "fcast": "\u2014",
-      "act": "0.6%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Retail Sales MoM (Mar)",
-      "prev": "0.7%",
-      "fcast": "1.4%",
-      "act": "1.7%",
-      "imp": "red",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Retail Sales YoY (Mar)",
-      "prev": "4.0%",
-      "fcast": "\u2014",
-      "act": "4.0%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "08:55",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Redbook YoY (04/19)",
-      "prev": "7%",
-      "fcast": "\u2014",
-      "act": "6.7%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Business Inventories MoM (Feb)",
-      "prev": "0%",
-      "fcast": "0.3%",
-      "act": "0.4%",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Fed Chair Nominee Kevin Warsh Confirmation Hearing",
-      "prev": "\u2014",
-      "fcast": "\u2014",
-      "act": "\u2014",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Pending Home Sales MoM (Mar)",
-      "prev": "2.5%",
-      "fcast": "0.1%",
-      "act": "1.5%",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Pending Home Sales YoY (Mar)",
-      "prev": "-0.8%",
-      "fcast": "\u2014",
-      "act": "-1.1%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Retail Inventories Ex Autos MoM (Feb)",
-      "prev": "0.3%",
-      "fcast": "0.3%",
-      "act": "0.3%",
-      "imp": "orange",
-      "beat": "inline",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "10:20",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "NY Fed Bill Purchases 1 to 4 months",
-      "prev": "\u2014",
-      "fcast": "$7.587 billion",
-      "act": "\u2014",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "14:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Fed Waller Speech",
-      "prev": "\u2014",
-      "fcast": "\u2014",
-      "act": "\u2014",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "16:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "API Crude Oil Stock Change (04/18)",
-      "prev": "6.1M",
-      "fcast": "-1M",
-      "act": "-4.4M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "07:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "MBA 30-Year Mortgage Rate (04/18)",
-      "prev": "6.42%",
-      "fcast": "\u2014",
-      "act": "6.35%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "07:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "MBA Mortgage Applications (04/18)",
-      "prev": "1.8%",
-      "fcast": "\u2014",
-      "act": "7.9%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "07:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "MBA Mortgage Market Index (04/18)",
-      "prev": "281.0",
-      "fcast": "\u2014",
-      "act": "303.3",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "07:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "MBA Mortgage Refinance Index (04/18)",
-      "prev": "966.8",
-      "fcast": "\u2014",
-      "act": "1023.1",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "07:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "MBA Purchase Index (04/18)",
-      "prev": "159.5",
-      "fcast": "\u2014",
-      "act": "175.6",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Crude Oil Imports Change (04/18)",
-      "prev": "-2.109M",
-      "fcast": "\u2014",
-      "act": "1.214M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Crude Oil Stocks Change (04/18)",
-      "prev": "-0.913M",
-      "fcast": "-1.2M",
-      "act": "1.925M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Cushing Crude Oil Stocks Change (04/18)",
-      "prev": "-1.727M",
-      "fcast": "\u2014",
-      "act": "0.806M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Distillate Fuel Production Change (04/18)",
-      "prev": "-0.169M",
-      "fcast": "\u2014",
-      "act": "0.087M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Distillate Stocks Change (04/18)",
-      "prev": "-3.122M",
-      "fcast": "-2.5M",
-      "act": "-3.427M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Gasoline Production Change (04/18)",
-      "prev": "0.392M",
-      "fcast": "\u2014",
-      "act": "0.315M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Gasoline Stocks Change (04/18)",
-      "prev": "-6.328M",
-      "fcast": "-1.5M",
-      "act": "-4.57M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Heating Oil Stocks Change (04/18)",
-      "prev": "-0.463M",
-      "fcast": "\u2014",
-      "act": "-0.328M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Refinery Crude Runs Change (04/18)",
-      "prev": "-0.208M",
-      "fcast": "\u2014",
-      "act": "-0.055M",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "11:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "17-Week Bill Auction",
-      "prev": "3.625%",
-      "fcast": "\u2014",
-      "act": "3.610%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "13:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "20-Year Bond Auction",
-      "prev": "4.817%",
-      "fcast": "\u2014",
-      "act": "4.883%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Chicago Fed National Activity Index (Mar)",
-      "prev": "0.03",
-      "fcast": "\u2014",
-      "act": "-0.20",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Continuing Jobless Claims (04/11)",
-      "prev": "1809K",
-      "fcast": "1820K",
-      "act": "1821K",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Initial Jobless Claims (04/18)",
-      "prev": "208K",
-      "fcast": "212K",
-      "act": "214K",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Jobless Claims 4-week Average (04/18)",
-      "prev": "210K",
-      "fcast": "\u2014",
-      "act": "210.75K",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "10:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "EIA Natural Gas Stocks Change (04/18)",
-      "prev": "59Bcf",
-      "fcast": "94Bcf",
-      "act": "103Bcf",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "11:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Kansas Fed Composite Index (Apr)",
-      "prev": "11",
-      "fcast": "\u2014",
-      "act": "10",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "11:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Kansas Fed Manufacturing Index (Apr)",
-      "prev": "11",
-      "fcast": "\u2014",
-      "act": "10",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "11:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "4-Week Bill Auction",
-      "prev": "3.595%",
-      "fcast": "\u2014",
-      "act": "3.595%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "11:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "8-Week Bill Auction",
-      "prev": "3.615%",
-      "fcast": "\u2014",
-      "act": "3.605%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "12:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "15-Year Mortgage Rate (04/24)",
-      "prev": "5.65%",
-      "fcast": "\u2014",
-      "act": "5.58%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "12:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "30-Year Mortgage Rate (04/24)",
-      "prev": "6.30%",
-      "fcast": "\u2014",
-      "act": "6.23%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "13:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "5-Year TIPS Auction",
-      "prev": "1.433%",
-      "fcast": "\u2014",
-      "act": "1.367%",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-23",
-      "time": "16:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Fed Balance Sheet (04/23)",
-      "prev": "$6.71T",
-      "fcast": "\u2014",
-      "act": "$6.707T",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-24",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Michigan 5 Year Inflation Expectations Final (Apr)",
-      "prev": "3.2%",
-      "fcast": "3.4%",
-      "act": "3.5%",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-24",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Michigan Consumer Expectations Final (Apr)",
-      "prev": "51.7",
-      "fcast": "46.1",
-      "act": "48.1",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-24",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Michigan Consumer Sentiment Final (Apr)",
-      "prev": "53.3",
-      "fcast": "47.6",
-      "act": "49.8",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-24",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Michigan Current Conditions Final (Apr)",
-      "prev": "55.8",
-      "fcast": "50.1",
-      "act": "52.5",
-      "imp": "orange",
-      "beat": "beat",
-      "source": "finviz"
-    },
-    {
-      "date": "2026-04-24",
-      "time": "10:00",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Michigan Inflation Expectations Final (Apr)",
-      "prev": "3.8%",
-      "fcast": "4.8%",
-      "act": "4.7%",
-      "imp": "orange",
-      "beat": "miss",
-      "source": "finviz"
-    },
     {
       "date": "2026-04-24",
       "time": "13:00",
@@ -1217,13 +626,709 @@
       "source": "finviz"
     },
     {
-      "date": "2026-04-24",
+      "date": "2026-04-27",
+      "time": "10:20",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "NY Fed Bill Purchases 4 to 12 months",
+      "prev": "\u2014",
+      "fcast": "$5.058 billion",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-27",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Dallas Fed Manufacturing Index (Apr)",
+      "prev": "-0.2",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-27",
+      "time": "11:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "3-Month Bill Auction",
+      "prev": "3.61%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-27",
+      "time": "11:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "6-Month Bill Auction",
+      "prev": "3.590%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-27",
       "time": "13:00",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Baker Hughes Total Rigs Count (04/25)",
-      "prev": "543",
+      "ev": "2-Year Note Auction",
+      "prev": "3.936%",
       "fcast": "\u2014",
-      "act": "544",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-27",
+      "time": "13:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "5-Year Note Auction",
+      "prev": "3.980%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "08:15",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "ADP Employment Change Weekly",
+      "prev": "54.75K",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "08:55",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Redbook YoY (04/26)",
+      "prev": "6.7%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "09:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "House Price Index (Feb)",
+      "prev": "441.0",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "09:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "House Price Index MoM (Feb)",
+      "prev": "0.1%",
+      "fcast": "0.2%",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "09:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "House Price Index YoY (Feb)",
+      "prev": "1.6%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "09:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "S&P/Case-Shiller Home Price MoM (Feb)",
+      "prev": "-0.1%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "09:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "S&P/Case-Shiller Home Price YoY (Feb)",
+      "prev": "1.2%",
+      "fcast": "1%",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "10:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "CB Consumer Confidence (Apr)",
+      "prev": "91.8",
+      "fcast": "89.5",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "10:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Richmond Fed Manufacturing Index (Apr)",
+      "prev": "0",
+      "fcast": "-4",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "10:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Richmond Fed Manufacturing Shipments Index (Apr)",
+      "prev": "-2",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "10:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Richmond Fed Services Revenues Index (Apr)",
+      "prev": "9",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Dallas Fed Services Index (Apr)",
+      "prev": "-13.3",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Dallas Fed Services Revenues Index (Apr)",
+      "prev": "1.3",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "13:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "2-Year FRN Auction",
+      "prev": "0.115%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "13:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "7-Year Note Auction",
+      "prev": "4.255%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "13:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Money Supply (Mar)",
+      "prev": "$22.65T",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "16:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "API Crude Oil Stock Change (04/25)",
+      "prev": "-4.4M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "07:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "MBA 30-Year Mortgage Rate (04/25)",
+      "prev": "6.35%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "07:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "MBA Mortgage Applications (04/25)",
+      "prev": "7.9%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "07:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "MBA Mortgage Market Index (04/25)",
+      "prev": "303.3",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "07:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "MBA Mortgage Refinance Index (04/25)",
+      "prev": "1023.1",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "07:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "MBA Purchase Index (04/25)",
+      "prev": "175.6",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Building Permits MoM Prel (Feb)",
+      "prev": "-4.7%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Building Permits MoM Prel (Mar)",
+      "prev": "\u2014",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Building Permits Prel (Mar)",
+      "prev": "\u2014",
+      "fcast": "1.39M",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Building Permits Prel (Feb)",
+      "prev": "1.386M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Durable Goods Orders ex Defense MoM (Mar)",
+      "prev": "-1.2%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Durable Goods Orders Ex Transp MoM (Mar)",
+      "prev": "0.8%",
+      "fcast": "0.4%",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Durable Goods Orders MoM (Mar)",
+      "prev": "-1.4%",
+      "fcast": "0.5%",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Goods Trade Balance Adv (Mar)",
+      "prev": "-$83.5B",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Housing Starts (Feb)",
+      "prev": "1.487M",
+      "fcast": "1.4M",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Housing Starts (Mar)",
+      "prev": "\u2014",
+      "fcast": "1.40M",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Housing Starts MoM (Feb)",
+      "prev": "7.2%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Housing Starts MoM (Mar)",
+      "prev": "\u2014",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Non Defense Goods Orders Ex Air (Mar)",
+      "prev": "0.6%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Retail Inventories Ex Autos MoM Adv (Mar)",
+      "prev": "0.3%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Wholesale Inventories MoM Adv (Mar)",
+      "prev": "0.8%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Crude Oil Imports Change (04/25)",
+      "prev": "1.214M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Crude Oil Stocks Change (04/25)",
+      "prev": "1.925M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Cushing Crude Oil Stocks Change (04/25)",
+      "prev": "0.806M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Distillate Fuel Production Change (04/25)",
+      "prev": "0.087M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Distillate Stocks Change (04/25)",
+      "prev": "-3.427M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Gasoline Production Change (04/25)",
+      "prev": "0.315M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Gasoline Stocks Change (04/25)",
+      "prev": "-4.57M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Heating Oil Stocks Change (04/25)",
+      "prev": "-0.328M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "10:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "EIA Refinery Crude Runs Change (04/25)",
+      "prev": "-0.055M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "11:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "17-Week Bill Auction",
+      "prev": "3.610%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "14:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Fed Interest Rate Decision",
+      "prev": "3.75%",
+      "fcast": "3.75%",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "14:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Fed Press Conference",
+      "prev": "\u2014",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-30",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Continuing Jobless Claims (04/18)",
+      "prev": "1821K",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-30",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Core PCE Price Index MoM (Mar)",
+      "prev": "0.4%",
+      "fcast": "0.3%",
+      "act": "\u2014",
+      "imp": "red",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-30",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Core PCE Price Index YoY (Mar)",
+      "prev": "3%",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-04-30",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Core PCE Prices QoQ Adv (Q1)",
+      "prev": "2.7%",
+      "fcast": "\u2014",
+      "act": "\u2014",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -1365,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 3.799,
+      "change": 0.008,
+      "pct_change": 0.211,
+      "date": "2026-04-27",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.325,
+      "change": 0.018,
+      "pct_change": 0.4179,
+      "date": "2026-04-27",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 4.93,
+      "change": 0.018,
+      "pct_change": 0.3664,
+      "date": "2026-04-27",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.3917,
+      "change": 0.0344,
+      "pct_change": 0.7895,
+      "date": "2026-04-27",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 4.9814,
+      "change": 0.0369,
+      "pct_change": 0.7463,
+      "date": "2026-04-27",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.6325,
+      "change": 0.0419,
+      "pct_change": 0.7495,
+      "date": "2026-04-27",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.571,
+      "change": 0.0198,
+      "pct_change": 0.7761,
+      "date": "2026-04-27",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.0225,
+      "change": 0.0252,
+      "pct_change": 0.8408,
+      "date": "2026-04-27",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.5479,
+      "change": 0.0216,
+      "pct_change": 0.6125,
+      "date": "2026-04-27",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.3597,
+      "change": 0.0026,
+      "pct_change": 0.1916,
+      "date": "2026-04-27",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.4713,
+      "change": 0.0307,
+      "pct_change": 1.2579,
+      "date": "2026-04-27",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.6803,
+      "change": 0.0187,
+      "pct_change": 0.5107,
+      "date": "2026-04-27",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.7698,
+      "change": 0.0038,
+      "pct_change": 0.1374,
+      "date": "2026-04-27",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.8117,
+      "change": 0.0097,
+      "pct_change": 0.2551,
+      "date": "2026-04-27",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.6705,
+      "change": 0.0133,
+      "pct_change": 0.3637,
+      "date": "2026-04-27",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.476,
+      "change": 0.0107,
+      "pct_change": 0.3088,
+      "date": "2026-04-27",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.8208,
+      "change": -0.0255,
+      "pct_change": -0.8959,
+      "date": "2026-04-24",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.4597,
+      "change": -0.0211,
+      "pct_change": -0.6062,
+      "date": "2026-04-24",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.701,
+      "change": -0.006,
+      "pct_change": -0.1275,
+      "date": "2026-04-24",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.9884,
+      "change": -0.0242,
+      "pct_change": -0.4828,
+      "date": "2026-04-24",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
