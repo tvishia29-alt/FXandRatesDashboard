@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T22:52:57.305126Z",
+  "generated_at": "2026-05-06T01:59:47.985944Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,63 +39,96 @@
         "change_pct": -0.82,
         "timestamp": "2026-05-05 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.5211,
+      "y10": 5.0642,
+      "y30": 5.7405
+    },
+    "Eurozone": {
+      "y2": 2.6912,
+      "y10": 3.0641,
+      "y30": 3.5794
+    },
+    "Japan": {
+      "y2": 1.3886,
+      "y10": 2.5057,
+      "y30": 3.7197
+    },
+    "Italy": {
+      "y2": 2.8759,
+      "y10": 3.8709
+    },
+    "France": {
+      "y10": 3.7195
+    },
+    "Spain": {
+      "y10": 3.5263
+    },
+    "Canada": {
+      "y2": 3.0244,
+      "y10": 3.6124
+    },
+    "Australia": {
+      "y2": 4.6842,
+      "y10": 4.9856
     }
   },
   "commodities": {
     "gold": {
-      "price": 4559.5,
-      "d1_pct": 0.89,
-      "w1_pct": -0.7,
-      "m1_pct": -2.09,
+      "price": 4638.5,
+      "d1_pct": 2.63,
+      "w1_pct": 1.02,
+      "m1_pct": -0.39,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 73.17,
-      "d1_pct": 0.13,
-      "w1_pct": -0.05,
-      "m1_pct": 0.7,
+      "price": 75.385,
+      "d1_pct": 3.17,
+      "w1_pct": 2.98,
+      "m1_pct": 3.75,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 102.5,
-      "d1_pct": -3.68,
-      "w1_pct": 2.57,
-      "m1_pct": -8.82,
+      "price": 100.47,
+      "d1_pct": -5.59,
+      "w1_pct": 0.54,
+      "m1_pct": -10.62,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 110.16,
-      "d1_pct": -3.74,
-      "w1_pct": -0.99,
-      "m1_pct": 0.36,
+      "price": 107.94,
+      "d1_pct": -5.68,
+      "w1_pct": -2.98,
+      "m1_pct": -1.67,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.776,
-      "d1_pct": -3.17,
-      "w1_pct": 8.48,
-      "m1_pct": -1.25,
+      "price": 2.77,
+      "d1_pct": -3.38,
+      "w1_pct": 8.25,
+      "m1_pct": -1.46,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.988,
-      "d1_pct": 3.33,
-      "w1_pct": 1.24,
-      "m1_pct": 7.24,
+      "price": 6.0525,
+      "d1_pct": 4.44,
+      "w1_pct": 2.33,
+      "m1_pct": 8.4,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 628.5,
-      "d1_pct": -0.16,
-      "w1_pct": -3.16,
-      "m1_pct": 5.59,
+      "price": 624.0,
+      "d1_pct": -0.87,
+      "w1_pct": -3.85,
+      "m1_pct": 4.83,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 479.75,
-      "d1_pct": 1.27,
-      "w1_pct": 3.12,
-      "m1_pct": 5.67,
+      "price": 477.75,
+      "d1_pct": 0.84,
+      "w1_pct": 2.69,
+      "m1_pct": 5.23,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,142 +256,142 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.17,
-      "d1_pct": -0.23,
-      "w1_pct": -0.2,
-      "m1_pct": 1.65
+      "price": 1.1725,
+      "d1_pct": 0.28,
+      "w1_pct": 0.06,
+      "m1_pct": 1.59
     },
     "GBPUSD": {
-      "price": 1.3545,
-      "d1_pct": -0.27,
-      "w1_pct": 0.05,
-      "m1_pct": 2.72
+      "price": 1.3574,
+      "d1_pct": 0.32,
+      "w1_pct": 0.37,
+      "m1_pct": 2.57
     },
     "USDJPY": {
-      "price": 157.831,
-      "d1_pct": 0.63,
-      "w1_pct": -0.96,
-      "m1_pct": -1.22
+      "price": 157.69,
+      "d1_pct": 0.32,
+      "w1_pct": -1.17,
+      "m1_pct": -1.25
     },
     "USDCHF": {
-      "price": 0.7825,
-      "d1_pct": 0.18,
-      "w1_pct": -0.35,
-      "m1_pct": -2.32
+      "price": 0.7814,
+      "d1_pct": -0.33,
+      "w1_pct": -0.96,
+      "m1_pct": -2.09
     },
     "AUDUSD": {
-      "price": 0.7186,
-      "d1_pct": -0.37,
-      "w1_pct": -0.06,
-      "m1_pct": 4.37
+      "price": 0.7232,
+      "d1_pct": 0.9,
+      "w1_pct": 0.63,
+      "m1_pct": 4.56
     },
     "NZDUSD": {
-      "price": 0.5889,
-      "d1_pct": -0.3,
-      "w1_pct": -0.4,
-      "m1_pct": 3.56
+      "price": 0.5928,
+      "d1_pct": 0.95,
+      "w1_pct": 0.68,
+      "m1_pct": 3.74
     },
     "USDCAD": {
-      "price": 1.3616,
-      "d1_pct": 0.21,
-      "w1_pct": -0.04,
-      "m1_pct": -2.36
+      "price": 1.3594,
+      "d1_pct": -0.2,
+      "w1_pct": -0.62,
+      "m1_pct": -2.28
     },
     "USDSEK": {
-      "price": 9.2601,
-      "d1_pct": 0.53,
-      "w1_pct": 0.53,
-      "m1_pct": -2.25
+      "price": 9.2229,
+      "d1_pct": -0.69,
+      "w1_pct": -0.38,
+      "m1_pct": -2.38
     },
     "USDNOK": {
-      "price": 9.2565,
-      "d1_pct": -0.29,
-      "w1_pct": -0.22,
-      "m1_pct": -5.14
+      "price": 9.2264,
+      "d1_pct": -0.48,
+      "w1_pct": -0.94,
+      "m1_pct": -4.93
     },
     "USDCNY": {
-      "price": 6.8295,
-      "d1_pct": 0.03,
-      "w1_pct": 0.1,
-      "m1_pct": -0.77
+      "price": 6.8185,
+      "d1_pct": -0.17,
+      "w1_pct": -0.28,
+      "m1_pct": -0.93
     },
     "USDMXN": {
-      "price": 17.3623,
-      "d1_pct": -0.48,
-      "w1_pct": -0.08,
-      "m1_pct": -2.9
+      "price": 17.3125,
+      "d1_pct": -1.18,
+      "w1_pct": -0.41,
+      "m1_pct": -2.56
     },
     "USDBRL": {
       "price": 4.9087,
-      "d1_pct": -0.87,
-      "w1_pct": -1.82,
-      "m1_pct": -4.83
+      "d1_pct": -1.53,
+      "w1_pct": -1.71,
+      "m1_pct": -4.47
     },
     "USDZAR": {
-      "price": 16.6518,
-      "d1_pct": 0.45,
-      "w1_pct": 0.75,
-      "m1_pct": -1.87
+      "price": 16.5251,
+      "d1_pct": -1.57,
+      "w1_pct": -0.02,
+      "m1_pct": -1.99
     },
     "USDINR": {
       "price": 95.175,
-      "d1_pct": 0.29,
-      "w1_pct": 0.97,
-      "m1_pct": 2.37
+      "d1_pct": -0.09,
+      "w1_pct": 0.56,
+      "m1_pct": 2.54
     },
     "USDKRW": {
-      "price": 1474.88,
-      "d1_pct": 0.21,
-      "w1_pct": 0.13,
-      "m1_pct": -2.28
+      "price": 1455.98,
+      "d1_pct": -1.36,
+      "w1_pct": -1.09,
+      "m1_pct": -3.44
     },
     "USDTRY": {
-      "price": 45.2225,
-      "d1_pct": 0.08,
-      "w1_pct": 0.43,
-      "m1_pct": 1.43
+      "price": 45.2201,
+      "d1_pct": 0.01,
+      "w1_pct": 0.35,
+      "m1_pct": 1.38
     },
     "USDPLN": {
-      "price": 3.6282,
-      "d1_pct": 0.26,
-      "w1_pct": 0.26,
-      "m1_pct": -2.28
+      "price": 3.6207,
+      "d1_pct": -0.55,
+      "w1_pct": -0.1,
+      "m1_pct": -2.03
     },
     "USDHUF": {
-      "price": 308.6,
-      "d1_pct": 0.08,
-      "w1_pct": -0.47,
-      "m1_pct": -7.56
+      "price": 307.97,
+      "d1_pct": -0.86,
+      "w1_pct": -0.75,
+      "m1_pct": -6.6
     },
     "USDCZK": {
-      "price": 20.822,
-      "d1_pct": 0.28,
-      "w1_pct": 0.28,
-      "m1_pct": -2.15
+      "price": 20.794,
+      "d1_pct": -0.31,
+      "w1_pct": 0.08,
+      "m1_pct": -1.99
     },
     "USDSGD": {
-      "price": 1.2753,
-      "d1_pct": 0.2,
-      "w1_pct": 0.11,
-      "m1_pct": -0.95
+      "price": 1.2734,
+      "d1_pct": -0.27,
+      "w1_pct": -0.21,
+      "m1_pct": -0.9
     },
     "USDIDR": {
       "price": 17420.0,
-      "d1_pct": 0.76,
-      "w1_pct": 1.18,
-      "m1_pct": 2.54
+      "d1_pct": 0.43,
+      "w1_pct": 1.02,
+      "m1_pct": 2.38
     },
     "USDTHB": {
-      "price": 32.56,
-      "d1_pct": 0.25,
-      "w1_pct": 0.65,
-      "m1_pct": -0.4
+      "price": 32.46,
+      "d1_pct": -0.82,
+      "w1_pct": -0.09,
+      "m1_pct": -0.37
     },
     "DXY": {
-      "price": 98.486,
-      "d1_pct": 0.02,
-      "w1_pct": -0.14,
-      "m1_pct": -1.49
+      "price": 98.236,
+      "d1_pct": -0.24,
+      "w1_pct": -0.39,
+      "m1_pct": -1.74
     }
   },
   "volatility": {
@@ -439,6 +472,48 @@
   },
   "news": [
     {
+      "headline": "Oil futures fall after Trump pauses U.S. effort to partially reopen Strait of Hormuz",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-futures-fall-after-trump-pauses-u-s-effort-to-partially-reopen-strait-of-hormuz-936c77f9?mod=mw_rss_topstories",
+      "datetime": 1778030220,
+      "category": "general"
+    },
+    {
+      "headline": "Astera Labs\u2019 stock climbs as the company strives to make AI chips more powerful",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/astera-labs-stock-climbs-as-the-company-strives-to-make-ai-chips-more-powerful-2c9be4d6?mod=mw_rss_topstories",
+      "datetime": 1778027520,
+      "category": "general"
+    },
+    {
+      "headline": "Super Micro\u2019s stock surges as Wall Street cheers its margin recovery",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-surges-as-wall-street-cheers-a-margin-recovery-80f17361?mod=mw_rss_topstories",
+      "datetime": 1778027460,
+      "category": "general"
+    },
+    {
+      "headline": "Upstart\u2019s stock is getting punished after earnings. Here\u2019s the big gripe.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/upstarts-stock-is-getting-punished-after-earnings-heres-the-big-gripe-6d27ca70?mod=mw_rss_topstories",
+      "datetime": 1778027400,
+      "category": "general"
+    },
+    {
+      "headline": "The last time semiconductor stocks rose this far this quickly, the dot-com bubble burst",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-last-time-semiconductor-stocks-rose-this-far-this-quickly-the-dot-com-bubble-burst-d7b6666b?mod=mw_rss_topstories",
+      "datetime": 1778023020,
+      "category": "general"
+    },
+    {
+      "headline": "This narrow shipping lane is how Trump now wants oil tankers to navigate the Strait of Hormuz",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-narrow-shipping-lane-is-how-trump-now-wants-oil-tankers-to-navigate-the-strait-of-hormuz-3d020281?mod=mw_rss_topstories",
+      "datetime": 1778022780,
+      "category": "general"
+    },
+    {
       "headline": "Betting on long Treasury bonds when yields near 5% has been a slam-dunk trade over the past few years. Is this time different?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/betting-on-long-treasury-bonds-when-yields-near-5-has-been-a-slam-dunk-trade-over-the-past-few-years-is-this-time-different-cd4def81?mod=mw_rss_topstories",
@@ -467,52 +542,17 @@
       "category": "general"
     },
     {
-      "headline": "Palantir\u2019s stock falls despite upbeat earnings. Here are Wall Street\u2019s quibbles.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/palantirs-stock-falls-despite-upbeat-earnings-here-are-wall-streets-quibbles-4ba334e5?mod=mw_rss_topstories",
-      "datetime": 1778019840,
-      "category": "general"
-    },
-    {
-      "headline": "Micron\u2019s stock soars as new report throws cold water on the bear case: \u2018This time is different.\u2019",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/microns-stock-soars-as-new-report-throws-cold-water-on-the-bear-case-this-time-is-different-b5a5cc18?mod=mw_rss_topstories",
-      "datetime": 1778019720,
-      "category": "general"
-    },
-    {
-      "headline": "Intel is now worth more than Oracle as its stock explodes higher",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/intel-is-now-worth-more-than-oracle-as-its-stock-explodes-higher-7d9bfe3d?mod=mw_rss_topstories",
-      "datetime": 1778019660,
-      "category": "general"
-    },
-    {
-      "headline": "Super Micro\u2019s stock surges as Wall Street cheers its margin recovery",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-surges-as-wall-street-cheers-a-margin-recovery-80f17361?mod=mw_rss_topstories",
-      "datetime": 1778019360,
-      "category": "general"
-    },
-    {
-      "headline": "I have enough money for both of us. Should we make our kids beneficiaries on my husband\u2019s modest $150,000 IRA?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-husband-has-a-modest-150-000-in-his-retirement-fund-should-we-make-our-kids-beneficiaries-2ba37d68?mod=mw_rss_topstories",
-      "datetime": 1778019300,
-      "category": "general"
-    },
-    {
-      "headline": "Upstart\u2019s stock is getting punished after earnings. Here\u2019s the big gripe.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/upstarts-stock-is-getting-punished-after-earnings-heres-the-big-gripe-6d27ca70?mod=mw_rss_topstories",
-      "datetime": 1778018880,
-      "category": "general"
-    },
-    {
       "headline": "UK long-term borrowing costs reach 28-year high",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c936qn69016o?at_medium=RSS&at_campaign=rss",
       "datetime": 1777998623,
+      "category": "general"
+    },
+    {
+      "headline": "Oil prices ease as US seeks reopening of the Hormuz Strait",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1778032022,
       "category": "general"
     },
     {
@@ -569,13 +609,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "datetime": 1777990101,
-      "category": "general"
-    },
-    {
-      "headline": "The threat to summer holidays looming from jet fuel shortages",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1777849421,
       "category": "general"
     }
   ],
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 3.95,
+      "change": -0.012,
+      "pct_change": -0.3029,
+      "date": "2026-05-05",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.429,
+      "change": -0.013,
+      "pct_change": -0.2927,
+      "date": "2026-05-05",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 4.989,
+      "change": -0.028,
+      "pct_change": -0.5581,
+      "date": "2026-05-05",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.5211,
+      "change": 0.1068,
+      "pct_change": 2.4194,
+      "date": "2026-05-05",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 5.0642,
+      "change": 0.0935,
+      "pct_change": 1.881,
+      "date": "2026-05-05",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.7405,
+      "change": 0.0888,
+      "pct_change": 1.5712,
+      "date": "2026-05-05",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.6912,
+      "change": -0.0403,
+      "pct_change": -1.4754,
+      "date": "2026-05-05",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.0641,
+      "change": -0.0281,
+      "pct_change": -0.9087,
+      "date": "2026-05-05",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.5794,
+      "change": -0.0054,
+      "pct_change": -0.1506,
+      "date": "2026-05-05",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.3886,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "date": "2026-05-05",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.5057,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "date": "2026-05-05",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.7197,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "date": "2026-05-05",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.8759,
+      "change": -0.0445,
+      "pct_change": -1.5238,
+      "date": "2026-05-05",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.8709,
+      "change": -0.0616,
+      "pct_change": -1.5664,
+      "date": "2026-05-05",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.7195,
+      "change": -0.0266,
+      "pct_change": -0.7101,
+      "date": "2026-05-05",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.5263,
+      "change": -0.0065,
+      "pct_change": -0.184,
+      "date": "2026-05-05",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 3.0244,
+      "change": -0.0309,
+      "pct_change": -1.0114,
+      "date": "2026-05-05",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.6124,
+      "change": -0.0038,
+      "pct_change": -0.1051,
+      "date": "2026-05-05",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.6842,
+      "change": 0.0054,
+      "pct_change": 0.1154,
+      "date": "2026-05-06",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.9856,
+      "change": 0.0027,
+      "pct_change": 0.0542,
+      "date": "2026-05-06",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
