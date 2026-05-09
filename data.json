@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T22:53:47.382840Z",
+  "generated_at": "2026-05-09T02:02:58.718125Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": -0.44,
         "timestamp": "2026-05-08 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.3825,
+      "y10": 4.9122,
+      "y30": 5.5802
+    },
+    "Eurozone": {
+      "y2": 2.5975,
+      "y10": 3.0066,
+      "y30": 3.543
+    },
+    "Japan": {
+      "y2": 1.3701,
+      "y10": 2.4762,
+      "y30": 3.7192
+    },
+    "Italy": {
+      "y2": 2.7616,
+      "y10": 3.7318
+    },
+    "France": {
+      "y10": 3.6288
+    },
+    "Spain": {
+      "y10": 3.4174
+    },
+    "Canada": {
+      "y2": 2.8583,
+      "y10": 3.4705
+    },
+    "Australia": {
+      "y2": 4.6974,
+      "y10": 4.9987
     }
   },
   "commodities": {
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.8,
-      "d1_pct": 0.31,
-      "w1_pct": 0.77,
-      "m1_pct": -1.21,
+      "price": 9.77,
+      "d1_pct": 0.0,
+      "w1_pct": 0.8,
+      "m1_pct": -0.05,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 142.425,
-      "d1_pct": 0.09,
-      "w1_pct": 0.7,
-      "m1_pct": -1.15,
+      "price": 142.3,
+      "d1_pct": -0.05,
+      "w1_pct": 1.13,
+      "m1_pct": 0.49,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +471,13 @@
     }
   },
   "news": [
+    {
+      "headline": "Lumentum\u2019s fiery stock rally earns it a spot in this hot index",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/lumentums-fiery-stock-rally-earns-it-a-spot-in-this-hot-index-f179f477?mod=mw_rss_topstories",
+      "datetime": 1778291520,
+      "category": "general"
+    },
     {
       "headline": "\u2018It saved my relationship with my mom.\u2019 These money managers may help if you\u2019re feeling overwhelmed helping your parents pay their bills.",
       "source": "MarketWatch",
@@ -499,13 +539,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/intels-stock-could-achieve-a-never-before-seen-feat-as-apple-enthusiasm-builds-edd94237?mod=mw_rss_topstories",
       "datetime": 1778271120,
-      "category": "general"
-    },
-    {
-      "headline": "Kevin Warsh is right about Fed reform \u2014 but his inflation solution is a trap",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-is-right-about-fed-reform-but-his-inflation-solution-is-a-trap-eee3c403?mod=mw_rss_topstories",
-      "datetime": 1778269620,
       "category": "general"
     },
     {
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 3.895,
+      "change": -0.018,
+      "pct_change": -0.46,
+      "date": "2026-05-08",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.359,
+      "change": -0.036,
+      "pct_change": -0.8191,
+      "date": "2026-05-08",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 4.936,
+      "change": -0.035,
+      "pct_change": -0.7041,
+      "date": "2026-05-08",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.3825,
+      "change": -0.0089,
+      "pct_change": -0.2027,
+      "date": "2026-05-08",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 4.9122,
+      "change": -0.047,
+      "pct_change": -0.9477,
+      "date": "2026-05-08",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.5802,
+      "change": -0.0698,
+      "pct_change": -1.2354,
+      "date": "2026-05-08",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.5975,
+      "change": 0.0144,
+      "pct_change": 0.5575,
+      "date": "2026-05-08",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.0066,
+      "change": -0.0026,
+      "pct_change": -0.0864,
+      "date": "2026-05-08",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.543,
+      "change": -0.002,
+      "pct_change": -0.0564,
+      "date": "2026-05-08",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.3701,
+      "change": -0.004,
+      "pct_change": -0.2911,
+      "date": "2026-05-08",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.4762,
+      "change": -0.0065,
+      "pct_change": -0.2618,
+      "date": "2026-05-08",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.7192,
+      "change": -0.0135,
+      "pct_change": -0.3617,
+      "date": "2026-05-08",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.7616,
+      "change": 0.0362,
+      "pct_change": 1.3282,
+      "date": "2026-05-08",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.7318,
+      "change": 0.0002,
+      "pct_change": 0.0054,
+      "date": "2026-05-08",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.6288,
+      "change": 0.0042,
+      "pct_change": 0.1159,
+      "date": "2026-05-08",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.4174,
+      "change": 0.0097,
+      "pct_change": 0.2846,
+      "date": "2026-05-08",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.8583,
+      "change": -0.0735,
+      "pct_change": -2.507,
+      "date": "2026-05-08",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.4705,
+      "change": -0.0527,
+      "pct_change": -1.4958,
+      "date": "2026-05-08",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.6974,
+      "change": 0.0551,
+      "pct_change": 1.1869,
+      "date": "2026-05-08",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.9987,
+      "change": 0.081,
+      "pct_change": 1.6471,
+      "date": "2026-05-08",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
