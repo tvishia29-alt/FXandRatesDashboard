@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T21:09:21.262610Z",
+  "generated_at": "2026-05-18T22:58:27.045874Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,38 +43,38 @@
   },
   "commodities": {
     "gold": {
-      "price": 4570.8999,
-      "d1_pct": 0.33,
-      "w1_pct": -3.13,
-      "m1_pct": -5.9,
+      "price": 4578.7998,
+      "d1_pct": 0.5,
+      "w1_pct": -2.96,
+      "m1_pct": -5.74,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 78.085,
-      "d1_pct": 1.2,
-      "w1_pct": -8.66,
-      "m1_pct": -4.47,
+      "price": 78.61,
+      "d1_pct": 1.88,
+      "w1_pct": -8.04,
+      "m1_pct": -3.83,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 102.54,
-      "d1_pct": -2.73,
-      "w1_pct": 4.56,
-      "m1_pct": 22.29,
+      "price": 102.5,
+      "d1_pct": -2.77,
+      "w1_pct": 4.52,
+      "m1_pct": 22.24,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 109.38,
-      "d1_pct": 0.11,
-      "w1_pct": 4.96,
-      "m1_pct": 21.02,
+      "price": 109.25,
+      "d1_pct": -0.01,
+      "w1_pct": 4.84,
+      "m1_pct": 20.88,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.024,
-      "d1_pct": 2.16,
-      "w1_pct": 3.92,
-      "m1_pct": 13.09,
+      "price": 3.022,
+      "d1_pct": 2.09,
+      "w1_pct": 3.85,
+      "m1_pct": 13.01,
       "unit": "$/MMBtu"
     },
     "copper": {
@@ -223,58 +223,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1656,
-      "d1_pct": -0.05,
-      "w1_pct": -0.96,
-      "m1_pct": -1.07
+      "price": 1.1662,
+      "d1_pct": -0.0,
+      "w1_pct": -0.91,
+      "m1_pct": -1.03
     },
     "GBPUSD": {
-      "price": 1.3428,
-      "d1_pct": 0.27,
-      "w1_pct": -1.23,
-      "m1_pct": -0.73
+      "price": 1.3435,
+      "d1_pct": 0.33,
+      "w1_pct": -1.17,
+      "m1_pct": -0.67
     },
     "USDJPY": {
-      "price": 158.768,
-      "d1_pct": 0.24,
-      "w1_pct": 1.22,
-      "m1_pct": -0.27
+      "price": 158.822,
+      "d1_pct": 0.28,
+      "w1_pct": 1.25,
+      "m1_pct": -0.23
     },
     "USDCHF": {
-      "price": 0.7841,
-      "d1_pct": -0.01,
-      "w1_pct": 0.81,
-      "m1_pct": 0.11
+      "price": 0.7842,
+      "d1_pct": 0.0,
+      "w1_pct": 0.82,
+      "m1_pct": 0.13
     },
     "AUDUSD": {
-      "price": 0.7169,
-      "d1_pct": -0.63,
-      "w1_pct": -0.94,
-      "m1_pct": 0.14
+      "price": 0.7175,
+      "d1_pct": -0.54,
+      "w1_pct": -0.85,
+      "m1_pct": 0.23
     },
     "NZDUSD": {
-      "price": 0.5875,
-      "d1_pct": -0.49,
-      "w1_pct": -1.27,
-      "m1_pct": -0.19
+      "price": 0.588,
+      "d1_pct": -0.41,
+      "w1_pct": -1.19,
+      "m1_pct": -0.11
     },
     "USDCAD": {
-      "price": 1.3739,
-      "d1_pct": 0.11,
-      "w1_pct": 0.41,
-      "m1_pct": 0.28
+      "price": 1.3735,
+      "d1_pct": 0.08,
+      "w1_pct": 0.38,
+      "m1_pct": 0.25
     },
     "USDSEK": {
-      "price": 9.3792,
-      "d1_pct": -0.24,
-      "w1_pct": 1.48,
-      "m1_pct": 2.04
+      "price": 9.3765,
+      "d1_pct": -0.27,
+      "w1_pct": 1.45,
+      "m1_pct": 2.01
     },
     "USDNOK": {
-      "price": 9.2389,
-      "d1_pct": -0.37,
-      "w1_pct": 0.35,
-      "m1_pct": -1.23
+      "price": 9.2516,
+      "d1_pct": -0.24,
+      "w1_pct": 0.49,
+      "m1_pct": -1.09
     },
     "USDCNY": {
       "price": 6.7995,
@@ -283,22 +283,22 @@
       "m1_pct": -0.32
     },
     "USDMXN": {
-      "price": 17.26,
-      "d1_pct": 0.17,
-      "w1_pct": 0.26,
-      "m1_pct": 0.06
+      "price": 17.265,
+      "d1_pct": 0.2,
+      "w1_pct": 0.29,
+      "m1_pct": 0.09
     },
     "USDBRL": {
-      "price": 4.9885,
-      "d1_pct": -0.31,
-      "w1_pct": 1.53,
-      "m1_pct": 0.03
+      "price": 4.9901,
+      "d1_pct": -0.28,
+      "w1_pct": 1.56,
+      "m1_pct": 0.06
     },
     "USDZAR": {
-      "price": 16.5986,
-      "d1_pct": 0.69,
-      "w1_pct": 1.05,
-      "m1_pct": 1.22
+      "price": 16.5646,
+      "d1_pct": 0.49,
+      "w1_pct": 0.84,
+      "m1_pct": 1.01
     },
     "USDINR": {
       "price": 96.335,
@@ -307,40 +307,40 @@
       "m1_pct": 3.53
     },
     "USDKRW": {
-      "price": 1489.13,
-      "d1_pct": -0.28,
-      "w1_pct": 1.96,
-      "m1_pct": 0.76
+      "price": 1488.34,
+      "d1_pct": -0.33,
+      "w1_pct": 1.9,
+      "m1_pct": 0.71
     },
     "USDTRY": {
-      "price": 45.5731,
+      "price": 45.5718,
       "d1_pct": 0.07,
-      "w1_pct": 0.49,
-      "m1_pct": 1.62
+      "w1_pct": 0.48,
+      "m1_pct": 1.61
     },
     "USDPLN": {
-      "price": 3.6351,
-      "d1_pct": 0.03,
-      "w1_pct": 0.95,
-      "m1_pct": 1.1
+      "price": 3.6337,
+      "d1_pct": -0.01,
+      "w1_pct": 0.91,
+      "m1_pct": 1.06
     },
     "USDHUF": {
-      "price": 309.05,
-      "d1_pct": 0.96,
-      "w1_pct": 2.69,
-      "m1_pct": -0.07
+      "price": 308.82,
+      "d1_pct": 0.89,
+      "w1_pct": 2.62,
+      "m1_pct": -0.14
     },
     "USDCZK": {
-      "price": 20.834,
+      "price": 20.833,
       "d1_pct": 0.0,
-      "w1_pct": 0.88,
-      "m1_pct": 0.96
+      "w1_pct": 0.87,
+      "m1_pct": 0.95
     },
     "USDSGD": {
-      "price": 1.2782,
-      "d1_pct": 0.14,
+      "price": 1.2781,
+      "d1_pct": 0.13,
       "w1_pct": 0.8,
-      "m1_pct": 0.4
+      "m1_pct": 0.39
     },
     "USDIDR": {
       "price": 17661.0,
@@ -349,16 +349,16 @@
       "m1_pct": 3.14
     },
     "USDTHB": {
-      "price": 32.52,
-      "d1_pct": 0.35,
-      "w1_pct": 0.77,
-      "m1_pct": 1.5
+      "price": 32.49,
+      "d1_pct": 0.26,
+      "w1_pct": 0.68,
+      "m1_pct": 1.4
     },
     "DXY": {
-      "price": 98.983,
-      "d1_pct": -0.29,
-      "w1_pct": 1.06,
-      "m1_pct": 0.9
+      "price": 98.954,
+      "d1_pct": -0.32,
+      "w1_pct": 1.04,
+      "m1_pct": 0.87
     }
   },
   "volatility": {
@@ -439,6 +439,62 @@
   },
   "news": [
     {
+      "headline": "Lululemon hits back at its founder after months of attacks, saying he\u2019s just jealous",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/lululemon-hits-back-at-its-founder-after-months-of-attacks-saying-hes-just-jealous-e22522ec?mod=mw_rss_topstories",
+      "datetime": 1779144120,
+      "category": "general"
+    },
+    {
+      "headline": "Oil climbs as Trump warns the \u2018clock is ticking\u2019 on Iran, but there\u2019s a bigger danger lurking on the horizon",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-climbs-as-trump-warns-the-clock-is-ticking-on-iran-but-theres-a-bigger-danger-lurking-on-the-horizon-9dfa8129?mod=mw_rss_topstories",
+      "datetime": 1779142980,
+      "category": "general"
+    },
+    {
+      "headline": "ServiceNow\u2019s stock notches best day in a year\u00a0\u2014 flashing a green light for the software sector",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/servicenows-stock-heads-for-best-day-in-a-year-flashing-a-green-light-for-the-software-sector-2d916cfd?mod=mw_rss_topstories",
+      "datetime": 1779142620,
+      "category": "general"
+    },
+    {
+      "headline": "Ford takes its first big step toward being an energy business",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/ford-takes-its-first-big-step-toward-being-an-energy-business-b1d72bc2?mod=mw_rss_topstories",
+      "datetime": 1779142260,
+      "category": "general"
+    },
+    {
+      "headline": "Palo Alto Networks hits a big milestone. Why cybersecurity stocks are so hot right now.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/palo-alto-networks-hits-a-big-milestone-why-cybersecurity-stocks-are-so-hot-right-now-09e1c9bb?mod=mw_rss_topstories",
+      "datetime": 1779140520,
+      "category": "general"
+    },
+    {
+      "headline": "The S&P 500 and most of its stocks are heading in opposite directions at a record pace. What investors should know.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-and-most-of-its-stocks-are-heading-in-opposite-directions-at-a-record-pace-what-investors-should-know-2a6c55a5?mod=mw_rss_topstories",
+      "datetime": 1779139500,
+      "category": "general"
+    },
+    {
+      "headline": "Elon Musk loses his case against OpenAI and Sam Altman after just two hours of jury deliberation",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/elon-musk-has-lost-his-case-against-openai-and-sam-altman-b0998cff?mod=mw_rss_topstories",
+      "datetime": 1779139320,
+      "category": "general"
+    },
+    {
+      "headline": "What NextEra and Dominion\u2019s giant utility merger means for your electric bill",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/what-nextera-and-dominions-giant-utility-merger-means-for-your-electric-bill-94e0784d?mod=mw_rss_topstories",
+      "datetime": 1779138720,
+      "category": "general"
+    },
+    {
       "headline": "The options market is flashing an ominous sign about Nvidia\u2019s looming earnings",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-options-market-is-flashing-an-ominous-sign-about-nvidias-looming-earnings-2b55b7f4?mod=mw_rss_topstories",
@@ -453,66 +509,17 @@
       "category": "general"
     },
     {
-      "headline": "Lululemon hits back at its founder after months of attacks, saying he\u2019s just jealous",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/lululemon-hits-back-at-its-founder-after-months-of-attacks-saying-hes-just-jealous-e22522ec?mod=mw_rss_topstories",
-      "datetime": 1779135000,
-      "category": "general"
-    },
-    {
-      "headline": "Trump\u2019s IRS settlement features a $1.8 billion \u2018anti-weaponization\u2019 fund for allies. Here\u2019s who may get the money.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trumps-irs-settlement-features-a-1-8-billion-anti-weaponization-fund-for-allies-heres-who-may-get-the-money-266e876d?mod=mw_rss_topstories",
-      "datetime": 1779133440,
-      "category": "general"
-    },
-    {
-      "headline": "U.S. physician tests positive for Ebola: He and six other Americans in Congo will be transported to Germany",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/u-s-plans-to-move-physicians-exposed-to-rare-ebola-virus-to-germany-122af3f4?mod=mw_rss_topstories",
-      "datetime": 1779133200,
-      "category": "general"
-    },
-    {
-      "headline": "The oil market is reaching a \u2018tipping point\u2019 that could create problems for stocks, according to this Wall Street legend",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-oil-market-is-reaching-a-tipping-point-that-could-create-problems-for-stocks-according-to-this-wall-street-legend-8e7f9d62?mod=mw_rss_topstories",
-      "datetime": 1779133080,
-      "category": "general"
-    },
-    {
-      "headline": "These 4 market sectors look frothy \u2014 and Nvidia\u2019s isn\u2019t even the biggest bubble",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/these-4-market-sectors-look-frothy-and-nvidias-isnt-even-the-biggest-bubble-d740acf7?mod=mw_rss_topstories",
-      "datetime": 1779132660,
-      "category": "general"
-    },
-    {
-      "headline": "Kevin Warsh will be the first Fed chair sworn in at the White House in almost 40 years",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/kevin-warsh-will-be-the-first-fed-chair-sworn-in-at-the-white-house-in-almost-40-years-55254337?mod=mw_rss_topstories",
-      "datetime": 1779131760,
-      "category": "general"
-    },
-    {
-      "headline": "Elon Musk loses his case against OpenAI and Sam Altman after just two hours of jury deliberation",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/elon-musk-has-lost-his-case-against-openai-and-sam-altman-b0998cff?mod=mw_rss_topstories",
-      "datetime": 1779130740,
-      "category": "general"
-    },
-    {
-      "headline": "The bond market has a warning for the Fed: Get serious about inflation and potential rate hikes ASAP",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-bond-market-has-a-warning-for-the-fed-get-serious-about-inflation-and-potential-rate-hikes-asap-f38bbdcf?mod=mw_rss_topstories",
-      "datetime": 1779129960,
+      "headline": "Faisal Islam: Burnham seeks to calm markets by committing to fiscal rules",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c0e2dl455d5o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1779142045,
       "category": "general"
     },
     {
       "headline": "Musk loses OpenAI court battle after jury finds he waited too long to sue",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779137997,
+      "datetime": 1779142117,
       "category": "general"
     },
     {
@@ -523,10 +530,24 @@
       "category": "general"
     },
     {
+      "headline": "New High Street crime unit to target gangs fronting shops after BBC investigation",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/ce3pzwx449no?at_medium=RSS&at_campaign=rss",
+      "datetime": 1779138398,
+      "category": "general"
+    },
+    {
       "headline": "Oil price slumps as Trump says he called off Iran attacks",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
       "datetime": 1779135629,
+      "category": "general"
+    },
+    {
+      "headline": "Why does Amazon have no Western rivals?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cg7p5nr307mo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1779089114,
       "category": "general"
     },
     {
@@ -544,13 +565,6 @@
       "category": "general"
     },
     {
-      "headline": "Why does Amazon have no Western rivals?",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cg7p5nr307mo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779089114,
-      "category": "general"
-    },
-    {
       "headline": "Former Google CEO Eric Schmidt booed by graduates at mention of AI",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
@@ -562,20 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c759v6g1zp1o?at_medium=RSS&at_campaign=rss",
       "datetime": 1779115827,
-      "category": "general"
-    },
-    {
-      "headline": "HS2 failings blamed on high-speed focus and political pressure ",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c936xeeye41o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779098876,
-      "category": "general"
-    },
-    {
-      "headline": "Tube strikes called off by RMT union",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cze2wrk08kko?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779114314,
       "category": "general"
     }
   ],
