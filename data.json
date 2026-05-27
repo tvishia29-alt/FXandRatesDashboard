@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-05-27T11:21:15.853455Z",
+  "generated_at": "2026-05-27T12:37:49.097466Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 3.582,
       "y6m": null,
       "y1": null,
-      "y2": 3.798,
+      "y2": 3.782,
       "y3": null,
-      "y5": 4.183,
+      "y5": 4.138,
       "y7": null,
-      "y10": 4.493,
+      "y10": 4.449,
       "y20": null,
-      "y30": 5.026
+      "y30": 4.989
     },
     "US_yf": {
       "US_3M": {
         "price": 3.582,
-        "prev_close": 3.585,
-        "change_pct": -0.08,
-        "timestamp": "2026-05-26 00:00:00"
+        "prev_close": 3.582,
+        "change_pct": 0.0,
+        "timestamp": "2026-05-27 00:00:00"
       },
       "US_5Y": {
-        "price": 4.183,
-        "prev_close": 4.256,
-        "change_pct": -1.72,
-        "timestamp": "2026-05-26 00:00:00"
+        "price": 4.138,
+        "prev_close": 4.183,
+        "change_pct": -1.08,
+        "timestamp": "2026-05-27 00:00:00"
       },
       "US_10Y": {
-        "price": 4.493,
-        "prev_close": 4.558,
-        "change_pct": -1.43,
-        "timestamp": "2026-05-26 00:00:00"
+        "price": 4.449,
+        "prev_close": 4.493,
+        "change_pct": -0.98,
+        "timestamp": "2026-05-27 00:00:00"
       },
       "US_30Y": {
-        "price": 5.026,
-        "prev_close": 5.064,
-        "change_pct": -0.75,
-        "timestamp": "2026-05-26 00:00:00"
+        "price": 4.989,
+        "prev_close": 5.026,
+        "change_pct": -0.74,
+        "timestamp": "2026-05-27 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4474.7998,
-      "d1_pct": -0.57,
-      "w1_pct": -0.7,
-      "m1_pct": -4.29,
+      "price": 4483.8999,
+      "d1_pct": -0.37,
+      "w1_pct": -0.5,
+      "m1_pct": -4.1,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 74.47,
-      "d1_pct": -2.4,
-      "w1_pct": -0.48,
-      "m1_pct": -0.71,
+      "price": 75.1,
+      "d1_pct": -1.58,
+      "w1_pct": 0.36,
+      "m1_pct": 0.13,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 90.72,
-      "d1_pct": -3.38,
-      "w1_pct": -15.82,
-      "m1_pct": -5.86,
+      "price": 88.78,
+      "d1_pct": -5.44,
+      "w1_pct": -17.62,
+      "m1_pct": -7.88,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 94.38,
-      "d1_pct": -5.22,
-      "w1_pct": -15.19,
-      "m1_pct": -12.8,
+      "price": 92.69,
+      "d1_pct": -6.92,
+      "w1_pct": -16.71,
+      "m1_pct": -14.36,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.036,
-      "d1_pct": 4.91,
-      "w1_pct": -2.5,
-      "m1_pct": 19.06,
+      "price": 3.057,
+      "d1_pct": 5.63,
+      "w1_pct": -1.83,
+      "m1_pct": 19.88,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.3535,
-      "d1_pct": -0.12,
-      "w1_pct": 3.06,
-      "m1_pct": 5.57,
+      "price": 6.3935,
+      "d1_pct": 0.51,
+      "w1_pct": 3.71,
+      "m1_pct": 6.24,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 626.25,
-      "d1_pct": -1.46,
-      "w1_pct": -6.14,
-      "m1_pct": 0.76,
+      "price": 623.75,
+      "d1_pct": -1.85,
+      "w1_pct": -6.52,
+      "m1_pct": 0.36,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 456.0,
-      "d1_pct": -0.33,
-      "w1_pct": -4.05,
-      "m1_pct": -1.03,
+      "price": 453.25,
+      "d1_pct": -0.93,
+      "w1_pct": -4.63,
+      "m1_pct": -1.63,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,82 +223,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1641,
-      "d1_pct": 0.03,
-      "w1_pct": 0.3,
-      "m1_pct": -0.7
+      "price": 1.166,
+      "d1_pct": 0.2,
+      "w1_pct": 0.46,
+      "m1_pct": -0.54
     },
     "GBPUSD": {
-      "price": 1.3438,
-      "d1_pct": -0.43,
-      "w1_pct": 0.32,
-      "m1_pct": -0.74
+      "price": 1.3452,
+      "d1_pct": -0.33,
+      "w1_pct": 0.42,
+      "m1_pct": -0.64
     },
     "USDJPY": {
-      "price": 159.398,
-      "d1_pct": 0.28,
-      "w1_pct": 0.23,
-      "m1_pct": 0.03
-    },
-    "USDCHF": {
-      "price": 0.7864,
-      "d1_pct": 0.43,
-      "w1_pct": -0.31,
-      "m1_pct": 0.13
-    },
-    "AUDUSD": {
-      "price": 0.7135,
-      "d1_pct": -0.5,
-      "w1_pct": 0.4,
-      "m1_pct": -0.78
-    },
-    "NZDUSD": {
-      "price": 0.5881,
-      "d1_pct": 0.33,
-      "w1_pct": 0.82,
-      "m1_pct": -0.53
-    },
-    "USDCAD": {
-      "price": 1.3836,
-      "d1_pct": 0.23,
-      "w1_pct": 0.65,
-      "m1_pct": 1.57
-    },
-    "USDSEK": {
-      "price": 9.2582,
-      "d1_pct": -0.39,
-      "w1_pct": -1.48,
-      "m1_pct": 0.51
-    },
-    "USDNOK": {
-      "price": 9.276,
-      "d1_pct": 0.33,
-      "w1_pct": 0.1,
+      "price": 159.339,
+      "d1_pct": 0.24,
+      "w1_pct": 0.19,
       "m1_pct": -0.01
     },
-    "USDCNY": {
-      "price": 6.7807,
-      "d1_pct": -0.2,
-      "w1_pct": -0.5,
+    "USDCHF": {
+      "price": 0.7846,
+      "d1_pct": 0.2,
+      "w1_pct": -0.53,
+      "m1_pct": -0.09
+    },
+    "AUDUSD": {
+      "price": 0.7146,
+      "d1_pct": -0.33,
+      "w1_pct": 0.56,
       "m1_pct": -0.62
     },
+    "NZDUSD": {
+      "price": 0.5904,
+      "d1_pct": 0.72,
+      "w1_pct": 1.21,
+      "m1_pct": -0.14
+    },
+    "USDCAD": {
+      "price": 1.3822,
+      "d1_pct": 0.13,
+      "w1_pct": 0.55,
+      "m1_pct": 1.47
+    },
+    "USDSEK": {
+      "price": 9.2396,
+      "d1_pct": -0.59,
+      "w1_pct": -1.67,
+      "m1_pct": 0.31
+    },
+    "USDNOK": {
+      "price": 9.2786,
+      "d1_pct": 0.36,
+      "w1_pct": 0.13,
+      "m1_pct": 0.02
+    },
+    "USDCNY": {
+      "price": 6.7818,
+      "d1_pct": -0.19,
+      "w1_pct": -0.48,
+      "m1_pct": -0.6
+    },
     "USDMXN": {
-      "price": 17.3062,
-      "d1_pct": 0.08,
-      "w1_pct": -0.56,
-      "m1_pct": -0.41
+      "price": 17.3076,
+      "d1_pct": 0.09,
+      "w1_pct": -0.55,
+      "m1_pct": -0.4
     },
     "USDBRL": {
-      "price": 5.032,
-      "d1_pct": 0.43,
-      "w1_pct": -0.52,
-      "m1_pct": 0.65
+      "price": 5.0379,
+      "d1_pct": 0.55,
+      "w1_pct": -0.4,
+      "m1_pct": 0.77
     },
     "USDZAR": {
-      "price": 16.3557,
-      "d1_pct": 0.28,
-      "w1_pct": -2.04,
-      "m1_pct": -1.04
+      "price": 16.3085,
+      "d1_pct": -0.01,
+      "w1_pct": -2.32,
+      "m1_pct": -1.33
     },
     "USDINR": {
       "price": 95.69,
@@ -307,40 +307,40 @@
       "m1_pct": 1.52
     },
     "USDKRW": {
-      "price": 1498.4399,
-      "d1_pct": -1.08,
-      "w1_pct": -0.62,
-      "m1_pct": 1.73
+      "price": 1494.6801,
+      "d1_pct": -1.33,
+      "w1_pct": -0.87,
+      "m1_pct": 1.47
     },
     "USDTRY": {
-      "price": 45.9011,
-      "d1_pct": 0.01,
+      "price": 45.8981,
+      "d1_pct": 0.0,
       "w1_pct": 0.69,
       "m1_pct": 1.93
     },
     "USDPLN": {
-      "price": 3.6391,
-      "d1_pct": 0.17,
-      "w1_pct": -0.55,
-      "m1_pct": 0.56
+      "price": 3.6323,
+      "d1_pct": -0.02,
+      "w1_pct": -0.74,
+      "m1_pct": 0.37
     },
     "USDHUF": {
-      "price": 304.63,
-      "d1_pct": -0.22,
-      "w1_pct": -2.0,
-      "m1_pct": -1.75
+      "price": 303.62,
+      "d1_pct": -0.56,
+      "w1_pct": -2.32,
+      "m1_pct": -2.08
     },
     "USDCZK": {
-      "price": 20.852,
-      "d1_pct": 0.04,
-      "w1_pct": -0.46,
-      "m1_pct": 0.43
+      "price": 20.821,
+      "d1_pct": -0.11,
+      "w1_pct": -0.61,
+      "m1_pct": 0.28
     },
     "USDSGD": {
-      "price": 1.2775,
-      "d1_pct": 0.0,
-      "w1_pct": -0.35,
-      "m1_pct": 0.28
+      "price": 1.2763,
+      "d1_pct": -0.09,
+      "w1_pct": -0.44,
+      "m1_pct": 0.19
     },
     "USDIDR": {
       "price": 17783.0,
@@ -349,23 +349,23 @@
       "m1_pct": 3.29
     },
     "USDTHB": {
-      "price": 32.59,
-      "d1_pct": 0.28,
-      "w1_pct": -0.21,
-      "m1_pct": 0.74
+      "price": 32.53,
+      "d1_pct": 0.09,
+      "w1_pct": -0.39,
+      "m1_pct": 0.56
     },
     "DXY": {
-      "price": 99.139,
-      "d1_pct": -0.01,
-      "w1_pct": -0.16,
-      "m1_pct": 0.67
+      "price": 99.022,
+      "d1_pct": -0.13,
+      "w1_pct": -0.28,
+      "m1_pct": 0.55
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 16.87,
+      "price": 16.78,
       "prev_close": 17.01,
-      "change_pct": -0.82,
+      "change_pct": -1.35,
       "timestamp": "2026-05-27 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.65,
-      "d1_pct": 0.34,
-      "w1_pct": 2.2,
-      "m1_pct": 1.13,
+      "price": 9.665,
+      "d1_pct": 0.49,
+      "w1_pct": 2.36,
+      "m1_pct": 1.29,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,17 +439,52 @@
   },
   "news": [
     {
+      "headline": "Why this fund manager who was an early proponent of Nvidia is now betting on AI\u2019s space frontier",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-this-fund-manager-who-was-an-early-proponent-of-nvidia-is-now-betting-on-the-ai-space-frontier-0c9ae55e?mod=mw_rss_topstories",
+      "datetime": 1779884280,
+      "category": "general"
+    },
+    {
+      "headline": "Why America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-america-is-losing-the-ai-productivity-war-to-3-5-million-chinese-stem-graduates-4ffeb298?mod=mw_rss_topstories",
+      "datetime": 1779883500,
+      "category": "general"
+    },
+    {
+      "headline": "The market isn\u2019t fully pricing in a peace deal yet, as investors see no alternative to U.S. stocks, says Barclays",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
+      "datetime": 1779882900,
+      "category": "general"
+    },
+    {
+      "headline": "OpenAI\u2019s biggest problem isn\u2019t AI safety. It\u2019s Sam Altman.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/openais-biggest-problem-isnt-ai-safety-its-sam-altman-068154aa?mod=mw_rss_topstories",
+      "datetime": 1779882600,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018The timing couldn\u2019t have been better\u2019 for investors in MSGS as the Knicks make the NBA Finals",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-timing-couldnt-have-been-better-for-investors-in-msgs-as-the-knicks-make-the-nba-finals-96b0543a?mod=mw_rss_topstories",
+      "datetime": 1779882360,
+      "category": "general"
+    },
+    {
+      "headline": "China\u2019s next export shock walks on two legs \u2014 and costs less than a used car",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/chinas-next-export-shock-walks-on-two-legs-and-costs-less-than-a-used-car-f0becf3f?mod=mw_rss_topstories",
+      "datetime": 1779882300,
+      "category": "general"
+    },
+    {
       "headline": "\u2018I feel like I\u2019m living a lie\u2019: My husband and I pretend we\u2019re strapped for cash in front of friends. Is that bad?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/i-feel-like-im-living-a-lie-my-husband-and-i-pretend-were-strapped-for-cash-in-front-of-friends-is-that-bad-1cf6104a?mod=mw_rss_topstories",
       "datetime": 1779879600,
-      "category": "general"
-    },
-    {
-      "headline": "Why this fund manager who was an early proponent of Nvidia is now betting on the AI space frontier",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-this-fund-manager-who-was-an-early-proponent-of-nvidia-is-now-betting-on-the-ai-space-frontier-0c9ae55e?mod=mw_rss_topstories",
-      "datetime": 1779879540,
       "category": "general"
     },
     {
@@ -467,45 +502,10 @@
       "category": "general"
     },
     {
-      "headline": "The market isn\u2019t fully pricing in a U.S.-Iran peace deal \u2014 and that could be just the lift European stocks need",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-market-isnt-fully-pricing-in-a-u-s-iran-peace-deal-and-that-could-be-just-the-lift-european-stocks-need-447af617?mod=mw_rss_topstories",
-      "datetime": 1779874260,
-      "category": "general"
-    },
-    {
       "headline": "\u2018I\u2019m unsure of the best approach\u2019: My father, 91, is in hospice care. He left his six children CDs. Can we cash out?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/im-unsure-of-the-best-approach-my-father-91-is-in-hospice-care-he-left-his-six-children-cds-can-we-cash-out-72006059?mod=mw_rss_topstories",
       "datetime": 1779874200,
-      "category": "general"
-    },
-    {
-      "headline": "How AI compares to 11 other capital-spending explosions: When they bust \u2013 and boom again",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/how-ai-compares-to-11-other-capital-spending-explosions-when-they-bust-and-boom-again-2dec8bf4?mod=mw_rss_topstories",
-      "datetime": 1779873540,
-      "category": "general"
-    },
-    {
-      "headline": "My golf buddy dropped me when I didn\u2019t make him my financial adviser. Be careful who you trust.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-golf-buddy-dropped-me-when-i-didnt-make-him-my-financial-adviser-be-careful-who-you-trust-b5c00854?mod=mw_rss_topstories",
-      "datetime": 1779873240,
-      "category": "general"
-    },
-    {
-      "headline": "Drew Barrymore finds a buyer for $5 million Westchester mansion built in the 1740s",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/drew-barrymore-finds-a-buyer-for-5-million-westchester-mansion-built-in-the-1740s-12e68e2b?mod=mw_rss_topstories",
-      "datetime": 1779872700,
-      "category": "general"
-    },
-    {
-      "headline": "Kathleen Kennedy Townsend quickly finds a buyer for charming $1.6 million Cape Cod home",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/kathleen-kennedy-townsend-quickly-finds-a-buyer-for-charming-1-6-million-cape-cod-home-d9bbd04d?mod=mw_rss_topstories",
-      "datetime": 1779872400,
       "category": "general"
     },
     {
@@ -851,7 +851,7 @@
       "ev": "ADP Employment Change Weekly",
       "prev": "42.25K",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "35.75K",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
