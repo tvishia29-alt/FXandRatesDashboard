@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T05:23:05.242465Z",
+  "generated_at": "2026-05-28T07:15:25.066252Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -12,7 +12,7 @@
       "y7": null,
       "y10": 4.481,
       "y20": null,
-      "y30": 5.011
+      "y30": null
     },
     "US_yf": {
       "US_3M": {
@@ -32,70 +32,64 @@
         "prev_close": 4.493,
         "change_pct": -0.27,
         "timestamp": "2026-05-27 00:00:00"
-      },
-      "US_30Y": {
-        "price": 5.011,
-        "prev_close": 5.026,
-        "change_pct": -0.3,
-        "timestamp": "2026-05-27 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4402.8999,
-      "d1_pct": -1.0,
-      "w1_pct": -2.83,
-      "m1_pct": -4.11,
+      "price": 4417.6001,
+      "d1_pct": -0.67,
+      "w1_pct": -2.51,
+      "m1_pct": -3.79,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 72.235,
-      "d1_pct": -3.17,
-      "w1_pct": -4.77,
-      "m1_pct": -1.33,
+      "price": 73.61,
+      "d1_pct": -1.33,
+      "w1_pct": -2.95,
+      "m1_pct": 0.55,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 91.99,
-      "d1_pct": 3.73,
-      "w1_pct": -6.38,
-      "m1_pct": -7.95,
+      "price": 91.08,
+      "d1_pct": 2.71,
+      "w1_pct": -7.31,
+      "m1_pct": -8.86,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 95.57,
-      "d1_pct": 1.36,
-      "w1_pct": -9.0,
-      "m1_pct": -14.1,
+      "price": 94.64,
+      "d1_pct": 0.37,
+      "w1_pct": -9.88,
+      "m1_pct": -14.94,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.076,
-      "d1_pct": 1.18,
-      "w1_pct": 2.4,
-      "m1_pct": 20.2,
+      "price": 3.07,
+      "d1_pct": 0.99,
+      "w1_pct": 2.2,
+      "m1_pct": 19.97,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.25,
-      "d1_pct": -0.87,
-      "w1_pct": -0.64,
-      "m1_pct": 5.67,
+      "price": 6.317,
+      "d1_pct": 0.19,
+      "w1_pct": 0.42,
+      "m1_pct": 6.81,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 621.25,
-      "d1_pct": -0.2,
-      "w1_pct": -5.94,
-      "m1_pct": -4.28,
+      "price": 623.0,
+      "d1_pct": 0.08,
+      "w1_pct": -5.68,
+      "m1_pct": -4.01,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 453.75,
-      "d1_pct": 0.28,
-      "w1_pct": -2.58,
-      "m1_pct": -2.47,
+      "price": 454.5,
+      "d1_pct": 0.44,
+      "w1_pct": -2.42,
+      "m1_pct": -2.31,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,82 +217,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1596,
-      "d1_pct": -0.35,
-      "w1_pct": -0.26,
-      "m1_pct": -1.04
+      "price": 1.1621,
+      "d1_pct": -0.13,
+      "w1_pct": -0.04,
+      "m1_pct": -0.83
     },
     "GBPUSD": {
-      "price": 1.338,
-      "d1_pct": -0.56,
-      "w1_pct": -0.4,
-      "m1_pct": -1.07
+      "price": 1.3411,
+      "d1_pct": -0.33,
+      "w1_pct": -0.17,
+      "m1_pct": -0.84
     },
     "USDJPY": {
-      "price": 159.574,
-      "d1_pct": 0.21,
-      "w1_pct": 0.43,
-      "m1_pct": 0.01
+      "price": 159.478,
+      "d1_pct": 0.15,
+      "w1_pct": 0.37,
+      "m1_pct": -0.05
     },
     "USDCHF": {
-      "price": 0.7893,
-      "d1_pct": 0.54,
-      "w1_pct": 0.31,
-      "m1_pct": 0.04
+      "price": 0.7876,
+      "d1_pct": 0.32,
+      "w1_pct": 0.09,
+      "m1_pct": -0.17
     },
     "AUDUSD": {
-      "price": 0.7111,
-      "d1_pct": -0.84,
-      "w1_pct": -0.55,
-      "m1_pct": -1.06
+      "price": 0.7128,
+      "d1_pct": -0.6,
+      "w1_pct": -0.31,
+      "m1_pct": -0.82
     },
     "NZDUSD": {
-      "price": 0.5875,
-      "d1_pct": 0.56,
-      "w1_pct": 0.12,
-      "m1_pct": -0.23
+      "price": 0.5894,
+      "d1_pct": 0.88,
+      "w1_pct": 0.43,
+      "m1_pct": 0.09
     },
     "USDCAD": {
-      "price": 1.3862,
-      "d1_pct": 0.39,
-      "w1_pct": 0.83,
-      "m1_pct": 1.34
+      "price": 1.3848,
+      "d1_pct": 0.29,
+      "w1_pct": 0.73,
+      "m1_pct": 1.23
     },
     "USDSEK": {
-      "price": 9.3393,
-      "d1_pct": 0.56,
-      "w1_pct": 0.12,
-      "m1_pct": 0.88
+      "price": 9.2937,
+      "d1_pct": 0.07,
+      "w1_pct": -0.37,
+      "m1_pct": 0.39
     },
     "USDNOK": {
-      "price": 9.3041,
-      "d1_pct": 0.47,
-      "w1_pct": 0.53,
-      "m1_pct": -0.11
+      "price": 9.2709,
+      "d1_pct": 0.12,
+      "w1_pct": 0.18,
+      "m1_pct": -0.46
     },
     "USDCNY": {
-      "price": 6.7845,
-      "d1_pct": -0.02,
-      "w1_pct": -0.24,
-      "m1_pct": -0.77
+      "price": 6.7808,
+      "d1_pct": -0.08,
+      "w1_pct": -0.29,
+      "m1_pct": -0.83
     },
     "USDMXN": {
-      "price": 17.425,
-      "d1_pct": 0.75,
-      "w1_pct": 0.69,
-      "m1_pct": 0.23
+      "price": 17.3945,
+      "d1_pct": 0.57,
+      "w1_pct": 0.52,
+      "m1_pct": 0.06
     },
     "USDBRL": {
-      "price": 5.0608,
-      "d1_pct": 0.32,
-      "w1_pct": 0.98,
-      "m1_pct": 1.33
+      "price": 5.0588,
+      "d1_pct": 0.28,
+      "w1_pct": 0.94,
+      "m1_pct": 1.29
     },
     "USDZAR": {
-      "price": 16.468,
-      "d1_pct": 0.65,
-      "w1_pct": 0.06,
-      "m1_pct": -0.36
+      "price": 16.4354,
+      "d1_pct": 0.45,
+      "w1_pct": -0.14,
+      "m1_pct": -0.56
     },
     "USDINR": {
       "price": 95.68,
@@ -307,40 +301,40 @@
       "m1_pct": 1.09
     },
     "USDKRW": {
-      "price": 1506.58,
-      "d1_pct": 0.08,
-      "w1_pct": 0.45,
-      "m1_pct": 2.35
+      "price": 1502.6899,
+      "d1_pct": -0.18,
+      "w1_pct": 0.19,
+      "m1_pct": 2.09
     },
     "USDTRY": {
-      "price": 45.8952,
-      "d1_pct": 0.0,
+      "price": 45.8971,
+      "d1_pct": 0.01,
       "w1_pct": 0.67,
-      "m1_pct": 1.85
+      "m1_pct": 1.86
     },
     "USDPLN": {
-      "price": 3.6539,
-      "d1_pct": 0.44,
-      "w1_pct": 0.08,
-      "m1_pct": 0.81
+      "price": 3.6449,
+      "d1_pct": 0.19,
+      "w1_pct": -0.16,
+      "m1_pct": 0.56
     },
     "USDHUF": {
-      "price": 306.72,
-      "d1_pct": 0.57,
-      "w1_pct": -0.6,
-      "m1_pct": -1.15
+      "price": 305.791,
+      "d1_pct": 0.26,
+      "w1_pct": -0.9,
+      "m1_pct": -1.45
     },
     "USDCZK": {
-      "price": 20.9498,
-      "d1_pct": 0.51,
-      "w1_pct": 0.33,
-      "m1_pct": 0.83
+      "price": 20.9128,
+      "d1_pct": 0.33,
+      "w1_pct": 0.15,
+      "m1_pct": 0.66
     },
     "USDSGD": {
-      "price": 1.2797,
-      "d1_pct": 0.22,
-      "w1_pct": 0.14,
-      "m1_pct": 0.29
+      "price": 1.2787,
+      "d1_pct": 0.15,
+      "w1_pct": 0.07,
+      "m1_pct": 0.21
     },
     "USDIDR": {
       "price": 17785.0,
@@ -349,16 +343,16 @@
       "m1_pct": 3.14
     },
     "USDTHB": {
-      "price": 32.67,
-      "d1_pct": 0.13,
-      "w1_pct": 0.45,
-      "m1_pct": 0.55
+      "price": 32.62,
+      "d1_pct": -0.03,
+      "w1_pct": 0.3,
+      "m1_pct": 0.4
     },
     "DXY": {
-      "price": 99.508,
-      "d1_pct": 0.3,
-      "w1_pct": 0.4,
-      "m1_pct": 0.9
+      "price": 99.319,
+      "d1_pct": 0.11,
+      "w1_pct": 0.21,
+      "m1_pct": 0.71
     }
   },
   "volatility": {
@@ -414,9 +408,9 @@
     },
     "UK Gilts": {
       "price": 9.6375,
-      "d1_pct": 0.21,
-      "w1_pct": 2.07,
-      "m1_pct": 1.0,
+      "d1_pct": 0.0,
+      "w1_pct": 1.08,
+      "m1_pct": 1.39,
       "country": "UK",
       "duration": "mixed"
     },
@@ -509,24 +503,38 @@
       "category": "general"
     },
     {
-      "headline": "One in six young people will not be in work or training in five years without action, report warns",
+      "headline": "UK at risk of 'lost generation' of young people without work, report warns",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779917451,
+      "datetime": 1779952277,
       "category": "general"
     },
     {
-      "headline": "An unhealthy focus on sex - Married at First Sight UK insiders on show's 'toxic' culture",
+      "headline": "The \u00a35 coffee that tells a story of global economic turmoil",
       "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cn7p1dg6j41o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779923305,
+      "url": "https://www.bbc.com/news/articles/cr5pp1m6z06o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1779950687,
       "category": "general"
     },
     {
       "headline": "Oil prices jump after US launches new attacks on Iran",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cp3p62xddq4o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779942600,
+      "datetime": 1779946326,
+      "category": "general"
+    },
+    {
+      "headline": "How you can save money on your energy bill",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1779898384,
+      "category": "general"
+    },
+    {
+      "headline": "Is 'out of control' US tipping culture spreading overseas?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cj6p0wrkpj8o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1779923683,
       "category": "general"
     },
     {
@@ -544,24 +552,10 @@
       "category": "general"
     },
     {
-      "headline": "Is 'out of control' US tipping culture spreading overseas?",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cj6p0wrkpj8o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779923683,
-      "category": "general"
-    },
-    {
       "headline": "The world's carmakers are struggling to compete with China",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c4g8vg72z43o?at_medium=RSS&at_campaign=rss",
       "datetime": 1779919238,
-      "category": "general"
-    },
-    {
-      "headline": "How you can save money on your energy bill",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1779898384,
       "category": "general"
     },
     {
