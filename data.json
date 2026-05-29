@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T20:49:11.243856Z",
+  "generated_at": "2026-05-29T22:33:03.232841Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,45 +43,45 @@
   },
   "commodities": {
     "gold": {
-      "price": 4574.2998,
-      "d1_pct": 1.67,
-      "w1_pct": 0.76,
-      "m1_pct": 0.64,
+      "price": 4569.8999,
+      "d1_pct": 1.57,
+      "w1_pct": 0.66,
+      "m1_pct": 0.54,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 75.795,
-      "d1_pct": 0.2,
-      "w1_pct": -0.81,
-      "m1_pct": 5.9,
+      "price": 75.585,
+      "d1_pct": -0.08,
+      "w1_pct": -1.08,
+      "m1_pct": 5.61,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 87.93,
-      "d1_pct": -1.09,
-      "w1_pct": -8.74,
-      "m1_pct": -17.73,
+      "price": 87.76,
+      "d1_pct": -1.28,
+      "w1_pct": -8.92,
+      "m1_pct": -17.89,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 91.78,
-      "d1_pct": -2.06,
-      "w1_pct": -10.53,
-      "m1_pct": -22.24,
+      "price": 91.7,
+      "d1_pct": -2.14,
+      "w1_pct": -10.61,
+      "m1_pct": -22.31,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.281,
-      "d1_pct": -0.12,
-      "w1_pct": 8.71,
-      "m1_pct": 23.95,
+      "price": 3.273,
+      "d1_pct": -0.37,
+      "w1_pct": 8.45,
+      "m1_pct": 23.65,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.3875,
-      "d1_pct": -0.13,
-      "w1_pct": 2.09,
-      "m1_pct": 8.66,
+      "price": 6.394,
+      "d1_pct": -0.03,
+      "w1_pct": 2.19,
+      "m1_pct": 8.77,
       "unit": "$/lb"
     },
     "wheat": {
@@ -223,34 +223,34 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1665,
-      "d1_pct": 0.4,
-      "w1_pct": 0.37,
-      "m1_pct": -0.17
+      "price": 1.1659,
+      "d1_pct": 0.35,
+      "w1_pct": 0.33,
+      "m1_pct": -0.22
     },
     "GBPUSD": {
-      "price": 1.3458,
-      "d1_pct": 0.31,
-      "w1_pct": 0.19,
+      "price": 1.3457,
+      "d1_pct": 0.3,
+      "w1_pct": 0.18,
       "m1_pct": -0.23
     },
     "USDJPY": {
       "price": 159.255,
-      "d1_pct": -0.2,
-      "w1_pct": 0.15,
-      "m1_pct": -0.58
+      "d1_pct": -0.01,
+      "w1_pct": 0.19,
+      "m1_pct": 1.45
     },
     "USDCHF": {
-      "price": 0.7811,
-      "d1_pct": -0.86,
-      "w1_pct": -0.69,
-      "m1_pct": -1.2
+      "price": 0.7807,
+      "d1_pct": -0.9,
+      "w1_pct": -0.73,
+      "m1_pct": -1.24
     },
     "AUDUSD": {
-      "price": 0.7188,
-      "d1_pct": 0.76,
-      "w1_pct": 0.55,
-      "m1_pct": 0.79
+      "price": 0.7186,
+      "d1_pct": 0.74,
+      "w1_pct": 0.53,
+      "m1_pct": 0.77
     },
     "NZDUSD": {
       "price": 0.599,
@@ -259,22 +259,22 @@
       "m1_pct": 2.56
     },
     "USDCAD": {
-      "price": 1.3796,
-      "d1_pct": -0.34,
-      "w1_pct": 0.15,
-      "m1_pct": 0.91
+      "price": 1.3793,
+      "d1_pct": -0.36,
+      "w1_pct": 0.12,
+      "m1_pct": 0.89
     },
     "USDSEK": {
-      "price": 9.2357,
-      "d1_pct": -0.68,
-      "w1_pct": -1.08,
-      "m1_pct": -0.74
+      "price": 9.2285,
+      "d1_pct": -0.75,
+      "w1_pct": -1.16,
+      "m1_pct": -0.82
     },
     "USDNOK": {
-      "price": 9.2424,
-      "d1_pct": -0.37,
-      "w1_pct": 0.16,
-      "m1_pct": -0.84
+      "price": 9.2288,
+      "d1_pct": -0.17,
+      "w1_pct": -0.22,
+      "m1_pct": -0.33
     },
     "USDCNY": {
       "price": 6.7657,
@@ -283,22 +283,22 @@
       "m1_pct": -1.05
     },
     "USDMXN": {
-      "price": 17.3441,
-      "d1_pct": -0.23,
-      "w1_pct": 0.27,
-      "m1_pct": -1.04
+      "price": 17.338,
+      "d1_pct": -0.27,
+      "w1_pct": 0.23,
+      "m1_pct": -1.07
     },
     "USDBRL": {
-      "price": 5.0356,
-      "d1_pct": -0.74,
-      "w1_pct": 0.37,
-      "m1_pct": 0.36
+      "price": 5.0426,
+      "d1_pct": -0.6,
+      "w1_pct": 0.51,
+      "m1_pct": 0.5
     },
     "USDZAR": {
-      "price": 16.2255,
-      "d1_pct": -0.88,
-      "w1_pct": -1.29,
-      "m1_pct": -3.45
+      "price": 16.2148,
+      "d1_pct": -0.95,
+      "w1_pct": -1.35,
+      "m1_pct": -3.52
     },
     "USDINR": {
       "price": 94.99,
@@ -307,40 +307,40 @@
       "m1_pct": 0.08
     },
     "USDKRW": {
-      "price": 1507.01,
-      "d1_pct": 0.26,
-      "w1_pct": 0.17,
-      "m1_pct": 1.32
+      "price": 1507.13,
+      "d1_pct": 0.27,
+      "w1_pct": 0.18,
+      "m1_pct": 1.33
     },
     "USDTRY": {
-      "price": 45.8338,
-      "d1_pct": -0.13,
-      "w1_pct": 0.26,
-      "m1_pct": 1.48
+      "price": 45.7418,
+      "d1_pct": -0.33,
+      "w1_pct": 0.06,
+      "m1_pct": 1.27
     },
     "USDPLN": {
-      "price": 3.6268,
-      "d1_pct": -0.46,
-      "w1_pct": -0.56,
-      "m1_pct": -0.47
+      "price": 3.6254,
+      "d1_pct": -0.5,
+      "w1_pct": -0.6,
+      "m1_pct": -0.51
     },
     "USDHUF": {
-      "price": 302.947,
-      "d1_pct": -0.64,
-      "w1_pct": -1.72,
-      "m1_pct": -3.04
+      "price": 303.25,
+      "d1_pct": -0.54,
+      "w1_pct": -1.62,
+      "m1_pct": -2.94
     },
     "USDCZK": {
-      "price": 20.809,
-      "d1_pct": -0.39,
-      "w1_pct": -0.37,
-      "m1_pct": -0.18
+      "price": 20.801,
+      "d1_pct": -0.43,
+      "w1_pct": -0.41,
+      "m1_pct": -0.21
     },
     "USDSGD": {
-      "price": 1.2761,
-      "d1_pct": -0.14,
-      "w1_pct": -0.13,
-      "m1_pct": -0.33
+      "price": 1.2764,
+      "d1_pct": 0.07,
+      "w1_pct": -0.04,
+      "m1_pct": 0.28
     },
     "USDIDR": {
       "price": 17878.0,
@@ -355,10 +355,10 @@
       "m1_pct": -0.98
     },
     "DXY": {
-      "price": 98.927,
-      "d1_pct": -0.09,
-      "w1_pct": -0.27,
-      "m1_pct": 0.01
+      "price": 98.942,
+      "d1_pct": -0.08,
+      "w1_pct": -0.25,
+      "m1_pct": 0.02
     }
   },
   "volatility": {
@@ -439,6 +439,48 @@
   },
   "news": [
     {
+      "headline": "A mystery man tried to buy Playboy\u2019s high-end lingerie business. It turned out to all be a scam.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/a-mystery-man-tried-to-buy-playboys-high-end-lingerie-business-it-turned-out-to-all-be-a-scam-4d8c0ae9?mod=mw_rss_topstories",
+      "datetime": 1780092540,
+      "category": "general"
+    },
+    {
+      "headline": "Gap and American Eagle shares both get crushed \u2014 and neither retailer is blaming the economy",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
+      "datetime": 1780091340,
+      "category": "general"
+    },
+    {
+      "headline": "Oil slides, stocks climb as Trump puts off determination on Iran proposal",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-prices-slide-as-trump-says-the-u-s-is-close-to-an-iran-deal-8af9ece2?mod=mw_rss_topstories",
+      "datetime": 1780090500,
+      "category": "general"
+    },
+    {
+      "headline": "ServiceNow\u2019s stock soars to a historic month as AI fears fade across software",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/servicenows-stock-soars-toward-historic-month-as-ai-fears-fade-across-software-31854b69?mod=mw_rss_topstories",
+      "datetime": 1780089840,
+      "category": "general"
+    },
+    {
+      "headline": "Dell\u2019s stunning 33% stock rally gave a big boost to shares of other server makers",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
+      "datetime": 1780088400,
+      "category": "general"
+    },
+    {
+      "headline": "Here\u2019s the real story behind the record drop in America\u2019s oil reserves",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-have-plenty-heres-the-real-story-behind-the-record-drop-in-americas-oil-reserves-9c8de9d5?mod=mw_rss_topstories",
+      "datetime": 1780088100,
+      "category": "general"
+    },
+    {
       "headline": "These S&P 500 stocks soared the most during the AI-driven May rally",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/these-s-p-500-stocks-have-soared-the-most-during-the-ai-driven-may-rally-570ad48f?mod=mw_rss_topstories",
@@ -464,48 +506,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/oil-prices-tumble-most-since-2020-in-may-without-hitting-200-a-barrel-heres-whats-next-f83b4fed?mod=mw_rss_topstories",
       "datetime": 1780084320,
-      "category": "general"
-    },
-    {
-      "headline": "Changes at CBS put pressure on California AG to challenge Paramount-Warner Bros. deal",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/changes-at-cbs-put-pressure-on-california-ag-to-challenge-paramount-warner-bros-deal-8b3dcec3?mod=mw_rss_topstories",
-      "datetime": 1780082580,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018It is such a fine line\u2019: I am a CFP and see nothing wrong with networking on the golf course. Am I wrong?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/it-is-such-a-fine-line-i-am-a-cfp-and-see-nothing-wrong-with-networking-on-the-golf-course-am-i-wrong-50a698e8?mod=mw_rss_topstories",
-      "datetime": 1780082220,
-      "category": "general"
-    },
-    {
-      "headline": "The \u2018Three A\u2019s\u2019 are keeping the economy afloat during Iran war. Is it enough to avoid recession?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-three-as-are-keeping-the-economy-afloat-during-iran-war-is-it-enough-to-avoid-recession-9769e907?mod=mw_rss_topstories",
-      "datetime": 1780080840,
-      "category": "general"
-    },
-    {
-      "headline": "The company behind the White House\u2019s UFC event says rivals \u2018would kill\u2019 for the opportunity. Critics say that\u2019s a problem.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-company-behind-the-white-houses-ufc-event-says-rivals-would-kill-for-the-opportunity-critics-say-thats-a-problem-bf463d8d?mod=mw_rss_topstories",
-      "datetime": 1780078980,
-      "category": "general"
-    },
-    {
-      "headline": "What\u2019s next for investors after the AI rally supercharged stocks in May?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/whats-next-for-investors-after-the-ai-rally-supercharged-stocks-in-may-38b0d3aa?mod=mw_rss_topstories",
-      "datetime": 1780078980,
-      "category": "general"
-    },
-    {
-      "headline": "Dell\u2019s stunning 30% stock rally is giving a big boost to shares of other server makers",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
-      "datetime": 1780078620,
       "category": "general"
     },
     {
