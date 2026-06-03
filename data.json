@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-06-03T10:39:42.935522Z",
+  "generated_at": "2026-06-03T12:35:53.230635Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 3.618,
       "y6m": null,
       "y1": null,
-      "y2": 3.819,
+      "y2": 3.831,
       "y3": null,
-      "y5": 4.177,
+      "y5": 4.211,
       "y7": null,
-      "y10": 4.455,
+      "y10": 4.485,
       "y20": null,
-      "y30": 4.967
+      "y30": 4.989
     },
     "US_yf": {
       "US_3M": {
         "price": 3.618,
-        "prev_close": 3.62,
-        "change_pct": -0.06,
-        "timestamp": "2026-06-02 00:00:00"
+        "prev_close": 3.618,
+        "change_pct": 0.0,
+        "timestamp": "2026-06-03 00:00:00"
       },
       "US_5Y": {
-        "price": 4.177,
-        "prev_close": 4.186,
-        "change_pct": -0.22,
-        "timestamp": "2026-06-02 00:00:00"
+        "price": 4.211,
+        "prev_close": 4.177,
+        "change_pct": 0.81,
+        "timestamp": "2026-06-03 00:00:00"
       },
       "US_10Y": {
-        "price": 4.455,
-        "prev_close": 4.475,
-        "change_pct": -0.45,
-        "timestamp": "2026-06-02 00:00:00"
+        "price": 4.485,
+        "prev_close": 4.455,
+        "change_pct": 0.67,
+        "timestamp": "2026-06-03 00:00:00"
       },
       "US_30Y": {
-        "price": 4.967,
-        "prev_close": 4.991,
-        "change_pct": -0.48,
-        "timestamp": "2026-06-02 00:00:00"
+        "price": 4.989,
+        "prev_close": 4.967,
+        "change_pct": 0.44,
+        "timestamp": "2026-06-03 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4488.3999,
-      "d1_pct": -0.02,
-      "w1_pct": 0.92,
-      "m1_pct": -0.69,
+      "price": 4483.6001,
+      "d1_pct": -0.12,
+      "w1_pct": 0.81,
+      "m1_pct": -0.79,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 74.73,
-      "d1_pct": -0.77,
-      "w1_pct": 0.18,
-      "m1_pct": 2.27,
+      "price": 74.54,
+      "d1_pct": -1.02,
+      "w1_pct": -0.08,
+      "m1_pct": 2.01,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 96.32,
-      "d1_pct": 2.73,
-      "w1_pct": 8.62,
-      "m1_pct": -9.49,
+      "price": 96.27,
+      "d1_pct": 2.68,
+      "w1_pct": 8.56,
+      "m1_pct": -9.54,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 98.53,
-      "d1_pct": 2.64,
-      "w1_pct": 4.5,
-      "m1_pct": -13.9,
+      "price": 98.28,
+      "d1_pct": 2.37,
+      "w1_pct": 4.23,
+      "m1_pct": -14.12,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.236,
-      "d1_pct": 2.18,
-      "w1_pct": 6.45,
-      "m1_pct": 12.87,
+      "price": 3.182,
+      "d1_pct": 0.47,
+      "w1_pct": 4.67,
+      "m1_pct": 10.99,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.6135,
-      "d1_pct": -0.54,
-      "w1_pct": 4.89,
-      "m1_pct": 14.12,
+      "price": 6.5985,
+      "d1_pct": -0.77,
+      "w1_pct": 4.66,
+      "m1_pct": 13.87,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 602.25,
-      "d1_pct": -0.12,
-      "w1_pct": -3.25,
-      "m1_pct": -4.33,
+      "price": 606.0,
+      "d1_pct": 0.5,
+      "w1_pct": -2.65,
+      "m1_pct": -3.73,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 440.25,
-      "d1_pct": -0.06,
-      "w1_pct": -2.71,
-      "m1_pct": -7.07,
+      "price": 440.75,
+      "d1_pct": 0.06,
+      "w1_pct": -2.6,
+      "m1_pct": -6.97,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,58 +223,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1621,
-      "d1_pct": -0.12,
-      "w1_pct": -0.13,
-      "m1_pct": -0.61
+      "price": 1.1605,
+      "d1_pct": -0.26,
+      "w1_pct": -0.27,
+      "m1_pct": -0.74
     },
     "GBPUSD": {
-      "price": 1.3449,
-      "d1_pct": -0.08,
-      "w1_pct": -0.05,
-      "m1_pct": -0.61
+      "price": 1.3434,
+      "d1_pct": -0.19,
+      "w1_pct": -0.16,
+      "m1_pct": -0.72
     },
     "USDJPY": {
-      "price": 159.828,
-      "d1_pct": 0.12,
-      "w1_pct": 0.37,
-      "m1_pct": 1.68
+      "price": 159.901,
+      "d1_pct": 0.17,
+      "w1_pct": 0.41,
+      "m1_pct": 1.72
     },
     "USDCHF": {
-      "price": 0.7891,
-      "d1_pct": 0.38,
-      "w1_pct": 0.51,
-      "m1_pct": 0.65
+      "price": 0.79,
+      "d1_pct": 0.49,
+      "w1_pct": 0.63,
+      "m1_pct": 0.77
     },
     "AUDUSD": {
-      "price": 0.7174,
-      "d1_pct": 0.13,
-      "w1_pct": 0.04,
-      "m1_pct": 0.09
+      "price": 0.7159,
+      "d1_pct": -0.07,
+      "w1_pct": -0.16,
+      "m1_pct": -0.12
     },
     "NZDUSD": {
-      "price": 0.5901,
-      "d1_pct": -0.58,
-      "w1_pct": 1.0,
-      "m1_pct": 0.49
+      "price": 0.5894,
+      "d1_pct": -0.71,
+      "w1_pct": 0.88,
+      "m1_pct": 0.36
     },
     "USDCAD": {
-      "price": 1.3849,
-      "d1_pct": 0.07,
-      "w1_pct": 0.3,
-      "m1_pct": 1.67
+      "price": 1.3862,
+      "d1_pct": 0.17,
+      "w1_pct": 0.4,
+      "m1_pct": 1.77
     },
     "USDSEK": {
-      "price": 9.364,
-      "d1_pct": 0.62,
-      "w1_pct": 0.82,
-      "m1_pct": 0.83
+      "price": 9.3908,
+      "d1_pct": 0.9,
+      "w1_pct": 1.11,
+      "m1_pct": 1.12
     },
     "USDNOK": {
-      "price": 9.2732,
-      "d1_pct": 0.05,
-      "w1_pct": 0.14,
-      "m1_pct": 0.03
+      "price": 9.2944,
+      "d1_pct": 0.28,
+      "w1_pct": 0.37,
+      "m1_pct": 0.26
     },
     "USDCNY": {
       "price": 6.7687,
@@ -283,22 +283,22 @@
       "m1_pct": -0.9
     },
     "USDMXN": {
-      "price": 17.2836,
-      "d1_pct": -0.4,
-      "w1_pct": -0.07,
-      "m1_pct": -1.35
+      "price": 17.3134,
+      "d1_pct": -0.23,
+      "w1_pct": 0.1,
+      "m1_pct": -1.18
     },
     "USDBRL": {
-      "price": 5.0113,
-      "d1_pct": -0.54,
-      "w1_pct": -0.66,
-      "m1_pct": 0.53
+      "price": 5.033,
+      "d1_pct": -0.11,
+      "w1_pct": -0.23,
+      "m1_pct": 0.97
     },
     "USDZAR": {
-      "price": 16.2749,
-      "d1_pct": -0.11,
-      "w1_pct": -0.53,
-      "m1_pct": -3.06
+      "price": 16.2921,
+      "d1_pct": -0.01,
+      "w1_pct": -0.43,
+      "m1_pct": -2.95
     },
     "USDINR": {
       "price": 95.695,
@@ -307,40 +307,40 @@
       "m1_pct": 0.46
     },
     "USDKRW": {
-      "price": 1526.01,
-      "d1_pct": 0.98,
-      "w1_pct": 1.37,
-      "m1_pct": 3.38
+      "price": 1527.5601,
+      "d1_pct": 1.08,
+      "w1_pct": 1.47,
+      "m1_pct": 3.49
     },
     "USDTRY": {
-      "price": 45.9515,
+      "price": 45.9524,
       "d1_pct": 0.06,
       "w1_pct": 0.13,
       "m1_pct": 1.63
     },
     "USDPLN": {
-      "price": 3.6483,
-      "d1_pct": 0.26,
-      "w1_pct": 0.28,
-      "m1_pct": 0.21
+      "price": 3.6535,
+      "d1_pct": 0.41,
+      "w1_pct": 0.42,
+      "m1_pct": 0.35
     },
     "USDHUF": {
-      "price": 305.43,
-      "d1_pct": 0.43,
-      "w1_pct": 0.15,
-      "m1_pct": -1.68
+      "price": 306.066,
+      "d1_pct": 0.64,
+      "w1_pct": 0.36,
+      "m1_pct": -1.48
     },
     "USDCZK": {
-      "price": 20.8203,
-      "d1_pct": -0.17,
-      "w1_pct": -0.12,
-      "m1_pct": -0.18
+      "price": 20.8471,
+      "d1_pct": -0.04,
+      "w1_pct": 0.01,
+      "m1_pct": -0.05
     },
     "USDSGD": {
-      "price": 1.2816,
-      "d1_pct": 0.26,
-      "w1_pct": 0.37,
-      "m1_pct": 0.37
+      "price": 1.2826,
+      "d1_pct": 0.34,
+      "w1_pct": 0.46,
+      "m1_pct": 0.45
     },
     "USDIDR": {
       "price": 17943.0,
@@ -349,23 +349,23 @@
       "m1_pct": 3.44
     },
     "USDTHB": {
-      "price": 32.72,
-      "d1_pct": 0.5,
-      "w1_pct": 0.28,
-      "m1_pct": -0.03
+      "price": 32.73,
+      "d1_pct": 0.53,
+      "w1_pct": 0.31,
+      "m1_pct": 0.0
     },
     "DXY": {
-      "price": 99.34,
-      "d1_pct": 0.12,
-      "w1_pct": 0.13,
-      "m1_pct": 0.88
+      "price": 99.377,
+      "d1_pct": 0.16,
+      "w1_pct": 0.17,
+      "m1_pct": 0.92
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 16.06,
+      "price": 16.08,
       "prev_close": 15.77,
-      "change_pct": 1.84,
+      "change_pct": 1.97,
       "timestamp": "2026-06-03 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.605,
-      "d1_pct": -0.34,
-      "w1_pct": -0.34,
-      "m1_pct": 0.76,
+      "price": 9.615,
+      "d1_pct": -0.23,
+      "w1_pct": -0.23,
+      "m1_pct": 0.87,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 140.01,
-      "d1_pct": -0.37,
-      "w1_pct": -0.48,
-      "m1_pct": 0.73,
+      "price": 139.82,
+      "d1_pct": -0.51,
+      "w1_pct": -0.61,
+      "m1_pct": 0.6,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +438,55 @@
     }
   },
   "news": [
+    {
+      "headline": "ADP says businesses create the most new jobs in 16 months.  Hiring rebounds after a lull.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/adp-says-businesses-create-the-most-new-jobs-in-16-months-as-hiring-rebounds-from-long-lull-043127b1?mod=mw_rss_topstories",
+      "datetime": 1780489500,
+      "category": "general"
+    },
+    {
+      "headline": "OECD gives a stark warning while lowering 2027 growth forecasts",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oecd-gives-a-stark-warning-while-lowering-2027-growth-forecasts-3f97394b?mod=mw_rss_topstories",
+      "datetime": 1780489020,
+      "category": "general"
+    },
+    {
+      "headline": "Investors would be crazy to turn bearish on stocks now, says veteran strategist. In six months, maybe not.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/investors-would-be-crazy-to-turn-bearish-on-stocks-now-says-veteran-strategist-maybe-not-in-six-months-5c62a9d2?mod=mw_rss_topstories",
+      "datetime": 1780488900,
+      "category": "general"
+    },
+    {
+      "headline": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/wall-street-hated-these-15-stocks-then-their-earnings-proved-the-analysts-wrong-fceb1c96?mod=mw_rss_topstories",
+      "datetime": 1780488600,
+      "category": "general"
+    },
+    {
+      "headline": "Oil prices climb for a third straight day as peace-deal hopes teeter",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-prices-rally-for-a-third-straight-day-as-peace-deal-hopes-teeter-6a0b1635?mod=mw_rss_topstories",
+      "datetime": 1780488300,
+      "category": "general"
+    },
+    {
+      "headline": "My sister, mother and I are giving my son $20,000 toward a down payment. Do we report it to the IRS?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-sister-mother-and-i-are-giving-my-son-20-000-toward-a-down-payment-do-we-report-it-to-the-irs-a20f2408?mod=mw_rss_topstories",
+      "datetime": 1780485300,
+      "category": "general"
+    },
+    {
+      "headline": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
+      "datetime": 1780484160,
+      "category": "general"
+    },
     {
       "headline": "My husband and I are 75. We have $1.5 million in stocks and $425,000 in savings. Is that too much cash?",
       "source": "MarketWatch",
@@ -460,52 +509,10 @@
       "category": "general"
     },
     {
-      "headline": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
-      "datetime": 1780478040,
-      "category": "general"
-    },
-    {
-      "headline": "Billionaire moves into 10th place globally as Inditex sales jump",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/billionaire-moves-into-10th-place-globally-as-inditex-sales-jump-6d248eba?mod=mw_rss_topstories",
-      "datetime": 1780477740,
-      "category": "general"
-    },
-    {
-      "headline": "What happened to celebrity selling power? Why Hollywood\u2019s most famous struggle to unload their lavish homes.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-happened-to-celebrity-selling-power-why-hollywoods-most-famous-struggle-to-unload-their-lavish-homes-38b0efe2?mod=mw_rss_topstories",
-      "datetime": 1780477380,
-      "category": "general"
-    },
-    {
-      "headline": "The late Richard Simmons\u2019 L.A. estate returns to the market with a new sales strategy\u2014and a lower price",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-late-richard-simmons-l-a-estate-returns-to-the-market-with-a-new-sales-strategyand-a-lower-price-091b5e0f?mod=mw_rss_topstories",
-      "datetime": 1780477260,
-      "category": "general"
-    },
-    {
-      "headline": "New Trump administration tariffs, this time on forced labor, could come into force as existing ones roll off",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/new-trump-administration-tariffs-this-time-on-forced-labor-could-come-into-force-as-existing-ones-roll-off-f930dfca?mod=mw_rss_topstories",
-      "datetime": 1780475340,
-      "category": "general"
-    },
-    {
-      "headline": "Taking care of your family shouldn\u2019t wreck your retirement",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/taking-care-of-your-family-shouldnt-wreck-your-retirement-f50714f8?mod=mw_rss_topstories",
-      "datetime": 1780455780,
-      "category": "general"
-    },
-    {
-      "headline": "The S&P 500 climbs for a 9th straight day \u2014 but the \u2018breadth paradox\u2019 is sending a rare warning",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/s-p-500-climbing-for-9th-straight-day-but-breadth-sends-a-rare-warning-1577195d?mod=mw_rss_topstories",
-      "datetime": 1780446660,
+      "headline": "US announces new tariffs over forced labour concerns",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1780482672,
       "category": "general"
     },
     {
@@ -523,10 +530,24 @@
       "category": "general"
     },
     {
-      "headline": "US announces new tariffs over forced labour concerns",
+      "headline": "Lloyds, Halifax and Bank of Scotland app users hit by outage",
       "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1780482672,
+      "url": "https://www.bbc.com/news/articles/c9d37gdxp7xo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1780488164,
+      "category": "general"
+    },
+    {
+      "headline": "Microsoft testing wearable AI gadget aimed at office workers",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cwy25x97wrxo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1780436862,
+      "category": "general"
+    },
+    {
+      "headline": "How 'confused' AI rollout hurts firms and baffles staff",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c74d1ydv01eo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1780355111,
       "category": "general"
     },
     {
@@ -544,20 +565,6 @@
       "category": "general"
     },
     {
-      "headline": "How 'confused' AI rollout hurts firms and baffles staff",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c74d1ydv01eo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1780355111,
-      "category": "general"
-    },
-    {
-      "headline": "Microsoft testing wearable AI gadget aimed at office workers",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cwy25x97wrxo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1780436862,
-      "category": "general"
-    },
-    {
       "headline": "Water firm fined \u00a31.8m over parasite outbreak",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c62xevydk05o?at_medium=RSS&at_campaign=rss",
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
       "datetime": 1780400402,
-      "category": "general"
-    },
-    {
-      "headline": "Microsoft says new quantum chip 1,000 times more reliable than predecessor",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1780428271,
       "category": "general"
     }
   ],
@@ -717,9 +717,9 @@
       "time": "08:55",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Redbook YoY (05/31)",
-      "prev": "9.0%",
+      "prev": "9%",
       "fcast": "\u2014",
-      "act": "9.0%",
+      "act": "9%",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -741,7 +741,7 @@
       "time": "10:00",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "JOLTs Job Quits (Apr)",
-      "prev": "3.171M",
+      "prev": "3.160M",
       "fcast": "\u2014",
       "act": "2.977M",
       "imp": "orange",
@@ -750,7 +750,7 @@
     },
     {
       "date": "2026-06-02",
-      "time": "10:10",
+      "time": "10:00",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "RCM/TIPP Economic Optimism Index (Jun)",
       "prev": "42.6",
@@ -786,7 +786,7 @@
     },
     {
       "date": "2026-06-03",
-      "time": "03:00",
+      "time": "02:00",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Total Vehicle Sales (May)",
       "prev": "15.9M",
@@ -803,7 +803,7 @@
       "ev": "MBA 30-Year Mortgage Rate (05/30)",
       "prev": "6.65%",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "6.57%",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -815,7 +815,7 @@
       "ev": "MBA Mortgage Applications (05/30)",
       "prev": "-8.5%",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "-2.5%",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -827,7 +827,7 @@
       "ev": "MBA Mortgage Market Index (05/30)",
       "prev": "259.4",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "252.8",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -839,7 +839,7 @@
       "ev": "MBA Mortgage Refinance Index (05/30)",
       "prev": "753.7",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "736.2",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -851,7 +851,7 @@
       "ev": "MBA Purchase Index (05/30)",
       "prev": "169.7",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "164.8",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -863,7 +863,7 @@
       "ev": "ADP Employment Change (May)",
       "prev": "109K",
       "fcast": "117K",
-      "act": "\u2014",
+      "act": "122K",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -982,7 +982,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "EIA Crude Oil Stocks Change (05/30)",
       "prev": "-3.327M",
-      "fcast": "\u2014",
+      "fcast": "-4M",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
@@ -1018,7 +1018,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "EIA Distillate Stocks Change (05/30)",
       "prev": "-2.107M",
-      "fcast": "\u2014",
+      "fcast": "-0.3M",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
@@ -1042,7 +1042,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "EIA Gasoline Stocks Change (05/30)",
       "prev": "-2.572M",
-      "fcast": "\u2014",
+      "fcast": "-0.5M",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
@@ -1066,6 +1066,18 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "EIA Refinery Crude Runs Change (05/30)",
       "prev": "0.652M",
+      "fcast": "\u2014",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-06-03",
+      "time": "11:00",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Fed Goolsbee Speech",
+      "prev": "\u2014",
       "fcast": "\u2014",
       "act": "\u2014",
       "imp": "orange",
@@ -1127,6 +1139,18 @@
       "ev": "Continuing Jobless Claims (05/23)",
       "prev": "1786K",
       "fcast": "1780K",
+      "act": "\u2014",
+      "imp": "orange",
+      "beat": null,
+      "source": "finviz"
+    },
+    {
+      "date": "2026-06-04",
+      "time": "08:30",
+      "ctry": "\ud83c\uddfa\ud83c\uddf8",
+      "ev": "Fed Barkin Speech",
+      "prev": "\u2014",
+      "fcast": "\u2014",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
@@ -1271,30 +1295,6 @@
       "ev": "Fed Balance Sheet (06/04)",
       "prev": "$6.704T",
       "fcast": "\u2014",
-      "act": "\u2014",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-06-05",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Average Hourly Earnings MoM (May)",
-      "prev": "0.2%",
-      "fcast": "0.3%",
-      "act": "\u2014",
-      "imp": "orange",
-      "beat": null,
-      "source": "finviz"
-    },
-    {
-      "date": "2026-06-05",
-      "time": "08:30",
-      "ctry": "\ud83c\uddfa\ud83c\uddf8",
-      "ev": "Average Hourly Earnings YoY (May)",
-      "prev": "3.6%",
-      "fcast": "3.4%",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
