@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T22:32:53.178319Z",
+  "generated_at": "2026-06-13T00:37:05.594409Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": 0.48,
         "timestamp": "2026-06-12 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.2308,
+      "y10": 4.8365,
+      "y30": 5.5319
+    },
+    "Eurozone": {
+      "y2": 2.6376,
+      "y10": 2.9997,
+      "y30": 3.5502
+    },
+    "Japan": {
+      "y2": 1.4102,
+      "y10": 2.6368,
+      "y30": 3.7968
+    },
+    "Italy": {
+      "y2": 2.7989,
+      "y10": 3.7349
+    },
+    "France": {
+      "y10": 3.6466
+    },
+    "Spain": {
+      "y10": 3.4331
+    },
+    "Canada": {
+      "y2": 2.7591,
+      "y10": 3.4007
+    },
+    "Australia": {
+      "y2": 4.4866,
+      "y10": 4.827
     }
   },
   "commodities": {
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.665,
-      "d1_pct": 0.39,
-      "w1_pct": 0.47,
-      "m1_pct": 1.97,
+      "price": 9.6275,
+      "d1_pct": 0.26,
+      "w1_pct": 0.16,
+      "m1_pct": 1.78,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 139.64,
-      "d1_pct": 0.26,
-      "w1_pct": 0.42,
-      "m1_pct": 1.12,
+      "price": 139.28,
+      "d1_pct": 0.93,
+      "w1_pct": -0.18,
+      "m1_pct": 0.59,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +471,27 @@
     }
   },
   "news": [
+    {
+      "headline": "This hidden investing flaw is costing you money. Talking to political opponents fixes it.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-hidden-investing-flaw-is-costing-you-money-talking-to-political-opponents-fixes-it-fc1f7be3?mod=mw_rss_topstories",
+      "datetime": 1781305140,
+      "category": "general"
+    },
+    {
+      "headline": "There\u2019s a 68% chance the stock market ends the year higher. Why the headlines shouldn\u2019t disrupt your portfolio.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/theres-a-68-chance-the-stock-market-ends-the-year-higher-why-the-headlines-shouldnt-disrupt-your-portfolio-3d78cfae?mod=mw_rss_topstories",
+      "datetime": 1781305080,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018This is not a flash in the pan\u2019: Why value stocks are beating growth by such a wide margin",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-is-not-a-flash-in-the-pan-why-value-stocks-are-beating-growth-by-such-a-wide-margin-b2bddccc?mod=mw_rss_topstories",
+      "datetime": 1781304600,
+      "category": "general"
+    },
     {
       "headline": "How Elon Musk nailed the SpaceX IPO: \u2018I\u2019m not sure that this could have gone much better\u2019",
       "source": "MarketWatch",
@@ -485,27 +539,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
       "datetime": 1781294160,
-      "category": "general"
-    },
-    {
-      "headline": "Adobe\u2019s CFO is departing for Marvell. And it\u2019s one more reason for investors to choose chips over software.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/adobes-cfo-is-departing-for-marvell-and-its-one-more-reason-for-investors-to-choose-chips-over-software-336b9e16?mod=mw_rss_topstories",
-      "datetime": 1781293860,
-      "category": "general"
-    },
-    {
-      "headline": "There\u2019s a 68% chance the stock market ends the year higher. Why the headlines shouldn\u2019t disrupt your portfolio.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/theres-a-68-chance-the-stock-market-ends-the-year-higher-why-the-headlines-shouldnt-disrupt-your-portfolio-3d78cfae?mod=mw_rss_topstories",
-      "datetime": 1781293620,
-      "category": "general"
-    },
-    {
-      "headline": "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd?mod=mw_rss_topstories",
-      "datetime": 1781293140,
       "category": "general"
     },
     {
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 4.093,
+      "change": 0.021,
+      "pct_change": 0.5157,
+      "date": "2026-06-12",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.489,
+      "change": 0.017,
+      "pct_change": 0.3801,
+      "date": "2026-06-12",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 4.973,
+      "change": 0.014,
+      "pct_change": 0.2823,
+      "date": "2026-06-12",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.2308,
+      "change": -0.1284,
+      "pct_change": -2.9455,
+      "date": "2026-06-12",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 4.8365,
+      "change": -0.0708,
+      "pct_change": -1.4427,
+      "date": "2026-06-12",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.5319,
+      "change": -0.0592,
+      "pct_change": -1.0588,
+      "date": "2026-06-12",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.6376,
+      "change": -0.06,
+      "pct_change": -2.2242,
+      "date": "2026-06-12",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 2.9997,
+      "change": -0.0355,
+      "pct_change": -1.1696,
+      "date": "2026-06-12",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.5502,
+      "change": -0.0159,
+      "pct_change": -0.4459,
+      "date": "2026-06-12",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.4102,
+      "change": -0.0157,
+      "pct_change": -1.1011,
+      "date": "2026-06-12",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.6368,
+      "change": -0.0479,
+      "pct_change": -1.7842,
+      "date": "2026-06-12",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.7968,
+      "change": -0.0769,
+      "pct_change": -1.9852,
+      "date": "2026-06-12",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.7989,
+      "change": -0.0532,
+      "pct_change": -1.8653,
+      "date": "2026-06-12",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.7349,
+      "change": -0.0611,
+      "pct_change": -1.6096,
+      "date": "2026-06-12",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.6466,
+      "change": -0.0401,
+      "pct_change": -1.0877,
+      "date": "2026-06-12",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.4331,
+      "change": -0.0373,
+      "pct_change": -1.0748,
+      "date": "2026-06-12",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.7591,
+      "change": -0.0217,
+      "pct_change": -0.7804,
+      "date": "2026-06-12",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.4007,
+      "change": -0.0088,
+      "pct_change": -0.2581,
+      "date": "2026-06-12",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.4866,
+      "change": -0.0519,
+      "pct_change": -1.1435,
+      "date": "2026-06-12",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.827,
+      "change": -0.0806,
+      "pct_change": -1.6424,
+      "date": "2026-06-12",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
