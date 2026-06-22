@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-06-22T11:24:12.627558Z",
+  "generated_at": "2026-06-22T13:22:17.918214Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 3.658,
+      "y3m": 3.665,
       "y6m": null,
       "y1": null,
-      "y2": 3.862,
+      "y2": 3.885,
       "y3": null,
-      "y5": 4.225,
+      "y5": 4.277,
       "y7": null,
-      "y10": 4.451,
+      "y10": 4.497,
       "y20": null,
-      "y30": 4.901
+      "y30": 4.937
     },
     "US_yf": {
       "US_3M": {
-        "price": 3.658,
-        "prev_close": 3.647,
-        "change_pct": 0.3,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 3.665,
+        "prev_close": 3.658,
+        "change_pct": 0.19,
+        "timestamp": "2026-06-22 00:00:00"
       },
       "US_5Y": {
-        "price": 4.225,
-        "prev_close": 4.229,
-        "change_pct": -0.09,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 4.277,
+        "prev_close": 4.225,
+        "change_pct": 1.23,
+        "timestamp": "2026-06-22 00:00:00"
       },
       "US_10Y": {
-        "price": 4.451,
-        "prev_close": 4.463,
-        "change_pct": -0.27,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 4.497,
+        "prev_close": 4.451,
+        "change_pct": 1.03,
+        "timestamp": "2026-06-22 00:00:00"
       },
       "US_30Y": {
-        "price": 4.901,
-        "prev_close": 4.926,
-        "change_pct": -0.51,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 4.937,
+        "prev_close": 4.901,
+        "change_pct": 0.73,
+        "timestamp": "2026-06-22 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4225.7998,
-      "d1_pct": 0.04,
-      "w1_pct": 0.26,
-      "m1_pct": -6.74,
+      "price": 4210.8999,
+      "d1_pct": -0.31,
+      "w1_pct": -0.1,
+      "m1_pct": -7.07,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 66.62,
-      "d1_pct": 0.55,
-      "w1_pct": -1.83,
-      "m1_pct": -12.17,
+      "price": 66.745,
+      "d1_pct": 0.74,
+      "w1_pct": -1.64,
+      "m1_pct": -12.01,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 75.31,
-      "d1_pct": -1.68,
-      "w1_pct": -11.27,
-      "m1_pct": -23.36,
+      "price": 74.59,
+      "d1_pct": -2.62,
+      "w1_pct": -12.12,
+      "m1_pct": -24.09,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 79.19,
-      "d1_pct": -0.83,
-      "w1_pct": -9.32,
-      "m1_pct": -24.6,
+      "price": 78.71,
+      "d1_pct": -1.43,
+      "w1_pct": -9.87,
+      "m1_pct": -25.05,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.302,
-      "d1_pct": 2.13,
-      "w1_pct": 5.83,
-      "m1_pct": 9.92,
+      "price": 3.267,
+      "d1_pct": 1.05,
+      "w1_pct": 4.71,
+      "m1_pct": 8.75,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.382,
-      "d1_pct": 0.12,
-      "w1_pct": -0.75,
-      "m1_pct": 1.45,
+      "price": 6.386,
+      "d1_pct": 0.18,
+      "w1_pct": -0.69,
+      "m1_pct": 1.52,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 607.5,
-      "d1_pct": 0.29,
-      "w1_pct": 3.93,
-      "m1_pct": -8.02,
+      "price": 609.25,
+      "d1_pct": 0.58,
+      "w1_pct": 4.23,
+      "m1_pct": -7.76,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 414.25,
-      "d1_pct": -0.78,
-      "w1_pct": 0.36,
-      "m1_pct": -11.06,
+      "price": 414.75,
+      "d1_pct": -0.66,
+      "w1_pct": 0.48,
+      "m1_pct": -10.95,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,58 +223,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1455,
-      "d1_pct": -0.03,
-      "w1_pct": -1.28,
-      "m1_pct": -1.43
+      "price": 1.1444,
+      "d1_pct": -0.12,
+      "w1_pct": -1.37,
+      "m1_pct": -1.52
     },
     "GBPUSD": {
-      "price": 1.3237,
-      "d1_pct": 0.26,
-      "w1_pct": -1.58,
-      "m1_pct": -1.46
+      "price": 1.3263,
+      "d1_pct": 0.46,
+      "w1_pct": -1.39,
+      "m1_pct": -1.27
     },
     "USDJPY": {
-      "price": 161.721,
-      "d1_pct": 0.27,
-      "w1_pct": 1.1,
-      "m1_pct": 1.7
+      "price": 161.816,
+      "d1_pct": 0.33,
+      "w1_pct": 1.16,
+      "m1_pct": 1.76
     },
     "USDCHF": {
-      "price": 0.8082,
-      "d1_pct": 0.41,
-      "w1_pct": 1.8,
-      "m1_pct": 2.76
-    },
-    "AUDUSD": {
-      "price": 0.7004,
-      "d1_pct": -0.13,
-      "w1_pct": -1.01,
-      "m1_pct": -2.02
-    },
-    "NZDUSD": {
-      "price": 0.5729,
-      "d1_pct": -0.46,
-      "w1_pct": -2.16,
-      "m1_pct": -2.55
-    },
-    "USDCAD": {
-      "price": 1.4175,
-      "d1_pct": 0.25,
-      "w1_pct": 1.52,
+      "price": 0.8093,
+      "d1_pct": 0.55,
+      "w1_pct": 1.94,
       "m1_pct": 2.9
     },
+    "AUDUSD": {
+      "price": 0.7013,
+      "d1_pct": 0.0,
+      "w1_pct": -0.88,
+      "m1_pct": -1.89
+    },
+    "NZDUSD": {
+      "price": 0.5733,
+      "d1_pct": -0.39,
+      "w1_pct": -2.1,
+      "m1_pct": -2.48
+    },
+    "USDCAD": {
+      "price": 1.4167,
+      "d1_pct": 0.18,
+      "w1_pct": 1.45,
+      "m1_pct": 2.84
+    },
     "USDSEK": {
-      "price": 9.6011,
-      "d1_pct": 0.2,
-      "w1_pct": 2.31,
-      "m1_pct": 2.83
+      "price": 9.6091,
+      "d1_pct": 0.28,
+      "w1_pct": 2.39,
+      "m1_pct": 2.92
     },
     "USDNOK": {
-      "price": 9.6757,
-      "d1_pct": -0.67,
-      "w1_pct": 1.91,
-      "m1_pct": 4.86
+      "price": 9.6832,
+      "d1_pct": -0.59,
+      "w1_pct": 1.99,
+      "m1_pct": 4.94
     },
     "USDCNY": {
       "price": 6.7639,
@@ -283,89 +283,89 @@
       "m1_pct": -0.57
     },
     "USDMXN": {
-      "price": 17.327,
-      "d1_pct": -0.16,
-      "w1_pct": 0.94,
-      "m1_pct": 0.17
+      "price": 17.3353,
+      "d1_pct": -0.11,
+      "w1_pct": 0.98,
+      "m1_pct": 0.22
     },
     "USDBRL": {
-      "price": 5.1424,
-      "d1_pct": -0.75,
-      "w1_pct": 1.61,
-      "m1_pct": 2.5
+      "price": 5.1468,
+      "d1_pct": -0.67,
+      "w1_pct": 1.7,
+      "m1_pct": 2.59
     },
     "USDZAR": {
-      "price": 16.4129,
-      "d1_pct": -0.17,
-      "w1_pct": 1.51,
-      "m1_pct": -0.15
+      "price": 16.4025,
+      "d1_pct": -0.23,
+      "w1_pct": 1.45,
+      "m1_pct": -0.21
     },
     "USDINR": {
-      "price": 94.68,
-      "d1_pct": 0.36,
-      "w1_pct": -0.45,
-      "m1_pct": -1.55
+      "price": 94.668,
+      "d1_pct": 0.35,
+      "w1_pct": -0.47,
+      "m1_pct": -1.57
     },
     "USDKRW": {
-      "price": 1537.05,
+      "price": 1537.0699,
       "d1_pct": -0.03,
       "w1_pct": 1.83,
       "m1_pct": 2.17
     },
     "USDTRY": {
-      "price": 46.4587,
-      "d1_pct": 0.08,
-      "w1_pct": 0.42,
-      "m1_pct": 1.63
+      "price": 46.4507,
+      "d1_pct": 0.07,
+      "w1_pct": 0.4,
+      "m1_pct": 1.61
     },
     "USDPLN": {
-      "price": 3.7266,
-      "d1_pct": 0.38,
-      "w1_pct": 1.97,
-      "m1_pct": 2.18
+      "price": 3.7348,
+      "d1_pct": 0.6,
+      "w1_pct": 2.2,
+      "m1_pct": 2.4
     },
     "USDHUF": {
-      "price": 307.485,
-      "d1_pct": 0.11,
-      "w1_pct": 1.65,
-      "m1_pct": -0.25
+      "price": 307.797,
+      "d1_pct": 0.21,
+      "w1_pct": 1.76,
+      "m1_pct": -0.15
     },
     "USDCZK": {
-      "price": 21.118,
-      "d1_pct": 0.06,
-      "w1_pct": 1.6,
-      "m1_pct": 1.11
+      "price": 21.1416,
+      "d1_pct": 0.17,
+      "w1_pct": 1.71,
+      "m1_pct": 1.22
     },
     "USDSGD": {
-      "price": 1.293,
-      "d1_pct": 0.2,
-      "w1_pct": 0.92,
-      "m1_pct": 1.2
+      "price": 1.2933,
+      "d1_pct": 0.22,
+      "w1_pct": 0.95,
+      "m1_pct": 1.22
     },
     "USDIDR": {
-      "price": 17828.0,
-      "d1_pct": 0.19,
-      "w1_pct": 0.32,
-      "m1_pct": 0.77
+      "price": 17814.0,
+      "d1_pct": 0.11,
+      "w1_pct": 0.24,
+      "m1_pct": 0.69
     },
     "USDTHB": {
-      "price": 32.89,
-      "d1_pct": 0.36,
-      "w1_pct": 0.8,
-      "m1_pct": 0.98
+      "price": 32.91,
+      "d1_pct": 0.42,
+      "w1_pct": 0.86,
+      "m1_pct": 1.04
     },
     "DXY": {
-      "price": 100.902,
-      "d1_pct": 0.05,
-      "w1_pct": 1.15,
-      "m1_pct": 1.81
+      "price": 100.918,
+      "d1_pct": 0.07,
+      "w1_pct": 1.17,
+      "m1_pct": 1.82
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 17.26,
+      "price": 16.97,
       "prev_close": 16.4,
-      "change_pct": 5.24,
+      "change_pct": 3.48,
       "timestamp": "2026-06-22 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.6975,
-      "d1_pct": 0.26,
-      "w1_pct": 0.13,
-      "m1_pct": 3.86,
+      "price": 9.7,
+      "d1_pct": 0.28,
+      "w1_pct": 0.15,
+      "m1_pct": 3.89,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,73 +439,73 @@
   },
   "news": [
     {
-      "headline": "Starmer says he\u2019s resigning as U.K. prime minister. Here\u2019s what it means for markets.",
+      "headline": "\u2018We are habitually frugal\u2019: My wife and I have money. How do we help our children without ruining their independence?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/starmer-says-hes-resigning-as-u-k-prime-minister-heres-what-it-means-for-markets-f27a70e5?mod=mw_rss_topstories",
-      "datetime": 1782125760,
+      "url": "https://www.marketwatch.com/story/we-are-habitually-frugal-my-wife-and-i-have-money-how-do-we-help-our-children-without-ruining-their-independence-a1e30cec?mod=mw_rss_topstories",
+      "datetime": 1782134100,
       "category": "general"
     },
     {
-      "headline": "A major test is coming for the stock market, and Morgan Stanley warns the Fed won\u2019t rescue investors",
+      "headline": "Former Federal Reserve chairman Alan Greenspan dies at 100",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/a-major-test-is-coming-for-the-stock-market-and-morgan-stanley-warns-the-fed-wont-rescue-investors-2ae93faa?mod=mw_rss_topstories",
-      "datetime": 1782125640,
+      "url": "https://www.marketwatch.com/story/former-federal-reserve-chairman-alan-greenspan-dies-a7a4030d?mod=mw_rss_topstories",
+      "datetime": 1782132240,
       "category": "general"
     },
     {
-      "headline": "I gave my HomeExchange guest a 5-star review. Then I found heat marks all over my dining table. Do I call her out?",
+      "headline": "\u2018Money can make you happy\u2019: My wife and I have no heirs, but we\u2019re making the world a better place by giving it away",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-gave-my-homeexchange-guest-a-5-star-review-then-i-found-heat-marks-all-over-my-dining-table-do-i-call-her-out-855d3836?mod=mw_rss_topstories",
-      "datetime": 1782123300,
+      "url": "https://www.marketwatch.com/story/money-can-make-you-happy-my-wife-and-i-have-no-heirs-but-were-making-the-world-a-better-place-by-giving-it-away-f61fad98?mod=mw_rss_topstories",
+      "datetime": 1782131400,
       "category": "general"
     },
     {
-      "headline": "I\u2019m 70. A relative offered me a $25,000 home loan secured by a lien that must be repaid within a year. Should I agree?",
+      "headline": "Trump \u2018jawboning\u2019 has masked a global oil-supply disaster, and the reality could mean $135 crude, says industry veteran",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-70-a-relative-offered-me-a-25-000-home-loan-secured-by-a-lien-that-must-be-repaid-within-a-year-should-i-agree-27d44725?mod=mw_rss_topstories",
-      "datetime": 1782119700,
+      "url": "https://www.marketwatch.com/story/trump-jawboning-has-masked-a-global-oil-supply-disaster-and-the-reality-could-mean-135-crude-says-industry-veteran-9b0bb52b?mod=mw_rss_topstories",
+      "datetime": 1782131160,
       "category": "general"
     },
     {
-      "headline": "Zac Efron trades Hollywood for an off-grid \u2018Futurecave\u2019 house made of hemp in Australia",
+      "headline": "The secret to wellness is simple: Eat this breakfast and work out at the right time",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/zac-efron-trades-hollywood-for-an-off-grid-futurecave-house-made-of-hemp-in-australia-eea29a2b?mod=mw_rss_topstories",
-      "datetime": 1782118860,
+      "url": "https://www.marketwatch.com/story/the-secret-to-wellness-is-simple-eat-this-breakfast-and-work-out-at-the-right-time-43c696b9?mod=mw_rss_topstories",
+      "datetime": 1782130560,
       "category": "general"
     },
     {
-      "headline": "The late Diane Keaton\u2019s \u2018Pinterest\u2019 house in L.A. is relisted with a big price cut",
+      "headline": "China\u2019s new economic drivers: a sad toy elf and a robot police force",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-late-diane-keatons-pinterest-house-in-l-a-is-relisted-with-a-big-price-cut-40d2bf96?mod=mw_rss_topstories",
-      "datetime": 1782118680,
-      "category": "general"
-    },
-    {
-      "headline": "This bull market isn\u2019t going to end because of Fed rate hikes under Warsh",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
-      "datetime": 1782081660,
-      "category": "general"
-    },
-    {
-      "headline": "The loneliness crisis has gotten so bad that lawmakers are ready to spend millions of dollars to fight it",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-loneliness-crisis-has-gotten-so-bad-that-lawmakers-are-ready-to-spend-millions-of-dollars-to-fight-it-f7e7c7b7?mod=mw_rss_topstories",
-      "datetime": 1782076920,
+      "url": "https://www.marketwatch.com/story/chinas-new-economic-drivers-a-sad-toy-elf-and-a-robot-police-force-8759daf9?mod=mw_rss_topstories",
+      "datetime": 1782130140,
       "category": "general"
     },
     {
       "headline": "\u2018I\u2019ll probably be working until I die\u2019: I\u2019m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
-      "datetime": 1782072000,
+      "datetime": 1782130020,
       "category": "general"
     },
     {
-      "headline": "I\u2019m spending $170,000 to upgrade my home for my aging parents. Can I get tax breaks?",
+      "headline": "AbbVie is buying a biotech company working on an experimental eczema drug for $10.9 billion",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-spending-170-000-to-upgrade-my-home-for-my-aging-parents-can-i-get-tax-breaks-3adf0236?mod=mw_rss_topstories",
-      "datetime": 1782068400,
+      "url": "https://www.marketwatch.com/story/abbvie-would-gain-an-experimental-eczema-drug-by-buying-biotech-report-caf24728?mod=mw_rss_topstories",
+      "datetime": 1782129720,
+      "category": "general"
+    },
+    {
+      "headline": "Teachers ban it, employers demand it: New grads face a frustrating AI double standard",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/teachers-ban-it-employers-demand-it-new-grads-face-a-frustrating-ai-double-standard-09c70f19?mod=mw_rss_topstories",
+      "datetime": 1782129600,
+      "category": "general"
+    },
+    {
+      "headline": "A 40% market crash is lurking in the IPO pipeline. SpaceX and OpenAI could trigger it.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/a-40-market-crash-is-lurking-in-the-ipo-pipeline-spacex-and-openai-could-trigger-it-64ae4026?mod=mw_rss_topstories",
+      "datetime": 1782129360,
       "category": "general"
     },
     {
@@ -513,6 +513,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c30yz76834yo?at_medium=RSS&at_campaign=rss",
       "datetime": 1782124151,
+      "category": "general"
+    },
+    {
+      "headline": "Alan Greenspan, architect of the modern American economy, dies aged 100",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782129336,
       "category": "general"
     },
     {
@@ -526,7 +533,7 @@
       "headline": "South East Water announces new chief executive",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cr5jrr1n7ddo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782121352,
+      "datetime": 1782127506,
       "category": "general"
     },
     {
@@ -537,17 +544,17 @@
       "category": "general"
     },
     {
-      "headline": "'I couldn't sleep when I heard the last bank would close'",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c1ey6qy18jlo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782082987,
-      "category": "general"
-    },
-    {
       "headline": "Is Germany looking again at coal-powered electricity?",
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/cy04ykxrj5eo?at_medium=RSS&at_campaign=rss",
       "datetime": 1782084431,
+      "category": "general"
+    },
+    {
+      "headline": "'I couldn't sleep when I heard the last bank would close'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.com/news/articles/c1ey6qy18jlo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782082987,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.com/news/articles/c6216g52p8wo?at_medium=RSS&at_campaign=rss",
       "datetime": 1781869274,
-      "category": "general"
-    },
-    {
-      "headline": "O'Leary extends Ryanair contract in deal that could net him over \u00a3130m",
-      "source": "BBC Business",
-      "url": "https://www.bbc.com/news/articles/c4gyejpy221o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1781882847,
       "category": "general"
     }
   ],
