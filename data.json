@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-06-23T12:25:18.211781Z",
+  "generated_at": "2026-06-23T13:28:53.059784Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 3.658,
+      "y3m": 3.693,
       "y6m": null,
       "y1": null,
-      "y2": 3.862,
+      "y2": 3.897,
       "y3": null,
-      "y5": 4.225,
+      "y5": 4.259,
       "y7": null,
-      "y10": 4.451,
+      "y10": 4.493,
       "y20": null,
-      "y30": 4.901
+      "y30": 4.947
     },
     "US_yf": {
       "US_3M": {
-        "price": 3.658,
-        "prev_close": 3.647,
-        "change_pct": 0.3,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 3.693,
+        "prev_close": 3.658,
+        "change_pct": 0.96,
+        "timestamp": "2026-06-23 00:00:00"
       },
       "US_5Y": {
-        "price": 4.225,
-        "prev_close": 4.229,
-        "change_pct": -0.09,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 4.259,
+        "prev_close": 4.225,
+        "change_pct": 0.8,
+        "timestamp": "2026-06-23 00:00:00"
       },
       "US_10Y": {
-        "price": 4.451,
-        "prev_close": 4.463,
-        "change_pct": -0.27,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 4.493,
+        "prev_close": 4.451,
+        "change_pct": 0.94,
+        "timestamp": "2026-06-23 00:00:00"
       },
       "US_30Y": {
-        "price": 4.901,
-        "prev_close": 4.926,
-        "change_pct": -0.51,
-        "timestamp": "2026-06-18 00:00:00"
+        "price": 4.947,
+        "prev_close": 4.901,
+        "change_pct": 0.94,
+        "timestamp": "2026-06-23 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4129.7998,
-      "d1_pct": -1.25,
-      "w1_pct": -4.58,
-      "m1_pct": -9.03,
+      "price": 4125.6001,
+      "d1_pct": -1.35,
+      "w1_pct": -4.68,
+      "m1_pct": -9.12,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 61.88,
-      "d1_pct": -5.57,
-      "w1_pct": -11.68,
-      "m1_pct": -19.02,
+      "price": 61.96,
+      "d1_pct": -5.44,
+      "w1_pct": -11.57,
+      "m1_pct": -18.92,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 73.58,
-      "d1_pct": -1.66,
-      "w1_pct": -8.88,
-      "m1_pct": -23.63,
+      "price": 73.44,
+      "d1_pct": -1.84,
+      "w1_pct": -9.05,
+      "m1_pct": -23.78,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 77.48,
-      "d1_pct": -0.54,
-      "w1_pct": -6.84,
-      "m1_pct": -24.47,
+      "price": 77.09,
+      "d1_pct": -1.04,
+      "w1_pct": -7.31,
+      "m1_pct": -24.85,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.241,
-      "d1_pct": -0.37,
-      "w1_pct": 2.99,
-      "m1_pct": 7.39,
+      "price": 3.228,
+      "d1_pct": -0.77,
+      "w1_pct": 2.57,
+      "m1_pct": 6.96,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.159,
-      "d1_pct": -3.11,
-      "w1_pct": -4.99,
-      "m1_pct": -1.57,
+      "price": 6.1515,
+      "d1_pct": -3.23,
+      "w1_pct": -5.11,
+      "m1_pct": -1.69,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 605.0,
-      "d1_pct": 1.26,
-      "w1_pct": 2.59,
-      "m1_pct": -6.56,
+      "price": 605.75,
+      "d1_pct": 1.38,
+      "w1_pct": 2.71,
+      "m1_pct": -6.45,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 440.0,
-      "d1_pct": 6.93,
-      "w1_pct": 5.9,
-      "m1_pct": -4.81,
+      "price": 440.75,
+      "d1_pct": 7.11,
+      "w1_pct": 6.08,
+      "m1_pct": -4.65,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,149 +223,149 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.139,
-      "d1_pct": -0.64,
-      "w1_pct": -1.77,
-      "m1_pct": -2.17
+      "price": 1.1393,
+      "d1_pct": -0.6,
+      "w1_pct": -1.73,
+      "m1_pct": -2.14
     },
     "GBPUSD": {
-      "price": 1.3214,
-      "d1_pct": 0.04,
-      "w1_pct": -1.51,
-      "m1_pct": -1.99
+      "price": 1.3212,
+      "d1_pct": 0.03,
+      "w1_pct": -1.52,
+      "m1_pct": -2.0
     },
     "USDJPY": {
-      "price": 161.516,
+      "price": 161.513,
       "d1_pct": 0.05,
       "w1_pct": 0.8,
       "m1_pct": 1.62
     },
     "USDCHF": {
-      "price": 0.8099,
-      "d1_pct": 0.24,
-      "w1_pct": 1.94,
-      "m1_pct": 3.53
+      "price": 0.8088,
+      "d1_pct": 0.11,
+      "w1_pct": 1.81,
+      "m1_pct": 3.39
     },
     "AUDUSD": {
-      "price": 0.6938,
-      "d1_pct": -0.93,
-      "w1_pct": -1.91,
-      "m1_pct": -3.07
+      "price": 0.6936,
+      "d1_pct": -0.96,
+      "w1_pct": -1.94,
+      "m1_pct": -3.09
     },
     "NZDUSD": {
       "price": 0.5676,
       "d1_pct": -1.02,
-      "w1_pct": -2.61,
+      "w1_pct": -2.6,
       "m1_pct": -3.35
     },
     "USDCAD": {
-      "price": 1.419,
-      "d1_pct": 0.11,
-      "w1_pct": 1.43,
-      "m1_pct": 2.81
+      "price": 1.4184,
+      "d1_pct": 0.07,
+      "w1_pct": 1.39,
+      "m1_pct": 2.77
     },
     "USDSEK": {
-      "price": 9.7159,
-      "d1_pct": 1.33,
-      "w1_pct": 3.39,
-      "m1_pct": 4.36
+      "price": 9.7082,
+      "d1_pct": 1.25,
+      "w1_pct": 3.31,
+      "m1_pct": 4.27
     },
     "USDNOK": {
-      "price": 9.7891,
-      "d1_pct": 0.94,
-      "w1_pct": 2.7,
-      "m1_pct": 5.83
+      "price": 9.7909,
+      "d1_pct": 0.96,
+      "w1_pct": 2.72,
+      "m1_pct": 5.85
     },
     "USDCNY": {
-      "price": 6.7742,
-      "d1_pct": 0.08,
-      "w1_pct": 0.25,
-      "m1_pct": -0.3
+      "price": 6.7749,
+      "d1_pct": 0.09,
+      "w1_pct": 0.26,
+      "m1_pct": -0.29
     },
     "USDMXN": {
-      "price": 17.4864,
+      "price": 17.4857,
       "d1_pct": 0.8,
       "w1_pct": 1.59,
       "m1_pct": 1.31
     },
     "USDBRL": {
-      "price": 5.1717,
-      "d1_pct": 0.39,
-      "w1_pct": 1.9,
-      "m1_pct": 2.91
+      "price": 5.177,
+      "d1_pct": 0.5,
+      "w1_pct": 2.01,
+      "m1_pct": 3.01
     },
     "USDZAR": {
-      "price": 16.4931,
-      "d1_pct": 0.26,
-      "w1_pct": 1.91,
-      "m1_pct": 0.89
+      "price": 16.5099,
+      "d1_pct": 0.36,
+      "w1_pct": 2.01,
+      "m1_pct": 0.99
     },
     "USDINR": {
-      "price": 94.735,
-      "d1_pct": 0.43,
-      "w1_pct": -0.01,
-      "m1_pct": -1.03
+      "price": 94.725,
+      "d1_pct": 0.42,
+      "w1_pct": -0.02,
+      "m1_pct": -1.04
     },
     "USDKRW": {
-      "price": 1536.1,
-      "d1_pct": 0.31,
-      "w1_pct": 1.51,
-      "m1_pct": 1.54
+      "price": 1535.29,
+      "d1_pct": 0.26,
+      "w1_pct": 1.45,
+      "m1_pct": 1.48
     },
     "USDTRY": {
-      "price": 46.4753,
-      "d1_pct": 0.05,
+      "price": 46.4729,
+      "d1_pct": 0.04,
       "w1_pct": 0.41,
-      "m1_pct": 1.64
+      "m1_pct": 1.63
     },
     "USDPLN": {
-      "price": 3.7619,
-      "d1_pct": 1.41,
+      "price": 3.762,
+      "d1_pct": 1.42,
       "w1_pct": 2.65,
-      "m1_pct": 3.41
+      "m1_pct": 3.42
     },
     "USDHUF": {
-      "price": 311.22,
-      "d1_pct": 1.59,
-      "w1_pct": 3.17,
-      "m1_pct": 1.36
+      "price": 312.29,
+      "d1_pct": 1.94,
+      "w1_pct": 3.53,
+      "m1_pct": 1.71
     },
     "USDCZK": {
-      "price": 21.2544,
+      "price": 21.2546,
       "d1_pct": 0.8,
       "w1_pct": 2.17,
-      "m1_pct": 1.94
+      "m1_pct": 1.95
     },
     "USDSGD": {
-      "price": 1.296,
-      "d1_pct": 0.28,
-      "w1_pct": 1.07,
-      "m1_pct": 1.5
+      "price": 1.2959,
+      "d1_pct": 0.27,
+      "w1_pct": 1.06,
+      "m1_pct": 1.49
     },
     "USDIDR": {
-      "price": 17840.0,
-      "d1_pct": 0.29,
-      "w1_pct": 0.7,
-      "m1_pct": 0.84
+      "price": 17863.0,
+      "d1_pct": 0.42,
+      "w1_pct": 0.83,
+      "m1_pct": 0.97
     },
     "USDTHB": {
-      "price": 33.19,
-      "d1_pct": 0.82,
-      "w1_pct": 2.03,
-      "m1_pct": 2.03
+      "price": 33.18,
+      "d1_pct": 0.79,
+      "w1_pct": 2.0,
+      "m1_pct": 2.0
     },
     "DXY": {
-      "price": 101.308,
-      "d1_pct": 0.29,
-      "w1_pct": 1.68,
-      "m1_pct": 2.14
+      "price": 101.298,
+      "d1_pct": 0.28,
+      "w1_pct": 1.67,
+      "m1_pct": 2.13
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 19.53,
+      "price": 20.15,
       "prev_close": 17.28,
-      "change_pct": 13.02,
+      "change_pct": 16.61,
       "timestamp": "2026-06-23 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.725,
-      "d1_pct": 0.39,
-      "w1_pct": 0.36,
-      "m1_pct": 1.2,
+      "price": 9.7142,
+      "d1_pct": 0.28,
+      "w1_pct": 0.25,
+      "m1_pct": 1.08,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 141.32,
-      "d1_pct": 0.37,
-      "w1_pct": 0.05,
-      "m1_pct": 1.46,
+      "price": 141.39,
+      "d1_pct": 0.42,
+      "w1_pct": 0.1,
+      "m1_pct": 1.51,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +438,34 @@
     }
   },
   "news": [
+    {
+      "headline": "Stock investors expect the Fed to save them. But no \u2018Warsh put\u2019 is coming.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/stock-investors-expect-the-fed-to-save-them-but-no-warsh-put-is-coming-and-the-greenspan-put-was-a-myth-ed92e3d9?mod=mw_rss_topstories",
+      "datetime": 1782220260,
+      "category": "general"
+    },
+    {
+      "headline": "My houseguest left heat marks all over my table. I didn\u2019t notice them until she was gone. Do I ask her to pay to remove them?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-gave-my-homeexchange-guest-a-5-star-review-then-i-found-heat-marks-all-over-my-dining-table-do-i-call-her-out-855d3836?mod=mw_rss_topstories",
+      "datetime": 1782219660,
+      "category": "general"
+    },
+    {
+      "headline": "Investor assumptions about the AI trade are starting to stretch reality, Goldman Sachs says",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/investor-assumptions-about-the-ai-trade-are-starting-to-stretch-reality-goldman-sachs-says-0f39d408?mod=mw_rss_topstories",
+      "datetime": 1782218280,
+      "category": "general"
+    },
+    {
+      "headline": "Everyday investors fueled the SpaceX trading frenzy. Now they face a bear market.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/everyday-investors-fueled-the-spacex-trading-frenzy-now-they-face-a-bear-market-c45e8a76?mod=mw_rss_topstories",
+      "datetime": 1782217800,
+      "category": "general"
+    },
     {
       "headline": "I\u2019m 70. A relative offered me a $25,000 home loan secured by a lien that must be repaid within a year. Is that fair?",
       "source": "MarketWatch",
@@ -457,13 +485,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/researchers-cracked-the-code-on-predicting-market-bubbles-heres-what-its-saying-about-todays-stock-prices-2e172eec?mod=mw_rss_topstories",
       "datetime": 1782214860,
-      "category": "general"
-    },
-    {
-      "headline": "Investor assumptions about the AI trade are starting to stretch reality, Goldman Sachs says",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/investor-assumptions-about-the-ai-trade-are-starting-to-stretch-reality-goldman-sachs-says-0f39d408?mod=mw_rss_topstories",
-      "datetime": 1782214140,
       "category": "general"
     },
     {
@@ -488,31 +509,17 @@
       "category": "general"
     },
     {
-      "headline": "This billionaire trading tycoon argues the public is looking at federal debt all wrong",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/this-billionaire-trading-tycoon-argues-the-public-is-looking-at-federal-debt-all-wrong-7df0467d?mod=mw_rss_topstories",
-      "datetime": 1782205800,
-      "category": "general"
-    },
-    {
-      "headline": "Meg Ryan lists $15.3 million Hamptons retreat in \u2018coveted location\u2019",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/meg-ryan-lists-15-3-million-hamptons-retreat-in-coveted-location-1cf8dcc3?mod=mw_rss_topstories",
-      "datetime": 1782205320,
-      "category": "general"
-    },
-    {
-      "headline": "Dolly Parton\u2019s former hideaway in the quaint town of Solvang is listed for $2 million, complete with windmill",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dolly-partons-former-hideaway-in-the-quaint-town-of-solvang-is-listed-for-2-million-complete-with-windmill-093c877f?mod=mw_rss_topstories",
-      "datetime": 1782205140,
-      "category": "general"
-    },
-    {
       "headline": "Who could be the UK's next chancellor?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
       "datetime": 1782216311,
+      "category": "general"
+    },
+    {
+      "headline": "Stop pretending EU's new border system is working, says airports chief",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cn4rlzrdj14o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782219698,
       "category": "general"
     },
     {
@@ -530,17 +537,17 @@
       "category": "general"
     },
     {
-      "headline": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782209891,
-      "category": "general"
-    },
-    {
       "headline": "Do you know your 'sweat score'? The rise of hydration tech",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c5yz5z72lqgo?at_medium=RSS&at_campaign=rss",
       "datetime": 1782169271,
+      "category": "general"
+    },
+    {
+      "headline": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782209891,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cn8q5nx6jw6o?at_medium=RSS&at_campaign=rss",
       "datetime": 1782186900,
-      "category": "general"
-    },
-    {
-      "headline": "EasyJet says US bidder trying to buy it 'on the cheap' as it rejects \u00a34.7bn offer",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c30yz76834yo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782124151,
       "category": "general"
     }
   ],
@@ -647,7 +647,7 @@
       "ev": "Redbook YoY (06/21)",
       "prev": "9.4%",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "10.0%",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
