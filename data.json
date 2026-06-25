@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T08:13:17.448410Z",
+  "generated_at": "2026-06-25T09:42:43.012285Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4008.0,
-      "d1_pct": 0.44,
-      "w1_pct": -8.05,
-      "m1_pct": -10.94,
+      "price": 4010.7,
+      "d1_pct": 0.51,
+      "w1_pct": -7.99,
+      "m1_pct": -10.88,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 57.45,
-      "d1_pct": -1.04,
-      "w1_pct": -18.74,
-      "m1_pct": -24.71,
+      "price": 57.62,
+      "d1_pct": -0.74,
+      "w1_pct": -18.5,
+      "m1_pct": -24.49,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 69.9,
-      "d1_pct": -0.63,
-      "w1_pct": -8.97,
-      "m1_pct": -25.55,
+      "price": 69.51,
+      "d1_pct": -1.18,
+      "w1_pct": -9.48,
+      "m1_pct": -25.97,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 73.3,
-      "d1_pct": -0.6,
-      "w1_pct": -7.86,
-      "m1_pct": -26.39,
+      "price": 72.96,
+      "d1_pct": -1.06,
+      "w1_pct": -8.28,
+      "m1_pct": -26.73,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.332,
-      "d1_pct": 3.45,
-      "w1_pct": 5.95,
-      "m1_pct": 15.13,
+      "price": 3.33,
+      "d1_pct": 3.38,
+      "w1_pct": 5.88,
+      "m1_pct": 15.07,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.0725,
-      "d1_pct": 2.18,
-      "w1_pct": -6.31,
-      "m1_pct": -4.54,
+      "price": 6.101,
+      "d1_pct": 2.66,
+      "w1_pct": -5.87,
+      "m1_pct": -4.09,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 597.75,
-      "d1_pct": 2.05,
-      "w1_pct": -2.45,
-      "m1_pct": -5.94,
+      "price": 597.5,
+      "d1_pct": 2.01,
+      "w1_pct": -2.49,
+      "m1_pct": -5.98,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 406.75,
-      "d1_pct": -0.06,
-      "w1_pct": -3.38,
-      "m1_pct": -11.09,
+      "price": 435.25,
+      "d1_pct": 6.94,
+      "w1_pct": 3.38,
+      "m1_pct": -4.86,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,118 +223,118 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1366,
-      "d1_pct": -0.12,
-      "w1_pct": -1.23,
-      "m1_pct": -2.33
+      "price": 1.1369,
+      "d1_pct": -0.09,
+      "w1_pct": -1.2,
+      "m1_pct": -2.3
     },
     "GBPUSD": {
       "price": 1.3188,
       "d1_pct": -0.09,
       "w1_pct": -0.85,
-      "m1_pct": -1.99
+      "m1_pct": -1.98
     },
     "USDJPY": {
-      "price": 161.813,
+      "price": 161.804,
       "d1_pct": 0.13,
-      "w1_pct": 0.76,
+      "w1_pct": 0.75,
       "m1_pct": 1.61
     },
     "USDCHF": {
-      "price": 0.8109,
-      "d1_pct": 0.15,
-      "w1_pct": 1.44,
-      "m1_pct": 3.29
+      "price": 0.8113,
+      "d1_pct": 0.2,
+      "w1_pct": 1.49,
+      "m1_pct": 3.34
     },
     "AUDUSD": {
-      "price": 0.6904,
-      "d1_pct": -0.17,
-      "w1_pct": -1.63,
-      "m1_pct": -3.72
+      "price": 0.6902,
+      "d1_pct": -0.2,
+      "w1_pct": -1.66,
+      "m1_pct": -3.75
     },
     "NZDUSD": {
-      "price": 0.5649,
-      "d1_pct": -0.28,
-      "w1_pct": -2.18,
-      "m1_pct": -3.31
+      "price": 0.5648,
+      "d1_pct": -0.29,
+      "w1_pct": -2.19,
+      "m1_pct": -3.32
     },
     "USDCAD": {
-      "price": 1.4231,
-      "d1_pct": 0.15,
-      "w1_pct": 0.93,
-      "m1_pct": 3.06
+      "price": 1.4233,
+      "d1_pct": 0.17,
+      "w1_pct": 0.95,
+      "m1_pct": 3.08
     },
     "USDSEK": {
-      "price": 9.7184,
-      "d1_pct": -0.16,
-      "w1_pct": 2.21,
-      "m1_pct": 4.64
+      "price": 9.7261,
+      "d1_pct": -0.08,
+      "w1_pct": 2.29,
+      "m1_pct": 4.72
     },
     "USDNOK": {
-      "price": 9.8447,
-      "d1_pct": 0.56,
-      "w1_pct": 2.43,
-      "m1_pct": 6.31
+      "price": 9.8608,
+      "d1_pct": 0.72,
+      "w1_pct": 2.6,
+      "m1_pct": 6.49
     },
     "USDCNY": {
-      "price": 6.7997,
-      "d1_pct": 0.14,
-      "w1_pct": 0.63,
-      "m1_pct": 0.2
+      "price": 6.787,
+      "d1_pct": -0.04,
+      "w1_pct": 0.44,
+      "m1_pct": 0.01
     },
     "USDMXN": {
-      "price": 17.593,
-      "d1_pct": 0.22,
-      "w1_pct": 1.71,
-      "m1_pct": 1.72
+      "price": 17.5945,
+      "d1_pct": 0.23,
+      "w1_pct": 1.72,
+      "m1_pct": 1.73
     },
     "USDBRL": {
-      "price": 5.1809,
-      "d1_pct": -0.32,
-      "w1_pct": 1.15,
-      "m1_pct": 2.7
+      "price": 5.1982,
+      "d1_pct": 0.01,
+      "w1_pct": 1.49,
+      "m1_pct": 3.05
     },
     "USDZAR": {
-      "price": 16.5424,
-      "d1_pct": 0.03,
-      "w1_pct": 1.09,
-      "m1_pct": 1.1
+      "price": 16.5438,
+      "d1_pct": 0.04,
+      "w1_pct": 1.1,
+      "m1_pct": 1.11
     },
     "USDINR": {
-      "price": 94.345,
-      "d1_pct": -0.88,
-      "w1_pct": -0.54,
-      "m1_pct": -1.63
+      "price": 94.39,
+      "d1_pct": -0.83,
+      "w1_pct": -0.49,
+      "m1_pct": -1.58
     },
     "USDKRW": {
-      "price": 1539.49,
-      "d1_pct": 0.28,
-      "w1_pct": 0.92,
-      "m1_pct": 2.26
+      "price": 1541.3199,
+      "d1_pct": 0.4,
+      "w1_pct": 1.04,
+      "m1_pct": 2.38
     },
     "USDTRY": {
-      "price": 46.5114,
-      "d1_pct": 0.09,
-      "w1_pct": 0.15,
-      "m1_pct": 1.35
+      "price": 46.44,
+      "d1_pct": -0.07,
+      "w1_pct": -0.0,
+      "m1_pct": 1.19
     },
     "USDPLN": {
-      "price": 3.7727,
-      "d1_pct": 0.46,
-      "w1_pct": 2.35,
+      "price": 3.7726,
+      "d1_pct": 0.45,
+      "w1_pct": 2.34,
       "m1_pct": 3.7
     },
     "USDHUF": {
-      "price": 311.98,
-      "d1_pct": 0.14,
-      "w1_pct": 2.44,
-      "m1_pct": 2.29
+      "price": 311.687,
+      "d1_pct": 0.05,
+      "w1_pct": 2.34,
+      "m1_pct": 2.2
     },
     "USDCZK": {
-      "price": 21.3128,
-      "d1_pct": 0.29,
-      "w1_pct": 1.68,
-      "m1_pct": 2.25
+      "price": 21.3159,
+      "d1_pct": 0.31,
+      "w1_pct": 1.7,
+      "m1_pct": 2.26
     },
     "USDSGD": {
       "price": 1.2966,
@@ -355,17 +355,17 @@
       "m1_pct": 2.12
     },
     "DXY": {
-      "price": 101.52,
-      "d1_pct": -0.09,
-      "w1_pct": 1.43,
-      "m1_pct": 2.37
+      "price": 101.458,
+      "d1_pct": -0.15,
+      "w1_pct": 1.37,
+      "m1_pct": 2.31
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 18.01,
+      "price": 18.11,
       "prev_close": 18.63,
-      "change_pct": -3.33,
+      "change_pct": -2.79,
       "timestamp": "2026-06-25 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -439,6 +439,34 @@
   },
   "news": [
     {
+      "headline": "Retail investors have suddenly got more cautious in using options and margins. That may spell trouble for tech, says JPMorgan.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/retail-investors-have-suddenly-got-more-cautious-in-using-options-and-margins-that-may-spell-trouble-for-tech-says-jpmorgan-1eba2be9?mod=mw_rss_topstories",
+      "datetime": 1782380460,
+      "category": "general"
+    },
+    {
+      "headline": "My son passed away. Am I crazy to move to my former home and sell a house I bought in September?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-son-passed-away-am-i-crazy-to-move-to-my-former-home-and-sell-a-house-i-bought-in-september-f1f5f41a?mod=mw_rss_topstories",
+      "datetime": 1782378960,
+      "category": "general"
+    },
+    {
+      "headline": "Two years after her death, Shannen Doherty\u2019s Malibu home sells for $7.7 million",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/two-years-after-her-death-shannen-dohertys-malibu-home-sells-for-7-7-million-7045db60?mod=mw_rss_topstories",
+      "datetime": 1782378120,
+      "category": "general"
+    },
+    {
+      "headline": "The Wall Street equivalent of roster-cut day happens Friday. It\u2019ll be one of the biggest volume days of the year.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-wall-street-equivalent-of-roster-cut-day-happens-friday-itll-be-one-of-the-biggest-volume-days-of-the-year-750e8496?mod=mw_rss_topstories",
+      "datetime": 1782376260,
+      "category": "general"
+    },
+    {
       "headline": "Tesla and Waymo duel in the robotaxi race \u2014 but the company spending the most builds no cars at all",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/tesla-and-waymo-are-chasing-the-robotaxi-dream-but-the-company-spending-the-most-to-win-builds-no-cars-at-all-0d8682b9?mod=mw_rss_topstories",
@@ -481,34 +509,6 @@
       "category": "general"
     },
     {
-      "headline": "Qualcomm\u2019s stock is soaring as these big numbers excite Wall Street",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/qualcomms-stock-is-soaring-as-these-big-numbers-excite-wall-street-316d41f4?mod=mw_rss_topstories",
-      "datetime": 1782346620,
-      "category": "general"
-    },
-    {
-      "headline": "Rocket Lab, Lockheed Martin among the partners in SpaceX\u2019s military space-laser project",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/rocket-lab-lockheed-martin-among-the-partners-in-spacexs-military-space-laser-project-1b8d61e2?mod=mw_rss_topstories",
-      "datetime": 1782344820,
-      "category": "general"
-    },
-    {
-      "headline": "A relative offered me a $25,000 home loan secured by a lien that must be repaid within a year. Is that fair?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-70-a-relative-offered-me-a-25-000-home-loan-secured-by-a-lien-that-must-be-repaid-within-a-year-should-i-agree-27d44725?mod=mw_rss_topstories",
-      "datetime": 1782342060,
-      "category": "general"
-    },
-    {
-      "headline": "Gas prices aren\u2019t falling fast enough for Trump. Here\u2019s when drivers can expect more relief.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/gas-prices-arent-falling-fast-enough-for-trump-heres-when-drivers-can-expect-more-relief-57db7038?mod=mw_rss_topstories",
-      "datetime": 1782341820,
-      "category": "general"
-    },
-    {
       "headline": "Reeves backs Burnham to become next prime minister",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cvgm9mj262qo?at_medium=RSS&at_campaign=rss",
@@ -530,24 +530,10 @@
       "category": "general"
     },
     {
-      "headline": "Cheaper theme park tickets and kids' meals as VAT cut comes into force",
+      "headline": "Price cuts on family summer days out come into force",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cwy05rnlpe9o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782370735,
-      "category": "general"
-    },
-    {
-      "headline": "Ferrari marketing boss quits just weeks after EV launch backlash",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cnv9edrjjn4o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782364201,
-      "category": "general"
-    },
-    {
-      "headline": "The legal fight to get equal pay for Germany's disabled workers",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cwy0v1d24elo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782342628,
+      "datetime": 1782375594,
       "category": "general"
     },
     {
@@ -558,24 +544,38 @@
       "category": "general"
     },
     {
-      "headline": "Baroness Mone among individuals sued to recover PPE Medpro millions",
+      "headline": "The legal fight to get equal pay for Germany's disabled workers",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c7vy1y7myn5o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782322342,
+      "url": "https://www.bbc.co.uk/news/articles/cwy0v1d24elo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782342628,
       "category": "general"
     },
     {
-      "headline": "Texas family sues Tesla over fatal crash into home",
+      "headline": "Find out which university degrees could earn you most across your lifetime ",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8x2rzke05yo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782340436,
+      "url": "https://www.bbc.co.uk/news/articles/c892dv0qy2jo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782376332,
       "category": "general"
     },
     {
-      "headline": "Elon Musk loses trillionaire status as global tech rout hits SpaceX",
+      "headline": "Ferrari marketing boss quits just weeks after EV launch backlash",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8j2m2p8dgmo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782323113,
+      "url": "https://www.bbc.co.uk/news/articles/cnv9edrjjn4o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782364201,
+      "category": "general"
+    },
+    {
+      "headline": "The heatwave workers 'like cats on a hot tin roof'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c15ykxp158yo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782364343,
+      "category": "general"
+    },
+    {
+      "headline": "GTA 6 - all you need to know about Rockstar's blockbuster game",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782373674,
       "category": "general"
     }
   ],
