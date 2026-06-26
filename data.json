@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T09:46:34.300330Z",
+  "generated_at": "2026-06-26T11:07:43.818895Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4067.8,
-      "d1_pct": 0.93,
-      "w1_pct": -3.7,
-      "m1_pct": -8.54,
+      "price": 4068.8,
+      "d1_pct": 0.95,
+      "w1_pct": -3.68,
+      "m1_pct": -8.51,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 58.835,
+      "price": 58.83,
       "d1_pct": 0.83,
-      "w1_pct": -11.2,
-      "m1_pct": -21.13,
+      "w1_pct": -11.21,
+      "m1_pct": -21.14,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 69.41,
-      "d1_pct": -3.49,
-      "w1_pct": -9.39,
-      "m1_pct": -21.73,
+      "price": 69.47,
+      "d1_pct": -3.41,
+      "w1_pct": -9.31,
+      "m1_pct": -21.66,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 72.91,
-      "d1_pct": -3.12,
-      "w1_pct": -8.69,
-      "m1_pct": -22.67,
+      "price": 72.96,
+      "d1_pct": -3.06,
+      "w1_pct": -8.63,
+      "m1_pct": -22.62,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.333,
-      "d1_pct": -0.3,
-      "w1_pct": 3.09,
-      "m1_pct": 9.64,
+      "price": 3.337,
+      "d1_pct": -0.18,
+      "w1_pct": 3.22,
+      "m1_pct": 9.77,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.1335,
-      "d1_pct": 1.04,
-      "w1_pct": -3.78,
-      "m1_pct": -2.72,
+      "price": 6.1645,
+      "d1_pct": 1.55,
+      "w1_pct": -3.29,
+      "m1_pct": -2.23,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 590.5,
-      "d1_pct": -0.08,
-      "w1_pct": -2.52,
-      "m1_pct": -5.14,
+      "price": 592.25,
+      "d1_pct": 0.21,
+      "w1_pct": -2.23,
+      "m1_pct": -4.86,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 442.0,
-      "d1_pct": 6.57,
-      "w1_pct": 5.87,
-      "m1_pct": -2.32,
+      "price": 443.5,
+      "d1_pct": 6.93,
+      "w1_pct": 6.23,
+      "m1_pct": -1.99,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,82 +223,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.141,
-      "d1_pct": 0.49,
-      "w1_pct": -0.42,
-      "m1_pct": -1.79
+      "price": 1.1405,
+      "d1_pct": 0.45,
+      "w1_pct": -0.47,
+      "m1_pct": -1.83
     },
     "GBPUSD": {
-      "price": 1.3223,
-      "d1_pct": 0.43,
-      "w1_pct": 0.16,
-      "m1_pct": -1.44
+      "price": 1.322,
+      "d1_pct": 0.4,
+      "w1_pct": 0.13,
+      "m1_pct": -1.47
     },
     "USDJPY": {
-      "price": 161.579,
-      "d1_pct": -0.11,
-      "w1_pct": 0.18,
-      "m1_pct": 1.26
+      "price": 161.624,
+      "d1_pct": -0.09,
+      "w1_pct": 0.21,
+      "m1_pct": 1.29
     },
     "USDCHF": {
-      "price": 0.8084,
-      "d1_pct": -0.51,
-      "w1_pct": 0.44,
-      "m1_pct": 2.61
+      "price": 0.8085,
+      "d1_pct": -0.5,
+      "w1_pct": 0.45,
+      "m1_pct": 2.62
     },
     "AUDUSD": {
-      "price": 0.6905,
-      "d1_pct": 0.07,
-      "w1_pct": -1.55,
-      "m1_pct": -3.2
+      "price": 0.6904,
+      "d1_pct": 0.05,
+      "w1_pct": -1.56,
+      "m1_pct": -3.22
     },
     "NZDUSD": {
-      "price": 0.5656,
-      "d1_pct": 0.2,
-      "w1_pct": -1.72,
-      "m1_pct": -4.01
+      "price": 0.5654,
+      "d1_pct": 0.17,
+      "w1_pct": -1.75,
+      "m1_pct": -4.04
     },
     "USDCAD": {
-      "price": 1.4183,
-      "d1_pct": -0.37,
-      "w1_pct": 0.3,
-      "m1_pct": 2.46
+      "price": 1.4181,
+      "d1_pct": -0.38,
+      "w1_pct": 0.29,
+      "m1_pct": 2.44
     },
     "USDSEK": {
-      "price": 9.6959,
-      "d1_pct": -0.59,
-      "w1_pct": 1.19,
-      "m1_pct": 4.27
+      "price": 9.7034,
+      "d1_pct": -0.51,
+      "w1_pct": 1.26,
+      "m1_pct": 4.35
     },
     "USDNOK": {
-      "price": 9.8881,
-      "d1_pct": 0.4,
-      "w1_pct": 1.51,
-      "m1_pct": 6.59
+      "price": 9.8959,
+      "d1_pct": 0.48,
+      "w1_pct": 1.59,
+      "m1_pct": 6.68
     },
     "USDCNY": {
-      "price": 6.7866,
-      "d1_pct": -0.05,
-      "w1_pct": 0.27,
-      "m1_pct": 0.12
+      "price": 6.7886,
+      "d1_pct": -0.02,
+      "w1_pct": 0.3,
+      "m1_pct": 0.14
     },
     "USDMXN": {
-      "price": 17.5161,
-      "d1_pct": -0.59,
-      "w1_pct": 0.93,
-      "m1_pct": 0.76
+      "price": 17.5142,
+      "d1_pct": -0.6,
+      "w1_pct": 0.92,
+      "m1_pct": 0.75
     },
     "USDBRL": {
-      "price": 5.1808,
-      "d1_pct": -0.51,
-      "w1_pct": -0.01,
-      "m1_pct": 2.13
+      "price": 5.1814,
+      "d1_pct": -0.5,
+      "w1_pct": -0.0,
+      "m1_pct": 2.14
     },
     "USDZAR": {
-      "price": 16.4297,
-      "d1_pct": -0.81,
-      "w1_pct": -0.06,
-      "m1_pct": 0.37
+      "price": 16.4363,
+      "d1_pct": -0.77,
+      "w1_pct": -0.02,
+      "m1_pct": 0.41
     },
     "USDINR": {
       "price": 94.385,
@@ -307,40 +307,40 @@
       "m1_pct": -1.73
     },
     "USDKRW": {
-      "price": 1535.96,
-      "d1_pct": -0.44,
-      "w1_pct": -0.1,
-      "m1_pct": 2.19
+      "price": 1537.75,
+      "d1_pct": -0.32,
+      "w1_pct": 0.01,
+      "m1_pct": 2.3
     },
     "USDTRY": {
-      "price": 46.62,
-      "d1_pct": 0.25,
+      "price": 46.6172,
+      "d1_pct": 0.24,
       "w1_pct": 0.43,
       "m1_pct": 1.58
     },
     "USDPLN": {
-      "price": 3.7552,
-      "d1_pct": -0.42,
+      "price": 3.7551,
+      "d1_pct": -0.43,
       "w1_pct": 1.15,
-      "m1_pct": 3.07
+      "m1_pct": 3.06
     },
     "USDHUF": {
-      "price": 309.421,
-      "d1_pct": -1.02,
-      "w1_pct": 0.74,
-      "m1_pct": 1.48
+      "price": 310.376,
+      "d1_pct": -0.71,
+      "w1_pct": 1.05,
+      "m1_pct": 1.8
     },
     "USDCZK": {
-      "price": 21.257,
-      "d1_pct": -0.31,
-      "w1_pct": 0.71,
-      "m1_pct": 1.75
+      "price": 21.2654,
+      "d1_pct": -0.27,
+      "w1_pct": 0.75,
+      "m1_pct": 1.79
     },
     "USDSGD": {
-      "price": 1.2936,
-      "d1_pct": -0.29,
-      "w1_pct": 0.24,
-      "m1_pct": 1.22
+      "price": 1.2938,
+      "d1_pct": -0.28,
+      "w1_pct": 0.26,
+      "m1_pct": 1.24
     },
     "USDIDR": {
       "price": 17970.0,
@@ -355,7 +355,7 @@
       "m1_pct": 2.11
     },
     "DXY": {
-      "price": 101.201,
+      "price": 101.2,
       "d1_pct": -0.23,
       "w1_pct": 0.35,
       "m1_pct": 2.01
@@ -363,9 +363,9 @@
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 20.3,
+      "price": 20.21,
       "prev_close": 18.89,
-      "change_pct": 7.46,
+      "change_pct": 6.99,
       "timestamp": "2026-06-26 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -439,6 +439,20 @@
   },
   "news": [
     {
+      "headline": "A fistful of dollars: five reasons why the U.S. currency is rising",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/a-fistful-of-dollars-five-reasons-why-the-u-s-currency-is-rising-b29df92a?mod=mw_rss_topstories",
+      "datetime": 1782471180,
+      "category": "general"
+    },
+    {
+      "headline": "Why this earnings exuberance may be a problem for the stock market, according to this Wall Street veteran",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-this-earnings-exuberance-may-be-a-problem-for-the-stock-market-according-to-this-wall-street-veteran-20431488?mod=mw_rss_topstories",
+      "datetime": 1782470820,
+      "category": "general"
+    },
+    {
       "headline": "Why a reported delay for OpenAI\u2019s listing complicates further the picture for tech stocks",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-tech-selloff-has-a-new-worry-and-it-involves-openais-ipo-timeline-ea9f0276?mod=mw_rss_topstories",
@@ -495,20 +509,6 @@
       "category": "general"
     },
     {
-      "headline": "After losing my son, would it be a mistake to sell my recently purchased house and move to my hometown?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-son-passed-away-am-i-crazy-to-move-to-my-former-home-and-sell-a-house-i-bought-in-september-f1f5f41a?mod=mw_rss_topstories",
-      "datetime": 1782420840,
-      "category": "general"
-    },
-    {
-      "headline": "Microsoft\u2019s stock is suffering a historic June rout as investors balk at heavy spending",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/microsofts-stock-is-suffering-a-historic-june-rout-as-investors-balk-at-heavy-spending-9afaef1b?mod=mw_rss_topstories",
-      "datetime": 1782420660,
-      "category": "general"
-    },
-    {
       "headline": "Power banks and vapes now biggest fire risk on planes",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cly716qd146o?at_medium=RSS&at_campaign=rss",
@@ -530,6 +530,13 @@
       "category": "general"
     },
     {
+      "headline": "Who could be the UK's next chancellor?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782470232,
+      "category": "general"
+    },
+    {
       "headline": "Teens who hacked TfL were known to police years before cyber-attack",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cx2kx8jr244o?at_medium=RSS&at_campaign=rss",
@@ -537,17 +544,17 @@
       "category": "general"
     },
     {
+      "headline": "The abundant but expensive energy source that's under your feet",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1782468762,
+      "category": "general"
+    },
+    {
       "headline": "Apple hikes some prices by nearly 20% while Xbox raises console cost",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c3ryj81ywlro?at_medium=RSS&at_campaign=rss",
       "datetime": 1782416482,
-      "category": "general"
-    },
-    {
-      "headline": "The abundant but expensive energy source that's under your feet",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782428705,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cvg7vpyn5pxo?at_medium=RSS&at_campaign=rss",
       "datetime": 1782381883,
-      "category": "general"
-    },
-    {
-      "headline": "I've spent 30 years in recruitment - this is how to get a job",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8r2vljglgno?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782372248,
       "category": "general"
     }
   ],
@@ -1041,9 +1041,9 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Continuing Jobless Claims (06/13)",
-      "prev": "1800.0K",
+      "prev": "1800K",
       "fcast": "1800K",
-      "act": "1821.0K",
+      "act": "1821K",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -1077,9 +1077,9 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Core PCE Prices QoQ Final (Q1)",
-      "prev": "2.70%",
+      "prev": "2.7%",
       "fcast": "4.4%",
-      "act": "4.40%",
+      "act": "4.4%",
       "imp": "orange",
       "beat": "inline",
       "source": "finviz"
@@ -1125,7 +1125,7 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Durable Goods Orders MoM (May)",
-      "prev": "7.9%",
+      "prev": "8.5%",
       "fcast": "-4.5%",
       "act": "-4.5%",
       "imp": "red",
@@ -1149,7 +1149,7 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "GDP Price Index QoQ Final (Q1)",
-      "prev": "3.7%",
+      "prev": "3.6%",
       "fcast": "3.5%",
       "act": "3.6%",
       "imp": "orange",
@@ -1173,9 +1173,9 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Initial Jobless Claims (06/20)",
-      "prev": "227.0K",
+      "prev": "227K",
       "fcast": "225K",
-      "act": "215.0K",
+      "act": "215K",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
@@ -1245,7 +1245,7 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Personal Income MoM (May)",
-      "prev": "0.0%",
+      "prev": "0%",
       "fcast": "0.4%",
       "act": "0.7%",
       "imp": "red",
@@ -1281,7 +1281,7 @@
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Real Personal Spending MoM (May)",
-      "prev": "0.0%",
+      "prev": "0%",
       "fcast": "\u2014",
       "act": "0.3%",
       "imp": "orange",
@@ -1293,9 +1293,9 @@
       "time": "10:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "EIA Natural Gas Stocks Change (06/20)",
-      "prev": "73B",
+      "prev": "73Bcf",
       "fcast": "74Bcf",
-      "act": "76B",
+      "act": "76Bcf",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
