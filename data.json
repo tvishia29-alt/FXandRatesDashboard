@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T00:31:42.795061Z",
+  "generated_at": "2026-06-27T03:02:43.256540Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,39 +39,6 @@
         "change_pct": null,
         "timestamp": "2026-06-26 00:00:00"
       }
-    },
-    "UK": {
-      "y2": 4.1385,
-      "y10": 4.7384,
-      "y30": 5.4514
-    },
-    "Eurozone": {
-      "y2": 2.5258,
-      "y10": 2.8557,
-      "y30": 3.411
-    },
-    "Japan": {
-      "y2": 1.4087,
-      "y10": 2.6024,
-      "y30": 3.8013
-    },
-    "Italy": {
-      "y2": 2.685,
-      "y10": 3.5846
-    },
-    "France": {
-      "y10": 3.5199
-    },
-    "Spain": {
-      "y10": 3.292
-    },
-    "Canada": {
-      "y2": 2.7585,
-      "y10": 3.3826
-    },
-    "Australia": {
-      "y2": 4.4255,
-      "y10": 4.732
     }
   },
   "commodities": {
@@ -313,7 +280,7 @@
       "price": 6.7897,
       "d1_pct": -0.0,
       "w1_pct": 0.31,
-      "m1_pct": 0.16
+      "m1_pct": 0.15
     },
     "USDMXN": {
       "price": 17.499,
@@ -493,7 +460,7 @@
       "category": "general"
     },
     {
-      "headline": "U.S. confirms retaliatory strike on Iran, pulling oil prices up in after-hours trading",
+      "headline": "U.S. confirms retaliatory strike on Iran, pushing oil prices higher in after-hours trading",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories",
       "datetime": 1782510600,
@@ -545,7 +512,7 @@
       "headline": "Trump threatens 100% tariff on European nations over tech tax",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-      "datetime": 1782509378,
+      "datetime": 1782524238,
       "category": "general"
     },
     {
@@ -1470,166 +1437,5 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {
-    "us2y": {
-      "value": 4.098,
-      "change": -0.037,
-      "pct_change": -0.8948,
-      "date": "2026-06-26",
-      "label": "US 2Y",
-      "country": "US"
-    },
-    "us10y": {
-      "value": 4.371,
-      "change": -0.024,
-      "pct_change": -0.5461,
-      "date": "2026-06-26",
-      "label": "US 10Y",
-      "country": "US"
-    },
-    "us30y": {
-      "value": 4.866,
-      "change": 0.001,
-      "pct_change": 0.0206,
-      "date": "2026-06-26",
-      "label": "US 30Y",
-      "country": "US"
-    },
-    "uk2y": {
-      "value": 4.1385,
-      "change": 0.0111,
-      "pct_change": 0.2689,
-      "date": "2026-06-26",
-      "label": "UK 2Y",
-      "country": "UK"
-    },
-    "uk10y": {
-      "value": 4.7384,
-      "change": 0.0322,
-      "pct_change": 0.6842,
-      "date": "2026-06-26",
-      "label": "UK 10Y",
-      "country": "UK"
-    },
-    "uk30y": {
-      "value": 5.4514,
-      "change": 0.0466,
-      "pct_change": 0.8622,
-      "date": "2026-06-26",
-      "label": "UK 30Y",
-      "country": "UK"
-    },
-    "de2y": {
-      "value": 2.5258,
-      "change": -0.0093,
-      "pct_change": -0.3668,
-      "date": "2026-06-26",
-      "label": "Germany 2Y",
-      "country": "Eurozone"
-    },
-    "de10y": {
-      "value": 2.8557,
-      "change": -0.0058,
-      "pct_change": -0.2027,
-      "date": "2026-06-26",
-      "label": "Germany 10Y",
-      "country": "Eurozone"
-    },
-    "de30y": {
-      "value": 3.411,
-      "change": 0.0068,
-      "pct_change": 0.1998,
-      "date": "2026-06-26",
-      "label": "Germany 30Y",
-      "country": "Eurozone"
-    },
-    "jp2y": {
-      "value": 1.4087,
-      "change": -0.0044,
-      "pct_change": -0.3114,
-      "date": "2026-06-26",
-      "label": "Japan 2Y",
-      "country": "Japan"
-    },
-    "jp10y": {
-      "value": 2.6024,
-      "change": -0.028,
-      "pct_change": -1.0645,
-      "date": "2026-06-26",
-      "label": "Japan 10Y",
-      "country": "Japan"
-    },
-    "jp30y": {
-      "value": 3.8013,
-      "change": -0.0285,
-      "pct_change": -0.7442,
-      "date": "2026-06-26",
-      "label": "Japan 30Y",
-      "country": "Japan"
-    },
-    "it2y": {
-      "value": 2.685,
-      "change": -0.0364,
-      "pct_change": -1.3375,
-      "date": "2026-06-26",
-      "label": "Italy 2Y",
-      "country": "Eurozone"
-    },
-    "it10y": {
-      "value": 3.5846,
-      "change": -0.0134,
-      "pct_change": -0.3724,
-      "date": "2026-06-26",
-      "label": "Italy 10Y",
-      "country": "Eurozone"
-    },
-    "fr10y": {
-      "value": 3.5199,
-      "change": -0.0068,
-      "pct_change": -0.1928,
-      "date": "2026-06-26",
-      "label": "France 10Y",
-      "country": "Eurozone"
-    },
-    "es10y": {
-      "value": 3.292,
-      "change": 0.0108,
-      "pct_change": 0.3291,
-      "date": "2026-06-26",
-      "label": "Spain 10Y",
-      "country": "Eurozone"
-    },
-    "ca2y": {
-      "value": 2.7585,
-      "change": 0.0172,
-      "pct_change": 0.6274,
-      "date": "2026-06-26",
-      "label": "Canada 2Y",
-      "country": "Canada"
-    },
-    "ca10y": {
-      "value": 3.3826,
-      "change": 0.0,
-      "pct_change": 0.0,
-      "date": "2026-06-26",
-      "label": "Canada 10Y",
-      "country": "Canada"
-    },
-    "au2y": {
-      "value": 4.4255,
-      "change": -0.0074,
-      "pct_change": -0.1669,
-      "date": "2026-06-26",
-      "label": "Australia 2Y",
-      "country": "Australia"
-    },
-    "au10y": {
-      "value": 4.732,
-      "change": -0.0054,
-      "pct_change": -0.114,
-      "date": "2026-06-26",
-      "label": "Australia 10Y",
-      "country": "Australia"
-    }
-  }
+  "gov_bonds": {}
 }
