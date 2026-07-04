@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T22:23:05.746285Z",
+  "generated_at": "2026-07-04T00:27:02.356147Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": null,
         "timestamp": "2026-06-26 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.1328,
+      "y10": 4.7869,
+      "y30": 5.5195
+    },
+    "Eurozone": {
+      "y2": 2.5533,
+      "y10": 2.94,
+      "y30": 3.5109
+    },
+    "Japan": {
+      "y2": 1.3932,
+      "y10": 2.7782,
+      "y30": 4.0322
+    },
+    "Italy": {
+      "y2": 2.7049,
+      "y10": 3.668
+    },
+    "France": {
+      "y10": 3.6218
+    },
+    "Spain": {
+      "y10": 3.375
+    },
+    "Canada": {
+      "y2": 2.7601,
+      "y10": 3.4394
+    },
+    "Australia": {
+      "y2": 4.4634,
+      "y10": 4.805
     }
   },
   "commodities": {
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.725,
-      "d1_pct": -0.03,
-      "w1_pct": -0.31,
-      "m1_pct": 1.17,
+      "price": 9.7275,
+      "d1_pct": -0.15,
+      "w1_pct": -0.49,
+      "m1_pct": 1.41,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 139.535,
-      "d1_pct": -0.24,
-      "w1_pct": -2.2,
-      "m1_pct": 0.0,
+      "price": 139.87,
+      "d1_pct": -0.66,
+      "w1_pct": -1.87,
+      "m1_pct": 0.49,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 4.181,
+      "change": -0.002,
+      "pct_change": -0.0478,
+      "date": "2026-07-02",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.49,
+      "change": 0.005,
+      "pct_change": 0.1115,
+      "date": "2026-07-02",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 4.98,
+      "change": 0.006,
+      "pct_change": 0.1206,
+      "date": "2026-07-02",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.1328,
+      "change": 0.0293,
+      "pct_change": 0.714,
+      "date": "2026-07-03",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 4.7869,
+      "change": 0.0127,
+      "pct_change": 0.266,
+      "date": "2026-07-03",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.5195,
+      "change": 0.0075,
+      "pct_change": 0.1361,
+      "date": "2026-07-03",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.5533,
+      "change": 0.0417,
+      "pct_change": 1.6603,
+      "date": "2026-07-03",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 2.94,
+      "change": 0.0329,
+      "pct_change": 1.1317,
+      "date": "2026-07-03",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.5109,
+      "change": 0.0247,
+      "pct_change": 0.7085,
+      "date": "2026-07-03",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.3932,
+      "change": -0.0102,
+      "pct_change": -0.7268,
+      "date": "2026-07-03",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.7782,
+      "change": -0.0065,
+      "pct_change": -0.2334,
+      "date": "2026-07-03",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 4.0322,
+      "change": -0.0036,
+      "pct_change": -0.0892,
+      "date": "2026-07-03",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.7049,
+      "change": 0.0361,
+      "pct_change": 1.3527,
+      "date": "2026-07-03",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.668,
+      "change": 0.0316,
+      "pct_change": 0.869,
+      "date": "2026-07-03",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.6218,
+      "change": 0.0298,
+      "pct_change": 0.8296,
+      "date": "2026-07-03",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.375,
+      "change": 0.0348,
+      "pct_change": 1.0419,
+      "date": "2026-07-03",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.7601,
+      "change": 0.0107,
+      "pct_change": 0.3892,
+      "date": "2026-07-03",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.4394,
+      "change": -0.005,
+      "pct_change": -0.1452,
+      "date": "2026-07-03",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.4634,
+      "change": -0.0291,
+      "pct_change": -0.6477,
+      "date": "2026-07-03",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.805,
+      "change": -0.0263,
+      "pct_change": -0.5444,
+      "date": "2026-07-03",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
