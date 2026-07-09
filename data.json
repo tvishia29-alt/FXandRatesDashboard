@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T00:27:24.848683Z",
+  "generated_at": "2026-07-09T03:01:58.343182Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,68 +39,35 @@
         "change_pct": 0.44,
         "timestamp": "2026-07-08 00:00:00"
       }
-    },
-    "UK": {
-      "y2": 4.3493,
-      "y10": 4.9827,
-      "y30": 5.7008
-    },
-    "Eurozone": {
-      "y2": 2.714,
-      "y10": 3.0945,
-      "y30": 3.6439
-    },
-    "Japan": {
-      "y2": 1.4401,
-      "y10": 2.8815,
-      "y30": 4.0075
-    },
-    "Italy": {
-      "y2": 2.9004,
-      "y10": 3.9033
-    },
-    "France": {
-      "y10": 3.8081
-    },
-    "Spain": {
-      "y10": 3.5169
-    },
-    "Canada": {
-      "y2": 2.8665,
-      "y10": 3.5691
-    },
-    "Australia": {
-      "y2": 4.5481,
-      "y10": 4.9302
     }
   },
   "commodities": {
     "gold": {
-      "price": 4093.3999,
-      "d1_pct": -1.25,
-      "w1_pct": 1.75,
-      "m1_pct": -5.62,
+      "price": 4075.8,
+      "d1_pct": -1.68,
+      "w1_pct": 1.31,
+      "m1_pct": -6.02,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 58.9,
-      "d1_pct": -3.33,
-      "w1_pct": -0.97,
-      "m1_pct": -14.57,
+      "price": 58.375,
+      "d1_pct": -4.19,
+      "w1_pct": -1.85,
+      "m1_pct": -15.33,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 74.13,
-      "d1_pct": 5.24,
-      "w1_pct": 6.66,
-      "m1_pct": -18.12,
+      "price": 74.63,
+      "d1_pct": 5.95,
+      "w1_pct": 7.38,
+      "m1_pct": -17.57,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 78.67,
-      "d1_pct": 6.08,
-      "w1_pct": 7.89,
-      "m1_pct": -15.49,
+      "price": 79.11,
+      "d1_pct": 6.67,
+      "w1_pct": 8.49,
+      "m1_pct": -15.02,
       "unit": "$/bbl"
     },
     "natgas": {
@@ -111,24 +78,24 @@
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.1255,
-      "d1_pct": -0.75,
-      "w1_pct": -1.08,
-      "m1_pct": -2.2,
+      "price": 6.1125,
+      "d1_pct": -0.96,
+      "w1_pct": -1.29,
+      "m1_pct": -2.41,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 605.0,
-      "d1_pct": -0.7,
-      "w1_pct": 4.18,
-      "m1_pct": 4.31,
+      "price": 605.5,
+      "d1_pct": -0.62,
+      "w1_pct": 4.26,
+      "m1_pct": 4.4,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 452.75,
-      "d1_pct": 2.32,
-      "w1_pct": 9.69,
-      "m1_pct": 8.44,
+      "price": 453.0,
+      "d1_pct": 2.37,
+      "w1_pct": 9.75,
+      "m1_pct": 8.5,
       "unit": "\u00a2/bu"
     }
   },
@@ -256,70 +223,70 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.143,
-      "d1_pct": 0.23,
-      "w1_pct": 0.46,
-      "m1_pct": -0.91
+      "price": 1.1429,
+      "d1_pct": 0.22,
+      "w1_pct": 0.44,
+      "m1_pct": -0.93
     },
     "GBPUSD": {
-      "price": 1.3401,
-      "d1_pct": 0.39,
-      "w1_pct": 0.92,
-      "m1_pct": 0.21
+      "price": 1.3395,
+      "d1_pct": 0.34,
+      "w1_pct": 0.87,
+      "m1_pct": 0.17
     },
     "USDJPY": {
-      "price": 162.387,
-      "d1_pct": 0.01,
-      "w1_pct": -0.09,
-      "m1_pct": 1.25
+      "price": 162.452,
+      "d1_pct": 0.05,
+      "w1_pct": -0.05,
+      "m1_pct": 1.29
     },
     "USDCHF": {
-      "price": 0.8072,
-      "d1_pct": -0.2,
-      "w1_pct": -0.24,
-      "m1_pct": 1.0
+      "price": 0.8075,
+      "d1_pct": -0.16,
+      "w1_pct": -0.2,
+      "m1_pct": 1.03
     },
     "AUDUSD": {
-      "price": 0.6939,
-      "d1_pct": 0.24,
-      "w1_pct": 0.68,
-      "m1_pct": -1.2
+      "price": 0.6933,
+      "d1_pct": 0.15,
+      "w1_pct": 0.59,
+      "m1_pct": -1.28
     },
     "NZDUSD": {
-      "price": 0.5727,
-      "d1_pct": 0.88,
-      "w1_pct": 0.9,
-      "m1_pct": -1.39
+      "price": 0.5721,
+      "d1_pct": 0.78,
+      "w1_pct": 0.8,
+      "m1_pct": -1.49
     },
     "USDCAD": {
-      "price": 1.4162,
-      "d1_pct": -0.29,
-      "w1_pct": -0.39,
-      "m1_pct": 1.49
+      "price": 1.4164,
+      "d1_pct": -0.28,
+      "w1_pct": -0.37,
+      "m1_pct": 1.51
     },
     "USDSEK": {
-      "price": 9.6784,
-      "d1_pct": -0.21,
-      "w1_pct": -0.42,
-      "m1_pct": 2.06
+      "price": 9.6838,
+      "d1_pct": -0.16,
+      "w1_pct": -0.37,
+      "m1_pct": 2.12
     },
     "USDNOK": {
-      "price": 9.752,
-      "d1_pct": -0.55,
-      "w1_pct": -1.59,
-      "m1_pct": 2.54
+      "price": 9.7529,
+      "d1_pct": -0.54,
+      "w1_pct": -1.58,
+      "m1_pct": 2.55
     },
     "USDCNY": {
-      "price": 6.802,
-      "d1_pct": 0.13,
-      "w1_pct": 0.11,
-      "m1_pct": 0.44
+      "price": 6.798,
+      "d1_pct": 0.07,
+      "w1_pct": 0.06,
+      "m1_pct": 0.38
     },
     "USDMXN": {
-      "price": 17.553,
-      "d1_pct": 0.16,
-      "w1_pct": -0.01,
-      "m1_pct": 0.57
+      "price": 17.5641,
+      "d1_pct": 0.23,
+      "w1_pct": 0.06,
+      "m1_pct": 0.63
     },
     "USDBRL": {
       "price": 5.1507,
@@ -328,10 +295,10 @@
       "m1_pct": -0.76
     },
     "USDZAR": {
-      "price": 16.3813,
-      "d1_pct": 0.37,
-      "w1_pct": -0.08,
-      "m1_pct": -0.41
+      "price": 16.3927,
+      "d1_pct": 0.44,
+      "w1_pct": -0.01,
+      "m1_pct": -0.34
     },
     "USDINR": {
       "price": 95.545,
@@ -340,40 +307,40 @@
       "m1_pct": 0.19
     },
     "USDKRW": {
-      "price": 1500.88,
-      "d1_pct": -1.25,
-      "w1_pct": -3.28,
-      "m1_pct": -1.63
+      "price": 1506.97,
+      "d1_pct": -0.85,
+      "w1_pct": -2.89,
+      "m1_pct": -1.23
     },
     "USDTRY": {
-      "price": 46.8655,
-      "d1_pct": 0.03,
-      "w1_pct": 0.4,
-      "m1_pct": 1.62
+      "price": 46.8597,
+      "d1_pct": 0.02,
+      "w1_pct": 0.39,
+      "m1_pct": 1.6
     },
     "USDPLN": {
-      "price": 3.7692,
-      "d1_pct": -0.04,
-      "w1_pct": -0.04,
-      "m1_pct": 2.59
+      "price": 3.7703,
+      "d1_pct": -0.01,
+      "w1_pct": -0.02,
+      "m1_pct": 2.62
     },
     "USDHUF": {
-      "price": 314.03,
-      "d1_pct": 1.2,
-      "w1_pct": 0.68,
-      "m1_pct": 1.86
+      "price": 315.15,
+      "d1_pct": 1.56,
+      "w1_pct": 1.04,
+      "m1_pct": 2.22
     },
     "USDCZK": {
-      "price": 21.213,
-      "d1_pct": 0.01,
-      "w1_pct": -0.29,
-      "m1_pct": 1.36
+      "price": 21.2336,
+      "d1_pct": 0.11,
+      "w1_pct": -0.19,
+      "m1_pct": 1.46
     },
     "USDSGD": {
-      "price": 1.2927,
-      "d1_pct": -0.07,
-      "w1_pct": -0.22,
-      "m1_pct": 0.41
+      "price": 1.2932,
+      "d1_pct": -0.03,
+      "w1_pct": -0.18,
+      "m1_pct": 0.45
     },
     "USDIDR": {
       "price": 18000.0,
@@ -382,16 +349,16 @@
       "m1_pct": -0.17
     },
     "USDTHB": {
-      "price": 33.43,
-      "d1_pct": 0.21,
-      "w1_pct": 0.33,
-      "m1_pct": 1.52
+      "price": 33.5,
+      "d1_pct": 0.42,
+      "w1_pct": 0.54,
+      "m1_pct": 1.73
     },
     "DXY": {
-      "price": 100.968,
-      "d1_pct": -0.17,
-      "w1_pct": -0.22,
-      "m1_pct": 0.9
+      "price": 100.986,
+      "d1_pct": -0.15,
+      "w1_pct": -0.2,
+      "m1_pct": 0.92
     }
   },
   "volatility": {
@@ -472,17 +439,17 @@
   },
   "news": [
     {
+      "headline": "Levi\u2019s is finding new ways to win customers \u2014 by looking toward tops and \u2018denim luxury\u2019",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/levis-is-finding-new-ways-to-win-customers-by-looking-toward-tops-and-denim-luxury-b6e0890a?mod=mw_rss_topstories",
+      "datetime": 1783557480,
+      "category": "general"
+    },
+    {
       "headline": "Higher gas prices aren\u2019t the only way rising tensions with Iran will hit home",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
       "datetime": 1783555620,
-      "category": "general"
-    },
-    {
-      "headline": "Levi\u2019s is finding new ways to win customers \u2014 by looking toward tops and \u2018denim luxury\u2019",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/levis-is-finding-new-ways-to-win-customers-by-looking-toward-tops-and-denim-luxury-b6e0890a?mod=mw_rss_topstories",
-      "datetime": 1783552200,
       "category": "general"
     },
     {
@@ -1470,166 +1437,5 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {
-    "us2y": {
-      "value": 4.229,
-      "change": 0.032,
-      "pct_change": 0.7624,
-      "date": "2026-07-08",
-      "label": "US 2Y",
-      "country": "US"
-    },
-    "us10y": {
-      "value": 4.577,
-      "change": 0.021,
-      "pct_change": 0.4609,
-      "date": "2026-07-08",
-      "label": "US 10Y",
-      "country": "US"
-    },
-    "us30y": {
-      "value": 5.078,
-      "change": 0.022,
-      "pct_change": 0.4351,
-      "date": "2026-07-08",
-      "label": "US 30Y",
-      "country": "US"
-    },
-    "uk2y": {
-      "value": 4.3493,
-      "change": 0.157,
-      "pct_change": 3.745,
-      "date": "2026-07-08",
-      "label": "UK 2Y",
-      "country": "UK"
-    },
-    "uk10y": {
-      "value": 4.9827,
-      "change": 0.1298,
-      "pct_change": 2.6747,
-      "date": "2026-07-08",
-      "label": "UK 10Y",
-      "country": "UK"
-    },
-    "uk30y": {
-      "value": 5.7008,
-      "change": 0.1077,
-      "pct_change": 1.9256,
-      "date": "2026-07-08",
-      "label": "UK 30Y",
-      "country": "UK"
-    },
-    "de2y": {
-      "value": 2.714,
-      "change": 0.1193,
-      "pct_change": 4.5978,
-      "date": "2026-07-08",
-      "label": "Germany 2Y",
-      "country": "Eurozone"
-    },
-    "de10y": {
-      "value": 3.0945,
-      "change": 0.0955,
-      "pct_change": 3.1844,
-      "date": "2026-07-08",
-      "label": "Germany 10Y",
-      "country": "Eurozone"
-    },
-    "de30y": {
-      "value": 3.6439,
-      "change": 0.0689,
-      "pct_change": 1.9273,
-      "date": "2026-07-08",
-      "label": "Germany 30Y",
-      "country": "Eurozone"
-    },
-    "jp2y": {
-      "value": 1.4401,
-      "change": 0.034,
-      "pct_change": 2.418,
-      "date": "2026-07-08",
-      "label": "Japan 2Y",
-      "country": "Japan"
-    },
-    "jp10y": {
-      "value": 2.8815,
-      "change": 0.0357,
-      "pct_change": 1.2545,
-      "date": "2026-07-08",
-      "label": "Japan 10Y",
-      "country": "Japan"
-    },
-    "jp30y": {
-      "value": 4.0075,
-      "change": -0.0543,
-      "pct_change": -1.3368,
-      "date": "2026-07-08",
-      "label": "Japan 30Y",
-      "country": "Japan"
-    },
-    "it2y": {
-      "value": 2.9004,
-      "change": 0.119,
-      "pct_change": 4.2784,
-      "date": "2026-07-08",
-      "label": "Italy 2Y",
-      "country": "Eurozone"
-    },
-    "it10y": {
-      "value": 3.9033,
-      "change": 0.1345,
-      "pct_change": 3.5688,
-      "date": "2026-07-08",
-      "label": "Italy 10Y",
-      "country": "Eurozone"
-    },
-    "fr10y": {
-      "value": 3.8081,
-      "change": 0.133,
-      "pct_change": 3.6189,
-      "date": "2026-07-08",
-      "label": "France 10Y",
-      "country": "Eurozone"
-    },
-    "es10y": {
-      "value": 3.5169,
-      "change": 0.102,
-      "pct_change": 2.9869,
-      "date": "2026-07-08",
-      "label": "Spain 10Y",
-      "country": "Eurozone"
-    },
-    "ca2y": {
-      "value": 2.8665,
-      "change": 0.076,
-      "pct_change": 2.7235,
-      "date": "2026-07-08",
-      "label": "Canada 2Y",
-      "country": "Canada"
-    },
-    "ca10y": {
-      "value": 3.5691,
-      "change": 0.0772,
-      "pct_change": 2.2108,
-      "date": "2026-07-08",
-      "label": "Canada 10Y",
-      "country": "Canada"
-    },
-    "au2y": {
-      "value": 4.5481,
-      "change": 0.0844,
-      "pct_change": 1.8908,
-      "date": "2026-07-08",
-      "label": "Australia 2Y",
-      "country": "Australia"
-    },
-    "au10y": {
-      "value": 4.9302,
-      "change": 0.0986,
-      "pct_change": 2.0407,
-      "date": "2026-07-08",
-      "label": "Australia 10Y",
-      "country": "Australia"
-    }
-  }
+  "gov_bonds": {}
 }
