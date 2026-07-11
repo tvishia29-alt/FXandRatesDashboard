@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T22:22:30.622300Z",
+  "generated_at": "2026-07-11T00:23:06.459650Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": 0.36,
         "timestamp": "2026-07-10 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.2314,
+      "y10": 4.8759,
+      "y30": 5.6001
+    },
+    "Eurozone": {
+      "y2": 2.6622,
+      "y10": 3.0708,
+      "y30": 3.6112
+    },
+    "Japan": {
+      "y2": 1.427,
+      "y10": 2.7621,
+      "y30": 3.9221
+    },
+    "Italy": {
+      "y2": 2.8391,
+      "y10": 3.8126
+    },
+    "France": {
+      "y10": 3.721
+    },
+    "Spain": {
+      "y10": 3.4695
+    },
+    "Canada": {
+      "y2": 2.8214,
+      "y10": 3.5117
+    },
+    "Australia": {
+      "y2": 4.4606,
+      "y10": 4.844
     }
   },
   "commodities": {
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.67,
-      "d1_pct": 0.26,
-      "w1_pct": -0.57,
+      "price": 9.645,
+      "d1_pct": 0.55,
+      "w1_pct": -0.85,
       "m1_pct": 0.44,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 136.88,
-      "d1_pct": 0.24,
-      "w1_pct": -1.9,
-      "m1_pct": -1.72,
+      "price": 136.555,
+      "d1_pct": 0.56,
+      "w1_pct": -2.37,
+      "m1_pct": -1.05,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -439,17 +472,24 @@
   },
   "news": [
     {
+      "headline": "Apple sues OpenAI for alleged theft of confidential info \u2014 and says that\u2019s just \u2018the tip of the iceberg\u2019",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories",
+      "datetime": 1783724760,
+      "category": "general"
+    },
+    {
+      "headline": "Meta\u2019s stock roars back to life as it notches its best week in years",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
+      "datetime": 1783722240,
+      "category": "general"
+    },
+    {
       "headline": "SK Hynix\u2019s stock sees double-digit pop in Nasdaq debut",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
       "datetime": 1783721880,
-      "category": "general"
-    },
-    {
-      "headline": "Apple sues OpenAI for \u2018institutional\u2019 misconduct \u2014 and alleges that\u2019s just the tip of the iceberg",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories",
-      "datetime": 1783721220,
       "category": "general"
     },
     {
@@ -471,13 +511,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
       "datetime": 1783717860,
-      "category": "general"
-    },
-    {
-      "headline": "Meta\u2019s stock roars back to life as it heads for its best week in years",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
-      "datetime": 1783713240,
       "category": "general"
     },
     {
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 4.216,
+      "change": 0.027,
+      "pct_change": 0.6445,
+      "date": "2026-07-10",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.562,
+      "change": 0.004,
+      "pct_change": 0.0878,
+      "date": "2026-07-10",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 5.061,
+      "change": -0.006,
+      "pct_change": -0.1184,
+      "date": "2026-07-10",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.2314,
+      "change": -0.0195,
+      "pct_change": -0.4587,
+      "date": "2026-07-10",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 4.8759,
+      "change": -0.0248,
+      "pct_change": -0.5061,
+      "date": "2026-07-10",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.6001,
+      "change": -0.024,
+      "pct_change": -0.4267,
+      "date": "2026-07-10",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.6622,
+      "change": 0.0085,
+      "pct_change": 0.3203,
+      "date": "2026-07-10",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.0708,
+      "change": 0.0155,
+      "pct_change": 0.5073,
+      "date": "2026-07-10",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.6112,
+      "change": -0.0154,
+      "pct_change": -0.4246,
+      "date": "2026-07-10",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.427,
+      "change": -0.0245,
+      "pct_change": -1.6879,
+      "date": "2026-07-10",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.7621,
+      "change": -0.1219,
+      "pct_change": -4.2268,
+      "date": "2026-07-10",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.9221,
+      "change": -0.1059,
+      "pct_change": -2.6291,
+      "date": "2026-07-10",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.8391,
+      "change": -0.0001,
+      "pct_change": -0.0035,
+      "date": "2026-07-10",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.8126,
+      "change": -0.031,
+      "pct_change": -0.8065,
+      "date": "2026-07-10",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.721,
+      "change": -0.0282,
+      "pct_change": -0.7522,
+      "date": "2026-07-10",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.4695,
+      "change": -0.0163,
+      "pct_change": -0.4676,
+      "date": "2026-07-10",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.8214,
+      "change": 0.012,
+      "pct_change": 0.4271,
+      "date": "2026-07-10",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.5117,
+      "change": -0.0134,
+      "pct_change": -0.3801,
+      "date": "2026-07-10",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.4606,
+      "change": -0.0441,
+      "pct_change": -0.979,
+      "date": "2026-07-10",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.844,
+      "change": -0.0421,
+      "pct_change": -0.8616,
+      "date": "2026-07-10",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
