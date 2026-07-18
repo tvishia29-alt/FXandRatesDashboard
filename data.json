@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T22:16:43.032575Z",
+  "generated_at": "2026-07-18T00:21:39.571273Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": -0.67,
         "timestamp": "2026-07-17 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.353,
+      "y10": 4.9672,
+      "y30": 5.6757
+    },
+    "Eurozone": {
+      "y2": 2.8031,
+      "y10": 3.1506,
+      "y30": 3.6261
+    },
+    "Japan": {
+      "y2": 1.4345,
+      "y10": 2.7124,
+      "y30": 3.8764
+    },
+    "Italy": {
+      "y2": 2.9946,
+      "y10": 3.9484
+    },
+    "France": {
+      "y10": 3.9342
+    },
+    "Spain": {
+      "y10": 3.5898
+    },
+    "Canada": {
+      "y2": 2.8714,
+      "y10": 3.5575
+    },
+    "Australia": {
+      "y2": 4.5215,
+      "y10": 4.9086
     }
   },
   "commodities": {
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.625,
-      "d1_pct": 0.03,
-      "w1_pct": -0.47,
-      "m1_pct": -1.08,
+      "price": 9.6225,
+      "d1_pct": -0.21,
+      "w1_pct": -0.23,
+      "m1_pct": -0.98,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 135.57,
-      "d1_pct": 0.54,
-      "w1_pct": -0.96,
-      "m1_pct": -4.78,
+      "price": 134.84,
+      "d1_pct": -0.4,
+      "w1_pct": -1.26,
+      "m1_pct": -5.01,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +471,27 @@
     }
   },
   "news": [
+    {
+      "headline": "The World Cup\u2013winning side will make $50 million \u2014 and the IRS gets a cut",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-world-cupwinning-side-will-make-50-million-and-the-irs-gets-a-cut-10f0780b?mod=mw_rss_topstories",
+      "datetime": 1784329500,
+      "category": "general"
+    },
+    {
+      "headline": "SpaceX postponed a crucial launch \u2014 and its stock went on to close below IPO price for second day",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/spacex-postponed-a-crucial-launch-now-its-stock-is-set-to-slide-even-further-below-the-ipo-price-143adfe0?mod=mw_rss_topstories",
+      "datetime": 1784328900,
+      "category": "general"
+    },
+    {
+      "headline": "Meet Kimi K3, the newest Chinese AI model haunting Silicon Valley",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
+      "datetime": 1784327460,
+      "category": "general"
+    },
     {
       "headline": "The average stock is having a moment as semiconductors struggle. It\u2019s a sign of a healthy market.",
       "source": "MarketWatch",
@@ -485,27 +539,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/i-am-at-a-loss-my-brother-is-dying-we-are-not-close-what-responsibility-do-i-have-to-help-him-08af705a?mod=mw_rss_topstories",
       "datetime": 1784317500,
-      "category": "general"
-    },
-    {
-      "headline": "Taylor Farms to recall iceberg lettuce that may be the cause of the cyclospora outbreak",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/taylor-farms-to-recall-produce-that-may-be-the-cause-of-the-cyclospora-outbreak-report-e2c4cc0b?mod=mw_rss_topstories",
-      "datetime": 1784317260,
-      "category": "general"
-    },
-    {
-      "headline": "Why Trump\u2019s speech on U.S. elections may have been bad for markets",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-trumps-speech-on-u-s-elections-could-be-bad-for-markets-e617dc64?mod=mw_rss_topstories",
-      "datetime": 1784317080,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018They are relentless\u2019: A scammer is trying to change the email on my empty Robinhood account. What do they have to gain?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/they-are-relentless-a-scammer-is-trying-to-change-the-email-on-my-empty-robinhood-account-what-do-they-have-to-gain-26103dac?mod=mw_rss_topstories",
-      "datetime": 1784313000,
       "category": "general"
     },
     {
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 4.183,
+      "change": 0.025,
+      "pct_change": 0.6013,
+      "date": "2026-07-17",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.55,
+      "change": -0.009,
+      "pct_change": -0.1974,
+      "date": "2026-07-17",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 5.072,
+      "change": -0.014,
+      "pct_change": -0.2753,
+      "date": "2026-07-17",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.353,
+      "change": 0.0025,
+      "pct_change": 0.0575,
+      "date": "2026-07-17",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 4.9672,
+      "change": -0.0051,
+      "pct_change": -0.1026,
+      "date": "2026-07-17",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.6757,
+      "change": 0.0046,
+      "pct_change": 0.0811,
+      "date": "2026-07-17",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.8031,
+      "change": 0.0376,
+      "pct_change": 1.3596,
+      "date": "2026-07-17",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.1506,
+      "change": -0.0122,
+      "pct_change": -0.3857,
+      "date": "2026-07-17",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.6261,
+      "change": -0.0225,
+      "pct_change": -0.6167,
+      "date": "2026-07-17",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.4345,
+      "change": -0.0044,
+      "pct_change": -0.3058,
+      "date": "2026-07-17",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.7124,
+      "change": -0.0026,
+      "pct_change": -0.0958,
+      "date": "2026-07-17",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.8764,
+      "change": 0.0424,
+      "pct_change": 1.1059,
+      "date": "2026-07-17",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 2.9946,
+      "change": 0.0291,
+      "pct_change": 0.9813,
+      "date": "2026-07-17",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.9484,
+      "change": 0.0062,
+      "pct_change": 0.1573,
+      "date": "2026-07-17",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.9342,
+      "change": -0.0051,
+      "pct_change": -0.1295,
+      "date": "2026-07-17",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.5898,
+      "change": -0.0144,
+      "pct_change": -0.3995,
+      "date": "2026-07-17",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.8714,
+      "change": 0.0413,
+      "pct_change": 1.4593,
+      "date": "2026-07-17",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.5575,
+      "change": 0.0283,
+      "pct_change": 0.8019,
+      "date": "2026-07-17",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.5215,
+      "change": 0.0151,
+      "pct_change": 0.3351,
+      "date": "2026-07-17",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 4.9086,
+      "change": 0.0056,
+      "pct_change": 0.1142,
+      "date": "2026-07-17",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
