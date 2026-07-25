@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T22:23:55.092488Z",
+  "generated_at": "2026-07-25T00:25:23.881372Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": -0.17,
         "timestamp": "2026-07-24 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.4154,
+      "y10": 5.0329,
+      "y30": 5.7201
+    },
+    "Eurozone": {
+      "y2": 2.8354,
+      "y10": 3.2043,
+      "y30": 3.6493
+    },
+    "Japan": {
+      "y2": 1.5195,
+      "y10": 2.8163,
+      "y30": 3.9823
+    },
+    "Italy": {
+      "y2": 3.0422,
+      "y10": 3.9983
+    },
+    "France": {
+      "y10": 3.9772
+    },
+    "Spain": {
+      "y10": 3.6463
+    },
+    "Canada": {
+      "y2": 2.9048,
+      "y10": 3.6061
+    },
+    "Australia": {
+      "y2": 4.728,
+      "y10": 5.0919
     }
   },
   "commodities": {
@@ -253,10 +286,10 @@
       "m1_pct": 1.21
     },
     "NZDUSD": {
-      "price": 0.5789,
-      "d1_pct": -0.43,
-      "w1_pct": -0.9,
-      "m1_pct": 2.56
+      "price": 0.5791,
+      "d1_pct": 0.29,
+      "w1_pct": -0.84,
+      "m1_pct": 2.62
     },
     "USDCAD": {
       "price": 1.4092,
@@ -265,7 +298,7 @@
       "m1_pct": -1.01
     },
     "USDSEK": {
-      "price": 9.7117,
+      "price": 9.712,
       "d1_pct": -0.46,
       "w1_pct": 0.46,
       "m1_pct": -0.29
@@ -295,10 +328,10 @@
       "m1_pct": -2.54
     },
     "USDZAR": {
-      "price": 16.8246,
-      "d1_pct": 2.63,
-      "w1_pct": 2.58,
-      "m1_pct": 1.57
+      "price": 16.82,
+      "d1_pct": 0.02,
+      "w1_pct": 1.61,
+      "m1_pct": 1.93
     },
     "USDINR": {
       "price": 96.552,
@@ -313,16 +346,16 @@
       "m1_pct": -5.4
     },
     "USDTRY": {
-      "price": 47.329,
-      "d1_pct": 0.25,
-      "w1_pct": 0.48,
-      "m1_pct": 1.77
+      "price": 47.33,
+      "d1_pct": 0.03,
+      "w1_pct": 0.4,
+      "m1_pct": 1.61
     },
     "USDPLN": {
-      "price": 3.7923,
-      "d1_pct": 0.06,
-      "w1_pct": 0.37,
-      "m1_pct": 0.56
+      "price": 3.7925,
+      "d1_pct": -0.33,
+      "w1_pct": -0.13,
+      "m1_pct": 0.7
     },
     "USDHUF": {
       "price": 317.25,
@@ -337,10 +370,10 @@
       "m1_pct": -0.56
     },
     "USDSGD": {
-      "price": 1.2901,
+      "price": 1.29,
       "d1_pct": -0.21,
       "w1_pct": -0.16,
-      "m1_pct": -0.52
+      "m1_pct": -0.53
     },
     "USDIDR": {
       "price": 17968.0,
@@ -349,10 +382,10 @@
       "m1_pct": -0.12
     },
     "USDTHB": {
-      "price": 33.66,
-      "d1_pct": -0.33,
-      "w1_pct": 0.39,
-      "m1_pct": 0.86
+      "price": 33.69,
+      "d1_pct": -0.41,
+      "w1_pct": 0.12,
+      "m1_pct": 1.2
     },
     "DXY": {
       "price": 101.465,
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5825,
-      "d1_pct": 0.6,
-      "w1_pct": -0.44,
-      "m1_pct": -1.97,
+      "price": 9.525,
+      "d1_pct": -0.42,
+      "w1_pct": -1.01,
+      "m1_pct": -2.58,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 135.58,
-      "d1_pct": 0.47,
-      "w1_pct": 0.01,
-      "m1_pct": -4.88,
+      "price": 134.95,
+      "d1_pct": -0.2,
+      "w1_pct": 0.08,
+      "m1_pct": -5.3,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +471,13 @@
     }
   },
   "news": [
+    {
+      "headline": "\u2018It\u2019s nothing personal\u2019: Should I tell my 96-year-old stepmother that I don\u2019t want her inheritance?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
+      "datetime": 1784932200,
+      "category": "general"
+    },
     {
       "headline": "\u2018We are not romantically involved\u2019: I\u2019m marrying my platonic best friend of 20 years. Should I leave him my home?",
       "source": "MarketWatch",
@@ -502,10 +542,17 @@
       "category": "general"
     },
     {
-      "headline": "I\u2019m 38, lost my job, and have to move back in with my parents. What did I do wrong?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
-      "datetime": 1784923860,
+      "headline": "ADHD has rewired the workplace. This is what it means for bosses and workers",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c70gq125xweo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1784935433,
+      "category": "general"
+    },
+    {
+      "headline": "Long overdue, life-changing or frivolous? Your thoughts on wedding rule changes ",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cvg8wlwzjx9o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1784935871,
       "category": "general"
     },
     {
@@ -562,20 +609,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "datetime": 1784889941,
-      "category": "general"
-    },
-    {
-      "headline": "Tourist tax introduced in Edinburgh: How much is it and who pays? ",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cvgl8j37839o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1784843208,
-      "category": "general"
-    },
-    {
-      "headline": "Scotch whisky levy lifted as Trump imposes new wave of US tariffs",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c7vgz680977o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1784885723,
       "category": "general"
     }
   ],
@@ -1257,5 +1290,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 4.352,
+      "change": -0.003,
+      "pct_change": -0.0689,
+      "date": "2026-07-24",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.687,
+      "change": -0.013,
+      "pct_change": -0.2766,
+      "date": "2026-07-24",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 5.163,
+      "change": -0.002,
+      "pct_change": -0.0387,
+      "date": "2026-07-24",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.4154,
+      "change": -0.0885,
+      "pct_change": -1.965,
+      "date": "2026-07-24",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 5.0329,
+      "change": -0.0704,
+      "pct_change": -1.3795,
+      "date": "2026-07-24",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.7201,
+      "change": -0.058,
+      "pct_change": -1.0038,
+      "date": "2026-07-24",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.8354,
+      "change": -0.054,
+      "pct_change": -1.8689,
+      "date": "2026-07-24",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.2043,
+      "change": -0.0261,
+      "pct_change": -0.8079,
+      "date": "2026-07-24",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.6493,
+      "change": -0.0174,
+      "pct_change": -0.4745,
+      "date": "2026-07-24",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.5195,
+      "change": 0.0233,
+      "pct_change": 1.5573,
+      "date": "2026-07-24",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.8163,
+      "change": 0.0412,
+      "pct_change": 1.4846,
+      "date": "2026-07-24",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 3.9823,
+      "change": 0.0592,
+      "pct_change": 1.509,
+      "date": "2026-07-24",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 3.0422,
+      "change": -0.0549,
+      "pct_change": -1.7726,
+      "date": "2026-07-24",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 3.9983,
+      "change": -0.0724,
+      "pct_change": -1.7786,
+      "date": "2026-07-24",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 3.9772,
+      "change": -0.0561,
+      "pct_change": -1.3909,
+      "date": "2026-07-24",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.6463,
+      "change": -0.0275,
+      "pct_change": -0.7485,
+      "date": "2026-07-24",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 2.9048,
+      "change": -0.0466,
+      "pct_change": -1.5789,
+      "date": "2026-07-24",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.6061,
+      "change": -0.0346,
+      "pct_change": -0.9504,
+      "date": "2026-07-24",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.728,
+      "change": 0.1042,
+      "pct_change": 2.2536,
+      "date": "2026-07-24",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 5.0919,
+      "change": 0.0889,
+      "pct_change": 1.7769,
+      "date": "2026-07-24",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
