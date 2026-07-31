@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:55:58.875773Z",
+  "generated_at": "2026-07-31T08:02:47.578090Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.375,
       "y7": null,
-      "y10": 4.663,
+      "y10": null,
       "y20": null,
       "y30": 5.208
     },
@@ -27,12 +27,6 @@
         "change_pct": 0.53,
         "timestamp": "2026-07-30 00:00:00"
       },
-      "US_10Y": {
-        "price": 4.663,
-        "prev_close": 4.622,
-        "change_pct": 0.89,
-        "timestamp": "2026-07-30 00:00:00"
-      },
       "US_30Y": {
         "price": 5.208,
         "prev_close": 5.143,
@@ -43,59 +37,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4137.0,
-      "d1_pct": 0.9,
-      "w1_pct": 1.71,
-      "m1_pct": 1.69,
+      "price": 4127.3999,
+      "d1_pct": 0.67,
+      "w1_pct": 1.47,
+      "m1_pct": 1.45,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 58.585,
-      "d1_pct": -0.39,
-      "w1_pct": -0.12,
-      "m1_pct": -2.5,
+      "price": 58.545,
+      "d1_pct": -0.46,
+      "w1_pct": -0.19,
+      "m1_pct": -2.56,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 82.04,
-      "d1_pct": -1.85,
-      "w1_pct": -8.14,
-      "m1_pct": 19.63,
+      "price": 82.24,
+      "d1_pct": -1.62,
+      "w1_pct": -7.92,
+      "m1_pct": 19.92,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 87.53,
-      "d1_pct": -1.68,
-      "w1_pct": -9.56,
-      "m1_pct": 22.3,
+      "price": 88.3,
+      "d1_pct": -0.82,
+      "w1_pct": -8.76,
+      "m1_pct": 23.38,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.784,
-      "d1_pct": 0.94,
-      "w1_pct": -3.03,
-      "m1_pct": -13.54,
+      "price": 2.766,
+      "d1_pct": 0.29,
+      "w1_pct": -3.66,
+      "m1_pct": -14.1,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.4935,
-      "d1_pct": 0.76,
-      "w1_pct": 2.75,
-      "m1_pct": 6.04,
+      "price": 6.5275,
+      "d1_pct": 1.29,
+      "w1_pct": 3.28,
+      "m1_pct": 6.6,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 656.25,
-      "d1_pct": -1.09,
-      "w1_pct": -3.21,
-      "m1_pct": 10.85,
+      "price": 656.75,
+      "d1_pct": -1.02,
+      "w1_pct": -3.13,
+      "m1_pct": 10.94,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 468.0,
-      "d1_pct": 4.99,
-      "w1_pct": 0.81,
-      "m1_pct": 11.16,
+      "price": 467.0,
+      "d1_pct": 4.77,
+      "w1_pct": 0.59,
+      "m1_pct": 10.93,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,70 +217,70 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1522,
-      "d1_pct": 0.48,
-      "w1_pct": 1.28,
-      "m1_pct": 1.27
+      "price": 1.1518,
+      "d1_pct": 0.44,
+      "w1_pct": 1.24,
+      "m1_pct": 1.23
     },
     "GBPUSD": {
-      "price": 1.3461,
-      "d1_pct": 0.7,
-      "w1_pct": 1.12,
-      "m1_pct": 1.37
+      "price": 1.3451,
+      "d1_pct": 0.62,
+      "w1_pct": 1.04,
+      "m1_pct": 1.29
     },
     "USDJPY": {
-      "price": 160.139,
-      "d1_pct": -1.94,
-      "w1_pct": -2.25,
-      "m1_pct": -1.48
+      "price": 160.272,
+      "d1_pct": -1.85,
+      "w1_pct": -2.17,
+      "m1_pct": -1.39
     },
     "USDCHF": {
-      "price": 0.8064,
-      "d1_pct": -0.86,
-      "w1_pct": -1.28,
-      "m1_pct": -0.34
+      "price": 0.8073,
+      "d1_pct": -0.75,
+      "w1_pct": -1.17,
+      "m1_pct": -0.23
     },
     "AUDUSD": {
-      "price": 0.7038,
-      "d1_pct": 1.13,
-      "w1_pct": 1.01,
-      "m1_pct": 2.11
+      "price": 0.7033,
+      "d1_pct": 1.06,
+      "w1_pct": 0.94,
+      "m1_pct": 2.04
     },
     "NZDUSD": {
-      "price": 0.5878,
-      "d1_pct": 1.29,
-      "w1_pct": 1.79,
-      "m1_pct": 3.56
+      "price": 0.5875,
+      "d1_pct": 1.25,
+      "w1_pct": 1.75,
+      "m1_pct": 3.52
     },
     "USDCAD": {
-      "price": 1.4013,
-      "d1_pct": -0.16,
-      "w1_pct": -0.51,
-      "m1_pct": -1.44
+      "price": 1.4018,
+      "d1_pct": -0.13,
+      "w1_pct": -0.47,
+      "m1_pct": -1.4
     },
     "USDSEK": {
-      "price": 9.535,
-      "d1_pct": -1.1,
-      "w1_pct": -2.27,
-      "m1_pct": -1.9
+      "price": 9.5313,
+      "d1_pct": -1.14,
+      "w1_pct": -2.31,
+      "m1_pct": -1.94
     },
     "USDNOK": {
-      "price": 9.54,
-      "d1_pct": -0.55,
-      "w1_pct": -0.75,
-      "m1_pct": -3.73
+      "price": 9.5299,
+      "d1_pct": -0.66,
+      "w1_pct": -0.86,
+      "m1_pct": -3.83
     },
     "USDCNY": {
-      "price": 6.7355,
+      "price": 6.7357,
       "d1_pct": -0.45,
-      "w1_pct": -0.55,
+      "w1_pct": -0.54,
       "m1_pct": -0.86
     },
     "USDMXN": {
-      "price": 17.3336,
-      "d1_pct": -0.62,
-      "w1_pct": -1.03,
-      "m1_pct": -1.26
+      "price": 17.34,
+      "d1_pct": -0.59,
+      "w1_pct": -0.99,
+      "m1_pct": -1.22
     },
     "USDBRL": {
       "price": 5.061,
@@ -295,58 +289,58 @@
       "m1_pct": -3.06
     },
     "USDZAR": {
-      "price": 16.4763,
-      "d1_pct": -1.11,
-      "w1_pct": -2.02,
-      "m1_pct": 0.5
+      "price": 16.4946,
+      "d1_pct": -1.0,
+      "w1_pct": -1.91,
+      "m1_pct": 0.61
     },
     "USDINR": {
-      "price": 95.38,
-      "d1_pct": -0.36,
-      "w1_pct": -1.55,
-      "m1_pct": -0.04
+      "price": 95.41,
+      "d1_pct": -0.33,
+      "w1_pct": -1.51,
+      "m1_pct": -0.01
     },
     "USDKRW": {
-      "price": 1428.6,
-      "d1_pct": -0.95,
-      "w1_pct": -3.08,
-      "m1_pct": -7.94
+      "price": 1431.4,
+      "d1_pct": -0.75,
+      "w1_pct": -2.89,
+      "m1_pct": -7.76
     },
     "USDTRY": {
-      "price": 47.5198,
-      "d1_pct": 0.32,
-      "w1_pct": 0.43,
+      "price": 47.5239,
+      "d1_pct": 0.33,
+      "w1_pct": 0.44,
       "m1_pct": 1.81
     },
     "USDPLN": {
-      "price": 3.742,
-      "d1_pct": -0.72,
-      "w1_pct": -1.66,
-      "m1_pct": -0.77
+      "price": 3.7441,
+      "d1_pct": -0.66,
+      "w1_pct": -1.6,
+      "m1_pct": -0.71
     },
     "USDHUF": {
-      "price": 314.416,
-      "d1_pct": -0.61,
-      "w1_pct": -1.73,
-      "m1_pct": 0.8
+      "price": 315.065,
+      "d1_pct": -0.4,
+      "w1_pct": -1.53,
+      "m1_pct": 1.01
     },
     "USDCZK": {
-      "price": 21.0186,
-      "d1_pct": -0.21,
-      "w1_pct": -1.1,
-      "m1_pct": -1.2
+      "price": 21.0244,
+      "d1_pct": -0.18,
+      "w1_pct": -1.08,
+      "m1_pct": -1.17
     },
     "USDSGD": {
-      "price": 1.2819,
-      "d1_pct": -0.52,
-      "w1_pct": -0.84,
-      "m1_pct": -1.05
+      "price": 1.2823,
+      "d1_pct": -0.5,
+      "w1_pct": -0.81,
+      "m1_pct": -1.03
     },
     "USDIDR": {
-      "price": 18050.0,
-      "d1_pct": -0.16,
-      "w1_pct": 0.46,
-      "m1_pct": 0.29
+      "price": 18020.0,
+      "d1_pct": -0.33,
+      "w1_pct": 0.29,
+      "m1_pct": 0.12
     },
     "USDTHB": {
       "price": 33.42,
@@ -355,18 +349,18 @@
       "m1_pct": 0.3
     },
     "DXY": {
-      "price": 100.139,
-      "d1_pct": 0.13,
-      "w1_pct": -1.31,
-      "m1_pct": -1.23
+      "price": 100.131,
+      "d1_pct": 0.12,
+      "w1_pct": -1.32,
+      "m1_pct": -1.24
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 17.09,
-      "prev_close": 20.66,
-      "change_pct": -17.28,
-      "timestamp": "2026-07-30 00:00:00"
+      "price": 16.88,
+      "prev_close": 17.09,
+      "change_pct": -1.23,
+      "timestamp": "2026-07-31 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
       "price": 27.55,
@@ -413,18 +407,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.6125,
-      "d1_pct": 0.29,
-      "w1_pct": 0.92,
-      "m1_pct": -1.33,
+      "price": 9.63,
+      "d1_pct": 0.18,
+      "w1_pct": 0.5,
+      "m1_pct": -1.0,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 135.995,
-      "d1_pct": -0.33,
-      "w1_pct": 0.77,
-      "m1_pct": -3.42,
+      "price": 136.36,
+      "d1_pct": 0.27,
+      "w1_pct": 0.58,
+      "m1_pct": -2.51,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -509,10 +503,10 @@
       "category": "general"
     },
     {
-      "headline": "Sainsbury's to sell Argos for \u00a3120m",
+      "headline": "Sainsbury's agrees to sell Argos for \u00a3120m",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cpw9yrl4p2qo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1785480641,
+      "datetime": 1785483539,
       "category": "general"
     },
     {
@@ -520,6 +514,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c04kd3gl1gpo?at_medium=RSS&at_campaign=rss",
       "datetime": 1785452797,
+      "category": "general"
+    },
+    {
+      "headline": "BP puts North Sea business up for sale",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c62q7w003lro?at_medium=RSS&at_campaign=rss",
+      "datetime": 1785484127,
       "category": "general"
     },
     {
@@ -533,14 +534,7 @@
       "headline": "South Korean shares soar after chip stock rout",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c4gdzlzprv1o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1785477800,
-      "category": "general"
-    },
-    {
-      "headline": "Anthropic's Claude AI escapes tests to hack three organisations",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
-      "datetime": 1785472290,
+      "datetime": 1785480962,
       "category": "general"
     },
     {
@@ -558,6 +552,13 @@
       "category": "general"
     },
     {
+      "headline": "Anthropic's Claude AI escapes tests to hack three organisations",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
+      "datetime": 1785472290,
+      "category": "general"
+    },
+    {
       "headline": "Apple warns of future 'supply constraints' for Mac, iPhone, iPad",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c204nw64xwno?at_medium=RSS&at_campaign=rss",
@@ -568,14 +569,7 @@
       "headline": "Andy Burnham to give regional mayors share of income tax",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c4g3eyg60e0o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1785447129,
-      "category": "general"
-    },
-    {
-      "headline": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1785429220,
+      "datetime": 1785484633,
       "category": "general"
     }
   ],
