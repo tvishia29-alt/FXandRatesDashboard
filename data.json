@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T04:32:52.018967Z",
+  "generated_at": "2026-08-12T06:26:39.254072Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4457.5,
-      "d1_pct": 1.7,
-      "w1_pct": 4.99,
-      "m1_pct": 9.76,
+      "price": 4447.6001,
+      "d1_pct": 1.47,
+      "w1_pct": 4.75,
+      "m1_pct": 9.52,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 65.35,
-      "d1_pct": 0.9,
-      "w1_pct": 5.24,
-      "m1_pct": 11.19,
+      "price": 65.46,
+      "d1_pct": 1.07,
+      "w1_pct": 5.41,
+      "m1_pct": 11.38,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 84.09,
-      "d1_pct": 1.07,
-      "w1_pct": 11.79,
-      "m1_pct": 5.99,
+      "price": 83.94,
+      "d1_pct": 0.89,
+      "w1_pct": 11.59,
+      "m1_pct": 5.8,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 89.78,
-      "d1_pct": 0.98,
-      "w1_pct": 13.0,
-      "m1_pct": 5.96,
+      "price": 89.64,
+      "d1_pct": 0.82,
+      "w1_pct": 12.83,
+      "m1_pct": 5.79,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.772,
-      "d1_pct": 0.18,
-      "w1_pct": 3.13,
-      "m1_pct": -4.55,
+      "price": 2.781,
+      "d1_pct": 0.51,
+      "w1_pct": 3.46,
+      "m1_pct": -4.24,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.652,
-      "d1_pct": 0.6,
-      "w1_pct": -0.76,
-      "m1_pct": 5.09,
+      "price": 6.636,
+      "d1_pct": 0.36,
+      "w1_pct": -1.0,
+      "m1_pct": 4.83,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 635.0,
-      "d1_pct": 0.75,
-      "w1_pct": -1.13,
-      "m1_pct": 0.59,
+      "price": 643.0,
+      "d1_pct": 2.02,
+      "w1_pct": 0.12,
+      "m1_pct": 1.86,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 461.75,
-      "d1_pct": 5.72,
-      "w1_pct": 5.72,
-      "m1_pct": 6.46,
+      "price": 463.0,
+      "d1_pct": 6.01,
+      "w1_pct": 6.01,
+      "m1_pct": 6.74,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,58 +223,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1538,
-      "d1_pct": -0.07,
-      "w1_pct": 0.05,
-      "m1_pct": 1.35
+      "price": 1.1539,
+      "d1_pct": -0.06,
+      "w1_pct": 0.06,
+      "m1_pct": 1.36
     },
     "GBPUSD": {
       "price": 1.3505,
-      "d1_pct": -0.04,
+      "d1_pct": -0.05,
       "w1_pct": 0.4,
       "m1_pct": 1.18
     },
     "USDJPY": {
-      "price": 159.445,
-      "d1_pct": 0.18,
-      "w1_pct": 1.11,
-      "m1_pct": -1.84
-    },
-    "USDCHF": {
-      "price": 0.8122,
-      "d1_pct": 0.29,
-      "w1_pct": 0.38,
-      "m1_pct": -0.31
-    },
-    "AUDUSD": {
-      "price": 0.7059,
-      "d1_pct": 0.05,
-      "w1_pct": 0.18,
-      "m1_pct": 2.04
-    },
-    "NZDUSD": {
-      "price": 0.5869,
-      "d1_pct": -0.32,
-      "w1_pct": -0.12,
-      "m1_pct": 1.84
-    },
-    "USDCAD": {
-      "price": 1.393,
-      "d1_pct": -0.03,
-      "w1_pct": -0.97,
-      "m1_pct": -1.55
-    },
-    "USDSEK": {
-      "price": 9.5329,
-      "d1_pct": 0.5,
-      "w1_pct": 0.19,
+      "price": 159.389,
+      "d1_pct": 0.15,
+      "w1_pct": 1.08,
       "m1_pct": -1.87
     },
+    "USDCHF": {
+      "price": 0.8121,
+      "d1_pct": 0.28,
+      "w1_pct": 0.36,
+      "m1_pct": -0.33
+    },
+    "AUDUSD": {
+      "price": 0.7061,
+      "d1_pct": 0.08,
+      "w1_pct": 0.2,
+      "m1_pct": 2.06
+    },
+    "NZDUSD": {
+      "price": 0.5868,
+      "d1_pct": -0.34,
+      "w1_pct": -0.14,
+      "m1_pct": 1.82
+    },
+    "USDCAD": {
+      "price": 1.3926,
+      "d1_pct": -0.05,
+      "w1_pct": -0.99,
+      "m1_pct": -1.58
+    },
+    "USDSEK": {
+      "price": 9.5271,
+      "d1_pct": 0.44,
+      "w1_pct": 0.13,
+      "m1_pct": -1.93
+    },
     "USDNOK": {
-      "price": 9.4917,
-      "d1_pct": 0.02,
-      "w1_pct": -0.46,
-      "m1_pct": -2.93
+      "price": 9.4968,
+      "d1_pct": 0.08,
+      "w1_pct": -0.41,
+      "m1_pct": -2.88
     },
     "USDCNY": {
       "price": 6.7456,
@@ -283,10 +283,10 @@
       "m1_pct": -0.5
     },
     "USDMXN": {
-      "price": 17.057,
-      "d1_pct": -0.45,
-      "w1_pct": -1.15,
-      "m1_pct": -2.64
+      "price": 17.0621,
+      "d1_pct": -0.42,
+      "w1_pct": -1.12,
+      "m1_pct": -2.61
     },
     "USDBRL": {
       "price": 5.1573,
@@ -295,46 +295,46 @@
       "m1_pct": 0.18
     },
     "USDZAR": {
-      "price": 16.1908,
-      "d1_pct": 0.03,
-      "w1_pct": -1.17,
-      "m1_pct": -1.68
+      "price": 16.1835,
+      "d1_pct": -0.01,
+      "w1_pct": -1.22,
+      "m1_pct": -1.73
     },
     "USDINR": {
-      "price": 95.4025,
-      "d1_pct": 0.01,
-      "w1_pct": 0.32,
-      "m1_pct": -0.93
+      "price": 95.42,
+      "d1_pct": 0.02,
+      "w1_pct": 0.34,
+      "m1_pct": -0.91
     },
     "USDKRW": {
-      "price": 1415.01,
-      "d1_pct": -0.16,
-      "w1_pct": -0.94,
-      "m1_pct": -5.52
+      "price": 1416.08,
+      "d1_pct": -0.09,
+      "w1_pct": -0.86,
+      "m1_pct": -5.45
     },
     "USDTRY": {
-      "price": 47.7512,
+      "price": 47.7538,
       "d1_pct": 0.06,
-      "w1_pct": 0.38,
+      "w1_pct": 0.39,
       "m1_pct": 1.55
     },
     "USDPLN": {
-      "price": 3.7286,
-      "d1_pct": 0.15,
-      "w1_pct": 0.13,
-      "m1_pct": -1.99
+      "price": 3.7271,
+      "d1_pct": 0.11,
+      "w1_pct": 0.09,
+      "m1_pct": -2.03
     },
     "USDHUF": {
-      "price": 316.35,
+      "price": 316.36,
       "d1_pct": 0.42,
       "w1_pct": 1.16,
       "m1_pct": 0.62
     },
     "USDCZK": {
-      "price": 21.016,
-      "d1_pct": 0.14,
-      "w1_pct": 0.27,
-      "m1_pct": -1.39
+      "price": 21.023,
+      "d1_pct": 0.17,
+      "w1_pct": 0.3,
+      "m1_pct": -1.36
     },
     "USDSGD": {
       "price": 1.2806,
@@ -343,22 +343,22 @@
       "m1_pct": -1.04
     },
     "USDIDR": {
-      "price": 17865.0,
-      "d1_pct": 0.42,
-      "w1_pct": -0.55,
-      "m1_pct": -1.36
+      "price": 17867.0,
+      "d1_pct": 0.43,
+      "w1_pct": -0.53,
+      "m1_pct": -1.35
     },
     "USDTHB": {
-      "price": 33.08,
-      "d1_pct": 0.3,
-      "w1_pct": -0.45,
-      "m1_pct": -1.28
+      "price": 33.09,
+      "d1_pct": 0.33,
+      "w1_pct": -0.42,
+      "m1_pct": -1.25
     },
     "DXY": {
-      "price": 99.89,
-      "d1_pct": 0.07,
-      "w1_pct": 0.2,
-      "m1_pct": -1.04
+      "price": 99.876,
+      "d1_pct": 0.06,
+      "w1_pct": 0.19,
+      "m1_pct": -1.05
     }
   },
   "volatility": {
@@ -509,10 +509,17 @@
       "category": "general"
     },
     {
-      "headline": "First 'pounds for pylons' energy bill discount sites revealed",
+      "headline": "PM admits cost of living help is not enough and hints at further support",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cgmkee248vdo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1786508025,
+      "category": "general"
+    },
+    {
+      "headline": "Homes near pylons to get \u00a3250 a year off energy bills \u2013 first sites revealed",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c8rn42jp7d6o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1786489384,
+      "datetime": 1786511071,
       "category": "general"
     },
     {
@@ -537,13 +544,6 @@
       "category": "general"
     },
     {
-      "headline": "AI agent hacks gym to get its user a spot in pilates class",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1786450166,
-      "category": "general"
-    },
-    {
       "headline": "Tokenomics: Why making AI pay is tricky",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
@@ -551,31 +551,31 @@
       "category": "general"
     },
     {
+      "headline": "'I paid \u00a3400 for a Prada bag on Vinted - only to find it was fake'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cp308wy8zk9o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1786438138,
+      "category": "general"
+    },
+    {
+      "headline": "How affordable are Edinburgh's festivals?",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/czdmn1re7zgo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1786511099,
+      "category": "general"
+    },
+    {
+      "headline": "AI agent hacks gym to get its user a spot in pilates class",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1786450166,
+      "category": "general"
+    },
+    {
       "headline": "France bans unsolicited telemarketing calls",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
       "datetime": 1786457985,
-      "category": "general"
-    },
-    {
-      "headline": "More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/ce3q5nxpgk1o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1786435710,
-      "category": "general"
-    },
-    {
-      "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1786437892,
-      "category": "general"
-    },
-    {
-      "headline": "Eclipse chasers scramble for glasses as stocks run low",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/clyqxx27620o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1786465903,
       "category": "general"
     }
   ],
