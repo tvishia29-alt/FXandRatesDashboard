@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:21:07.216414Z",
+  "generated_at": "2026-08-15T04:08:21.900160Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.362,
       "y7": null,
-      "y10": null,
+      "y10": 4.696,
       "y20": null,
       "y30": 5.265
     },
@@ -27,6 +27,12 @@
         "change_pct": 1.14,
         "timestamp": "2026-08-14 00:00:00"
       },
+      "US_10Y": {
+        "price": 4.696,
+        "prev_close": 4.641,
+        "change_pct": 1.19,
+        "timestamp": "2026-08-14 00:00:00"
+      },
       "US_30Y": {
         "price": 5.265,
         "prev_close": 5.213,
@@ -37,17 +43,17 @@
   },
   "commodities": {
     "gold": {
-      "price": 4432.0,
-      "d1_pct": 1.57,
-      "w1_pct": 2.1,
-      "m1_pct": 11.2,
+      "price": 4380.3999,
+      "d1_pct": 0.38,
+      "w1_pct": 0.91,
+      "m1_pct": 9.91,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 64.825,
-      "d1_pct": -0.07,
-      "w1_pct": 2.36,
-      "m1_pct": 15.97,
+      "price": 64.988,
+      "d1_pct": 0.18,
+      "w1_pct": 2.61,
+      "m1_pct": 16.26,
       "unit": "$/oz"
     },
     "wti": {
@@ -58,38 +64,38 @@
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 88.59,
-      "d1_pct": 1.75,
-      "w1_pct": 6.03,
-      "m1_pct": 5.18,
+      "price": 88.52,
+      "d1_pct": 1.67,
+      "w1_pct": 5.95,
+      "m1_pct": 5.09,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.715,
-      "d1_pct": -0.44,
-      "w1_pct": 1.99,
-      "m1_pct": -5.0,
+      "price": 2.733,
+      "d1_pct": 0.22,
+      "w1_pct": 2.67,
+      "m1_pct": -4.37,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.6065,
-      "d1_pct": 0.21,
-      "w1_pct": 0.55,
-      "m1_pct": 4.93,
+      "price": 6.5995,
+      "d1_pct": 0.11,
+      "w1_pct": 0.44,
+      "m1_pct": 4.82,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 689.0,
-      "d1_pct": 5.55,
-      "w1_pct": 7.7,
-      "m1_pct": 2.11,
+      "price": 674.75,
+      "d1_pct": 3.37,
+      "w1_pct": 5.47,
+      "m1_pct": 0.0,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 483.75,
-      "d1_pct": 7.98,
-      "w1_pct": 10.19,
-      "m1_pct": 9.57,
+      "price": 459.0,
+      "d1_pct": 2.46,
+      "w1_pct": 4.56,
+      "m1_pct": 3.96,
       "unit": "\u00a2/bu"
     }
   },
@@ -140,7 +146,7 @@
       "price": 44.16,
       "d1_pct": 0.45,
       "w1_pct": 0.32,
-      "m1_pct": 7.11
+      "m1_pct": 7.08
     },
     "UK Equities": {
       "price": 48.26,
@@ -271,10 +277,10 @@
       "m1_pct": -2.41
     },
     "USDCNY": {
-      "price": 6.7407,
-      "d1_pct": -0.03,
-      "w1_pct": -0.1,
-      "m1_pct": -0.47
+      "price": 6.7419,
+      "d1_pct": -0.01,
+      "w1_pct": -0.08,
+      "m1_pct": -0.45
     },
     "USDMXN": {
       "price": 17.015,
@@ -284,9 +290,9 @@
     },
     "USDBRL": {
       "price": 5.2132,
-      "d1_pct": 0.34,
-      "w1_pct": 1.78,
-      "m1_pct": 2.4
+      "d1_pct": 0.26,
+      "w1_pct": 2.57,
+      "m1_pct": 1.95
     },
     "USDZAR": {
       "price": 16.1645,
@@ -295,16 +301,16 @@
       "m1_pct": -1.44
     },
     "USDINR": {
-      "price": 95.415,
-      "d1_pct": 0.01,
-      "w1_pct": 0.22,
-      "m1_pct": -1.28
+      "price": 95.43,
+      "d1_pct": 0.03,
+      "w1_pct": 0.23,
+      "m1_pct": -1.26
     },
     "USDKRW": {
-      "price": 1416.48,
-      "d1_pct": -0.03,
-      "w1_pct": 0.67,
-      "m1_pct": -4.22
+      "price": 1412.0,
+      "d1_pct": -0.34,
+      "w1_pct": 0.36,
+      "m1_pct": -4.52
     },
     "USDTRY": {
       "price": 47.8791,
@@ -337,10 +343,10 @@
       "m1_pct": -0.87
     },
     "USDIDR": {
-      "price": 17831.0,
-      "d1_pct": -0.18,
-      "w1_pct": 0.21,
-      "m1_pct": -0.86
+      "price": 17820.0,
+      "d1_pct": -0.24,
+      "w1_pct": 0.15,
+      "m1_pct": -0.92
     },
     "USDTHB": {
       "price": 33.09,
@@ -349,10 +355,10 @@
       "m1_pct": -1.31
     },
     "DXY": {
-      "price": 99.636,
-      "d1_pct": -0.32,
-      "w1_pct": 0.04,
-      "m1_pct": -1.09
+      "price": 99.67,
+      "d1_pct": -0.29,
+      "w1_pct": 0.07,
+      "m1_pct": -1.05
     }
   },
   "volatility": {
@@ -394,7 +400,7 @@
       "price": 93.04,
       "d1_pct": -0.28,
       "w1_pct": -0.14,
-      "m1_pct": -0.38,
+      "m1_pct": -0.45,
       "country": "US",
       "duration": "medium"
     },
@@ -510,10 +516,10 @@
       "category": "general"
     },
     {
-      "headline": "Temporary ban on sale of disposable BBQs over wildfire risk",
+      "headline": "Temporary ban on disposable BBQs as military deployed to help battle wildfires",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1786735036,
+      "datetime": 1786766311,
       "category": "general"
     },
     {
