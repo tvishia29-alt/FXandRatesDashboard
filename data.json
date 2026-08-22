@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T00:06:58.504099Z",
+  "generated_at": "2026-08-22T02:22:16.195622Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,39 +39,6 @@
         "change_pct": 0.74,
         "timestamp": "2026-08-21 00:00:00"
       }
-    },
-    "UK": {
-      "y2": 4.371,
-      "y10": 5.0648,
-      "y30": 5.8104
-    },
-    "Eurozone": {
-      "y2": 2.8564,
-      "y10": 3.2757,
-      "y30": 3.763
-    },
-    "Japan": {
-      "y2": 1.6713,
-      "y10": 2.8747,
-      "y30": 4.0647
-    },
-    "Italy": {
-      "y2": 3.0364,
-      "y10": 4.0872
-    },
-    "France": {
-      "y10": 4.1329
-    },
-    "Spain": {
-      "y10": 3.7017
-    },
-    "Canada": {
-      "y2": 3.0399,
-      "y10": 3.7627
-    },
-    "Australia": {
-      "y2": 4.6026,
-      "y10": 5.0406
     }
   },
   "commodities": {
@@ -549,10 +516,10 @@
       "category": "general"
     },
     {
-      "headline": "Canada 'should fight' as US trade deadline looms, Manitoba premier says",
+      "headline": "'We have more work to do', says Canada negotiator as US trade deadline looms",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787347634,
+      "datetime": 1787359247,
       "category": "general"
     },
     {
@@ -1470,166 +1437,5 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {
-    "us2y": {
-      "value": 4.24,
-      "change": 0.038,
-      "pct_change": 0.9043,
-      "date": "2026-08-21",
-      "label": "US 2Y",
-      "country": "US"
-    },
-    "us10y": {
-      "value": 4.736,
-      "change": 0.03,
-      "pct_change": 0.6375,
-      "date": "2026-08-21",
-      "label": "US 10Y",
-      "country": "US"
-    },
-    "us30y": {
-      "value": 5.275,
-      "change": 0.024,
-      "pct_change": 0.4571,
-      "date": "2026-08-21",
-      "label": "US 30Y",
-      "country": "US"
-    },
-    "uk2y": {
-      "value": 4.371,
-      "change": -0.0101,
-      "pct_change": -0.2305,
-      "date": "2026-08-21",
-      "label": "UK 2Y",
-      "country": "UK"
-    },
-    "uk10y": {
-      "value": 5.0648,
-      "change": -0.005,
-      "pct_change": -0.0986,
-      "date": "2026-08-21",
-      "label": "UK 10Y",
-      "country": "UK"
-    },
-    "uk30y": {
-      "value": 5.8104,
-      "change": 0.0046,
-      "pct_change": 0.0792,
-      "date": "2026-08-21",
-      "label": "UK 30Y",
-      "country": "UK"
-    },
-    "de2y": {
-      "value": 2.8564,
-      "change": -0.0033,
-      "pct_change": -0.1154,
-      "date": "2026-08-21",
-      "label": "Germany 2Y",
-      "country": "Eurozone"
-    },
-    "de10y": {
-      "value": 3.2757,
-      "change": 0.0004,
-      "pct_change": 0.0122,
-      "date": "2026-08-21",
-      "label": "Germany 10Y",
-      "country": "Eurozone"
-    },
-    "de30y": {
-      "value": 3.763,
-      "change": 0.0017,
-      "pct_change": 0.0452,
-      "date": "2026-08-21",
-      "label": "Germany 30Y",
-      "country": "Eurozone"
-    },
-    "jp2y": {
-      "value": 1.6713,
-      "change": -0.0073,
-      "pct_change": -0.4349,
-      "date": "2026-08-21",
-      "label": "Japan 2Y",
-      "country": "Japan"
-    },
-    "jp10y": {
-      "value": 2.8747,
-      "change": 0.0217,
-      "pct_change": 0.7606,
-      "date": "2026-08-21",
-      "label": "Japan 10Y",
-      "country": "Japan"
-    },
-    "jp30y": {
-      "value": 4.0647,
-      "change": 0.0517,
-      "pct_change": 1.2883,
-      "date": "2026-08-21",
-      "label": "Japan 30Y",
-      "country": "Japan"
-    },
-    "it2y": {
-      "value": 3.0364,
-      "change": -0.0118,
-      "pct_change": -0.3871,
-      "date": "2026-08-21",
-      "label": "Italy 2Y",
-      "country": "Eurozone"
-    },
-    "it10y": {
-      "value": 4.0872,
-      "change": 0.0205,
-      "pct_change": 0.5041,
-      "date": "2026-08-21",
-      "label": "Italy 10Y",
-      "country": "Eurozone"
-    },
-    "fr10y": {
-      "value": 4.1329,
-      "change": 0.0071,
-      "pct_change": 0.1721,
-      "date": "2026-08-21",
-      "label": "France 10Y",
-      "country": "Eurozone"
-    },
-    "es10y": {
-      "value": 3.7017,
-      "change": 0.008,
-      "pct_change": 0.2166,
-      "date": "2026-08-21",
-      "label": "Spain 10Y",
-      "country": "Eurozone"
-    },
-    "ca2y": {
-      "value": 3.0399,
-      "change": 0.0111,
-      "pct_change": 0.3665,
-      "date": "2026-08-21",
-      "label": "Canada 2Y",
-      "country": "Canada"
-    },
-    "ca10y": {
-      "value": 3.7627,
-      "change": 0.0102,
-      "pct_change": 0.2718,
-      "date": "2026-08-21",
-      "label": "Canada 10Y",
-      "country": "Canada"
-    },
-    "au2y": {
-      "value": 4.6026,
-      "change": 0.04,
-      "pct_change": 0.8767,
-      "date": "2026-08-21",
-      "label": "Australia 2Y",
-      "country": "Australia"
-    },
-    "au10y": {
-      "value": 5.0406,
-      "change": 0.0549,
-      "pct_change": 1.1011,
-      "date": "2026-08-21",
-      "label": "Australia 10Y",
-      "country": "Australia"
-    }
-  }
+  "gov_bonds": {}
 }
