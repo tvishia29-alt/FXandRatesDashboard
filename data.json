@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:48:20.748567Z",
+  "generated_at": "2026-08-26T23:02:57.031997Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.381,
       "y7": null,
-      "y10": 4.664,
+      "y10": null,
       "y20": null,
       "y30": 5.186
     },
@@ -27,12 +27,6 @@
         "change_pct": 0.69,
         "timestamp": "2026-08-26 00:00:00"
       },
-      "US_10Y": {
-        "price": 4.664,
-        "prev_close": 4.639,
-        "change_pct": 0.54,
-        "timestamp": "2026-08-26 00:00:00"
-      },
       "US_30Y": {
         "price": 5.186,
         "prev_close": 5.174,
@@ -43,45 +37,45 @@
   },
   "commodities": {
     "gold": {
-      "price": 4648.0,
-      "d1_pct": 0.21,
-      "w1_pct": 3.53,
-      "m1_pct": 15.15,
+      "price": 4661.8999,
+      "d1_pct": 0.51,
+      "w1_pct": 3.84,
+      "m1_pct": 15.5,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 68.02,
-      "d1_pct": -0.9,
-      "w1_pct": 3.48,
-      "m1_pct": 18.72,
+      "price": 68.73,
+      "d1_pct": 0.14,
+      "w1_pct": 4.56,
+      "m1_pct": 19.96,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 81.78,
-      "d1_pct": -0.7,
-      "w1_pct": -4.72,
-      "m1_pct": 3.18,
+      "price": 81.85,
+      "d1_pct": -0.62,
+      "w1_pct": -4.64,
+      "m1_pct": 3.27,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 86.45,
-      "d1_pct": -2.4,
-      "w1_pct": -5.64,
-      "m1_pct": 2.81,
+      "price": 86.6,
+      "d1_pct": -2.24,
+      "w1_pct": -5.48,
+      "m1_pct": 2.98,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.899,
-      "d1_pct": 4.66,
-      "w1_pct": 3.02,
-      "m1_pct": 8.9,
+      "price": 2.906,
+      "d1_pct": 4.91,
+      "w1_pct": 3.27,
+      "m1_pct": 9.17,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.696,
-      "d1_pct": -0.2,
-      "w1_pct": 3.21,
-      "m1_pct": 5.92,
+      "price": 6.716,
+      "d1_pct": 0.1,
+      "w1_pct": 3.52,
+      "m1_pct": 6.23,
       "unit": "$/lb"
     },
     "wheat": {
@@ -224,139 +218,139 @@
   "fx": {
     "EURUSD": {
       "price": 1.1658,
-      "d1_pct": -0.09,
-      "w1_pct": 0.68,
-      "m1_pct": 2.54
+      "d1_pct": -0.15,
+      "w1_pct": -0.14,
+      "m1_pct": 2.38
     },
     "GBPUSD": {
-      "price": 1.3595,
-      "d1_pct": -0.32,
-      "w1_pct": 0.43,
-      "m1_pct": 2.3
+      "price": 1.3596,
+      "d1_pct": -0.37,
+      "w1_pct": -0.03,
+      "m1_pct": 2.32
     },
     "USDJPY": {
-      "price": 159.322,
-      "d1_pct": 0.11,
-      "w1_pct": -0.14,
-      "m1_pct": -2.72
+      "price": 159.247,
+      "d1_pct": 0.02,
+      "w1_pct": 0.61,
+      "m1_pct": -2.82
     },
     "USDCHF": {
-      "price": 0.8054,
+      "price": 0.8051,
       "d1_pct": 0.42,
-      "w1_pct": -0.85,
-      "m1_pct": -1.7
+      "w1_pct": 0.91,
+      "m1_pct": -1.76
     },
     "AUDUSD": {
-      "price": 0.7176,
-      "d1_pct": 0.3,
-      "w1_pct": 1.34,
-      "m1_pct": 2.7
+      "price": 0.7183,
+      "d1_pct": 0.24,
+      "w1_pct": 0.81,
+      "m1_pct": 2.99
     },
     "NZDUSD": {
-      "price": 0.5944,
-      "d1_pct": -0.36,
-      "w1_pct": 1.21,
-      "m1_pct": 3.01
+      "price": 0.5948,
+      "d1_pct": -0.47,
+      "w1_pct": 0.21,
+      "m1_pct": 2.87
     },
     "USDCAD": {
-      "price": 1.3877,
-      "d1_pct": 0.26,
-      "w1_pct": -0.15,
-      "m1_pct": -1.75
+      "price": 1.3875,
+      "d1_pct": 0.28,
+      "w1_pct": 0.47,
+      "m1_pct": -1.64
     },
     "USDSEK": {
-      "price": 9.5302,
-      "d1_pct": 0.42,
-      "w1_pct": -0.05,
-      "m1_pct": -1.96
+      "price": 9.5257,
+      "d1_pct": 0.78,
+      "w1_pct": 0.9,
+      "m1_pct": -1.71
     },
     "USDNOK": {
-      "price": 9.3455,
-      "d1_pct": 0.51,
-      "w1_pct": -0.64,
-      "m1_pct": -3.25
+      "price": 9.3446,
+      "d1_pct": 0.32,
+      "w1_pct": 0.16,
+      "m1_pct": -3.48
     },
     "USDCNY": {
-      "price": 6.722,
-      "d1_pct": 0.0,
-      "w1_pct": -0.31,
-      "m1_pct": -0.65
+      "price": 6.7203,
+      "d1_pct": -0.02,
+      "w1_pct": -0.33,
+      "m1_pct": -0.67
     },
     "USDMXN": {
-      "price": 16.948,
-      "d1_pct": 0.02,
-      "w1_pct": -0.66,
-      "m1_pct": -2.83
+      "price": 16.938,
+      "d1_pct": -0.03,
+      "w1_pct": -0.08,
+      "m1_pct": -2.86
     },
     "USDBRL": {
-      "price": 5.1517,
-      "d1_pct": -0.05,
-      "w1_pct": -1.2,
-      "m1_pct": 0.56
+      "price": 5.1464,
+      "d1_pct": -0.15,
+      "w1_pct": -1.3,
+      "m1_pct": 0.46
     },
     "USDZAR": {
-      "price": 15.9586,
-      "d1_pct": -0.21,
-      "w1_pct": -1.81,
-      "m1_pct": -4.89
+      "price": 15.9393,
+      "d1_pct": 0.09,
+      "w1_pct": -0.94,
+      "m1_pct": -4.57
     },
     "USDINR": {
-      "price": 95.402,
-      "d1_pct": -0.34,
-      "w1_pct": -0.43,
-      "m1_pct": -0.39
+      "price": 93.5461,
+      "d1_pct": -2.27,
+      "w1_pct": -2.37,
+      "m1_pct": -2.33
     },
     "USDKRW": {
-      "price": 1384.89,
-      "d1_pct": 0.3,
-      "w1_pct": -2.03,
-      "m1_pct": -5.43
+      "price": 1384.79,
+      "d1_pct": 0.24,
+      "w1_pct": -0.33,
+      "m1_pct": -4.7
     },
     "USDTRY": {
-      "price": 48.1042,
-      "d1_pct": 0.06,
-      "w1_pct": 0.41,
-      "m1_pct": 1.58
+      "price": 48.1232,
+      "d1_pct": 0.03,
+      "w1_pct": 0.37,
+      "m1_pct": 1.56
     },
     "USDPLN": {
-      "price": 3.6989,
-      "d1_pct": 0.29,
-      "w1_pct": -0.86,
-      "m1_pct": -2.65
+      "price": 3.6952,
+      "d1_pct": 0.3,
+      "w1_pct": 0.01,
+      "m1_pct": -2.68
     },
     "USDHUF": {
-      "price": 310.47,
-      "d1_pct": -0.06,
-      "w1_pct": -1.62,
-      "m1_pct": -1.86
+      "price": 310.6,
+      "d1_pct": 0.55,
+      "w1_pct": -0.37,
+      "m1_pct": -1.59
     },
     "USDCZK": {
-      "price": 20.6987,
-      "d1_pct": 0.25,
-      "w1_pct": -0.87,
+      "price": 20.6888,
+      "d1_pct": 0.34,
+      "w1_pct": 0.07,
       "m1_pct": -2.5
     },
     "USDSGD": {
-      "price": 1.2718,
-      "d1_pct": 0.15,
-      "w1_pct": -0.51,
-      "m1_pct": -1.5
+      "price": 1.2714,
+      "d1_pct": 0.2,
+      "w1_pct": 0.01,
+      "m1_pct": -1.62
     },
     "USDIDR": {
-      "price": 17712.0,
-      "d1_pct": -0.01,
-      "w1_pct": -0.32,
-      "m1_pct": -1.89
+      "price": 17695.0,
+      "d1_pct": -0.11,
+      "w1_pct": -0.41,
+      "m1_pct": -1.98
     },
     "USDTHB": {
-      "price": 32.79,
-      "d1_pct": 0.37,
-      "w1_pct": -0.94,
-      "m1_pct": -2.53
+      "price": 32.77,
+      "d1_pct": 0.41,
+      "w1_pct": -0.27,
+      "m1_pct": -2.32
     },
     "DXY": {
-      "price": 99.132,
-      "d1_pct": 0.21,
+      "price": 99.134,
+      "d1_pct": 0.22,
       "w1_pct": 0.31,
       "m1_pct": -2.22
     }
@@ -413,18 +407,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.615,
-      "d1_pct": 0.21,
-      "w1_pct": 0.52,
-      "m1_pct": 0.0,
+      "price": 9.645,
+      "d1_pct": 0.52,
+      "w1_pct": 0.84,
+      "m1_pct": 0.31,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 134.68,
-      "d1_pct": 0.61,
-      "w1_pct": 0.91,
-      "m1_pct": -1.51,
+      "price": 134.86,
+      "d1_pct": 0.74,
+      "w1_pct": 1.05,
+      "m1_pct": -1.38,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -439,10 +433,52 @@
   },
   "news": [
     {
-      "headline": "Salesforce\u2019s stock surges as AI momentum fuels revenue growth",
+      "headline": "Salesforce\u2019s stock gets an Anthropic boost \u2014 and more highlights from earnings",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/salesforces-stock-surges-as-ai-momentums-fuel-revenue-growth-8c96eef3?mod=mw_rss_topstories",
-      "datetime": 1787775840,
+      "datetime": 1787784600,
+      "category": "general"
+    },
+    {
+      "headline": "Am I too old for Roth conversions? I\u2019m 84 and my wife is 77. We have $8 million saved.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+      "datetime": 1787783400,
+      "category": "general"
+    },
+    {
+      "headline": "I just had my first baby and don\u2019t want to go back to work. Is quitting for a year a bad idea?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-just-had-my-first-baby-and-dont-want-to-go-back-to-work-is-quitting-for-a-year-a-bad-idea-780122e6?mod=mw_rss_topstories",
+      "datetime": 1787783400,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018There is considerable tension\u2019: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
+      "datetime": 1787782500,
+      "category": "general"
+    },
+    {
+      "headline": "Meta dodges \u2018Big Tobacco\u2019 nightmare with $18 billion settlement in child-safety lawsuit",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/metas-stock-rises-as-the-company-settles-in-social-media-addiction-trial-78abdfbf?mod=mw_rss_topstories",
+      "datetime": 1787781480,
+      "category": "general"
+    },
+    {
+      "headline": "CrowdStrike\u2019s stock soars after AI fuels the cybersecurity company\u2019s \u2018best quarter in history\u2019",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/crowdstrikes-stock-soars-after-ai-fuels-the-cybersecurity-companys-best-quarter-ever-6aeae1d5?mod=mw_rss_topstories",
+      "datetime": 1787781360,
+      "category": "general"
+    },
+    {
+      "headline": "I\u2019m turning 70. Here\u2019s how I\u2019m making this decade the richest of my retirement.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
+      "datetime": 1787778540,
       "category": "general"
     },
     {
@@ -460,13 +496,6 @@
       "category": "general"
     },
     {
-      "headline": "I just had my first baby and don\u2019t want to go back to work. Is quitting for a year a bad idea?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-just-had-my-first-baby-and-dont-want-to-go-back-to-work-is-quitting-for-a-year-a-bad-idea-780122e6?mod=mw_rss_topstories",
-      "datetime": 1787772780,
-      "category": "general"
-    },
-    {
       "headline": "Are older Americans spoiling the economy for everyone else?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
@@ -474,38 +503,17 @@
       "category": "general"
     },
     {
-      "headline": "\u2018My main goal is to help people\u2019: I\u2019m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "datetime": 1787769900,
+      "headline": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787781825,
       "category": "general"
     },
     {
-      "headline": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-      "datetime": 1787768760,
-      "category": "general"
-    },
-    {
-      "headline": "5 affordable cities to retire in the U.S. right now",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-      "datetime": 1787767800,
-      "category": "general"
-    },
-    {
-      "headline": "I need to get out of my job, but I\u2019ve signed a noncompete. Can I still leave for a competitor?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-need-to-get-out-of-my-job-can-i-leave-for-a-competitor-if-ive-signed-a-non-compete-33d3164b?mod=mw_rss_topstories",
-      "datetime": 1787766240,
-      "category": "general"
-    },
-    {
-      "headline": "Two-thirds of parents are failing at this vital safety measure for their children",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/two-thirds-of-parents-dont-have-this-vital-document-they-need-in-case-of-emergency-7c54efb3?mod=mw_rss_topstories",
-      "datetime": 1787765820,
+      "headline": "Nvidia revenue doubles on continued AI demand ",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787780966,
       "category": "general"
     },
     {
@@ -526,21 +534,7 @@
       "headline": "Meta to pay up to $18bn to settle claims its platforms harm children",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787766279,
-      "category": "general"
-    },
-    {
-      "headline": "Reform proposes \u00a330 tax rebate for HMRC phone delays",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c804rd7leppo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787755262,
-      "category": "general"
-    },
-    {
-      "headline": "Back to school: How parents can save on uniform costs",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cedjqx6zdl0o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787699311,
+      "datetime": 1787779643,
       "category": "general"
     },
     {
@@ -548,6 +542,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cjrg10j721jo?at_medium=RSS&at_campaign=rss",
       "datetime": 1787699371,
+      "category": "general"
+    },
+    {
+      "headline": "Reform proposes \u00a330 tax rebate for HMRC phone delays",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c804rd7leppo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787755262,
       "category": "general"
     },
     {
@@ -565,17 +566,10 @@
       "category": "general"
     },
     {
-      "headline": "'Ironing board' seats to be replaced on Thameslink ",
+      "headline": "Back to school: How parents can save on uniform costs",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c0e31qdqrlyo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787763394,
-      "category": "general"
-    },
-    {
-      "headline": "AI gold rush draws crypto firms away from Bitcoin",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787699462,
+      "url": "https://www.bbc.co.uk/news/articles/cedjqx6zdl0o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787699311,
       "category": "general"
     }
   ],
