@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T00:11:00.136566Z",
+  "generated_at": "2026-08-29T02:05:30.791820Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,39 +39,6 @@
         "change_pct": 0.29,
         "timestamp": "2026-08-28 00:00:00"
       }
-    },
-    "UK": {
-      "y2": 4.4085,
-      "y10": 5.0696,
-      "y30": 5.7828
-    },
-    "Eurozone": {
-      "y2": 2.9046,
-      "y10": 3.2956,
-      "y30": 3.771
-    },
-    "Japan": {
-      "y2": 1.7031,
-      "y10": 2.9283,
-      "y30": 4.1253
-    },
-    "Italy": {
-      "y2": 3.1149,
-      "y10": 4.1131
-    },
-    "France": {
-      "y10": 4.1173
-    },
-    "Spain": {
-      "y10": 3.712
-    },
-    "Canada": {
-      "y2": 3.0154,
-      "y10": 3.7244
-    },
-    "Australia": {
-      "y2": 4.6975,
-      "y10": 5.0902
     }
   },
   "commodities": {
@@ -542,10 +509,17 @@
       "category": "general"
     },
     {
-      "headline": "I was spending \u00a3700 a month: How I beat my late-night shopping addiction",
+      "headline": "Trump says US has 'historic' deal to control 65bn barrels of Venezuela's oil",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787871861,
+      "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787966503,
+      "category": "general"
+    },
+    {
+      "headline": "Wife of man who died after turbulence sues airline",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787939220,
       "category": "general"
     },
     {
@@ -556,10 +530,24 @@
       "category": "general"
     },
     {
+      "headline": "I was spending \u00a3700 a month: How I beat my late-night shopping addiction",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787871861,
+      "category": "general"
+    },
+    {
       "headline": "Trump administration illegally retaliated against Anthropic, judge rules",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
       "datetime": 1787888519,
+      "category": "general"
+    },
+    {
+      "headline": "Overcooked? Why robotic pizza makers are failing",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1787872562,
       "category": "general"
     },
     {
@@ -577,13 +565,6 @@
       "category": "general"
     },
     {
-      "headline": "Overcooked? Why robotic pizza makers are failing",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787872562,
-      "category": "general"
-    },
-    {
       "headline": "'Not far enough' - US parents and teens on Meta's new limits for young users ",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss",
@@ -595,20 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cjdvl93e10jo?at_medium=RSS&at_campaign=rss",
       "datetime": 1787938717,
-      "category": "general"
-    },
-    {
-      "headline": "'Cowboy builders' targeted in new government clampdown",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z44982e4o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787914178,
-      "category": "general"
-    },
-    {
-      "headline": "Sports Direct founder attacks Burnham's 'populist' High Street plans",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cn74mm2jz8jo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1787902800,
       "category": "general"
     }
   ],
@@ -1470,166 +1437,5 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {
-    "us2y": {
-      "value": 4.352,
-      "change": 0.114,
-      "pct_change": 2.6899,
-      "date": "2026-08-28",
-      "label": "US 2Y",
-      "country": "US"
-    },
-    "us10y": {
-      "value": 4.717,
-      "change": 0.043,
-      "pct_change": 0.92,
-      "date": "2026-08-28",
-      "label": "US 10Y",
-      "country": "US"
-    },
-    "us30y": {
-      "value": 5.207,
-      "change": 0.011,
-      "pct_change": 0.2117,
-      "date": "2026-08-28",
-      "label": "US 30Y",
-      "country": "US"
-    },
-    "uk2y": {
-      "value": 4.4085,
-      "change": 0.0663,
-      "pct_change": 1.5269,
-      "date": "2026-08-28",
-      "label": "UK 2Y",
-      "country": "UK"
-    },
-    "uk10y": {
-      "value": 5.0696,
-      "change": 0.0481,
-      "pct_change": 0.9579,
-      "date": "2026-08-28",
-      "label": "UK 10Y",
-      "country": "UK"
-    },
-    "uk30y": {
-      "value": 5.7828,
-      "change": 0.025,
-      "pct_change": 0.4342,
-      "date": "2026-08-28",
-      "label": "UK 30Y",
-      "country": "UK"
-    },
-    "de2y": {
-      "value": 2.9046,
-      "change": 0.0435,
-      "pct_change": 1.5204,
-      "date": "2026-08-28",
-      "label": "Germany 2Y",
-      "country": "Eurozone"
-    },
-    "de10y": {
-      "value": 3.2956,
-      "change": 0.0279,
-      "pct_change": 0.8538,
-      "date": "2026-08-28",
-      "label": "Germany 10Y",
-      "country": "Eurozone"
-    },
-    "de30y": {
-      "value": 3.771,
-      "change": 0.0126,
-      "pct_change": 0.3352,
-      "date": "2026-08-28",
-      "label": "Germany 30Y",
-      "country": "Eurozone"
-    },
-    "jp2y": {
-      "value": 1.7031,
-      "change": 0.0102,
-      "pct_change": 0.6025,
-      "date": "2026-08-28",
-      "label": "Japan 2Y",
-      "country": "Japan"
-    },
-    "jp10y": {
-      "value": 2.9283,
-      "change": 0.0333,
-      "pct_change": 1.1503,
-      "date": "2026-08-28",
-      "label": "Japan 10Y",
-      "country": "Japan"
-    },
-    "jp30y": {
-      "value": 4.1253,
-      "change": 0.0593,
-      "pct_change": 1.4584,
-      "date": "2026-08-28",
-      "label": "Japan 30Y",
-      "country": "Japan"
-    },
-    "it2y": {
-      "value": 3.1149,
-      "change": 0.0667,
-      "pct_change": 2.1882,
-      "date": "2026-08-28",
-      "label": "Italy 2Y",
-      "country": "Eurozone"
-    },
-    "it10y": {
-      "value": 4.1131,
-      "change": 0.0398,
-      "pct_change": 0.9771,
-      "date": "2026-08-28",
-      "label": "Italy 10Y",
-      "country": "Eurozone"
-    },
-    "fr10y": {
-      "value": 4.1173,
-      "change": 0.0103,
-      "pct_change": 0.2508,
-      "date": "2026-08-28",
-      "label": "France 10Y",
-      "country": "Eurozone"
-    },
-    "es10y": {
-      "value": 3.712,
-      "change": 0.0207,
-      "pct_change": 0.5608,
-      "date": "2026-08-28",
-      "label": "Spain 10Y",
-      "country": "Eurozone"
-    },
-    "ca2y": {
-      "value": 3.0154,
-      "change": 0.0492,
-      "pct_change": 1.6587,
-      "date": "2026-08-28",
-      "label": "Canada 2Y",
-      "country": "Canada"
-    },
-    "ca10y": {
-      "value": 3.7244,
-      "change": 0.0153,
-      "pct_change": 0.4125,
-      "date": "2026-08-28",
-      "label": "Canada 10Y",
-      "country": "Canada"
-    },
-    "au2y": {
-      "value": 4.6975,
-      "change": -0.0103,
-      "pct_change": -0.2188,
-      "date": "2026-08-28",
-      "label": "Australia 2Y",
-      "country": "Australia"
-    },
-    "au10y": {
-      "value": 5.0902,
-      "change": 0.0089,
-      "pct_change": 0.1752,
-      "date": "2026-08-28",
-      "label": "Australia 10Y",
-      "country": "Australia"
-    }
-  }
+  "gov_bonds": {}
 }
