@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:19:37.159465Z",
+  "generated_at": "2026-08-29T00:11:00.136566Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -39,6 +39,39 @@
         "change_pct": 0.29,
         "timestamp": "2026-08-28 00:00:00"
       }
+    },
+    "UK": {
+      "y2": 4.4085,
+      "y10": 5.0696,
+      "y30": 5.7828
+    },
+    "Eurozone": {
+      "y2": 2.9046,
+      "y10": 3.2956,
+      "y30": 3.771
+    },
+    "Japan": {
+      "y2": 1.7031,
+      "y10": 2.9283,
+      "y30": 4.1253
+    },
+    "Italy": {
+      "y2": 3.1149,
+      "y10": 4.1131
+    },
+    "France": {
+      "y10": 4.1173
+    },
+    "Spain": {
+      "y10": 3.712
+    },
+    "Canada": {
+      "y2": 3.0154,
+      "y10": 3.7244
+    },
+    "Australia": {
+      "y2": 4.6975,
+      "y10": 5.0902
     }
   },
   "commodities": {
@@ -413,18 +446,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.6,
-      "d1_pct": -0.16,
-      "w1_pct": 0.23,
-      "m1_pct": 0.16,
+      "price": 9.615,
+      "d1_pct": -0.31,
+      "w1_pct": 0.18,
+      "m1_pct": -0.21,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 133.915,
-      "d1_pct": -0.57,
-      "w1_pct": 0.01,
-      "m1_pct": -1.85,
+      "price": 134.68,
+      "d1_pct": -0.13,
+      "w1_pct": 0.47,
+      "m1_pct": -1.94,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +471,13 @@
     }
   },
   "news": [
+    {
+      "headline": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+      "datetime": 1787958000,
+      "category": "general"
+    },
     {
       "headline": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
       "source": "MarketWatch",
@@ -499,13 +539,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/meet-generation-renter-young-americans-who-no-longer-expect-ever-to-own-a-home-3cff63a9?mod=mw_rss_topstories",
       "datetime": 1787943660,
-      "category": "general"
-    },
-    {
-      "headline": "Should I use my financial institution\u2019s \u2018free\u2019 advisers?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/should-i-use-my-financial-institutions-free-advisers-or-hire-an-independent-78b7eff4?mod=mw_rss_topstories",
-      "datetime": 1787936400,
       "category": "general"
     },
     {
@@ -1437,5 +1470,166 @@
   },
   "sentiment": {},
   "scenarios": {},
-  "gov_bonds": {}
+  "gov_bonds": {
+    "us2y": {
+      "value": 4.352,
+      "change": 0.114,
+      "pct_change": 2.6899,
+      "date": "2026-08-28",
+      "label": "US 2Y",
+      "country": "US"
+    },
+    "us10y": {
+      "value": 4.717,
+      "change": 0.043,
+      "pct_change": 0.92,
+      "date": "2026-08-28",
+      "label": "US 10Y",
+      "country": "US"
+    },
+    "us30y": {
+      "value": 5.207,
+      "change": 0.011,
+      "pct_change": 0.2117,
+      "date": "2026-08-28",
+      "label": "US 30Y",
+      "country": "US"
+    },
+    "uk2y": {
+      "value": 4.4085,
+      "change": 0.0663,
+      "pct_change": 1.5269,
+      "date": "2026-08-28",
+      "label": "UK 2Y",
+      "country": "UK"
+    },
+    "uk10y": {
+      "value": 5.0696,
+      "change": 0.0481,
+      "pct_change": 0.9579,
+      "date": "2026-08-28",
+      "label": "UK 10Y",
+      "country": "UK"
+    },
+    "uk30y": {
+      "value": 5.7828,
+      "change": 0.025,
+      "pct_change": 0.4342,
+      "date": "2026-08-28",
+      "label": "UK 30Y",
+      "country": "UK"
+    },
+    "de2y": {
+      "value": 2.9046,
+      "change": 0.0435,
+      "pct_change": 1.5204,
+      "date": "2026-08-28",
+      "label": "Germany 2Y",
+      "country": "Eurozone"
+    },
+    "de10y": {
+      "value": 3.2956,
+      "change": 0.0279,
+      "pct_change": 0.8538,
+      "date": "2026-08-28",
+      "label": "Germany 10Y",
+      "country": "Eurozone"
+    },
+    "de30y": {
+      "value": 3.771,
+      "change": 0.0126,
+      "pct_change": 0.3352,
+      "date": "2026-08-28",
+      "label": "Germany 30Y",
+      "country": "Eurozone"
+    },
+    "jp2y": {
+      "value": 1.7031,
+      "change": 0.0102,
+      "pct_change": 0.6025,
+      "date": "2026-08-28",
+      "label": "Japan 2Y",
+      "country": "Japan"
+    },
+    "jp10y": {
+      "value": 2.9283,
+      "change": 0.0333,
+      "pct_change": 1.1503,
+      "date": "2026-08-28",
+      "label": "Japan 10Y",
+      "country": "Japan"
+    },
+    "jp30y": {
+      "value": 4.1253,
+      "change": 0.0593,
+      "pct_change": 1.4584,
+      "date": "2026-08-28",
+      "label": "Japan 30Y",
+      "country": "Japan"
+    },
+    "it2y": {
+      "value": 3.1149,
+      "change": 0.0667,
+      "pct_change": 2.1882,
+      "date": "2026-08-28",
+      "label": "Italy 2Y",
+      "country": "Eurozone"
+    },
+    "it10y": {
+      "value": 4.1131,
+      "change": 0.0398,
+      "pct_change": 0.9771,
+      "date": "2026-08-28",
+      "label": "Italy 10Y",
+      "country": "Eurozone"
+    },
+    "fr10y": {
+      "value": 4.1173,
+      "change": 0.0103,
+      "pct_change": 0.2508,
+      "date": "2026-08-28",
+      "label": "France 10Y",
+      "country": "Eurozone"
+    },
+    "es10y": {
+      "value": 3.712,
+      "change": 0.0207,
+      "pct_change": 0.5608,
+      "date": "2026-08-28",
+      "label": "Spain 10Y",
+      "country": "Eurozone"
+    },
+    "ca2y": {
+      "value": 3.0154,
+      "change": 0.0492,
+      "pct_change": 1.6587,
+      "date": "2026-08-28",
+      "label": "Canada 2Y",
+      "country": "Canada"
+    },
+    "ca10y": {
+      "value": 3.7244,
+      "change": 0.0153,
+      "pct_change": 0.4125,
+      "date": "2026-08-28",
+      "label": "Canada 10Y",
+      "country": "Canada"
+    },
+    "au2y": {
+      "value": 4.6975,
+      "change": -0.0103,
+      "pct_change": -0.2188,
+      "date": "2026-08-28",
+      "label": "Australia 2Y",
+      "country": "Australia"
+    },
+    "au10y": {
+      "value": 5.0902,
+      "change": 0.0089,
+      "pct_change": 0.1752,
+      "date": "2026-08-28",
+      "label": "Australia 10Y",
+      "country": "Australia"
+    }
+  }
 }
