@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:38:13.319144Z",
+  "generated_at": "2026-08-31T11:15:33.263232Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.481,
       "y7": null,
-      "y10": null,
+      "y10": 4.72,
       "y20": null,
       "y30": 5.206
     },
@@ -27,6 +27,12 @@
         "change_pct": 1.93,
         "timestamp": "2026-08-28 00:00:00"
       },
+      "US_10Y": {
+        "price": 4.72,
+        "prev_close": 4.672,
+        "change_pct": 1.03,
+        "timestamp": "2026-08-28 00:00:00"
+      },
       "US_30Y": {
         "price": 5.206,
         "prev_close": 5.191,
@@ -37,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4498.1001,
-      "d1_pct": 0.45,
-      "w1_pct": -3.07,
-      "m1_pct": 11.09,
+      "price": 4504.5,
+      "d1_pct": 0.59,
+      "w1_pct": -2.94,
+      "m1_pct": 11.25,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 67.68,
-      "d1_pct": 1.02,
-      "w1_pct": -1.26,
-      "m1_pct": 17.52,
+      "price": 67.935,
+      "d1_pct": 1.4,
+      "w1_pct": -0.88,
+      "m1_pct": 17.96,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 86.22,
-      "d1_pct": 3.38,
-      "w1_pct": 1.42,
-      "m1_pct": 1.83,
+      "price": 86.21,
+      "d1_pct": 3.37,
+      "w1_pct": 1.41,
+      "m1_pct": 1.82,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 88.63,
-      "d1_pct": -0.76,
-      "w1_pct": -3.84,
-      "m1_pct": -1.65,
+      "price": 88.62,
+      "d1_pct": -0.77,
+      "w1_pct": -3.85,
+      "m1_pct": -1.66,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.898,
-      "d1_pct": 0.35,
-      "w1_pct": 4.17,
-      "m1_pct": 5.5,
+      "price": 2.9,
+      "d1_pct": 0.42,
+      "w1_pct": 4.24,
+      "m1_pct": 5.57,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.665,
-      "d1_pct": 1.57,
-      "w1_pct": 1.0,
-      "m1_pct": 3.56,
+      "price": 6.6795,
+      "d1_pct": 1.79,
+      "w1_pct": 1.22,
+      "m1_pct": 3.78,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 772.5,
-      "d1_pct": 0.72,
-      "w1_pct": 13.31,
-      "m1_pct": 20.84,
+      "price": 772.75,
+      "d1_pct": 0.75,
+      "w1_pct": 13.35,
+      "m1_pct": 20.88,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 536.5,
-      "d1_pct": 4.79,
-      "w1_pct": 9.16,
-      "m1_pct": 21.72,
+      "price": 536.0,
+      "d1_pct": 4.69,
+      "w1_pct": 9.05,
+      "m1_pct": 21.61,
       "unit": "\u00a2/bu"
     }
   },
@@ -225,50 +231,50 @@
     "GBPUSD": {
       "price": 1.3541,
       "d1_pct": -0.41,
-      "w1_pct": -0.83,
-      "m1_pct": 0.59
+      "w1_pct": -0.82,
+      "m1_pct": 0.6
     },
     "USDJPY": {
-      "price": 159.736,
-      "d1_pct": 0.26,
-      "w1_pct": 0.52,
-      "m1_pct": -0.28
+      "price": 159.677,
+      "d1_pct": 0.22,
+      "w1_pct": 0.49,
+      "m1_pct": -0.32
     },
     "USDCHF": {
-      "price": 0.8086,
-      "d1_pct": 0.6,
-      "w1_pct": 1.0,
-      "m1_pct": 0.35
+      "price": 0.8085,
+      "d1_pct": 0.58,
+      "w1_pct": 0.98,
+      "m1_pct": 0.33
     },
     "AUDUSD": {
-      "price": 0.7161,
-      "d1_pct": -0.47,
-      "w1_pct": -0.14,
-      "m1_pct": 1.94
+      "price": 0.7159,
+      "d1_pct": -0.5,
+      "w1_pct": -0.17,
+      "m1_pct": 1.91
     },
     "NZDUSD": {
-      "price": 0.5916,
-      "d1_pct": -0.65,
-      "w1_pct": -1.03,
-      "m1_pct": 0.69
+      "price": 0.5914,
+      "d1_pct": -0.69,
+      "w1_pct": -1.06,
+      "m1_pct": 0.66
     },
     "USDCAD": {
-      "price": 1.3888,
-      "d1_pct": 0.26,
-      "w1_pct": 0.69,
-      "m1_pct": -0.88
+      "price": 1.3893,
+      "d1_pct": 0.3,
+      "w1_pct": 0.73,
+      "m1_pct": -0.85
     },
     "USDSEK": {
-      "price": 9.5859,
-      "d1_pct": 0.76,
-      "w1_pct": 1.23,
-      "m1_pct": 0.5
+      "price": 9.5816,
+      "d1_pct": 0.71,
+      "w1_pct": 1.18,
+      "m1_pct": 0.46
     },
     "USDNOK": {
-      "price": 9.3481,
-      "d1_pct": 0.32,
-      "w1_pct": 0.47,
-      "m1_pct": -1.91
+      "price": 9.3468,
+      "d1_pct": 0.31,
+      "w1_pct": 0.46,
+      "m1_pct": -1.93
     },
     "USDCNY": {
       "price": 6.7078,
@@ -277,10 +283,10 @@
       "m1_pct": -0.7
     },
     "USDMXN": {
-      "price": 17.0109,
-      "d1_pct": 0.28,
-      "w1_pct": 0.57,
-      "m1_pct": -1.92
+      "price": 17.0147,
+      "d1_pct": 0.3,
+      "w1_pct": 0.59,
+      "m1_pct": -1.9
     },
     "USDBRL": {
       "price": 5.206,
@@ -289,10 +295,10 @@
       "m1_pct": 2.52
     },
     "USDZAR": {
-      "price": 16.1314,
-      "d1_pct": 0.87,
-      "w1_pct": 0.86,
-      "m1_pct": -2.23
+      "price": 16.1208,
+      "d1_pct": 0.81,
+      "w1_pct": 0.79,
+      "m1_pct": -2.3
     },
     "USDINR": {
       "price": 95.152,
@@ -301,38 +307,38 @@
       "m1_pct": -0.56
     },
     "USDKRW": {
-      "price": 1368.0,
-      "d1_pct": -0.9,
-      "w1_pct": -1.23,
-      "m1_pct": -3.7
+      "price": 1367.47,
+      "d1_pct": -0.94,
+      "w1_pct": -1.26,
+      "m1_pct": -3.74
     },
     "USDTRY": {
-      "price": 48.256,
+      "price": 48.259,
       "d1_pct": 0.55,
       "w1_pct": 0.44,
       "m1_pct": 1.59
     },
     "USDPLN": {
-      "price": 3.7327,
-      "d1_pct": 0.44,
-      "w1_pct": 1.26,
-      "m1_pct": -0.08
+      "price": 3.7315,
+      "d1_pct": 0.41,
+      "w1_pct": 1.23,
+      "m1_pct": -0.11
     },
     "USDHUF": {
-      "price": 314.399,
-      "d1_pct": 0.63,
-      "w1_pct": 1.37,
-      "m1_pct": 0.04
+      "price": 314.283,
+      "d1_pct": 0.59,
+      "w1_pct": 1.34,
+      "m1_pct": 0.01
     },
     "USDCZK": {
-      "price": 20.7941,
-      "d1_pct": 0.52,
-      "w1_pct": 0.85,
-      "m1_pct": -0.92
+      "price": 20.7919,
+      "d1_pct": 0.51,
+      "w1_pct": 0.84,
+      "m1_pct": -0.93
     },
     "USDSGD": {
-      "price": 1.2726,
-      "d1_pct": 0.14,
+      "price": 1.2727,
+      "d1_pct": 0.15,
       "w1_pct": 0.27,
       "m1_pct": -0.73
     },
@@ -343,23 +349,23 @@
       "m1_pct": -1.83
     },
     "USDTHB": {
-      "price": 33.14,
-      "d1_pct": 0.85,
-      "w1_pct": 1.56,
-      "m1_pct": -0.69
+      "price": 33.15,
+      "d1_pct": 0.88,
+      "w1_pct": 1.59,
+      "m1_pct": -0.66
     },
     "DXY": {
-      "price": 99.524,
-      "d1_pct": -0.18,
-      "w1_pct": 0.53,
-      "m1_pct": -0.28
+      "price": 99.557,
+      "d1_pct": -0.14,
+      "w1_pct": 0.56,
+      "m1_pct": -0.24
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 15.23,
+      "price": 15.21,
       "prev_close": 14.43,
-      "change_pct": 5.54,
+      "change_pct": 5.41,
       "timestamp": "2026-08-31 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -433,6 +439,13 @@
   },
   "news": [
     {
+      "headline": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "datetime": 1788174000,
+      "category": "general"
+    },
+    {
       "headline": "Historic $7.5 million L.A. home restored by \u2018Rocky Horror\u2019 actor Tim Curry finds a buyer just hours after his death",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/historic-7-5-million-l-a-home-restored-by-rocky-horror-actor-tim-curry-finds-a-buyer-just-hours-after-his-death-4934687a?mod=mw_rss_topstories",
@@ -471,13 +484,6 @@
       "headline": "\u2018My main goal is to help people\u2019: I\u2019m single, 74, with $10 million burning a hole in my pocket. What should I do?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "datetime": 1788128100,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
       "datetime": 1788128100,
       "category": "general"
     },
@@ -664,7 +670,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Construction Spending MoM (Jul)",
       "prev": "-0.1%",
-      "fcast": "0.2%",
+      "fcast": "0%",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
@@ -700,7 +706,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "ISM Manufacturing PMI (Aug)",
       "prev": "55.6",
-      "fcast": "55.3",
+      "fcast": "55.2",
       "act": "\u2014",
       "imp": "red",
       "beat": null,
@@ -724,7 +730,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "JOLTs Job Openings (Jul)",
       "prev": "7.359M",
-      "fcast": "7.39M",
+      "fcast": "7.3M",
       "act": "\u2014",
       "imp": "red",
       "beat": null,
@@ -1072,7 +1078,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "Balance of Trade (Jul)",
       "prev": "-$73.3B",
-      "fcast": "-$86.4B",
+      "fcast": "-$90B",
       "act": "\u2014",
       "imp": "orange",
       "beat": null,
@@ -1216,7 +1222,7 @@
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "ISM Services PMI (Aug)",
       "prev": "54.1",
-      "fcast": "54.1",
+      "fcast": "54.3",
       "act": "\u2014",
       "imp": "red",
       "beat": null,
