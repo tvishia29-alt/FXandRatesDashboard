@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-09-09T12:46:58.838986Z",
+  "generated_at": "2026-09-09T13:16:38.807270Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 3.803,
+      "y3m": 3.805,
       "y6m": null,
       "y1": null,
-      "y2": 4.089,
+      "y2": 4.086,
       "y3": null,
-      "y5": 4.597,
+      "y5": 4.586,
       "y7": null,
-      "y10": 4.816,
+      "y10": 4.806,
       "y20": null,
-      "y30": 5.261
+      "y30": 5.251
     },
     "US_yf": {
       "US_3M": {
-        "price": 3.803,
+        "price": 3.805,
         "prev_close": 3.775,
-        "change_pct": 0.74,
+        "change_pct": 0.79,
         "timestamp": "2026-09-09 00:00:00"
       },
       "US_5Y": {
-        "price": 4.597,
+        "price": 4.586,
         "prev_close": 4.573,
-        "change_pct": 0.52,
+        "change_pct": 0.28,
         "timestamp": "2026-09-09 00:00:00"
       },
       "US_10Y": {
-        "price": 4.816,
+        "price": 4.806,
         "prev_close": 4.806,
-        "change_pct": 0.21,
+        "change_pct": 0.0,
         "timestamp": "2026-09-09 00:00:00"
       },
       "US_30Y": {
-        "price": 5.261,
+        "price": 5.251,
         "prev_close": 5.264,
-        "change_pct": -0.06,
+        "change_pct": -0.25,
         "timestamp": "2026-09-09 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4441.1001,
-      "d1_pct": 1.07,
-      "w1_pct": 2.14,
-      "m1_pct": 1.82,
+      "price": 4453.6001,
+      "d1_pct": 1.36,
+      "w1_pct": 2.43,
+      "m1_pct": 2.1,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 66.8,
-      "d1_pct": 0.76,
-      "w1_pct": 3.38,
-      "m1_pct": 2.6,
+      "price": 67.265,
+      "d1_pct": 1.46,
+      "w1_pct": 4.1,
+      "m1_pct": 3.32,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 95.85,
-      "d1_pct": 3.03,
-      "w1_pct": 6.24,
-      "m1_pct": 16.71,
+      "price": 95.53,
+      "d1_pct": 2.69,
+      "w1_pct": 5.89,
+      "m1_pct": 16.32,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 100.74,
-      "d1_pct": 2.88,
-      "w1_pct": 6.43,
-      "m1_pct": 14.84,
+      "price": 100.5,
+      "d1_pct": 2.63,
+      "w1_pct": 6.18,
+      "m1_pct": 14.57,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.861,
-      "d1_pct": -1.89,
-      "w1_pct": -1.48,
-      "m1_pct": 2.4,
+      "price": 2.845,
+      "d1_pct": -2.43,
+      "w1_pct": -2.03,
+      "m1_pct": 1.83,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.786,
-      "d1_pct": 0.7,
-      "w1_pct": 4.3,
-      "m1_pct": 2.9,
+      "price": 6.809,
+      "d1_pct": 1.04,
+      "w1_pct": 4.65,
+      "m1_pct": 3.25,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 745.25,
-      "d1_pct": 2.05,
-      "w1_pct": -2.45,
-      "m1_pct": 16.35,
+      "price": 746.5,
+      "d1_pct": 2.23,
+      "w1_pct": -2.29,
+      "m1_pct": 16.55,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 529.5,
-      "d1_pct": 3.62,
-      "w1_pct": 1.53,
-      "m1_pct": 20.82,
+      "price": 529.75,
+      "d1_pct": 3.67,
+      "w1_pct": 1.58,
+      "m1_pct": 20.88,
       "unit": "\u00a2/bu"
     }
   },
@@ -229,76 +229,76 @@
       "m1_pct": 0.91
     },
     "GBPUSD": {
-      "price": 1.3555,
-      "d1_pct": 0.06,
-      "w1_pct": 0.29,
-      "m1_pct": 0.32
+      "price": 1.3557,
+      "d1_pct": 0.07,
+      "w1_pct": 0.31,
+      "m1_pct": 0.34
     },
     "USDJPY": {
-      "price": 153.312,
-      "d1_pct": -0.35,
-      "w1_pct": -4.3,
-      "m1_pct": -3.67
+      "price": 153.264,
+      "d1_pct": -0.38,
+      "w1_pct": -4.33,
+      "m1_pct": -3.7
     },
     "USDCHF": {
-      "price": 0.8075,
-      "d1_pct": -0.19,
-      "w1_pct": -0.52,
-      "m1_pct": -0.29
+      "price": 0.8076,
+      "d1_pct": -0.17,
+      "w1_pct": -0.51,
+      "m1_pct": -0.28
     },
     "AUDUSD": {
-      "price": 0.7226,
-      "d1_pct": 0.07,
-      "w1_pct": 1.1,
-      "m1_pct": 2.42
+      "price": 0.7228,
+      "d1_pct": 0.1,
+      "w1_pct": 1.13,
+      "m1_pct": 2.45
     },
     "NZDUSD": {
-      "price": 0.5856,
-      "d1_pct": -0.45,
-      "w1_pct": -0.67,
-      "m1_pct": -0.54
+      "price": 0.5855,
+      "d1_pct": -0.46,
+      "w1_pct": -0.68,
+      "m1_pct": -0.56
     },
     "USDCAD": {
-      "price": 1.3773,
-      "d1_pct": -0.23,
-      "w1_pct": -0.87,
-      "m1_pct": -1.15
+      "price": 1.378,
+      "d1_pct": -0.18,
+      "w1_pct": -0.82,
+      "m1_pct": -1.1
     },
     "USDSEK": {
-      "price": 9.5693,
-      "d1_pct": -0.22,
-      "w1_pct": -0.48,
-      "m1_pct": 0.89
+      "price": 9.5751,
+      "d1_pct": -0.15,
+      "w1_pct": -0.42,
+      "m1_pct": 0.95
     },
     "USDNOK": {
-      "price": 9.1841,
-      "d1_pct": -0.87,
-      "w1_pct": -1.52,
-      "m1_pct": -3.22
+      "price": 9.1818,
+      "d1_pct": -0.9,
+      "w1_pct": -1.55,
+      "m1_pct": -3.24
     },
     "USDCNY": {
-      "price": 6.6949,
+      "price": 6.6947,
       "d1_pct": -0.24,
       "w1_pct": -0.38,
       "m1_pct": -0.78
     },
     "USDMXN": {
-      "price": 16.8973,
-      "d1_pct": -0.3,
-      "w1_pct": -0.55,
-      "m1_pct": -1.38
+      "price": 16.8913,
+      "d1_pct": -0.33,
+      "w1_pct": -0.58,
+      "m1_pct": -1.41
     },
     "USDBRL": {
-      "price": 5.0909,
-      "d1_pct": -0.7,
-      "w1_pct": -1.19,
-      "m1_pct": -0.3
+      "price": 5.0936,
+      "d1_pct": -0.65,
+      "w1_pct": -1.14,
+      "m1_pct": -0.24
     },
     "USDZAR": {
-      "price": 16.0308,
-      "d1_pct": 0.3,
-      "w1_pct": -0.77,
-      "m1_pct": -0.96
+      "price": 16.018,
+      "d1_pct": 0.22,
+      "w1_pct": -0.85,
+      "m1_pct": -1.04
     },
     "USDINR": {
       "price": 95.095,
@@ -307,40 +307,40 @@
       "m1_pct": -0.32
     },
     "USDKRW": {
-      "price": 1336.6,
+      "price": 1336.58,
       "d1_pct": -0.52,
       "w1_pct": -2.64,
-      "m1_pct": -5.69
+      "m1_pct": -5.7
     },
     "USDTRY": {
-      "price": 48.474,
+      "price": 48.4735,
       "d1_pct": 0.05,
       "w1_pct": 0.4,
       "m1_pct": 1.57
     },
     "USDPLN": {
-      "price": 3.7033,
-      "d1_pct": -0.03,
-      "w1_pct": -0.95,
-      "m1_pct": -0.52
+      "price": 3.7024,
+      "d1_pct": -0.06,
+      "w1_pct": -0.98,
+      "m1_pct": -0.55
     },
     "USDHUF": {
-      "price": 312.177,
-      "d1_pct": 0.02,
-      "w1_pct": -1.72,
-      "m1_pct": -0.91
+      "price": 311.968,
+      "d1_pct": -0.05,
+      "w1_pct": -1.79,
+      "m1_pct": -0.97
     },
     "USDCZK": {
-      "price": 20.8165,
-      "d1_pct": 0.1,
-      "w1_pct": -0.14,
+      "price": 20.8178,
+      "d1_pct": 0.11,
+      "w1_pct": -0.13,
       "m1_pct": -0.81
     },
     "USDSGD": {
-      "price": 1.2633,
-      "d1_pct": -0.17,
-      "w1_pct": -0.77,
-      "m1_pct": -1.33
+      "price": 1.2634,
+      "d1_pct": -0.16,
+      "w1_pct": -0.76,
+      "m1_pct": -1.32
     },
     "USDIDR": {
       "price": 17547.0,
@@ -349,23 +349,23 @@
       "m1_pct": -1.37
     },
     "USDTHB": {
-      "price": 32.87,
-      "d1_pct": 0.06,
-      "w1_pct": -1.22,
-      "m1_pct": -0.33
+      "price": 32.85,
+      "d1_pct": 0.0,
+      "w1_pct": -1.28,
+      "m1_pct": -0.39
     },
     "DXY": {
-      "price": 98.647,
-      "d1_pct": -0.2,
-      "w1_pct": -1.03,
-      "m1_pct": -1.17
+      "price": 98.653,
+      "d1_pct": -0.19,
+      "w1_pct": -1.02,
+      "m1_pct": -1.16
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 16.5,
+      "price": 16.2,
       "prev_close": 15.72,
-      "change_pct": 4.96,
+      "change_pct": 3.05,
       "timestamp": "2026-09-09 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.555,
-      "d1_pct": -0.29,
-      "w1_pct": 0.05,
-      "m1_pct": -1.16,
+      "price": 9.56,
+      "d1_pct": -0.23,
+      "w1_pct": 0.1,
+      "m1_pct": -1.11,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 132.3933,
-      "d1_pct": 0.03,
-      "w1_pct": -0.35,
-      "m1_pct": -3.28,
+      "price": 132.32,
+      "d1_pct": -0.03,
+      "w1_pct": -0.4,
+      "m1_pct": -3.34,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +438,13 @@
     }
   },
   "news": [
+    {
+      "headline": "Why UBS is telling investors to forget Europe\u2019s \u2018tired caricature\u2019 and buy its stocks",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-ubs-is-telling-investors-to-forget-europes-tired-caricature-and-buy-its-stocks-9787b780?mod=mw_rss_topstories",
+      "datetime": 1788958500,
+      "category": "general"
+    },
     {
       "headline": "Meta\u2019s stock jumps as new personal AI agent Muse addresses a major investor concern",
       "source": "MarketWatch",
@@ -457,13 +464,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/strategists-say-s-p-500-could-top-8-000-but-risks-of-a-pullback-are-mounting-e1629564?mod=mw_rss_topstories",
       "datetime": 1788953040,
-      "category": "general"
-    },
-    {
-      "headline": "Why UBS is telling investors to forget Europe\u2019s \u2018tired caricature\u2019 and buy its stocks",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-ubs-is-telling-investors-to-forget-europes-tired-caricature-and-buy-its-stocks-9787b780?mod=mw_rss_topstories",
-      "datetime": 1788951780,
       "category": "general"
     },
     {
@@ -575,7 +575,7 @@
       "headline": "More flights delayed after hundreds cancelled by air traffic control glitch",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1788952945,
+      "datetime": 1788958031,
       "category": "general"
     }
   ],
@@ -791,7 +791,7 @@
       "ev": "Redbook YoY (09/06)",
       "prev": "9.6%",
       "fcast": "\u2014",
-      "act": "\u2014",
+      "act": "8.3%",
       "imp": "orange",
       "beat": null,
       "source": "finviz"
