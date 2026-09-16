@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-09-16T12:48:32.234499Z",
+  "generated_at": "2026-09-16T13:17:41.149235Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 3.95,
+      "y3m": 3.947,
       "y6m": null,
       "y1": null,
       "y2": 4.256,
       "y3": null,
-      "y5": 4.801,
+      "y5": 4.804,
       "y7": null,
-      "y10": 4.979,
+      "y10": 4.984,
       "y20": null,
-      "y30": 5.352
+      "y30": 5.355
     },
     "US_yf": {
       "US_3M": {
-        "price": 3.95,
+        "price": 3.947,
         "prev_close": 3.96,
-        "change_pct": -0.25,
+        "change_pct": -0.33,
         "timestamp": "2026-09-16 00:00:00"
       },
       "US_5Y": {
-        "price": 4.801,
+        "price": 4.804,
         "prev_close": 4.826,
-        "change_pct": -0.52,
+        "change_pct": -0.46,
         "timestamp": "2026-09-16 00:00:00"
       },
       "US_10Y": {
-        "price": 4.979,
+        "price": 4.984,
         "prev_close": 4.996,
-        "change_pct": -0.34,
+        "change_pct": -0.24,
         "timestamp": "2026-09-16 00:00:00"
       },
       "US_30Y": {
-        "price": 5.352,
+        "price": 5.355,
         "prev_close": 5.364,
-        "change_pct": -0.22,
+        "change_pct": -0.17,
         "timestamp": "2026-09-16 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4380.2998,
-      "d1_pct": 1.1,
-      "w1_pct": -1.8,
-      "m1_pct": -2.09,
+      "price": 4389.0,
+      "d1_pct": 1.3,
+      "w1_pct": -1.61,
+      "m1_pct": -1.89,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 65.09,
-      "d1_pct": 2.93,
-      "w1_pct": -4.2,
-      "m1_pct": -1.56,
+      "price": 65.095,
+      "d1_pct": 2.94,
+      "w1_pct": -4.19,
+      "m1_pct": -1.55,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 103.91,
-      "d1_pct": -1.81,
-      "w1_pct": 8.18,
-      "m1_pct": 22.97,
+      "price": 103.82,
+      "d1_pct": -1.9,
+      "w1_pct": 8.09,
+      "m1_pct": 22.86,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 107.47,
-      "d1_pct": -1.18,
-      "w1_pct": 6.19,
-      "m1_pct": 18.27,
+      "price": 107.45,
+      "d1_pct": -1.2,
+      "w1_pct": 6.17,
+      "m1_pct": 18.25,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.967,
-      "d1_pct": 1.64,
-      "w1_pct": 5.14,
-      "m1_pct": 10.3,
+      "price": 2.966,
+      "d1_pct": 1.61,
+      "w1_pct": 5.1,
+      "m1_pct": 10.26,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.5095,
-      "d1_pct": 2.21,
-      "w1_pct": -4.32,
-      "m1_pct": -1.43,
+      "price": 6.495,
+      "d1_pct": 1.99,
+      "w1_pct": -4.53,
+      "m1_pct": -1.65,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 726.0,
-      "d1_pct": -0.34,
-      "w1_pct": 2.07,
-      "m1_pct": 7.6,
+      "price": 727.0,
+      "d1_pct": -0.21,
+      "w1_pct": 2.21,
+      "m1_pct": 7.74,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 534.25,
-      "d1_pct": -0.28,
-      "w1_pct": 5.22,
-      "m1_pct": 14.89,
+      "price": 535.25,
+      "d1_pct": -0.09,
+      "w1_pct": 5.42,
+      "m1_pct": 15.11,
       "unit": "\u00a2/bu"
     }
   },
@@ -229,16 +229,16 @@
       "m1_pct": -0.38
     },
     "GBPUSD": {
-      "price": 1.3455,
-      "d1_pct": -0.34,
-      "w1_pct": -0.66,
-      "m1_pct": -0.7
+      "price": 1.3459,
+      "d1_pct": -0.31,
+      "w1_pct": -0.63,
+      "m1_pct": -0.68
     },
     "USDJPY": {
-      "price": 155.124,
-      "d1_pct": 0.48,
-      "w1_pct": 1.07,
-      "m1_pct": -2.65
+      "price": 155.246,
+      "d1_pct": 0.56,
+      "w1_pct": 1.15,
+      "m1_pct": -2.57
     },
     "USDCHF": {
       "price": 0.8187,
@@ -248,33 +248,33 @@
     },
     "AUDUSD": {
       "price": 0.7134,
-      "d1_pct": -0.06,
-      "w1_pct": -1.2,
-      "m1_pct": 0.36
+      "d1_pct": -0.05,
+      "w1_pct": -1.19,
+      "m1_pct": 0.37
     },
     "NZDUSD": {
-      "price": 0.5761,
-      "d1_pct": -0.31,
-      "w1_pct": -1.67,
-      "m1_pct": -2.46
+      "price": 0.5762,
+      "d1_pct": -0.28,
+      "w1_pct": -1.64,
+      "m1_pct": -2.43
     },
     "USDCAD": {
-      "price": 1.3942,
-      "d1_pct": 0.3,
-      "w1_pct": 1.19,
-      "m1_pct": 0.52
+      "price": 1.3939,
+      "d1_pct": 0.29,
+      "w1_pct": 1.18,
+      "m1_pct": 0.5
     },
     "USDSEK": {
-      "price": 9.7893,
-      "d1_pct": 0.29,
-      "w1_pct": 2.15,
-      "m1_pct": 2.97
+      "price": 9.7933,
+      "d1_pct": 0.33,
+      "w1_pct": 2.19,
+      "m1_pct": 3.01
     },
     "USDNOK": {
-      "price": 9.3508,
-      "d1_pct": 0.26,
-      "w1_pct": 1.46,
-      "m1_pct": -0.69
+      "price": 9.352,
+      "d1_pct": 0.28,
+      "w1_pct": 1.47,
+      "m1_pct": -0.68
     },
     "USDCNY": {
       "price": 6.6953,
@@ -283,22 +283,22 @@
       "m1_pct": -0.66
     },
     "USDMXN": {
-      "price": 17.128,
-      "d1_pct": 0.04,
-      "w1_pct": 1.29,
-      "m1_pct": 0.58
+      "price": 17.143,
+      "d1_pct": 0.13,
+      "w1_pct": 1.38,
+      "m1_pct": 0.66
     },
     "USDBRL": {
-      "price": 5.1496,
-      "d1_pct": 0.23,
-      "w1_pct": 1.27,
-      "m1_pct": -1.02
+      "price": 5.1592,
+      "d1_pct": 0.41,
+      "w1_pct": 1.46,
+      "m1_pct": -0.83
     },
     "USDZAR": {
-      "price": 16.267,
-      "d1_pct": 0.12,
-      "w1_pct": 1.63,
-      "m1_pct": 0.28
+      "price": 16.2737,
+      "d1_pct": 0.16,
+      "w1_pct": 1.67,
+      "m1_pct": 0.32
     },
     "USDINR": {
       "price": 95.945,
@@ -307,40 +307,40 @@
       "m1_pct": 0.26
     },
     "USDKRW": {
-      "price": 1365.79,
-      "d1_pct": 1.5,
-      "w1_pct": 1.98,
-      "m1_pct": -3.46
+      "price": 1368.23,
+      "d1_pct": 1.68,
+      "w1_pct": 2.17,
+      "m1_pct": -3.29
     },
     "USDTRY": {
-      "price": 48.6565,
-      "d1_pct": 0.07,
-      "w1_pct": 0.4,
-      "m1_pct": 1.57
+      "price": 48.6284,
+      "d1_pct": 0.01,
+      "w1_pct": 0.34,
+      "m1_pct": 1.51
     },
     "USDPLN": {
-      "price": 3.7678,
-      "d1_pct": 0.35,
-      "w1_pct": 1.62,
-      "m1_pct": 1.26
+      "price": 3.7687,
+      "d1_pct": 0.37,
+      "w1_pct": 1.65,
+      "m1_pct": 1.29
     },
     "USDHUF": {
-      "price": 315.6,
-      "d1_pct": -0.08,
-      "w1_pct": 1.0,
-      "m1_pct": 0.58
+      "price": 315.797,
+      "d1_pct": -0.02,
+      "w1_pct": 1.07,
+      "m1_pct": 0.64
     },
     "USDCZK": {
-      "price": 21.068,
-      "d1_pct": 0.36,
-      "w1_pct": 1.29,
-      "m1_pct": 0.98
+      "price": 21.0742,
+      "d1_pct": 0.39,
+      "w1_pct": 1.32,
+      "m1_pct": 1.01
     },
     "USDSGD": {
-      "price": 1.2732,
-      "d1_pct": 0.23,
-      "w1_pct": 0.7,
-      "m1_pct": -0.32
+      "price": 1.2734,
+      "d1_pct": 0.24,
+      "w1_pct": 0.71,
+      "m1_pct": -0.31
     },
     "USDIDR": {
       "price": 17707.0,
@@ -355,17 +355,17 @@
       "m1_pct": 0.7
     },
     "DXY": {
-      "price": 99.712,
-      "d1_pct": 0.06,
-      "w1_pct": 0.95,
-      "m1_pct": 0.07
+      "price": 99.722,
+      "d1_pct": 0.07,
+      "w1_pct": 0.96,
+      "m1_pct": 0.08
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 16.82,
+      "price": 16.76,
       "prev_close": 17.2,
-      "change_pct": -2.21,
+      "change_pct": -2.56,
       "timestamp": "2026-09-16 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5175,
-      "d1_pct": 0.37,
-      "w1_pct": -0.78,
-      "m1_pct": -0.86,
+      "price": 9.515,
+      "d1_pct": 0.34,
+      "w1_pct": -0.81,
+      "m1_pct": -0.89,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,7 +439,49 @@
   },
   "news": [
     {
-      "headline": "Retail sales surged toward the end of summer. Economy still has plenty of momentum.",
+      "headline": "\u2018My total balance should be $20 million\u2019: I invested $1.1 million in a crypto platform. Have I lost it all?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
+      "datetime": 1789564500,
+      "category": "general"
+    },
+    {
+      "headline": "5% Treasury yields mean America\u2019s debt bill just got a lot bigger",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/5-treasury-yields-mean-americas-debt-bill-just-got-a-lot-bigger-8a5702b0?mod=mw_rss_topstories",
+      "datetime": 1789563780,
+      "category": "general"
+    },
+    {
+      "headline": "Why a strategist who previously thought inflation was contained now sees potential for aggressive Fed rate hikes",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-a-strategist-who-previously-thought-inflation-was-contained-now-sees-potential-for-aggressive-fed-rate-hikes-33ecaf04?mod=mw_rss_topstories",
+      "datetime": 1789563660,
+      "category": "general"
+    },
+    {
+      "headline": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
+      "datetime": 1789563600,
+      "category": "general"
+    },
+    {
+      "headline": "The data-center backlash is so fierce that Republican candidates are willing to cross Trump",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/the-data-center-backlash-is-so-fierce-that-republican-candidates-are-willing-to-cross-trump-9a6eaa03?mod=mw_rss_topstories",
+      "datetime": 1789563240,
+      "category": "general"
+    },
+    {
+      "headline": "Traders are betting Trump may soon turn on Fed chair Kevin Warsh as interest-rate hikes loom",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/traders-are-betting-trump-may-soon-turn-on-fed-chair-kevin-warsh-as-interest-rate-hikes-loom-b0dfff2a?mod=mw_rss_topstories",
+      "datetime": 1789563180,
+      "category": "general"
+    },
+    {
+      "headline": "Retail sales surged toward the end of summer. U.S. economy has plenty of momentum.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/retail-sales-surged-toward-the-end-of-summer-economy-still-has-plenty-of-momentum-cdf667b2?mod=mw_rss_topstories",
       "datetime": 1789562520,
@@ -467,48 +509,6 @@
       "category": "general"
     },
     {
-      "headline": "The smartest money moves to make with interest rates expected to go higher",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-smartest-money-moves-to-make-with-interest-rates-expected-to-go-higher-aefe375b?mod=mw_rss_topstories",
-      "datetime": 1789560000,
-      "category": "general"
-    },
-    {
-      "headline": "Tech\u2019s top CEOs clash over safety, laws and speed at Salesforce event",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-altman-amodei-huang-and-zuckerberg-are-saying-about-the-raging-ai-debate-afaae83b?mod=mw_rss_topstories",
-      "datetime": 1789560000,
-      "category": "general"
-    },
-    {
-      "headline": "Intel\u2019s stock rises as investors hope memory chips can mark the next step in its turnaround",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
-      "datetime": 1789558740,
-      "category": "general"
-    },
-    {
-      "headline": "My brother-in-law expects my husband and me to pay for his food every time we go out. How can I tell my husband I don\u2019t want to do this anymore?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-brother-in-law-expects-my-husband-and-me-to-pay-for-his-food-every-time-we-go-out-how-can-i-tell-my-husband-i-dont-want-to-do-this-anymore-e2141455?mod=mw_rss_topstories",
-      "datetime": 1789558200,
-      "category": "general"
-    },
-    {
-      "headline": "Most workers would take a pay cut for job security right now: \u2018I can\u2019t deal with this stress anymore\u2019",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/most-workers-would-take-a-pay-cut-for-job-security-right-now-i-cant-deal-with-this-stress-anymore-284aa87a?mod=mw_rss_topstories",
-      "datetime": 1789558200,
-      "category": "general"
-    },
-    {
-      "headline": "Is the shingles vaccine the secret to living longer and delaying dementia? Here\u2019s what the science says.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/is-the-shingles-vaccine-the-secret-to-living-longer-and-delaying-dementia-heres-what-the-science-says-1c108c26?mod=mw_rss_topstories",
-      "datetime": 1789557420,
-      "category": "general"
-    },
-    {
       "headline": "Petrol and diesel price rises push UK inflation higher ",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_medium=RSS&at_campaign=rss",
@@ -530,10 +530,10 @@
       "category": "general"
     },
     {
-      "headline": "Complaints to watchdog about water firms soar",
+      "headline": "Burnham rejects 'tax and spend socialist' comments",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cjy5z9l0395ro?at_medium=RSS&at_campaign=rss",
-      "datetime": 1789541981,
+      "url": "https://www.bbc.co.uk/news/articles/cqr7dj1e34z9o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1789563020,
       "category": "general"
     },
     {
@@ -548,6 +548,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c0lr69zeyrwo?at_medium=RSS&at_campaign=rss",
       "datetime": 1789514378,
+      "category": "general"
+    },
+    {
+      "headline": "Complaints to watchdog about water firms soar",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cjy5z9l0395ro?at_medium=RSS&at_campaign=rss",
+      "datetime": 1789541981,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ce8e70x3pjzo?at_medium=RSS&at_campaign=rss",
       "datetime": 1789515607,
-      "category": "general"
-    },
-    {
-      "headline": "Third Heathrow runway should only go ahead if airlines pay for cleaner flying, say advisers ",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c607lxnvn7r4o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1789517151,
       "category": "general"
     }
   ],
