@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T07:42:39.824438Z",
+  "generated_at": "2026-09-23T08:23:55.022504Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.834,
       "y7": null,
-      "y10": null,
+      "y10": 4.963,
       "y20": null,
       "y30": 5.296
     },
@@ -27,6 +27,12 @@
         "change_pct": -0.45,
         "timestamp": "2026-09-21 00:00:00"
       },
+      "US_10Y": {
+        "price": 4.963,
+        "prev_close": 4.998,
+        "change_pct": -0.7,
+        "timestamp": "2026-09-21 00:00:00"
+      },
       "US_30Y": {
         "price": 5.296,
         "prev_close": 5.331,
@@ -37,52 +43,52 @@
   },
   "commodities": {
     "gold": {
-      "price": 4358.7998,
-      "d1_pct": -0.4,
-      "w1_pct": -0.65,
-      "m1_pct": -7.22,
+      "price": 4356.2998,
+      "d1_pct": -0.46,
+      "w1_pct": -0.71,
+      "m1_pct": -7.27,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 66.075,
-      "d1_pct": 0.22,
-      "w1_pct": 2.78,
-      "m1_pct": -3.6,
+      "price": 65.855,
+      "d1_pct": -0.12,
+      "w1_pct": 2.44,
+      "m1_pct": -3.92,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 89.65,
-      "d1_pct": -5.22,
-      "w1_pct": -12.48,
-      "m1_pct": 5.46,
+      "price": 89.95,
+      "d1_pct": -4.91,
+      "w1_pct": -12.18,
+      "m1_pct": 5.81,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 95.26,
-      "d1_pct": -4.02,
-      "w1_pct": -9.99,
-      "m1_pct": 3.35,
+      "price": 95.48,
+      "d1_pct": -3.8,
+      "w1_pct": -9.78,
+      "m1_pct": 3.59,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.169,
-      "d1_pct": 6.88,
-      "w1_pct": 9.62,
-      "m1_pct": 13.91,
+      "price": 3.174,
+      "d1_pct": 7.05,
+      "w1_pct": 9.79,
+      "m1_pct": 14.09,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.824,
-      "d1_pct": 0.95,
-      "w1_pct": 6.1,
-      "m1_pct": 3.41,
+      "price": 6.834,
+      "d1_pct": 1.1,
+      "w1_pct": 6.26,
+      "m1_pct": 3.56,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 708.5,
-      "d1_pct": -1.22,
-      "w1_pct": -3.04,
-      "m1_pct": 3.92,
+      "price": 708.25,
+      "d1_pct": -1.25,
+      "w1_pct": -3.08,
+      "m1_pct": 3.89,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -217,70 +223,70 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1425,
-      "d1_pct": -0.35,
-      "w1_pct": -0.98,
-      "m1_pct": -2.09
+      "price": 1.1418,
+      "d1_pct": -0.41,
+      "w1_pct": -1.04,
+      "m1_pct": -2.14
     },
     "GBPUSD": {
-      "price": 1.331,
-      "d1_pct": -0.46,
-      "w1_pct": -1.22,
-      "m1_pct": -2.41
+      "price": 1.3302,
+      "d1_pct": -0.51,
+      "w1_pct": -1.27,
+      "m1_pct": -2.46
     },
     "USDJPY": {
-      "price": 157.827,
-      "d1_pct": 0.29,
-      "w1_pct": 1.65,
-      "m1_pct": -0.82
+      "price": 157.781,
+      "d1_pct": 0.26,
+      "w1_pct": 1.62,
+      "m1_pct": -0.85
     },
     "USDCHF": {
-      "price": 0.8226,
-      "d1_pct": 0.22,
-      "w1_pct": 0.43,
-      "m1_pct": 2.56
+      "price": 0.8225,
+      "d1_pct": 0.21,
+      "w1_pct": 0.42,
+      "m1_pct": 2.55
     },
     "AUDUSD": {
-      "price": 0.7087,
-      "d1_pct": -0.45,
-      "w1_pct": -0.54,
-      "m1_pct": -0.95
+      "price": 0.7086,
+      "d1_pct": -0.47,
+      "w1_pct": -0.56,
+      "m1_pct": -0.97
     },
     "NZDUSD": {
-      "price": 0.5704,
-      "d1_pct": -0.14,
-      "w1_pct": -0.83,
-      "m1_pct": -4.4
+      "price": 0.5701,
+      "d1_pct": -0.19,
+      "w1_pct": -0.88,
+      "m1_pct": -4.44
     },
     "USDCAD": {
-      "price": 1.4082,
-      "d1_pct": 0.35,
-      "w1_pct": 1.13,
-      "m1_pct": 1.74
+      "price": 1.4088,
+      "d1_pct": 0.39,
+      "w1_pct": 1.17,
+      "m1_pct": 1.78
     },
     "USDSEK": {
-      "price": 9.8659,
-      "d1_pct": 0.31,
-      "w1_pct": 0.89,
-      "m1_pct": 3.95
+      "price": 9.8496,
+      "d1_pct": 0.14,
+      "w1_pct": 0.72,
+      "m1_pct": 3.78
     },
     "USDNOK": {
-      "price": 9.4738,
-      "d1_pct": 0.36,
-      "w1_pct": 1.34,
-      "m1_pct": 1.89
+      "price": 9.4745,
+      "d1_pct": 0.37,
+      "w1_pct": 1.35,
+      "m1_pct": 1.9
     },
     "USDCNY": {
-      "price": 6.706,
+      "price": 6.7062,
       "d1_pct": 0.16,
-      "w1_pct": -0.08,
-      "m1_pct": -0.24
+      "w1_pct": -0.07,
+      "m1_pct": -0.23
     },
     "USDMXN": {
-      "price": 17.359,
-      "d1_pct": 0.83,
-      "w1_pct": 1.24,
-      "m1_pct": 2.45
+      "price": 17.3745,
+      "d1_pct": 0.92,
+      "w1_pct": 1.33,
+      "m1_pct": 2.54
     },
     "USDBRL": {
       "price": 5.1056,
@@ -289,58 +295,58 @@
       "m1_pct": -0.94
     },
     "USDZAR": {
-      "price": 16.2495,
-      "d1_pct": 0.18,
-      "w1_pct": -0.11,
-      "m1_pct": 1.61
+      "price": 16.2419,
+      "d1_pct": 0.13,
+      "w1_pct": -0.16,
+      "m1_pct": 1.56
     },
     "USDINR": {
-      "price": 95.7275,
+      "price": 95.73,
       "d1_pct": 0.02,
-      "w1_pct": -0.28,
-      "m1_pct": 0.0
+      "w1_pct": -0.27,
+      "m1_pct": 0.01
     },
     "USDKRW": {
-      "price": 1364.09,
-      "d1_pct": -0.7,
-      "w1_pct": 0.04,
-      "m1_pct": -1.21
+      "price": 1364.54,
+      "d1_pct": -0.67,
+      "w1_pct": 0.07,
+      "m1_pct": -1.17
     },
     "USDTRY": {
-      "price": 48.8323,
-      "d1_pct": 0.05,
-      "w1_pct": 0.36,
-      "m1_pct": 1.57
+      "price": 48.8349,
+      "d1_pct": 0.06,
+      "w1_pct": 0.37,
+      "m1_pct": 1.58
     },
     "USDPLN": {
-      "price": 3.8088,
-      "d1_pct": 0.57,
-      "w1_pct": 1.32,
-      "m1_pct": 3.27
+      "price": 3.8145,
+      "d1_pct": 0.72,
+      "w1_pct": 1.47,
+      "m1_pct": 3.43
     },
     "USDHUF": {
-      "price": 317.72,
-      "d1_pct": 0.82,
-      "w1_pct": 0.47,
-      "m1_pct": 2.28
+      "price": 317.966,
+      "d1_pct": 0.89,
+      "w1_pct": 0.54,
+      "m1_pct": 2.36
     },
     "USDCZK": {
-      "price": 21.313,
-      "d1_pct": 0.57,
-      "w1_pct": 1.34,
-      "m1_pct": 3.22
+      "price": 21.325,
+      "d1_pct": 0.63,
+      "w1_pct": 1.39,
+      "m1_pct": 3.28
     },
     "USDSGD": {
-      "price": 1.2772,
+      "price": 1.2773,
       "d1_pct": 0.09,
-      "w1_pct": 0.32,
+      "w1_pct": 0.33,
       "m1_pct": 0.58
     },
     "USDIDR": {
-      "price": 17790.0,
-      "d1_pct": -0.31,
-      "w1_pct": 0.71,
-      "m1_pct": 0.43
+      "price": 17795.0,
+      "d1_pct": -0.29,
+      "w1_pct": 0.74,
+      "m1_pct": 0.45
     },
     "USDTHB": {
       "price": 33.22,
@@ -349,17 +355,17 @@
       "m1_pct": 1.69
     },
     "DXY": {
-      "price": 100.767,
-      "d1_pct": 0.34,
-      "w1_pct": 1.12,
-      "m1_pct": 1.99
+      "price": 100.832,
+      "d1_pct": 0.4,
+      "w1_pct": 1.19,
+      "m1_pct": 2.06
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 14.19,
+      "price": 14.18,
       "prev_close": 14.87,
-      "change_pct": -4.57,
+      "change_pct": -4.64,
       "timestamp": "2026-09-23 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -407,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.6125,
-      "d1_pct": 0.05,
-      "w1_pct": 1.45,
-      "m1_pct": 0.23,
+      "price": 9.61,
+      "d1_pct": 0.03,
+      "w1_pct": 1.42,
+      "m1_pct": 0.21,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 132.46,
-      "d1_pct": 0.35,
-      "w1_pct": 1.79,
-      "m1_pct": -0.98,
+      "price": 132.32,
+      "d1_pct": 0.24,
+      "w1_pct": 1.68,
+      "m1_pct": -1.08,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -503,6 +509,13 @@
       "category": "general"
     },
     {
+      "headline": "UK economy will grow by less than expected next year, OECD says",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c607ly09y7rlo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1790150730,
+      "category": "general"
+    },
+    {
       "headline": "Europe's car makers are in crisis. Will the threat of war rescue them?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
@@ -531,17 +544,17 @@
       "category": "general"
     },
     {
-      "headline": "Trump says he would back ban on diesel exports",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1790109673,
-      "category": "general"
-    },
-    {
       "headline": "Will a switch to light speed cut power use at data centres?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c2dwg3zexkpo?at_medium=RSS&at_campaign=rss",
       "datetime": 1790118228,
+      "category": "general"
+    },
+    {
+      "headline": "Trump says he would back ban on diesel exports",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1790109673,
       "category": "general"
     },
     {
@@ -563,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
       "datetime": 1790111920,
-      "category": "general"
-    },
-    {
-      "headline": "Unexpected UK borrowing surge adds to pre-Budget pressure on chancellor",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c68049m18435o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1790067132,
       "category": "general"
     }
   ],
