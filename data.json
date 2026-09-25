@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T07:21:36.050181Z",
+  "generated_at": "2026-09-25T07:42:54.138721Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,52 +43,52 @@
   },
   "commodities": {
     "gold": {
-      "price": 4312.6001,
-      "d1_pct": 0.34,
-      "w1_pct": -2.54,
-      "m1_pct": -7.32,
+      "price": 4308.5,
+      "d1_pct": 0.24,
+      "w1_pct": -2.63,
+      "m1_pct": -7.41,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 64.195,
-      "d1_pct": 1.16,
-      "w1_pct": -3.55,
-      "m1_pct": -5.58,
+      "price": 64.09,
+      "d1_pct": 1.0,
+      "w1_pct": -3.71,
+      "m1_pct": -5.74,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 93.29,
-      "d1_pct": -1.4,
-      "w1_pct": -6.99,
-      "m1_pct": 13.45,
+      "price": 93.46,
+      "d1_pct": -1.22,
+      "w1_pct": -6.82,
+      "m1_pct": 13.66,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 105.92,
-      "d1_pct": -0.64,
-      "w1_pct": 1.97,
-      "m1_pct": 20.58,
+      "price": 99.22,
+      "d1_pct": -6.92,
+      "w1_pct": -4.48,
+      "m1_pct": 12.96,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.261,
-      "d1_pct": -1.09,
-      "w1_pct": 11.98,
-      "m1_pct": 14.74,
+      "price": 3.276,
+      "d1_pct": -0.64,
+      "w1_pct": 12.5,
+      "m1_pct": 15.27,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.747,
-      "d1_pct": 0.42,
-      "w1_pct": 2.0,
-      "m1_pct": 2.31,
+      "price": 6.733,
+      "d1_pct": 0.22,
+      "w1_pct": 1.78,
+      "m1_pct": 2.1,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 691.5,
-      "d1_pct": -2.19,
-      "w1_pct": -3.19,
-      "m1_pct": -5.34,
+      "price": 693.25,
+      "d1_pct": -1.94,
+      "w1_pct": -2.94,
+      "m1_pct": -5.1,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -223,58 +223,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1384,
-      "d1_pct": 0.02,
-      "w1_pct": -0.8,
-      "m1_pct": -2.32
+      "price": 1.1387,
+      "d1_pct": 0.04,
+      "w1_pct": -0.78,
+      "m1_pct": -2.3
     },
     "GBPUSD": {
-      "price": 1.3222,
-      "d1_pct": -0.15,
-      "w1_pct": -1.02,
-      "m1_pct": -2.76
+      "price": 1.3224,
+      "d1_pct": -0.13,
+      "w1_pct": -1.0,
+      "m1_pct": -2.74
     },
     "USDJPY": {
-      "price": 158.061,
-      "d1_pct": -0.13,
-      "w1_pct": 1.24,
-      "m1_pct": -0.75
+      "price": 158.131,
+      "d1_pct": -0.08,
+      "w1_pct": 1.28,
+      "m1_pct": -0.71
     },
     "USDCHF": {
-      "price": 0.8294,
-      "d1_pct": 0.53,
-      "w1_pct": 0.55,
-      "m1_pct": 3.02
+      "price": 0.8297,
+      "d1_pct": 0.57,
+      "w1_pct": 0.59,
+      "m1_pct": 3.07
     },
     "AUDUSD": {
-      "price": 0.7024,
-      "d1_pct": -0.14,
-      "w1_pct": -1.28,
-      "m1_pct": -2.19
+      "price": 0.7022,
+      "d1_pct": -0.17,
+      "w1_pct": -1.31,
+      "m1_pct": -2.21
     },
     "NZDUSD": {
-      "price": 0.5668,
-      "d1_pct": -0.12,
-      "w1_pct": -1.06,
-      "m1_pct": -4.72
+      "price": 0.5666,
+      "d1_pct": -0.15,
+      "w1_pct": -1.09,
+      "m1_pct": -4.75
     },
     "USDCAD": {
-      "price": 1.4148,
-      "d1_pct": 0.31,
-      "w1_pct": 1.13,
-      "m1_pct": 1.97
+      "price": 1.415,
+      "d1_pct": 0.32,
+      "w1_pct": 1.14,
+      "m1_pct": 1.98
     },
     "USDSEK": {
-      "price": 9.9201,
-      "d1_pct": 0.05,
-      "w1_pct": 1.0,
-      "m1_pct": 4.17
+      "price": 9.918,
+      "d1_pct": 0.03,
+      "w1_pct": 0.98,
+      "m1_pct": 4.15
     },
     "USDNOK": {
-      "price": 9.5222,
-      "d1_pct": 0.41,
-      "w1_pct": 1.11,
-      "m1_pct": 1.89
+      "price": 9.521,
+      "d1_pct": 0.4,
+      "w1_pct": 1.1,
+      "m1_pct": 1.87
     },
     "USDCNY": {
       "price": 6.7037,
@@ -283,10 +283,10 @@
       "m1_pct": -0.28
     },
     "USDMXN": {
-      "price": 17.697,
-      "d1_pct": 0.89,
-      "w1_pct": 3.11,
-      "m1_pct": 4.45
+      "price": 17.6899,
+      "d1_pct": 0.85,
+      "w1_pct": 3.07,
+      "m1_pct": 4.41
     },
     "USDBRL": {
       "price": 5.1912,
@@ -295,58 +295,58 @@
       "m1_pct": 0.85
     },
     "USDZAR": {
-      "price": 16.3917,
-      "d1_pct": 0.14,
-      "w1_pct": 0.84,
-      "m1_pct": 2.81
+      "price": 16.3716,
+      "d1_pct": 0.02,
+      "w1_pct": 0.72,
+      "m1_pct": 2.68
     },
     "USDINR": {
-      "price": 95.9,
-      "d1_pct": 0.17,
-      "w1_pct": 0.11,
-      "m1_pct": 0.49
+      "price": 95.85,
+      "d1_pct": 0.11,
+      "w1_pct": 0.05,
+      "m1_pct": 0.44
     },
     "USDKRW": {
-      "price": 1357.79,
-      "d1_pct": -0.35,
-      "w1_pct": -1.58,
-      "m1_pct": -1.86
+      "price": 1357.91,
+      "d1_pct": -0.34,
+      "w1_pct": -1.57,
+      "m1_pct": -1.85
     },
     "USDTRY": {
-      "price": 48.9603,
-      "d1_pct": 0.22,
+      "price": 48.962,
+      "d1_pct": 0.23,
       "w1_pct": 0.38,
       "m1_pct": 1.72
     },
     "USDPLN": {
-      "price": 3.8473,
-      "d1_pct": 0.08,
-      "w1_pct": 1.42,
-      "m1_pct": 4.11
+      "price": 3.846,
+      "d1_pct": 0.05,
+      "w1_pct": 1.39,
+      "m1_pct": 4.07
     },
     "USDHUF": {
-      "price": 320.808,
-      "d1_pct": 0.08,
-      "w1_pct": 1.54,
-      "m1_pct": 3.42
+      "price": 320.751,
+      "d1_pct": 0.06,
+      "w1_pct": 1.52,
+      "m1_pct": 3.4
     },
     "USDCZK": {
-      "price": 21.4323,
-      "d1_pct": -0.05,
-      "w1_pct": 1.23,
-      "m1_pct": 3.56
+      "price": 21.4253,
+      "d1_pct": -0.08,
+      "w1_pct": 1.2,
+      "m1_pct": 3.52
     },
     "USDSGD": {
-      "price": 1.2786,
+      "price": 1.2785,
       "d1_pct": -0.13,
-      "w1_pct": 0.21,
-      "m1_pct": 0.57
+      "w1_pct": 0.2,
+      "m1_pct": 0.56
     },
     "USDIDR": {
-      "price": 17895.0,
-      "d1_pct": 0.32,
-      "w1_pct": 0.78,
-      "m1_pct": 0.66
+      "price": 17890.0,
+      "d1_pct": 0.3,
+      "w1_pct": 0.75,
+      "m1_pct": 0.63
     },
     "USDTHB": {
       "price": 33.39,
@@ -355,18 +355,18 @@
       "m1_pct": 1.86
     },
     "DXY": {
-      "price": 101.181,
+      "price": 101.179,
       "d1_pct": -0.11,
       "w1_pct": 0.96,
-      "m1_pct": 2.29
+      "m1_pct": 2.28
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 15.67,
-      "prev_close": 15.18,
-      "change_pct": 3.23,
-      "timestamp": "2026-09-24 00:00:00"
+      "price": 15.6,
+      "prev_close": 15.67,
+      "change_pct": -0.45,
+      "timestamp": "2026-09-25 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
       "price": 21.24,
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.545,
-      "d1_pct": 0.18,
-      "w1_pct": -0.52,
-      "m1_pct": -1.04,
+      "price": 9.5275,
+      "d1_pct": 0.0,
+      "w1_pct": -0.7,
+      "m1_pct": -1.22,
       "country": "UK",
       "duration": "mixed"
     },
@@ -523,17 +523,17 @@
       "category": "general"
     },
     {
-      "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1790273200,
-      "category": "general"
-    },
-    {
       "headline": "Farmers down 240 million litres of milk after heat ",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cjvgy7qd20wgo?at_medium=RSS&at_campaign=rss",
       "datetime": 1790314213,
+      "category": "general"
+    },
+    {
+      "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1790273200,
       "category": "general"
     },
     {
@@ -548,6 +548,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
       "datetime": 1790291033,
+      "category": "general"
+    },
+    {
+      "headline": "Africa's richest man, Ethiopia and Djibouti to build $660m fuel pipeline",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1790318887,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o?at_medium=RSS&at_campaign=rss",
       "datetime": 1790205121,
-      "category": "general"
-    },
-    {
-      "headline": "Trump and Xi come face-to-face as US and China battle to win the AI race",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1790200877,
       "category": "general"
     }
   ],
