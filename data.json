@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-26T02:05:51.776307Z",
+  "generated_at": "2026-09-26T04:05:08.374274Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": null,
+      "y3m": 4.07,
       "y6m": null,
       "y1": null,
-      "y2": 4.857,
+      "y2": 4.407,
       "y3": null,
       "y5": 5.007,
       "y7": null,
@@ -15,6 +15,12 @@
       "y30": 5.504
     },
     "US_yf": {
+      "US_3M": {
+        "price": 4.07,
+        "prev_close": 4.068,
+        "change_pct": 0.05,
+        "timestamp": "2026-09-25 00:00:00"
+      },
       "US_5Y": {
         "price": 5.007,
         "prev_close": 5.025,
@@ -37,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4320.5,
-      "d1_pct": 0.52,
-      "w1_pct": -2.36,
-      "m1_pct": -7.15,
+      "price": 4321.2002,
+      "d1_pct": 0.54,
+      "w1_pct": -2.34,
+      "m1_pct": -7.14,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 64.71,
-      "d1_pct": 1.97,
-      "w1_pct": -2.77,
-      "m1_pct": -4.82,
+      "price": 64.245,
+      "d1_pct": 1.24,
+      "w1_pct": -3.47,
+      "m1_pct": -5.51,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 92.44,
-      "d1_pct": -2.29,
-      "w1_pct": -7.84,
-      "m1_pct": 12.42,
+      "price": 92.41,
+      "d1_pct": -2.33,
+      "w1_pct": -7.87,
+      "m1_pct": 12.38,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 97.47,
-      "d1_pct": -8.56,
-      "w1_pct": -6.16,
-      "m1_pct": 10.96,
+      "price": 104.32,
+      "d1_pct": -2.14,
+      "w1_pct": 0.43,
+      "m1_pct": 18.76,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.251,
-      "d1_pct": -1.4,
-      "w1_pct": 11.64,
-      "m1_pct": 14.39,
+      "price": 3.196,
+      "d1_pct": -3.06,
+      "w1_pct": 9.75,
+      "m1_pct": 12.46,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.779,
-      "d1_pct": 0.9,
-      "w1_pct": 2.48,
-      "m1_pct": 2.8,
+      "price": 6.6955,
+      "d1_pct": -0.34,
+      "w1_pct": 1.22,
+      "m1_pct": 1.53,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 704.0,
-      "d1_pct": -0.42,
-      "w1_pct": -1.44,
-      "m1_pct": -3.63,
+      "price": 703.25,
+      "d1_pct": -0.53,
+      "w1_pct": -1.54,
+      "m1_pct": -3.73,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 528.75,
-      "d1_pct": 0.24,
-      "w1_pct": 0.24,
-      "m1_pct": 2.87,
+      "price": 528.25,
+      "d1_pct": 0.14,
+      "w1_pct": 0.14,
+      "m1_pct": 2.77,
       "unit": "\u00a2/bu"
     }
   },
@@ -271,9 +277,9 @@
       "m1_pct": 1.68
     },
     "USDCNY": {
-      "price": 6.7123,
+      "price": 6.7125,
       "d1_pct": 0.02,
-      "w1_pct": 0.07,
+      "w1_pct": 0.22,
       "m1_pct": -0.15
     },
     "USDMXN": {
@@ -295,16 +301,16 @@
       "m1_pct": 2.08
     },
     "USDINR": {
-      "price": 95.802,
-      "d1_pct": 0.06,
-      "w1_pct": 0.0,
-      "m1_pct": 0.39
+      "price": 95.82,
+      "d1_pct": -0.35,
+      "w1_pct": -0.2,
+      "m1_pct": 0.37
     },
     "USDKRW": {
-      "price": 1355.28,
-      "d1_pct": -0.53,
-      "w1_pct": -1.76,
-      "m1_pct": -2.04
+      "price": 1354.4,
+      "d1_pct": -0.95,
+      "w1_pct": -2.2,
+      "m1_pct": -1.89
     },
     "USDTRY": {
       "price": 48.9163,
@@ -337,10 +343,10 @@
       "m1_pct": 0.46
     },
     "USDIDR": {
-      "price": 17912.0,
-      "d1_pct": 0.42,
-      "w1_pct": 0.87,
-      "m1_pct": 0.75
+      "price": 17890.0,
+      "d1_pct": 1.88,
+      "w1_pct": 0.47,
+      "m1_pct": 0.79
     },
     "USDTHB": {
       "price": 33.37,
@@ -349,10 +355,10 @@
       "m1_pct": 1.8
     },
     "DXY": {
-      "price": 101.035,
-      "d1_pct": -0.25,
-      "w1_pct": 0.81,
-      "m1_pct": 1.88
+      "price": 100.97,
+      "d1_pct": -0.32,
+      "w1_pct": 0.75,
+      "m1_pct": 1.82
     }
   },
   "volatility": {
@@ -369,7 +375,7 @@
       "timestamp": "2026-09-25 00:00:00"
     },
     "MOVE (Bond Vol)": {
-      "price": 96.0025,
+      "price": 96.0,
       "prev_close": 104.58,
       "change_pct": -8.2,
       "timestamp": "2026-09-25 00:00:00"
