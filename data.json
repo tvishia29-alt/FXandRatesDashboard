@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:45:18.435762Z",
+  "generated_at": "2026-10-07T10:17:53.516205Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,52 +43,52 @@
   },
   "commodities": {
     "gold": {
-      "price": 4145.2998,
-      "d1_pct": -1.0,
-      "w1_pct": -0.99,
-      "m1_pct": -6.62,
+      "price": 4142.5,
+      "d1_pct": -1.07,
+      "w1_pct": -1.06,
+      "m1_pct": -6.68,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 60.51,
-      "d1_pct": -1.08,
-      "w1_pct": 0.69,
-      "m1_pct": -8.73,
+      "price": 60.425,
+      "d1_pct": -1.21,
+      "w1_pct": 0.54,
+      "m1_pct": -8.86,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 89.81,
-      "d1_pct": 0.41,
-      "w1_pct": -0.67,
-      "m1_pct": -3.46,
+      "price": 89.9,
+      "d1_pct": 0.51,
+      "w1_pct": -0.58,
+      "m1_pct": -3.36,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 101.64,
-      "d1_pct": 1.05,
-      "w1_pct": -1.83,
-      "m1_pct": 3.8,
+      "price": 101.73,
+      "d1_pct": 1.14,
+      "w1_pct": -1.74,
+      "m1_pct": 3.89,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.158,
-      "d1_pct": 1.41,
-      "w1_pct": 4.36,
-      "m1_pct": 8.3,
+      "price": 3.161,
+      "d1_pct": 1.51,
+      "w1_pct": 4.46,
+      "m1_pct": 8.4,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.6265,
-      "d1_pct": 0.49,
-      "w1_pct": 1.03,
-      "m1_pct": -1.67,
+      "price": 6.6555,
+      "d1_pct": 0.93,
+      "w1_pct": 1.47,
+      "m1_pct": -1.24,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 700.75,
-      "d1_pct": -0.5,
-      "w1_pct": 3.7,
-      "m1_pct": -4.04,
+      "price": 700.5,
+      "d1_pct": -0.53,
+      "w1_pct": 3.66,
+      "m1_pct": -4.07,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -223,10 +223,10 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1192,
-      "d1_pct": -0.22,
-      "w1_pct": -1.31,
-      "m1_pct": -3.75
+      "price": 1.1196,
+      "d1_pct": -0.19,
+      "w1_pct": -1.28,
+      "m1_pct": -3.71
     },
     "GBPUSD": {
       "price": 1.3229,
@@ -235,46 +235,46 @@
       "m1_pct": -2.35
     },
     "USDJPY": {
-      "price": 158.262,
-      "d1_pct": 0.19,
-      "w1_pct": 0.55,
-      "m1_pct": 2.86
+      "price": 158.31,
+      "d1_pct": 0.22,
+      "w1_pct": 0.58,
+      "m1_pct": 2.9
     },
     "USDCHF": {
-      "price": 0.8335,
-      "d1_pct": 0.28,
-      "w1_pct": -0.09,
-      "m1_pct": 3.03
+      "price": 0.8326,
+      "d1_pct": 0.18,
+      "w1_pct": -0.19,
+      "m1_pct": 2.92
     },
     "AUDUSD": {
-      "price": 0.697,
-      "d1_pct": 0.04,
-      "w1_pct": -0.27,
-      "m1_pct": -3.47
+      "price": 0.6969,
+      "d1_pct": 0.02,
+      "w1_pct": -0.29,
+      "m1_pct": -3.49
     },
     "NZDUSD": {
       "price": 0.5606,
-      "d1_pct": 0.14,
-      "w1_pct": -0.61,
-      "m1_pct": -4.7
+      "d1_pct": 0.13,
+      "w1_pct": -0.62,
+      "m1_pct": -4.71
     },
     "USDCAD": {
-      "price": 1.4226,
-      "d1_pct": -0.27,
-      "w1_pct": 0.24,
-      "m1_pct": 3.05
+      "price": 1.4222,
+      "d1_pct": -0.29,
+      "w1_pct": 0.22,
+      "m1_pct": 3.02
     },
     "USDSEK": {
-      "price": 10.0357,
-      "d1_pct": -0.01,
-      "w1_pct": 0.44,
-      "m1_pct": 4.65
+      "price": 10.0334,
+      "d1_pct": -0.03,
+      "w1_pct": 0.42,
+      "m1_pct": 4.62
     },
     "USDNOK": {
-      "price": 9.561,
-      "d1_pct": -0.33,
-      "w1_pct": -0.39,
-      "m1_pct": 3.19
+      "price": 9.5601,
+      "d1_pct": -0.34,
+      "w1_pct": -0.4,
+      "m1_pct": 3.18
     },
     "USDCNY": {
       "price": 6.6933,
@@ -283,10 +283,10 @@
       "m1_pct": -0.26
     },
     "USDMXN": {
-      "price": 18.0613,
-      "d1_pct": -0.0,
-      "w1_pct": 0.1,
-      "m1_pct": 6.57
+      "price": 18.046,
+      "d1_pct": -0.09,
+      "w1_pct": 0.01,
+      "m1_pct": 6.48
     },
     "USDBRL": {
       "price": 4.9703,
@@ -295,52 +295,52 @@
       "m1_pct": -3.05
     },
     "USDZAR": {
-      "price": 16.652,
-      "d1_pct": 0.07,
-      "w1_pct": 1.59,
-      "m1_pct": 4.18
+      "price": 16.6664,
+      "d1_pct": 0.16,
+      "w1_pct": 1.68,
+      "m1_pct": 4.27
     },
     "USDINR": {
-      "price": 96.7225,
-      "d1_pct": 0.39,
-      "w1_pct": 0.7,
-      "m1_pct": 2.36
+      "price": 96.775,
+      "d1_pct": 0.45,
+      "w1_pct": 0.75,
+      "m1_pct": 2.42
     },
     "USDKRW": {
-      "price": 1338.01,
-      "d1_pct": -0.43,
-      "w1_pct": -0.92,
-      "m1_pct": -0.41
+      "price": 1337.6801,
+      "d1_pct": -0.45,
+      "w1_pct": -0.95,
+      "m1_pct": -0.44
     },
     "USDTRY": {
-      "price": 49.1922,
+      "price": 49.1943,
       "d1_pct": 0.11,
       "w1_pct": 0.38,
-      "m1_pct": 1.53
+      "m1_pct": 1.54
     },
     "USDPLN": {
-      "price": 3.9136,
-      "d1_pct": 0.23,
-      "w1_pct": 1.69,
-      "m1_pct": 5.64
+      "price": 3.9155,
+      "d1_pct": 0.28,
+      "w1_pct": 1.74,
+      "m1_pct": 5.69
     },
     "USDHUF": {
-      "price": 327.628,
-      "d1_pct": 0.24,
-      "w1_pct": 1.38,
-      "m1_pct": 4.97
+      "price": 327.685,
+      "d1_pct": 0.25,
+      "w1_pct": 1.39,
+      "m1_pct": 4.99
     },
     "USDCZK": {
-      "price": 21.8167,
-      "d1_pct": 0.16,
-      "w1_pct": 1.4,
-      "m1_pct": 4.91
+      "price": 21.8236,
+      "d1_pct": 0.19,
+      "w1_pct": 1.43,
+      "m1_pct": 4.95
     },
     "USDSGD": {
-      "price": 1.2798,
-      "d1_pct": 0.04,
-      "w1_pct": 0.16,
-      "m1_pct": 1.13
+      "price": 1.2799,
+      "d1_pct": 0.05,
+      "w1_pct": 0.17,
+      "m1_pct": 1.14
     },
     "USDIDR": {
       "price": 17878.0,
@@ -349,23 +349,23 @@
       "m1_pct": 1.21
     },
     "USDTHB": {
-      "price": 33.68,
-      "d1_pct": -0.03,
-      "w1_pct": 0.36,
-      "m1_pct": 2.53
+      "price": 33.69,
+      "d1_pct": 0.0,
+      "w1_pct": 0.39,
+      "m1_pct": 2.56
     },
     "DXY": {
-      "price": 102.321,
-      "d1_pct": 0.48,
-      "w1_pct": 0.86,
-      "m1_pct": 3.52
+      "price": 102.286,
+      "d1_pct": 0.45,
+      "w1_pct": 0.82,
+      "m1_pct": 3.49
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 15.32,
+      "price": 15.52,
       "prev_close": 15.01,
-      "change_pct": 2.07,
+      "change_pct": 3.4,
       "timestamp": "2026-10-07 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.4795,
-      "d1_pct": -0.14,
-      "w1_pct": -0.08,
-      "m1_pct": -1.08,
+      "price": 9.4735,
+      "d1_pct": -0.2,
+      "w1_pct": -0.15,
+      "m1_pct": -1.14,
       "country": "UK",
       "duration": "mixed"
     },
@@ -509,6 +509,13 @@
       "category": "general"
     },
     {
+      "headline": "Royal Mail plans to cut 2,500 head office jobs",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdld13e3eo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1791366907,
+      "category": "general"
+    },
+    {
       "headline": "Jaguar unveils new electric car after 'woke' ridicule",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c6je50ydld31o?at_medium=RSS&at_campaign=rss",
@@ -530,6 +537,20 @@
       "category": "general"
     },
     {
+      "headline": "Japan beer giants raided over alleged price-fixing cartel",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yn3592xk9o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1791366356,
+      "category": "general"
+    },
+    {
+      "headline": "Rainmakers: The drones used to seed clouds",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1791356972,
+      "category": "general"
+    },
+    {
       "headline": "Braid-creator Jonathan Blow on making the 'biggest puzzle game ever'",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cj3vqxldglepo?at_medium=RSS&at_campaign=rss",
@@ -540,14 +561,7 @@
       "headline": "What can I do to protect myself after 'Asos hacked' message?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ck1l3g8097rzo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791314243,
-      "category": "general"
-    },
-    {
-      "headline": "Rainmakers: The drones used to seed clouds",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791356972,
+      "datetime": 1791366571,
       "category": "general"
     },
     {
@@ -562,20 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o?at_medium=RSS&at_campaign=rss",
       "datetime": 1791309019,
-      "category": "general"
-    },
-    {
-      "headline": "From films to streaming prices - how the Warner Bros deal could affect you",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cm62ep294qxlo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791312178,
-      "category": "general"
-    },
-    {
-      "headline": "Paramount takes over Warner Bros in $110bn Hollywood merger",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cxj0604d33qzo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791317938,
       "category": "general"
     }
   ],
