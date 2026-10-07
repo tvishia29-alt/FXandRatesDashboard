@@ -1,94 +1,94 @@
 {
-  "generated_at": "2026-10-07T12:28:44.340320Z",
+  "generated_at": "2026-10-07T12:55:40.758945Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 4.037,
       "y6m": null,
       "y1": null,
-      "y2": 4.394,
+      "y2": 4.41,
       "y3": null,
-      "y5": 5.028,
+      "y5": 5.073,
       "y7": null,
-      "y10": 5.269,
+      "y10": 5.341,
       "y20": null,
-      "y30": 5.641
+      "y30": 5.721
     },
     "US_yf": {
       "US_3M": {
         "price": 4.037,
-        "prev_close": 4.018,
-        "change_pct": 0.47,
-        "timestamp": "2026-10-06 00:00:00"
+        "prev_close": 4.037,
+        "change_pct": 0.0,
+        "timestamp": "2026-10-07 00:00:00"
       },
       "US_5Y": {
-        "price": 5.028,
-        "prev_close": 5.066,
-        "change_pct": -0.75,
-        "timestamp": "2026-10-06 00:00:00"
+        "price": 5.073,
+        "prev_close": 5.028,
+        "change_pct": 0.89,
+        "timestamp": "2026-10-07 00:00:00"
       },
       "US_10Y": {
-        "price": 5.269,
-        "prev_close": 5.311,
-        "change_pct": -0.79,
-        "timestamp": "2026-10-06 00:00:00"
+        "price": 5.341,
+        "prev_close": 5.269,
+        "change_pct": 1.37,
+        "timestamp": "2026-10-07 00:00:00"
       },
       "US_30Y": {
-        "price": 5.641,
-        "prev_close": 5.665,
-        "change_pct": -0.42,
-        "timestamp": "2026-10-06 00:00:00"
+        "price": 5.721,
+        "prev_close": 5.641,
+        "change_pct": 1.42,
+        "timestamp": "2026-10-07 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4143.8999,
-      "d1_pct": -1.03,
-      "w1_pct": -1.02,
-      "m1_pct": -6.65,
+      "price": 4098.1001,
+      "d1_pct": -2.13,
+      "w1_pct": -2.12,
+      "m1_pct": -7.68,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 60.385,
-      "d1_pct": -1.28,
-      "w1_pct": 0.48,
-      "m1_pct": -8.92,
+      "price": 59.45,
+      "d1_pct": -2.81,
+      "w1_pct": -1.08,
+      "m1_pct": -10.33,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 89.81,
-      "d1_pct": 0.41,
-      "w1_pct": -0.67,
-      "m1_pct": -3.46,
+      "price": 90.2,
+      "d1_pct": 0.85,
+      "w1_pct": -0.24,
+      "m1_pct": -3.04,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 101.4,
-      "d1_pct": 0.82,
-      "w1_pct": -2.06,
-      "m1_pct": 3.55,
+      "price": 101.76,
+      "d1_pct": 1.17,
+      "w1_pct": -1.71,
+      "m1_pct": 3.92,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.199,
-      "d1_pct": 2.73,
-      "w1_pct": 5.72,
-      "m1_pct": 9.71,
+      "price": 3.192,
+      "d1_pct": 2.5,
+      "w1_pct": 5.49,
+      "m1_pct": 9.47,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.6415,
-      "d1_pct": 0.71,
-      "w1_pct": 1.26,
-      "m1_pct": -1.45,
+      "price": 6.632,
+      "d1_pct": 0.57,
+      "w1_pct": 1.11,
+      "m1_pct": -1.59,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 698.5,
-      "d1_pct": -0.82,
-      "w1_pct": 3.37,
-      "m1_pct": -4.35,
+      "price": 697.75,
+      "d1_pct": -0.92,
+      "w1_pct": 3.26,
+      "m1_pct": -4.45,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -223,34 +223,34 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1168,
-      "d1_pct": -0.44,
-      "w1_pct": -1.52,
-      "m1_pct": -3.95
+      "price": 1.1173,
+      "d1_pct": -0.39,
+      "w1_pct": -1.48,
+      "m1_pct": -3.91
     },
     "GBPUSD": {
-      "price": 1.3195,
-      "d1_pct": -0.18,
-      "w1_pct": -0.29,
-      "m1_pct": -2.6
+      "price": 1.32,
+      "d1_pct": -0.14,
+      "w1_pct": -0.25,
+      "m1_pct": -2.56
     },
     "USDJPY": {
-      "price": 158.262,
-      "d1_pct": 0.19,
-      "w1_pct": 0.55,
-      "m1_pct": 2.86
+      "price": 158.231,
+      "d1_pct": 0.17,
+      "w1_pct": 0.53,
+      "m1_pct": 2.84
     },
     "USDCHF": {
-      "price": 0.8331,
-      "d1_pct": 0.23,
-      "w1_pct": -0.14,
-      "m1_pct": 2.98
+      "price": 0.8336,
+      "d1_pct": 0.3,
+      "w1_pct": -0.07,
+      "m1_pct": 3.05
     },
     "AUDUSD": {
-      "price": 0.6947,
-      "d1_pct": -0.29,
-      "w1_pct": -0.6,
-      "m1_pct": -3.79
+      "price": 0.695,
+      "d1_pct": -0.24,
+      "w1_pct": -0.55,
+      "m1_pct": -3.75
     },
     "NZDUSD": {
       "price": 0.5588,
@@ -259,22 +259,22 @@
       "m1_pct": -5.0
     },
     "USDCAD": {
-      "price": 1.4265,
-      "d1_pct": 0.01,
-      "w1_pct": 0.52,
-      "m1_pct": 3.33
+      "price": 1.4274,
+      "d1_pct": 0.07,
+      "w1_pct": 0.58,
+      "m1_pct": 3.4
     },
     "USDSEK": {
-      "price": 10.0488,
-      "d1_pct": 0.12,
-      "w1_pct": 0.57,
-      "m1_pct": 4.78
+      "price": 10.0442,
+      "d1_pct": 0.08,
+      "w1_pct": 0.53,
+      "m1_pct": 4.74
     },
     "USDNOK": {
-      "price": 9.5919,
-      "d1_pct": -0.01,
-      "w1_pct": -0.07,
-      "m1_pct": 3.53
+      "price": 9.5968,
+      "d1_pct": 0.04,
+      "w1_pct": -0.02,
+      "m1_pct": 3.58
     },
     "USDCNY": {
       "price": 6.6933,
@@ -283,22 +283,22 @@
       "m1_pct": -0.26
     },
     "USDMXN": {
-      "price": 18.1197,
-      "d1_pct": 0.32,
-      "w1_pct": 0.42,
-      "m1_pct": 6.92
+      "price": 18.0821,
+      "d1_pct": 0.11,
+      "w1_pct": 0.21,
+      "m1_pct": 6.7
     },
     "USDBRL": {
-      "price": 4.999,
-      "d1_pct": 0.05,
-      "w1_pct": -3.92,
-      "m1_pct": -2.49
+      "price": 4.9873,
+      "d1_pct": -0.19,
+      "w1_pct": -4.14,
+      "m1_pct": -2.72
     },
     "USDZAR": {
-      "price": 16.7258,
-      "d1_pct": 0.51,
-      "w1_pct": 2.04,
-      "m1_pct": 4.65
+      "price": 16.7031,
+      "d1_pct": 0.38,
+      "w1_pct": 1.9,
+      "m1_pct": 4.5
     },
     "USDINR": {
       "price": 96.765,
@@ -307,40 +307,40 @@
       "m1_pct": 2.41
     },
     "USDKRW": {
-      "price": 1339.98,
-      "d1_pct": -0.28,
-      "w1_pct": -0.78,
-      "m1_pct": -0.27
+      "price": 1339.0699,
+      "d1_pct": -0.35,
+      "w1_pct": -0.85,
+      "m1_pct": -0.33
     },
     "USDTRY": {
-      "price": 49.1914,
-      "d1_pct": 0.1,
-      "w1_pct": 0.37,
+      "price": 49.1923,
+      "d1_pct": 0.11,
+      "w1_pct": 0.38,
       "m1_pct": 1.53
     },
     "USDPLN": {
-      "price": 3.9248,
-      "d1_pct": 0.52,
-      "w1_pct": 1.98,
-      "m1_pct": 5.95
+      "price": 3.9203,
+      "d1_pct": 0.4,
+      "w1_pct": 1.86,
+      "m1_pct": 5.82
     },
     "USDHUF": {
-      "price": 328.874,
-      "d1_pct": 0.62,
-      "w1_pct": 1.76,
-      "m1_pct": 5.37
+      "price": 328.05,
+      "d1_pct": 0.37,
+      "w1_pct": 1.51,
+      "m1_pct": 5.1
     },
     "USDCZK": {
-      "price": 21.8847,
-      "d1_pct": 0.47,
-      "w1_pct": 1.71,
-      "m1_pct": 5.24
+      "price": 21.8668,
+      "d1_pct": 0.39,
+      "w1_pct": 1.63,
+      "m1_pct": 5.15
     },
     "USDSGD": {
-      "price": 1.2809,
-      "d1_pct": 0.13,
-      "w1_pct": 0.25,
-      "m1_pct": 1.22
+      "price": 1.2807,
+      "d1_pct": 0.11,
+      "w1_pct": 0.23,
+      "m1_pct": 1.2
     },
     "USDIDR": {
       "price": 17878.0,
@@ -355,17 +355,17 @@
       "m1_pct": 2.62
     },
     "DXY": {
-      "price": 102.439,
-      "d1_pct": 0.6,
-      "w1_pct": 0.97,
-      "m1_pct": 3.64
+      "price": 102.46,
+      "d1_pct": 0.62,
+      "w1_pct": 1.0,
+      "m1_pct": 3.66
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 15.77,
+      "price": 15.75,
       "prev_close": 15.01,
-      "change_pct": 5.06,
+      "change_pct": 4.93,
       "timestamp": "2026-10-07 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.456,
-      "d1_pct": -0.38,
-      "w1_pct": -0.33,
-      "m1_pct": -1.32,
+      "price": 9.4538,
+      "d1_pct": -0.41,
+      "w1_pct": -0.36,
+      "m1_pct": -1.34,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,10 +439,24 @@
   },
   "news": [
     {
+      "headline": "Parental controls aren\u2019t just for kids anymore",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
+      "datetime": 1791377340,
+      "category": "general"
+    },
+    {
       "headline": "Intel investors get some reassurance from Elon Musk over a major chip endeavor",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/elon-musk-and-intel-ceo-shore-up-chipmakers-role-in-terafab-project-and-heres-what-the-news-is-doing-to-the-stock-315d0974?mod=mw_rss_topstories",
-      "datetime": 1791373440,
+      "datetime": 1791377160,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018Trump accounts\u2019 could force MAGA children to own New York Times stock",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/trump-accounts-could-force-maga-children-to-own-new-york-times-stock-46177c96?mod=mw_rss_topstories",
+      "datetime": 1791376980,
       "category": "general"
     },
     {
@@ -474,7 +488,7 @@
       "category": "general"
     },
     {
-      "headline": "AMD\u2019s chief executive is planning to invest \u2018tens of billions\u2019 as Asian tour addresses supply-chain chokepoints",
+      "headline": "AMD\u2019s chief executive is planning to invest \u2018tens of billions\u2019 as Asia tour addresses supply-chain chokepoints",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/amds-chief-executive-is-planning-to-invest-tens-of-billions-as-asian-tour-addresses-supply-chain-chokepoints-c6485919?mod=mw_rss_topstories",
       "datetime": 1791365820,
@@ -495,24 +509,10 @@
       "category": "general"
     },
     {
-      "headline": "Josh Brolin sells Atlanta-area mansion for $4 million after slashing price",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/josh-brolin-sells-atlanta-area-mansion-for-4-million-after-slashing-price-52561a89?mod=mw_rss_topstories",
-      "datetime": 1791363900,
-      "category": "general"
-    },
-    {
-      "headline": "A Laguna Beach gem renovated by Diane Keaton is up for grabs for $10.3 million",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/a-laguna-beach-gem-renovated-by-diane-keaton-is-up-for-grabs-for-10-3-million-8e6e1927?mod=mw_rss_topstories",
-      "datetime": 1791363660,
-      "category": "general"
-    },
-    {
       "headline": "Ex-bankers jailed for rigging rates have convictions quashed",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm4g175e8163o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791373565,
+      "datetime": 1791376132,
       "category": "general"
     },
     {
