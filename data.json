@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:19:05.675193Z",
+  "generated_at": "2026-10-09T10:43:58.241700Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,52 +43,52 @@
   },
   "commodities": {
     "gold": {
-      "price": 4209.7998,
-      "d1_pct": 1.27,
-      "w1_pct": 1.14,
-      "m1_pct": -4.48,
+      "price": 4207.0,
+      "d1_pct": 1.2,
+      "w1_pct": 1.07,
+      "m1_pct": -4.54,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 60.64,
-      "d1_pct": 2.67,
-      "w1_pct": 1.11,
-      "m1_pct": -5.67,
+      "price": 60.54,
+      "d1_pct": 2.5,
+      "w1_pct": 0.94,
+      "m1_pct": -5.82,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 90.65,
-      "d1_pct": -0.92,
-      "w1_pct": -0.5,
-      "m1_pct": -11.54,
+      "price": 90.68,
+      "d1_pct": -0.89,
+      "w1_pct": -0.47,
+      "m1_pct": -11.51,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 102.99,
-      "d1_pct": -1.24,
-      "w1_pct": 0.72,
-      "m1_pct": -4.31,
+      "price": 102.95,
+      "d1_pct": -1.28,
+      "w1_pct": 0.68,
+      "m1_pct": -4.35,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.116,
-      "d1_pct": -1.64,
-      "w1_pct": 2.67,
-      "m1_pct": 9.95,
+      "price": 3.124,
+      "d1_pct": -1.39,
+      "w1_pct": 2.93,
+      "m1_pct": 10.23,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.6705,
-      "d1_pct": 2.32,
-      "w1_pct": 2.75,
-      "m1_pct": 3.15,
+      "price": 6.6675,
+      "d1_pct": 2.28,
+      "w1_pct": 2.7,
+      "m1_pct": 3.1,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 682.25,
-      "d1_pct": -0.15,
-      "w1_pct": -0.11,
-      "m1_pct": -5.67,
+      "price": 683.0,
+      "d1_pct": -0.04,
+      "w1_pct": 0.0,
+      "m1_pct": -5.57,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -223,58 +223,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1218,
-      "d1_pct": 0.15,
-      "w1_pct": -0.28,
-      "m1_pct": -3.57
+      "price": 1.1213,
+      "d1_pct": 0.11,
+      "w1_pct": -0.33,
+      "m1_pct": -3.62
     },
     "GBPUSD": {
-      "price": 1.3239,
-      "d1_pct": 0.19,
-      "w1_pct": 0.3,
-      "m1_pct": -2.31
+      "price": 1.3234,
+      "d1_pct": 0.14,
+      "w1_pct": 0.26,
+      "m1_pct": -2.35
     },
     "USDJPY": {
-      "price": 158.303,
-      "d1_pct": 0.15,
-      "w1_pct": 0.24,
-      "m1_pct": 3.08
+      "price": 158.322,
+      "d1_pct": 0.17,
+      "w1_pct": 0.25,
+      "m1_pct": 3.09
     },
     "USDCHF": {
-      "price": 0.8308,
-      "d1_pct": -0.26,
-      "w1_pct": 0.03,
-      "m1_pct": 2.57
+      "price": 0.831,
+      "d1_pct": -0.24,
+      "w1_pct": 0.05,
+      "m1_pct": 2.59
     },
     "AUDUSD": {
-      "price": 0.6982,
-      "d1_pct": 0.26,
-      "w1_pct": 0.77,
-      "m1_pct": -3.3
+      "price": 0.6981,
+      "d1_pct": 0.24,
+      "w1_pct": 0.75,
+      "m1_pct": -3.33
     },
     "NZDUSD": {
-      "price": 0.5613,
-      "d1_pct": 0.21,
-      "w1_pct": 0.2,
-      "m1_pct": -3.97
+      "price": 0.5612,
+      "d1_pct": 0.19,
+      "w1_pct": 0.18,
+      "m1_pct": -3.98
     },
     "USDCAD": {
-      "price": 1.4231,
-      "d1_pct": -0.19,
-      "w1_pct": 0.07,
-      "m1_pct": 3.08
+      "price": 1.4236,
+      "d1_pct": -0.15,
+      "w1_pct": 0.11,
+      "m1_pct": 3.12
     },
     "USDSEK": {
-      "price": 9.9599,
-      "d1_pct": -0.37,
-      "w1_pct": -0.82,
-      "m1_pct": 3.85
+      "price": 9.9682,
+      "d1_pct": -0.29,
+      "w1_pct": -0.74,
+      "m1_pct": 3.94
     },
     "USDNOK": {
-      "price": 9.5687,
-      "d1_pct": -0.01,
-      "w1_pct": -0.65,
-      "m1_pct": 4.06
+      "price": 9.5776,
+      "d1_pct": 0.08,
+      "w1_pct": -0.55,
+      "m1_pct": 4.16
     },
     "USDCNY": {
       "price": 6.6815,
@@ -283,10 +283,10 @@
       "m1_pct": -0.43
     },
     "USDMXN": {
-      "price": 18.1875,
-      "d1_pct": 1.18,
-      "w1_pct": -0.69,
-      "m1_pct": 7.68
+      "price": 18.2059,
+      "d1_pct": 1.29,
+      "w1_pct": -0.59,
+      "m1_pct": 7.79
     },
     "USDBRL": {
       "price": 5.0112,
@@ -295,10 +295,10 @@
       "m1_pct": -1.81
     },
     "USDZAR": {
-      "price": 16.5274,
-      "d1_pct": -0.63,
-      "w1_pct": -1.03,
-      "m1_pct": 3.04
+      "price": 16.5363,
+      "d1_pct": -0.58,
+      "w1_pct": -0.97,
+      "m1_pct": 3.1
     },
     "USDINR": {
       "price": 96.73,
@@ -313,33 +313,33 @@
       "m1_pct": 0.13
     },
     "USDTRY": {
-      "price": 49.3377,
+      "price": 49.3378,
       "d1_pct": 0.26,
       "w1_pct": 0.45,
       "m1_pct": 1.75
     },
     "USDPLN": {
-      "price": 3.9024,
-      "d1_pct": -0.12,
-      "w1_pct": 0.32,
-      "m1_pct": 5.25
+      "price": 3.9056,
+      "d1_pct": -0.04,
+      "w1_pct": 0.4,
+      "m1_pct": 5.34
     },
     "USDHUF": {
-      "price": 325.341,
-      "d1_pct": -0.24,
-      "w1_pct": -0.51,
-      "m1_pct": 4.09
+      "price": 325.539,
+      "d1_pct": -0.18,
+      "w1_pct": -0.45,
+      "m1_pct": 4.15
     },
     "USDCZK": {
-      "price": 21.7175,
-      "d1_pct": -0.29,
-      "w1_pct": -0.09,
-      "m1_pct": 4.17
+      "price": 21.7228,
+      "d1_pct": -0.27,
+      "w1_pct": -0.07,
+      "m1_pct": 4.2
     },
     "USDSGD": {
       "price": 1.2801,
       "d1_pct": 0.04,
-      "w1_pct": -0.01,
+      "w1_pct": -0.0,
       "m1_pct": 1.26
     },
     "USDIDR": {
@@ -355,17 +355,17 @@
       "m1_pct": 1.88
     },
     "DXY": {
-      "price": 102.095,
-      "d1_pct": -0.04,
-      "w1_pct": 0.16,
-      "m1_pct": 3.03
+      "price": 102.146,
+      "d1_pct": 0.01,
+      "w1_pct": 0.21,
+      "m1_pct": 3.08
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 15.22,
+      "price": 15.25,
       "prev_close": 15.41,
-      "change_pct": -1.23,
+      "change_pct": -1.04,
       "timestamp": "2026-10-09 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.4925,
-      "d1_pct": 0.13,
-      "w1_pct": -0.03,
-      "m1_pct": -0.5,
+      "price": 9.4903,
+      "d1_pct": 0.11,
+      "w1_pct": -0.05,
+      "m1_pct": -0.52,
       "country": "UK",
       "duration": "mixed"
     },
@@ -523,7 +523,7 @@
       "category": "general"
     },
     {
-      "headline": "How soon into dating should you reveal your salary?",
+      "headline": "I've been with my boyfriend for two years and don't know his salary",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
       "datetime": 1791538658,
