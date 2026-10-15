@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:43:44.021599Z",
+  "generated_at": "2026-10-15T08:24:27.018483Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.992,
       "y7": null,
-      "y10": 5.19,
+      "y10": null,
       "y20": null,
       "y30": 5.525
     },
@@ -27,12 +27,6 @@
         "change_pct": -0.3,
         "timestamp": "2026-10-14 00:00:00"
       },
-      "US_10Y": {
-        "price": 5.19,
-        "prev_close": 5.217,
-        "change_pct": -0.52,
-        "timestamp": "2026-10-14 00:00:00"
-      },
       "US_30Y": {
         "price": 5.525,
         "prev_close": 5.563,
@@ -43,59 +37,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4165.2998,
-      "d1_pct": 1.4,
-      "w1_pct": 0.2,
-      "m1_pct": -5.06,
+      "price": 4173.6001,
+      "d1_pct": 1.6,
+      "w1_pct": 0.4,
+      "m1_pct": -4.88,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 56.585,
-      "d1_pct": 1.86,
-      "w1_pct": -4.2,
-      "m1_pct": -11.98,
+      "price": 56.78,
+      "d1_pct": 2.21,
+      "w1_pct": -3.87,
+      "m1_pct": -11.68,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 93.85,
-      "d1_pct": -1.3,
-      "w1_pct": 2.58,
-      "m1_pct": -8.38,
+      "price": 94.16,
+      "d1_pct": -0.98,
+      "w1_pct": 2.92,
+      "m1_pct": -8.07,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 103.8,
-      "d1_pct": -2.13,
-      "w1_pct": -0.46,
-      "m1_pct": -1.92,
+      "price": 103.87,
+      "d1_pct": -2.06,
+      "w1_pct": -0.39,
+      "m1_pct": -1.85,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.249,
-      "d1_pct": 1.59,
-      "w1_pct": 2.56,
-      "m1_pct": 12.38,
+      "price": 3.252,
+      "d1_pct": 1.69,
+      "w1_pct": 2.65,
+      "m1_pct": 12.49,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.543,
-      "d1_pct": -1.04,
-      "w1_pct": 0.37,
-      "m1_pct": 1.73,
+      "price": 6.544,
+      "d1_pct": -1.02,
+      "w1_pct": 0.38,
+      "m1_pct": 1.75,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 669.5,
-      "d1_pct": -0.56,
-      "w1_pct": -2.01,
-      "m1_pct": -8.38,
+      "price": 672.5,
+      "d1_pct": -0.11,
+      "w1_pct": -1.57,
+      "m1_pct": -7.97,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 478.5,
-      "d1_pct": -0.47,
-      "w1_pct": -4.35,
-      "m1_pct": -10.44,
+      "price": 479.0,
+      "d1_pct": -0.36,
+      "w1_pct": -4.25,
+      "m1_pct": -10.34,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,70 +217,70 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1217,
-      "d1_pct": 0.11,
-      "w1_pct": 0.14,
-      "m1_pct": -2.78
+      "price": 1.123,
+      "d1_pct": 0.22,
+      "w1_pct": 0.25,
+      "m1_pct": -2.67
     },
     "GBPUSD": {
-      "price": 1.3248,
-      "d1_pct": -0.07,
-      "w1_pct": 0.25,
-      "m1_pct": -1.67
+      "price": 1.3265,
+      "d1_pct": 0.06,
+      "w1_pct": 0.38,
+      "m1_pct": -1.55
     },
     "USDJPY": {
-      "price": 157.962,
-      "d1_pct": -0.23,
-      "w1_pct": -0.06,
-      "m1_pct": 1.74
+      "price": 157.684,
+      "d1_pct": -0.4,
+      "w1_pct": -0.24,
+      "m1_pct": 1.56
     },
     "USDCHF": {
-      "price": 0.8298,
-      "d1_pct": -0.33,
-      "w1_pct": -0.38,
-      "m1_pct": 1.32
+      "price": 0.8283,
+      "d1_pct": -0.52,
+      "w1_pct": -0.56,
+      "m1_pct": 1.12
     },
     "AUDUSD": {
-      "price": 0.6943,
-      "d1_pct": -0.61,
-      "w1_pct": -0.31,
-      "m1_pct": -2.57
+      "price": 0.6932,
+      "d1_pct": -0.76,
+      "w1_pct": -0.46,
+      "m1_pct": -2.72
     },
     "NZDUSD": {
-      "price": 0.5615,
-      "d1_pct": 0.0,
-      "w1_pct": 0.24,
-      "m1_pct": -2.38
+      "price": 0.5618,
+      "d1_pct": 0.06,
+      "w1_pct": 0.3,
+      "m1_pct": -2.32
     },
     "USDCAD": {
-      "price": 1.421,
-      "d1_pct": -0.05,
-      "w1_pct": -0.33,
-      "m1_pct": 2.06
+      "price": 1.4195,
+      "d1_pct": -0.16,
+      "w1_pct": -0.44,
+      "m1_pct": 1.94
     },
     "USDSEK": {
-      "price": 9.9729,
-      "d1_pct": 0.11,
-      "w1_pct": -0.24,
-      "m1_pct": 1.98
+      "price": 9.9639,
+      "d1_pct": 0.02,
+      "w1_pct": -0.33,
+      "m1_pct": 1.89
     },
     "USDNOK": {
-      "price": 9.5225,
-      "d1_pct": 0.08,
-      "w1_pct": -0.5,
-      "m1_pct": 1.86
+      "price": 9.5185,
+      "d1_pct": 0.04,
+      "w1_pct": -0.54,
+      "m1_pct": 1.82
     },
     "USDCNY": {
-      "price": 6.6909,
+      "price": 6.6908,
       "d1_pct": -0.02,
       "w1_pct": -0.2,
       "m1_pct": -0.3
     },
     "USDMXN": {
-      "price": 18.4743,
-      "d1_pct": 0.55,
-      "w1_pct": 2.78,
-      "m1_pct": 7.74
+      "price": 18.4807,
+      "d1_pct": 0.58,
+      "w1_pct": 2.82,
+      "m1_pct": 7.78
     },
     "USDBRL": {
       "price": 5.0336,
@@ -295,52 +289,52 @@
       "m1_pct": -2.13
     },
     "USDZAR": {
-      "price": 16.5468,
-      "d1_pct": 0.37,
-      "w1_pct": -0.52,
-      "m1_pct": 1.72
+      "price": 16.5222,
+      "d1_pct": 0.22,
+      "w1_pct": -0.66,
+      "m1_pct": 1.57
     },
     "USDINR": {
-      "price": 94.948,
-      "d1_pct": -0.36,
-      "w1_pct": -1.87,
-      "m1_pct": -1.09
+      "price": 94.96,
+      "d1_pct": -0.34,
+      "w1_pct": -1.86,
+      "m1_pct": -1.08
     },
     "USDKRW": {
-      "price": 1342.58,
-      "d1_pct": 0.17,
-      "w1_pct": 0.26,
-      "m1_pct": -1.54
+      "price": 1342.9301,
+      "d1_pct": 0.2,
+      "w1_pct": 0.29,
+      "m1_pct": -1.51
     },
     "USDTRY": {
-      "price": 49.4032,
-      "d1_pct": 0.12,
-      "w1_pct": 0.39,
-      "m1_pct": 1.54
+      "price": 49.4124,
+      "d1_pct": 0.14,
+      "w1_pct": 0.41,
+      "m1_pct": 1.56
     },
     "USDPLN": {
-      "price": 3.8965,
-      "d1_pct": -0.11,
-      "w1_pct": -0.27,
-      "m1_pct": 3.65
+      "price": 3.891,
+      "d1_pct": -0.25,
+      "w1_pct": -0.41,
+      "m1_pct": 3.5
     },
     "USDHUF": {
-      "price": 324.592,
-      "d1_pct": -0.0,
-      "w1_pct": -0.47,
-      "m1_pct": 2.64
+      "price": 324.084,
+      "d1_pct": -0.16,
+      "w1_pct": -0.63,
+      "m1_pct": 2.48
     },
     "USDCZK": {
-      "price": 21.7121,
-      "d1_pct": -0.04,
-      "w1_pct": -0.32,
-      "m1_pct": 3.24
+      "price": 21.6873,
+      "d1_pct": -0.15,
+      "w1_pct": -0.43,
+      "m1_pct": 3.12
     },
     "USDSGD": {
-      "price": 1.2825,
-      "d1_pct": 0.22,
-      "w1_pct": 0.22,
-      "m1_pct": 0.73
+      "price": 1.2819,
+      "d1_pct": 0.18,
+      "w1_pct": 0.18,
+      "m1_pct": 0.69
     },
     "USDIDR": {
       "price": 17937.0,
@@ -349,23 +343,23 @@
       "m1_pct": 1.54
     },
     "USDTHB": {
-      "price": 33.48,
-      "d1_pct": -0.24,
-      "w1_pct": -0.31,
-      "m1_pct": 0.57
+      "price": 33.47,
+      "d1_pct": -0.27,
+      "w1_pct": -0.34,
+      "m1_pct": 0.54
     },
     "DXY": {
-      "price": 102.066,
-      "d1_pct": -0.47,
-      "w1_pct": -0.07,
-      "m1_pct": 1.75
+      "price": 102.02,
+      "d1_pct": -0.52,
+      "w1_pct": -0.12,
+      "m1_pct": 1.7
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 17.48,
+      "price": 17.51,
       "prev_close": 16.87,
-      "change_pct": 3.62,
+      "change_pct": 3.79,
       "timestamp": "2026-10-15 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -421,10 +415,10 @@
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 128.8342,
-      "d1_pct": 0.86,
-      "w1_pct": 1.55,
-      "m1_pct": -1.0,
+      "price": 129.29,
+      "d1_pct": 1.22,
+      "w1_pct": 1.91,
+      "m1_pct": -0.65,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -523,24 +517,24 @@
       "category": "general"
     },
     {
-      "headline": "Drop-off charges at UK airports to be reviewed after sharp increase",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cwp8gynk13rro?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791999990,
-      "category": "general"
-    },
-    {
-      "headline": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791996452,
-      "category": "general"
-    },
-    {
       "headline": "How backlash against data centres could shape the US midterm elections",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
       "datetime": 1792018977,
+      "category": "general"
+    },
+    {
+      "headline": "'I paid thousands to a company for jobs that never came'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c9j3dvezpdz0o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1792040557,
+      "category": "general"
+    },
+    {
+      "headline": "Drop-off charges at UK airports to be reviewed after sharp increase",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cwp8gynk13rro?at_medium=RSS&at_campaign=rss",
+      "datetime": 1791999990,
       "category": "general"
     },
     {
@@ -558,6 +552,13 @@
       "category": "general"
     },
     {
+      "headline": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1791996452,
+      "category": "general"
+    },
+    {
       "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
@@ -569,13 +570,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cx30eq0vyed4o?at_medium=RSS&at_campaign=rss",
       "datetime": 1791975852,
-      "category": "general"
-    },
-    {
-      "headline": "Driving test waits fall to two-year low - but still average 20 weeks",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c94g1kvz006ko?at_medium=RSS&at_campaign=rss",
-      "datetime": 1791985534,
       "category": "general"
     }
   ],
