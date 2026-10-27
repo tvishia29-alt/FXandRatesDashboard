@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:16:19.892610Z",
+  "generated_at": "2026-10-27T11:42:14.837263Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,17 +43,17 @@
   },
   "commodities": {
     "gold": {
-      "price": 4024.6001,
-      "d1_pct": -0.34,
-      "w1_pct": -2.85,
-      "m1_pct": -3.45,
+      "price": 4027.2,
+      "d1_pct": -0.28,
+      "w1_pct": -2.79,
+      "m1_pct": -3.39,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 53.495,
-      "d1_pct": -1.13,
-      "w1_pct": -7.3,
-      "m1_pct": -12.62,
+      "price": 53.46,
+      "d1_pct": -1.2,
+      "w1_pct": -7.36,
+      "m1_pct": -12.68,
       "unit": "$/oz"
     },
     "wti": {
@@ -64,38 +64,38 @@
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 109.81,
-      "d1_pct": -5.18,
-      "w1_pct": 0.94,
-      "m1_pct": 4.3,
+      "price": 109.73,
+      "d1_pct": -5.25,
+      "w1_pct": 0.86,
+      "m1_pct": 4.23,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.003,
-      "d1_pct": 15.41,
-      "w1_pct": 1.35,
-      "m1_pct": 0.1,
+      "price": 3.008,
+      "d1_pct": 15.6,
+      "w1_pct": 1.52,
+      "m1_pct": 0.27,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.629,
-      "d1_pct": 1.86,
-      "w1_pct": 0.95,
-      "m1_pct": 0.96,
+      "price": 6.627,
+      "d1_pct": 1.83,
+      "w1_pct": 0.92,
+      "m1_pct": 0.93,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 616.0,
-      "d1_pct": 0.0,
-      "w1_pct": -4.24,
-      "m1_pct": -10.56,
+      "price": 616.25,
+      "d1_pct": 0.04,
+      "w1_pct": -4.2,
+      "m1_pct": -10.53,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 454.25,
-      "d1_pct": -0.16,
-      "w1_pct": -1.68,
-      "m1_pct": -13.15,
+      "price": 455.0,
+      "d1_pct": 0.0,
+      "w1_pct": -1.52,
+      "m1_pct": -13.0,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,28 +223,28 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1152,
-      "d1_pct": -0.58,
-      "w1_pct": -0.57,
-      "m1_pct": -1.99
+      "price": 1.1146,
+      "d1_pct": -0.64,
+      "w1_pct": -0.62,
+      "m1_pct": -2.04
     },
     "GBPUSD": {
-      "price": 1.332,
-      "d1_pct": -0.43,
-      "w1_pct": 0.09,
-      "m1_pct": 0.69
+      "price": 1.3319,
+      "d1_pct": -0.44,
+      "w1_pct": 0.08,
+      "m1_pct": 0.68
     },
     "USDJPY": {
-      "price": 157.664,
-      "d1_pct": 0.53,
-      "w1_pct": -0.54,
-      "m1_pct": 0.13
+      "price": 157.753,
+      "d1_pct": 0.59,
+      "w1_pct": -0.49,
+      "m1_pct": 0.18
     },
     "USDCHF": {
-      "price": 0.8287,
-      "d1_pct": 0.59,
-      "w1_pct": 0.22,
-      "m1_pct": -0.13
+      "price": 0.829,
+      "d1_pct": 0.62,
+      "w1_pct": 0.26,
+      "m1_pct": -0.09
     },
     "AUDUSD": {
       "price": 0.7032,
@@ -253,28 +253,28 @@
       "m1_pct": 0.32
     },
     "NZDUSD": {
-      "price": 0.5701,
-      "d1_pct": -0.02,
-      "w1_pct": 0.61,
-      "m1_pct": 0.87
+      "price": 0.57,
+      "d1_pct": -0.04,
+      "w1_pct": 0.6,
+      "m1_pct": 0.85
     },
     "USDCAD": {
-      "price": 1.402,
-      "d1_pct": 0.05,
-      "w1_pct": -0.6,
-      "m1_pct": -0.95
+      "price": 1.4023,
+      "d1_pct": 0.07,
+      "w1_pct": -0.59,
+      "m1_pct": -0.93
     },
     "USDSEK": {
-      "price": 9.9489,
-      "d1_pct": 0.26,
-      "w1_pct": 0.3,
-      "m1_pct": 0.15
+      "price": 9.953,
+      "d1_pct": 0.3,
+      "w1_pct": 0.34,
+      "m1_pct": 0.2
     },
     "USDNOK": {
-      "price": 9.3184,
-      "d1_pct": 0.07,
-      "w1_pct": -1.1,
-      "m1_pct": -2.13
+      "price": 9.3298,
+      "d1_pct": 0.19,
+      "w1_pct": -0.98,
+      "m1_pct": -2.01
     },
     "USDCNY": {
       "price": 6.6559,
@@ -283,10 +283,10 @@
       "m1_pct": -0.85
     },
     "USDMXN": {
-      "price": 18.617,
-      "d1_pct": -0.55,
-      "w1_pct": 1.13,
-      "m1_pct": 4.89
+      "price": 18.6323,
+      "d1_pct": -0.46,
+      "w1_pct": 1.21,
+      "m1_pct": 4.98
     },
     "USDBRL": {
       "price": 5.4088,
@@ -295,10 +295,10 @@
       "m1_pct": 4.27
     },
     "USDZAR": {
-      "price": 16.6566,
-      "d1_pct": 0.19,
-      "w1_pct": 1.45,
-      "m1_pct": 1.93
+      "price": 16.6702,
+      "d1_pct": 0.27,
+      "w1_pct": 1.53,
+      "m1_pct": 2.01
     },
     "USDINR": {
       "price": 95.12,
@@ -307,40 +307,40 @@
       "m1_pct": -0.7
     },
     "USDKRW": {
-      "price": 1326.26,
-      "d1_pct": 0.34,
-      "w1_pct": -0.28,
-      "m1_pct": -2.09
+      "price": 1327.8199,
+      "d1_pct": 0.46,
+      "w1_pct": -0.16,
+      "m1_pct": -1.97
     },
     "USDTRY": {
-      "price": 49.7827,
-      "d1_pct": 0.09,
-      "w1_pct": 0.44,
-      "m1_pct": 1.66
+      "price": 49.708,
+      "d1_pct": -0.06,
+      "w1_pct": 0.28,
+      "m1_pct": 1.5
     },
     "USDPLN": {
-      "price": 3.9506,
-      "d1_pct": 0.75,
-      "w1_pct": 1.46,
-      "m1_pct": 2.85
+      "price": 3.9528,
+      "d1_pct": 0.81,
+      "w1_pct": 1.52,
+      "m1_pct": 2.9
     },
     "USDHUF": {
-      "price": 329.314,
-      "d1_pct": 1.1,
-      "w1_pct": 1.89,
-      "m1_pct": 2.88
+      "price": 329.407,
+      "d1_pct": 1.13,
+      "w1_pct": 1.92,
+      "m1_pct": 2.91
     },
     "USDCZK": {
-      "price": 21.8392,
-      "d1_pct": 0.87,
-      "w1_pct": 0.66,
-      "m1_pct": 2.06
+      "price": 21.8481,
+      "d1_pct": 0.91,
+      "w1_pct": 0.7,
+      "m1_pct": 2.11
     },
     "USDSGD": {
-      "price": 1.281,
-      "d1_pct": 0.25,
-      "w1_pct": 0.1,
-      "m1_pct": 0.2
+      "price": 1.2814,
+      "d1_pct": 0.28,
+      "w1_pct": 0.13,
+      "m1_pct": 0.23
     },
     "USDIDR": {
       "price": 18145.0,
@@ -349,23 +349,23 @@
       "m1_pct": 1.09
     },
     "USDTHB": {
-      "price": 33.73,
-      "d1_pct": -0.04,
-      "w1_pct": 0.45,
-      "m1_pct": 0.9
+      "price": 33.74,
+      "d1_pct": -0.01,
+      "w1_pct": 0.48,
+      "m1_pct": 0.93
     },
     "DXY": {
-      "price": 102.215,
-      "d1_pct": 0.25,
-      "w1_pct": 0.48,
-      "m1_pct": 1.0
+      "price": 102.189,
+      "d1_pct": 0.22,
+      "w1_pct": 0.45,
+      "m1_pct": 0.98
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 17.9,
+      "price": 17.84,
       "prev_close": 18.39,
-      "change_pct": -2.66,
+      "change_pct": -2.99,
       "timestamp": "2026-10-27 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -439,6 +439,34 @@
   },
   "news": [
     {
+      "headline": "AI debt trouble could help Fed\u2019s Warsh get his way with fewer rate hikes",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
+      "datetime": 1793100840,
+      "category": "general"
+    },
+    {
+      "headline": "Big Tech\u2019s earnings are on deck. There\u2019s more for investors to watch than AI spending.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/big-techs-earnings-are-on-deck-theres-more-for-investors-to-watch-than-ai-spending-bb566c90?mod=mw_rss_topstories",
+      "datetime": 1793100660,
+      "category": "general"
+    },
+    {
+      "headline": "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
+      "datetime": 1793100600,
+      "category": "general"
+    },
+    {
+      "headline": "AI stocks haven\u2019t played by the normal valuation rules. Now that rates are higher, they may have to, says UBS",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/ai-stocks-havent-played-by-the-normal-valuation-rules-now-that-rates-are-higher-they-may-have-to-says-ubs-f8c78948?mod=mw_rss_topstories",
+      "datetime": 1793099700,
+      "category": "general"
+    },
+    {
       "headline": "Options traders are seizing control of the S&P 500",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
@@ -460,13 +488,6 @@
       "category": "general"
     },
     {
-      "headline": "AI debt trouble could help Fed\u2019s Warsh get his way with fewer rate hikes",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
-      "datetime": 1793098800,
-      "category": "general"
-    },
-    {
       "headline": "My abusive ex-husband promised $20,000 for our kids\u2019 education. Now he refuses to pay. Is he legally obligated?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
@@ -485,27 +506,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/designer-betsey-johnson-takes-7-million-socal-home-off-the-market-1f027f0e?mod=mw_rss_topstories",
       "datetime": 1793091720,
-      "category": "general"
-    },
-    {
-      "headline": "The impressive real estate portfolio of sitcom producer Chuck Lorre of \u2018Big Bang Theory\u2019 and \u2018Two and a Half Men\u2019 fame",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-impressive-real-estate-portfolio-of-sitcom-producer-chuck-lorre-of-big-bang-theory-and-two-and-a-half-men-fame-f8e43ed4?mod=mw_rss_topstories",
-      "datetime": 1793091480,
-      "category": "general"
-    },
-    {
-      "headline": "What gave this city its \u2018best place to retire\u2019 crown? You can actually afford to live there.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
-      "datetime": 1793073660,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018You need only watch episodes of Judge Judy\u2019: I\u2019m in my 70s. Why do people keep making the same avoidable financial mistakes?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
-      "datetime": 1793053800,
       "category": "general"
     },
     {
