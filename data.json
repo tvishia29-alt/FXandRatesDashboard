@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T10:36:25.281884Z",
+  "generated_at": "2026-10-28T11:12:08.508824Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 4.04,
+      "y3m": null,
       "y6m": null,
       "y1": null,
-      "y2": 4.328,
+      "y2": 4.69,
       "y3": null,
       "y5": 4.84,
       "y7": null,
@@ -15,12 +15,6 @@
       "y30": 5.305
     },
     "US_yf": {
-      "US_3M": {
-        "price": 4.04,
-        "prev_close": 4.025,
-        "change_pct": 0.37,
-        "timestamp": "2026-10-27 00:00:00"
-      },
       "US_5Y": {
         "price": 4.84,
         "prev_close": 4.824,
@@ -43,59 +37,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4059.6001,
-      "d1_pct": -0.37,
-      "w1_pct": -2.18,
-      "m1_pct": -2.87,
+      "price": 4057.8,
+      "d1_pct": -0.41,
+      "w1_pct": -2.22,
+      "m1_pct": -2.92,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 53.7,
-      "d1_pct": -1.09,
-      "w1_pct": -6.48,
-      "m1_pct": -11.49,
+      "price": 53.785,
+      "d1_pct": -0.94,
+      "w1_pct": -6.33,
+      "m1_pct": -11.35,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 101.57,
-      "d1_pct": 1.67,
-      "w1_pct": 4.55,
-      "m1_pct": 13.64,
+      "price": 101.56,
+      "d1_pct": 1.66,
+      "w1_pct": 4.54,
+      "m1_pct": 13.63,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 111.13,
-      "d1_pct": -2.41,
-      "w1_pct": 2.12,
-      "m1_pct": 8.32,
+      "price": 111.12,
+      "d1_pct": -2.42,
+      "w1_pct": 2.11,
+      "m1_pct": 8.31,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.059,
-      "d1_pct": 13.42,
-      "w1_pct": 9.64,
-      "m1_pct": 1.59,
+      "price": 3.076,
+      "d1_pct": 14.05,
+      "w1_pct": 10.25,
+      "m1_pct": 2.16,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.631,
-      "d1_pct": 0.14,
-      "w1_pct": 1.34,
-      "m1_pct": 1.34,
+      "price": 6.6335,
+      "d1_pct": 0.17,
+      "w1_pct": 1.38,
+      "m1_pct": 1.38,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 611.0,
-      "d1_pct": 0.12,
-      "w1_pct": -2.75,
-      "m1_pct": -11.8,
+      "price": 613.0,
+      "d1_pct": 0.45,
+      "w1_pct": -2.43,
+      "m1_pct": -11.51,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 450.75,
-      "d1_pct": 0.45,
-      "w1_pct": -2.7,
-      "m1_pct": -13.65,
+      "price": 451.0,
+      "d1_pct": 0.5,
+      "w1_pct": -2.64,
+      "m1_pct": -13.6,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,58 +217,58 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1132,
-      "d1_pct": -0.37,
-      "w1_pct": -0.84,
-      "m1_pct": -2.12
+      "price": 1.1128,
+      "d1_pct": -0.41,
+      "w1_pct": -0.88,
+      "m1_pct": -2.15
     },
     "GBPUSD": {
-      "price": 1.3288,
-      "d1_pct": -0.43,
-      "w1_pct": -0.64,
-      "m1_pct": 0.26
+      "price": 1.328,
+      "d1_pct": -0.49,
+      "w1_pct": -0.7,
+      "m1_pct": 0.19
     },
     "USDJPY": {
-      "price": 157.861,
-      "d1_pct": 0.21,
-      "w1_pct": -0.26,
-      "m1_pct": 0.32
+      "price": 157.899,
+      "d1_pct": 0.24,
+      "w1_pct": -0.23,
+      "m1_pct": 0.34
     },
     "USDCHF": {
-      "price": 0.83,
-      "d1_pct": 0.3,
-      "w1_pct": 0.53,
-      "m1_pct": -0.21
+      "price": 0.8302,
+      "d1_pct": 0.32,
+      "w1_pct": 0.55,
+      "m1_pct": -0.18
     },
     "AUDUSD": {
-      "price": 0.703,
-      "d1_pct": 0.16,
-      "w1_pct": 0.34,
-      "m1_pct": 0.2
+      "price": 0.7033,
+      "d1_pct": 0.19,
+      "w1_pct": 0.37,
+      "m1_pct": 0.23
     },
     "NZDUSD": {
-      "price": 0.5603,
-      "d1_pct": -1.49,
-      "w1_pct": -1.31,
-      "m1_pct": -1.06
+      "price": 0.5609,
+      "d1_pct": -1.4,
+      "w1_pct": -1.22,
+      "m1_pct": -0.97
     },
     "USDCAD": {
-      "price": 1.4054,
-      "d1_pct": 0.3,
-      "w1_pct": -0.08,
-      "m1_pct": -0.87
+      "price": 1.4048,
+      "d1_pct": 0.25,
+      "w1_pct": -0.13,
+      "m1_pct": -0.91
     },
     "USDSEK": {
-      "price": 9.9385,
-      "d1_pct": -0.15,
-      "w1_pct": 0.3,
-      "m1_pct": -0.21
+      "price": 9.9395,
+      "d1_pct": -0.14,
+      "w1_pct": 0.31,
+      "m1_pct": -0.2
     },
     "USDNOK": {
-      "price": 9.3221,
-      "d1_pct": 0.12,
-      "w1_pct": -0.86,
-      "m1_pct": -2.24
+      "price": 9.3103,
+      "d1_pct": -0.01,
+      "w1_pct": -0.98,
+      "m1_pct": -2.36
     },
     "USDCNY": {
       "price": 6.6553,
@@ -283,10 +277,10 @@
       "m1_pct": -0.82
     },
     "USDMXN": {
-      "price": 18.648,
-      "d1_pct": 0.53,
-      "w1_pct": 1.21,
-      "m1_pct": 3.76
+      "price": 18.646,
+      "d1_pct": 0.52,
+      "w1_pct": 1.2,
+      "m1_pct": 3.75
     },
     "USDBRL": {
       "price": 5.3489,
@@ -295,10 +289,10 @@
       "m1_pct": 2.41
     },
     "USDZAR": {
-      "price": 16.6562,
-      "d1_pct": 0.15,
-      "w1_pct": 1.62,
-      "m1_pct": 1.53
+      "price": 16.6661,
+      "d1_pct": 0.21,
+      "w1_pct": 1.68,
+      "m1_pct": 1.59
     },
     "USDINR": {
       "price": 95.22,
@@ -307,13 +301,13 @@
       "m1_pct": -0.79
     },
     "USDKRW": {
-      "price": 1338.59,
-      "d1_pct": 1.04,
-      "w1_pct": 1.11,
-      "m1_pct": -1.54
+      "price": 1338.9399,
+      "d1_pct": 1.07,
+      "w1_pct": 1.13,
+      "m1_pct": -1.52
     },
     "USDTRY": {
-      "price": 49.833,
+      "price": 49.8328,
       "d1_pct": 0.1,
       "w1_pct": 0.5,
       "m1_pct": 1.71
@@ -325,22 +319,22 @@
       "m1_pct": 3.11
     },
     "USDHUF": {
-      "price": 329.825,
-      "d1_pct": 0.5,
-      "w1_pct": 1.8,
-      "m1_pct": 2.19
+      "price": 330.127,
+      "d1_pct": 0.6,
+      "w1_pct": 1.9,
+      "m1_pct": 2.28
     },
     "USDCZK": {
-      "price": 21.8982,
-      "d1_pct": 0.56,
-      "w1_pct": 1.29,
-      "m1_pct": 2.19
+      "price": 21.893,
+      "d1_pct": 0.54,
+      "w1_pct": 1.27,
+      "m1_pct": 2.16
     },
     "USDSGD": {
-      "price": 1.2821,
-      "d1_pct": 0.1,
-      "w1_pct": 0.33,
-      "m1_pct": 0.38
+      "price": 1.2822,
+      "d1_pct": 0.11,
+      "w1_pct": 0.34,
+      "m1_pct": 0.39
     },
     "USDIDR": {
       "price": 18175.0,
@@ -349,23 +343,23 @@
       "m1_pct": 1.08
     },
     "USDTHB": {
-      "price": 33.73,
-      "d1_pct": -0.09,
-      "w1_pct": 0.39,
-      "m1_pct": 0.39
+      "price": 33.76,
+      "d1_pct": 0.0,
+      "w1_pct": 0.48,
+      "m1_pct": 0.48
     },
     "DXY": {
-      "price": 102.4,
-      "d1_pct": 0.08,
-      "w1_pct": 0.61,
-      "m1_pct": 1.02
+      "price": 102.424,
+      "d1_pct": 0.1,
+      "w1_pct": 0.63,
+      "m1_pct": 1.04
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 17.53,
+      "price": 17.48,
       "prev_close": 17.52,
-      "change_pct": 0.06,
+      "change_pct": -0.23,
       "timestamp": "2026-10-28 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +407,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5825,
-      "d1_pct": -0.13,
-      "w1_pct": 0.13,
-      "m1_pct": 1.0,
+      "price": 9.5925,
+      "d1_pct": -0.03,
+      "w1_pct": 0.24,
+      "m1_pct": 1.11,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 127.925,
-      "d1_pct": -0.28,
-      "w1_pct": 1.13,
-      "m1_pct": 0.11,
+      "price": 128.35,
+      "d1_pct": 0.05,
+      "w1_pct": 1.46,
+      "m1_pct": 0.45,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +432,13 @@
     }
   },
   "news": [
+    {
+      "headline": "SK Hynix delivered on third-quarter results \u2014 but the outlook is what really mattered to Wall Street and the AI trade",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57?mod=mw_rss_topstories",
+      "datetime": 1793185680,
+      "category": "general"
+    },
     {
       "headline": "The real way to tell if Amazon\u2019s AI spending is paying off",
       "source": "MarketWatch",
@@ -457,13 +458,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/bill-ackman-owns-only-a-handful-of-stocks-here-is-his-rule-for-picking-a-winner-82a0ee98?mod=mw_rss_topstories",
       "datetime": 1793182260,
-      "category": "general"
-    },
-    {
-      "headline": "SK Hynix delivered on third-quarter results \u2014 but the outlook is what really mattered to Wall Street and the AI trade",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57?mod=mw_rss_topstories",
-      "datetime": 1793179500,
       "category": "general"
     },
     {
@@ -523,6 +517,13 @@
       "category": "general"
     },
     {
+      "headline": "You may get the right to find out what your colleagues earn - here's why",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8nwvj92jdo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1793184159,
+      "category": "general"
+    },
+    {
       "headline": "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
@@ -530,17 +531,17 @@
       "category": "general"
     },
     {
-      "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793183482,
-      "category": "general"
-    },
-    {
       "headline": "'An annoying buzz': The search for stealthier drones",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss",
       "datetime": 1793145670,
+      "category": "general"
+    },
+    {
+      "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1793183482,
       "category": "general"
     },
     {
@@ -569,13 +570,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c6x29g1nlr51o?at_medium=RSS&at_campaign=rss",
       "datetime": 1793134488,
-      "category": "general"
-    },
-    {
-      "headline": "Mbapp\u00e9 sorry for 'ill-judged' Mao remark after backlash in China",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793107554,
       "category": "general"
     }
   ],
