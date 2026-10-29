@@ -1,101 +1,101 @@
 {
-  "generated_at": "2026-10-29T12:41:27.188329Z",
+  "generated_at": "2026-10-29T13:13:03.532990Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 3.998,
+      "y3m": 4.0,
       "y6m": null,
       "y1": null,
-      "y2": 4.304,
+      "y2": 4.298,
       "y3": null,
-      "y5": 4.848,
+      "y5": 4.828,
       "y7": null,
-      "y10": 5.024,
+      "y10": 5.007,
       "y20": null,
-      "y30": 5.346
+      "y30": 5.334
     },
     "US_yf": {
       "US_3M": {
-        "price": 3.998,
+        "price": 4.0,
         "prev_close": 3.995,
-        "change_pct": 0.08,
+        "change_pct": 0.13,
         "timestamp": "2026-10-29 00:00:00"
       },
       "US_5Y": {
-        "price": 4.848,
+        "price": 4.828,
         "prev_close": 4.871,
-        "change_pct": -0.47,
+        "change_pct": -0.88,
         "timestamp": "2026-10-29 00:00:00"
       },
       "US_10Y": {
-        "price": 5.024,
+        "price": 5.007,
         "prev_close": 5.045,
-        "change_pct": -0.42,
+        "change_pct": -0.75,
         "timestamp": "2026-10-29 00:00:00"
       },
       "US_30Y": {
-        "price": 5.346,
+        "price": 5.334,
         "prev_close": 5.361,
-        "change_pct": -0.28,
+        "change_pct": -0.5,
         "timestamp": "2026-10-29 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4037.5,
-      "d1_pct": -0.35,
-      "w1_pct": -0.56,
-      "m1_pct": -3.56,
+      "price": 4032.3,
+      "d1_pct": -0.48,
+      "w1_pct": -0.69,
+      "m1_pct": -3.69,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 52.595,
-      "d1_pct": -1.61,
-      "w1_pct": -3.96,
-      "m1_pct": -12.48,
+      "price": 52.305,
+      "d1_pct": -2.16,
+      "w1_pct": -4.49,
+      "m1_pct": -12.97,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 101.84,
-      "d1_pct": -0.91,
-      "w1_pct": 2.38,
-      "m1_pct": 12.63,
+      "price": 100.84,
+      "d1_pct": -1.89,
+      "w1_pct": 1.38,
+      "m1_pct": 11.52,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 110.52,
-      "d1_pct": -4.16,
-      "w1_pct": -2.34,
-      "m1_pct": 6.75,
+      "price": 109.92,
+      "d1_pct": -4.68,
+      "w1_pct": -2.87,
+      "m1_pct": 6.17,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.994,
-      "d1_pct": 6.28,
-      "w1_pct": 7.08,
-      "m1_pct": -1.06,
+      "price": 2.932,
+      "d1_pct": 4.08,
+      "w1_pct": 4.86,
+      "m1_pct": -3.11,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.595,
-      "d1_pct": -0.7,
-      "w1_pct": 3.65,
-      "m1_pct": 0.55,
+      "price": 6.587,
+      "d1_pct": -0.82,
+      "w1_pct": 3.53,
+      "m1_pct": 0.43,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 599.5,
-      "d1_pct": 0.08,
-      "w1_pct": -4.04,
-      "m1_pct": -11.28,
+      "price": 598.25,
+      "d1_pct": -0.13,
+      "w1_pct": -4.24,
+      "m1_pct": -11.47,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 451.5,
-      "d1_pct": -0.06,
-      "w1_pct": -1.95,
-      "m1_pct": -9.84,
+      "price": 450.25,
+      "d1_pct": -0.33,
+      "w1_pct": -2.23,
+      "m1_pct": -10.08,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,82 +223,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1148,
-      "d1_pct": 0.17,
-      "w1_pct": -0.77,
-      "m1_pct": -1.7
+      "price": 1.1135,
+      "d1_pct": 0.04,
+      "w1_pct": -0.89,
+      "m1_pct": -1.82
     },
     "GBPUSD": {
-      "price": 1.3332,
-      "d1_pct": 0.2,
-      "w1_pct": -0.47,
-      "m1_pct": 0.75
+      "price": 1.3318,
+      "d1_pct": 0.09,
+      "w1_pct": -0.58,
+      "m1_pct": 0.65
     },
     "USDJPY": {
-      "price": 157.954,
-      "d1_pct": -0.02,
-      "w1_pct": -0.11,
-      "m1_pct": 0.35
+      "price": 158.068,
+      "d1_pct": 0.05,
+      "w1_pct": -0.04,
+      "m1_pct": 0.42
     },
     "USDCHF": {
-      "price": 0.8276,
-      "d1_pct": -0.15,
-      "w1_pct": 0.44,
-      "m1_pct": -0.79
+      "price": 0.8288,
+      "d1_pct": -0.0,
+      "w1_pct": 0.58,
+      "m1_pct": -0.65
     },
     "AUDUSD": {
-      "price": 0.7035,
-      "d1_pct": 0.06,
-      "w1_pct": 0.08,
-      "m1_pct": 0.66
+      "price": 0.7028,
+      "d1_pct": -0.03,
+      "w1_pct": -0.01,
+      "m1_pct": 0.56
     },
     "NZDUSD": {
-      "price": 0.5618,
-      "d1_pct": -1.1,
-      "w1_pct": -1.53,
-      "m1_pct": -0.4
+      "price": 0.5617,
+      "d1_pct": -1.11,
+      "w1_pct": -1.54,
+      "m1_pct": -0.42
     },
     "USDCAD": {
-      "price": 1.3977,
-      "d1_pct": -0.52,
-      "w1_pct": -0.47,
-      "m1_pct": -1.51
+      "price": 1.3993,
+      "d1_pct": -0.41,
+      "w1_pct": -0.35,
+      "m1_pct": -1.4
     },
     "USDSEK": {
-      "price": 9.8755,
-      "d1_pct": -0.77,
-      "w1_pct": -0.14,
-      "m1_pct": -1.16
+      "price": 9.8819,
+      "d1_pct": -0.7,
+      "w1_pct": -0.07,
+      "m1_pct": -1.1
     },
     "USDNOK": {
-      "price": 9.273,
-      "d1_pct": -0.65,
-      "w1_pct": -0.95,
-      "m1_pct": -3.39
+      "price": 9.2797,
+      "d1_pct": -0.58,
+      "w1_pct": -0.88,
+      "m1_pct": -3.32
     },
     "USDCNY": {
-      "price": 6.6506,
+      "price": 6.6509,
       "d1_pct": -0.26,
-      "w1_pct": -0.41,
+      "w1_pct": -0.4,
       "m1_pct": -0.78
     },
     "USDMXN": {
-      "price": 18.7531,
-      "d1_pct": 0.35,
+      "price": 18.7542,
+      "d1_pct": 0.36,
       "w1_pct": 0.4,
-      "m1_pct": 3.93
+      "m1_pct": 3.94
     },
     "USDBRL": {
-      "price": 5.35,
-      "d1_pct": -0.01,
-      "w1_pct": 6.57,
-      "m1_pct": 2.83
+      "price": 5.351,
+      "d1_pct": 0.01,
+      "w1_pct": 6.59,
+      "m1_pct": 2.85
     },
     "USDZAR": {
-      "price": 16.6402,
-      "d1_pct": 0.01,
-      "w1_pct": 1.65,
-      "m1_pct": 1.52
+      "price": 16.6413,
+      "d1_pct": 0.02,
+      "w1_pct": 1.66,
+      "m1_pct": 1.53
     },
     "USDINR": {
       "price": 95.25,
@@ -307,40 +307,40 @@
       "m1_pct": -0.83
     },
     "USDKRW": {
-      "price": 1338.08,
-      "d1_pct": 0.85,
-      "w1_pct": 0.94,
-      "m1_pct": -0.92
+      "price": 1337.6801,
+      "d1_pct": 0.82,
+      "w1_pct": 0.91,
+      "m1_pct": -0.95
     },
     "USDTRY": {
-      "price": 49.8328,
+      "price": 49.833,
       "d1_pct": 0.07,
       "w1_pct": 0.42,
       "m1_pct": 1.68
     },
     "USDPLN": {
-      "price": 3.9414,
-      "d1_pct": -0.28,
-      "w1_pct": 1.74,
-      "m1_pct": 2.41
+      "price": 3.9468,
+      "d1_pct": -0.15,
+      "w1_pct": 1.88,
+      "m1_pct": 2.55
     },
     "USDHUF": {
-      "price": 328.09,
-      "d1_pct": -0.4,
-      "w1_pct": 1.01,
-      "m1_pct": 1.52
+      "price": 328.702,
+      "d1_pct": -0.21,
+      "w1_pct": 1.2,
+      "m1_pct": 1.71
     },
     "USDCZK": {
-      "price": 21.8266,
-      "d1_pct": -0.08,
-      "w1_pct": 1.16,
-      "m1_pct": 1.44
+      "price": 21.855,
+      "d1_pct": 0.05,
+      "w1_pct": 1.29,
+      "m1_pct": 1.57
     },
     "USDSGD": {
-      "price": 1.2813,
-      "d1_pct": -0.0,
-      "w1_pct": 0.33,
-      "m1_pct": 0.28
+      "price": 1.2816,
+      "d1_pct": 0.03,
+      "w1_pct": 0.36,
+      "m1_pct": 0.31
     },
     "USDIDR": {
       "price": 18125.0,
@@ -349,23 +349,23 @@
       "m1_pct": 2.19
     },
     "USDTHB": {
-      "price": 33.74,
-      "d1_pct": -0.09,
-      "w1_pct": 0.52,
-      "m1_pct": 0.54
+      "price": 33.73,
+      "d1_pct": -0.12,
+      "w1_pct": 0.49,
+      "m1_pct": 0.51
     },
     "DXY": {
-      "price": 102.182,
-      "d1_pct": -0.01,
-      "w1_pct": 0.56,
-      "m1_pct": 0.72
+      "price": 102.309,
+      "d1_pct": 0.12,
+      "w1_pct": 0.69,
+      "m1_pct": 0.85
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 17.17,
+      "price": 17.01,
       "prev_close": 16.91,
-      "change_pct": 1.54,
+      "change_pct": 0.59,
       "timestamp": "2026-10-29 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.6181,
-      "d1_pct": 0.14,
-      "w1_pct": 0.14,
-      "m1_pct": 1.4,
+      "price": 9.6259,
+      "d1_pct": 0.22,
+      "w1_pct": 0.22,
+      "m1_pct": 1.49,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,6 +439,48 @@
   },
   "news": [
     {
+      "headline": "Marvell is reportedly close to buying Lumentum. Analysts say they see logic in a potential deal.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/marvell-is-reportedly-close-to-buying-lumentum-analysts-say-they-see-logic-in-a-potential-deal-d7539c59?mod=mw_rss_topstories",
+      "datetime": 1793279100,
+      "category": "general"
+    },
+    {
+      "headline": "Consumer spending flattens out after inflation surge",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
+      "datetime": 1793278860,
+      "category": "general"
+    },
+    {
+      "headline": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who\u2019s to blame?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+      "datetime": 1793278800,
+      "category": "general"
+    },
+    {
+      "headline": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+      "datetime": 1793278800,
+      "category": "general"
+    },
+    {
+      "headline": "DoorDash and Instacart want to join forces. Will the U.S. government get in their way?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/doordash-and-instacart-want-to-join-forces-will-the-u-s-government-get-in-their-way-0c065bee?mod=mw_rss_topstories",
+      "datetime": 1793278680,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018Fancy cars hold no appeal\u2019: We have a 99% chance of outliving our life savings. Why not spend, spend, spend?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+      "datetime": 1793277900,
+      "category": "general"
+    },
+    {
       "headline": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
@@ -446,7 +488,7 @@
       "category": "general"
     },
     {
-      "headline": "U.S. economy grows at fastest pace in almost three years, third-quarter GDP shows",
+      "headline": "Economy grows at fastest pace in a year, GDP shows, and shows little sign of slowing",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/u-s-economy-grows-at-fastest-pace-in-almost-three-years-third-quarter-gdp-shows-0e15b810?mod=mw_rss_topstories",
       "datetime": 1793277300,
@@ -467,52 +509,17 @@
       "category": "general"
     },
     {
-      "headline": "It\u2019s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/its-the-strangest-job-market-the-u-s-has-ever-seen-the-low-hire-low-fire-economy-turns-3-years-old-ce8d0dfe?mod=mw_rss_topstories",
-      "datetime": 1793275200,
-      "category": "general"
-    },
-    {
-      "headline": "Is it dumb to take travel advice from influencers?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/im-planning-a-trip-to-europe-is-it-dumb-to-take-travel-advice-from-influencers-f25ae756?mod=mw_rss_topstories",
-      "datetime": 1793274480,
-      "category": "general"
-    },
-    {
-      "headline": "You can\u2019t rely on the S&P 500 as much as you may think",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
-      "datetime": 1793273400,
-      "category": "general"
-    },
-    {
-      "headline": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-      "datetime": 1793272500,
-      "category": "general"
-    },
-    {
-      "headline": "The Fed held off on a rate hike. Today\u2019s GDP and inflation reports could make waiting harder.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-fed-held-off-on-a-rate-hike-todays-gdp-and-inflation-reports-could-make-waiting-harder-693338e6?mod=mw_rss_topstories",
-      "datetime": 1793272260,
-      "category": "general"
-    },
-    {
-      "headline": "Samsung Electronics earned nearly as much as Microsoft and Alphabet combined. What the Korean giant is now saying about the memory-chip outlook.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/samsung-electronics-earned-nearly-as-much-as-microsoft-and-alphabet-combined-what-the-korean-giant-is-now-saying-about-the-memory-chip-outlook-e5c94b94?mod=mw_rss_topstories",
-      "datetime": 1793272140,
-      "category": "general"
-    },
-    {
       "headline": "Poundland's future hangs in the balance as chain edges towards collapse",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
       "datetime": 1793275754,
+      "category": "general"
+    },
+    {
+      "headline": "'Painful' years head, think tanks warn, as living standards set to fall",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1793278226,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no?at_medium=RSS&at_campaign=rss",
       "datetime": 1793237260,
-      "category": "general"
-    },
-    {
-      "headline": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793260473,
       "category": "general"
     }
   ],
