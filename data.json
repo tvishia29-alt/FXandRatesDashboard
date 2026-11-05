@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:36:52.657889Z",
+  "generated_at": "2026-11-05T13:10:55.134074Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -10,7 +10,7 @@
       "y3": null,
       "y5": 4.689,
       "y7": null,
-      "y10": null,
+      "y10": 4.894,
       "y20": null,
       "y30": 5.282
     },
@@ -25,6 +25,12 @@
         "price": 4.689,
         "prev_close": 4.743,
         "change_pct": -1.14,
+        "timestamp": "2026-11-04 00:00:00"
+      },
+      "US_10Y": {
+        "price": 4.894,
+        "prev_close": 4.952,
+        "change_pct": -1.17,
         "timestamp": "2026-11-04 00:00:00"
       },
       "US_30Y": {
@@ -44,52 +50,52 @@
       "unit": "$/oz"
     },
     "silver": {
-      "price": 52.56,
-      "d1_pct": 0.84,
-      "w1_pct": 0.71,
-      "m1_pct": -12.25,
+      "price": 52.68,
+      "d1_pct": 1.07,
+      "w1_pct": 0.94,
+      "m1_pct": -12.05,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 89.4,
-      "d1_pct": 1.45,
-      "w1_pct": -12.35,
-      "m1_pct": 1.27,
+      "price": 89.39,
+      "d1_pct": 1.44,
+      "w1_pct": -12.36,
+      "m1_pct": 1.26,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 96.82,
-      "d1_pct": 2.33,
-      "w1_pct": -15.72,
-      "m1_pct": -3.37,
+      "price": 96.74,
+      "d1_pct": 2.24,
+      "w1_pct": -15.79,
+      "m1_pct": -3.45,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 2.944,
-      "d1_pct": -0.51,
-      "w1_pct": -0.27,
-      "m1_pct": -8.09,
+      "price": 2.925,
+      "d1_pct": -1.15,
+      "w1_pct": -0.91,
+      "m1_pct": -8.68,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.395,
-      "d1_pct": -0.12,
-      "w1_pct": -2.83,
-      "m1_pct": -3.05,
+      "price": 6.4085,
+      "d1_pct": 0.09,
+      "w1_pct": -2.62,
+      "m1_pct": -2.85,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 603.0,
-      "d1_pct": 0.75,
-      "w1_pct": -0.12,
-      "m1_pct": -12.16,
+      "price": 602.25,
+      "d1_pct": 0.63,
+      "w1_pct": -0.25,
+      "m1_pct": -12.27,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 446.75,
-      "d1_pct": 0.56,
-      "w1_pct": -1.0,
-      "m1_pct": -11.01,
+      "price": 445.75,
+      "d1_pct": 0.34,
+      "w1_pct": -1.22,
+      "m1_pct": -11.21,
       "unit": "\u00a2/bu"
     }
   },
@@ -217,82 +223,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1222,
-      "d1_pct": 0.13,
-      "w1_pct": 0.59,
-      "m1_pct": -0.28
+      "price": 1.1227,
+      "d1_pct": 0.18,
+      "w1_pct": 0.64,
+      "m1_pct": -0.23
     },
     "GBPUSD": {
-      "price": 1.3463,
-      "d1_pct": 0.21,
-      "w1_pct": 1.01,
-      "m1_pct": 1.48
+      "price": 1.3459,
+      "d1_pct": 0.18,
+      "w1_pct": 0.98,
+      "m1_pct": 1.45
     },
     "USDJPY": {
-      "price": 158.483,
-      "d1_pct": 0.01,
-      "w1_pct": 0.41,
-      "m1_pct": 0.12
+      "price": 158.452,
+      "d1_pct": -0.01,
+      "w1_pct": 0.39,
+      "m1_pct": 0.1
     },
     "USDCHF": {
-      "price": 0.8183,
-      "d1_pct": -0.13,
-      "w1_pct": -1.17,
-      "m1_pct": -1.67
+      "price": 0.818,
+      "d1_pct": -0.17,
+      "w1_pct": -1.21,
+      "m1_pct": -1.71
     },
     "AUDUSD": {
-      "price": 0.7003,
-      "d1_pct": 0.5,
-      "w1_pct": -0.78,
+      "price": 0.7004,
+      "d1_pct": 0.51,
+      "w1_pct": -0.77,
       "m1_pct": 0.31
     },
     "NZDUSD": {
       "price": 0.5624,
       "d1_pct": 0.55,
-      "w1_pct": -0.1,
-      "m1_pct": -0.01
+      "w1_pct": -0.09,
+      "m1_pct": -0.0
     },
     "USDCAD": {
-      "price": 1.3976,
-      "d1_pct": -0.2,
-      "w1_pct": -0.08,
-      "m1_pct": -1.66
+      "price": 1.3965,
+      "d1_pct": -0.28,
+      "w1_pct": -0.15,
+      "m1_pct": -1.74
     },
     "USDSEK": {
-      "price": 9.7888,
-      "d1_pct": 0.17,
-      "w1_pct": -1.14,
-      "m1_pct": -2.08
+      "price": 9.7855,
+      "d1_pct": 0.14,
+      "w1_pct": -1.18,
+      "m1_pct": -2.11
     },
     "USDNOK": {
-      "price": 9.2964,
+      "price": 9.2961,
       "d1_pct": 0.28,
-      "w1_pct": 0.52,
-      "m1_pct": -2.65
+      "w1_pct": 0.51,
+      "m1_pct": -2.66
     },
     "USDCNY": {
-      "price": 6.6578,
-      "d1_pct": -0.18,
+      "price": 6.6577,
+      "d1_pct": -0.19,
       "w1_pct": -0.12,
       "m1_pct": -0.7
     },
     "USDMXN": {
-      "price": 18.5889,
-      "d1_pct": -1.22,
-      "w1_pct": -0.23,
-      "m1_pct": 3.45
+      "price": 18.5812,
+      "d1_pct": -1.26,
+      "w1_pct": -0.27,
+      "m1_pct": 3.41
     },
     "USDBRL": {
-      "price": 5.4706,
-      "d1_pct": -0.3,
-      "w1_pct": 2.33,
-      "m1_pct": 9.82
+      "price": 5.4586,
+      "d1_pct": -0.52,
+      "w1_pct": 2.11,
+      "m1_pct": 9.58
     },
     "USDZAR": {
-      "price": 16.4175,
-      "d1_pct": -1.06,
-      "w1_pct": -1.15,
-      "m1_pct": -0.66
+      "price": 16.4111,
+      "d1_pct": -1.1,
+      "w1_pct": -1.19,
+      "m1_pct": -0.7
     },
     "USDINR": {
       "price": 94.47,
@@ -301,46 +307,46 @@
       "m1_pct": -1.97
     },
     "USDKRW": {
-      "price": 1344.08,
-      "d1_pct": 0.09,
-      "w1_pct": 0.28,
-      "m1_pct": 0.32
+      "price": 1344.61,
+      "d1_pct": 0.13,
+      "w1_pct": 0.32,
+      "m1_pct": 0.36
     },
     "USDTRY": {
-      "price": 50.0428,
-      "d1_pct": 0.07,
+      "price": 50.0421,
+      "d1_pct": 0.06,
       "w1_pct": 0.43,
       "m1_pct": 1.72
     },
     "USDPLN": {
-      "price": 3.9136,
-      "d1_pct": -0.5,
-      "w1_pct": -0.77,
-      "m1_pct": 0.82
+      "price": 3.91,
+      "d1_pct": -0.59,
+      "w1_pct": -0.87,
+      "m1_pct": 0.73
     },
     "USDHUF": {
-      "price": 323.699,
-      "d1_pct": -0.39,
-      "w1_pct": -1.41,
-      "m1_pct": -0.02
+      "price": 323.529,
+      "d1_pct": -0.44,
+      "w1_pct": -1.46,
+      "m1_pct": -0.08
     },
     "USDCZK": {
-      "price": 21.6484,
-      "d1_pct": -0.3,
-      "w1_pct": -0.79,
-      "m1_pct": -0.07
+      "price": 21.6386,
+      "d1_pct": -0.35,
+      "w1_pct": -0.84,
+      "m1_pct": -0.11
     },
     "USDSGD": {
       "price": 1.2772,
       "d1_pct": -0.25,
-      "w1_pct": -0.29,
-      "m1_pct": -0.02
+      "w1_pct": -0.3,
+      "m1_pct": -0.03
     },
     "USDIDR": {
-      "price": 18075.0,
-      "d1_pct": 3.07,
-      "w1_pct": 0.05,
-      "m1_pct": 1.38
+      "price": 18049.0,
+      "d1_pct": 2.92,
+      "w1_pct": -0.09,
+      "m1_pct": 1.23
     },
     "USDTHB": {
       "price": 33.41,
@@ -349,17 +355,17 @@
       "m1_pct": -0.46
     },
     "DXY": {
-      "price": 101.591,
-      "d1_pct": 0.08,
-      "w1_pct": -0.44,
-      "m1_pct": -0.63
+      "price": 101.582,
+      "d1_pct": 0.07,
+      "w1_pct": -0.45,
+      "m1_pct": -0.64
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 16.84,
+      "price": 16.9,
       "prev_close": 16.61,
-      "change_pct": 1.38,
+      "change_pct": 1.75,
       "timestamp": "2026-11-05 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -407,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.73,
-      "d1_pct": 0.03,
-      "w1_pct": 0.99,
-      "m1_pct": 2.64,
+      "price": 9.745,
+      "d1_pct": 0.18,
+      "w1_pct": 1.14,
+      "m1_pct": 2.8,
       "country": "UK",
       "duration": "mixed"
     },
@@ -433,6 +439,27 @@
   },
   "news": [
     {
+      "headline": "A prolonged war in Iran is the market\u2019s real \u2018black swan,\u2019 says this strategist",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories",
+      "datetime": 1793884020,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018He was heartbroken\u2019: My husband\u2019s kids abandoned him when he was dying. Was he right to leave everything to me?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+      "datetime": 1793883660,
+      "category": "general"
+    },
+    {
+      "headline": "Robot maker Agility starts trading today \u2014 but its steep losses are raising red flags",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/robot-maker-agility-starts-trading-today-but-its-steep-losses-are-raising-red-flags-f97c2cee?mod=mw_rss_topstories",
+      "datetime": 1793882580,
+      "category": "general"
+    },
+    {
       "headline": "Interest rates could go \u2018significantly higher\u2019 if oil prices keep climbing \u2014 even if the Iran war ends soon",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
@@ -454,7 +481,7 @@
       "category": "general"
     },
     {
-      "headline": "I\u2019ve attended a dozen free meals this year by people selling annuities. Am I flirting with disaster?",
+      "headline": "I constantly attend free meals hosted by people promoting annuities. Am I flirting with disaster?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
       "datetime": 1793880900,
@@ -482,31 +509,17 @@
       "category": "general"
     },
     {
-      "headline": "Research firm declares \u2018end of the AI trade as we know it\u2019 \u2014 and Asian tech stocks reflect the shift",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/research-firm-declares-end-of-the-ai-trade-as-we-know-it-and-asian-tech-stocks-reflect-the-shift-25ac8e8f?mod=mw_rss_topstories",
-      "datetime": 1793877720,
-      "category": "general"
-    },
-    {
-      "headline": "A prolonged war in Iran is the market\u2019s real \u2018black swan,\u2019 says this strategist",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories",
-      "datetime": 1793874000,
-      "category": "general"
-    },
-    {
-      "headline": "My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories",
-      "datetime": 1793873700,
+      "headline": "Faisal Islam: How high will interest rates go? ",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1793883237,
       "category": "general"
     },
     {
       "headline": "Three ways the interest rate rise could affect you",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793880664,
+      "datetime": 1793884110,
       "category": "general"
     },
     {
@@ -524,13 +537,6 @@
       "category": "general"
     },
     {
-      "headline": "Pound rises to its highest level since the Brexit referendum",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793852495,
-      "category": "general"
-    },
-    {
       "headline": "Graduates are managing AI - but are they learning much else?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
@@ -541,7 +547,14 @@
       "headline": "Interest rates hiked to 4% in first increase in over three years",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793881067,
+      "datetime": 1793883876,
+      "category": "general"
+    },
+    {
+      "headline": "Pound rises to its highest level since the Brexit referendum",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1793852495,
       "category": "general"
     },
     {
@@ -563,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
       "datetime": 1793828475,
-      "category": "general"
-    },
-    {
-      "headline": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1793821133,
       "category": "general"
     }
   ],
