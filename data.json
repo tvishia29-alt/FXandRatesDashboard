@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:05:24.560064Z",
+  "generated_at": "2026-11-10T00:07:28.085608Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -12,7 +12,7 @@
       "y7": null,
       "y10": 4.864,
       "y20": null,
-      "y30": null
+      "y30": 5.256
     },
     "US_yf": {
       "US_3M": {
@@ -32,50 +32,56 @@
         "prev_close": 4.859,
         "change_pct": 0.1,
         "timestamp": "2026-11-09 00:00:00"
+      },
+      "US_30Y": {
+        "price": 5.256,
+        "prev_close": 5.26,
+        "change_pct": -0.08,
+        "timestamp": "2026-11-09 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 4150.1001,
-      "d1_pct": 1.85,
-      "w1_pct": 4.55,
-      "m1_pct": -1.57,
+      "price": 4147.0,
+      "d1_pct": 1.77,
+      "w1_pct": 4.47,
+      "m1_pct": -1.64,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 53.47,
-      "d1_pct": 3.22,
-      "w1_pct": 5.42,
-      "m1_pct": -11.87,
+      "price": 53.44,
+      "d1_pct": 3.16,
+      "w1_pct": 5.36,
+      "m1_pct": -11.92,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 86.38,
-      "d1_pct": -4.9,
-      "w1_pct": -10.45,
-      "m1_pct": -5.96,
+      "price": 86.45,
+      "d1_pct": -4.82,
+      "w1_pct": -10.38,
+      "m1_pct": -5.88,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 92.14,
-      "d1_pct": -6.29,
-      "w1_pct": -12.05,
-      "m1_pct": -12.01,
+      "price": 92.36,
+      "d1_pct": -6.06,
+      "w1_pct": -11.84,
+      "m1_pct": -11.8,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.21,
-      "d1_pct": 7.07,
-      "w1_pct": 12.39,
-      "m1_pct": -0.31,
+      "price": 3.202,
+      "d1_pct": 6.8,
+      "w1_pct": 12.11,
+      "m1_pct": -0.56,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.3785,
-      "d1_pct": 2.58,
-      "w1_pct": -2.52,
-      "m1_pct": -3.97,
+      "price": 6.378,
+      "d1_pct": 2.57,
+      "w1_pct": -2.53,
+      "m1_pct": -3.98,
       "unit": "$/lb"
     },
     "wheat": {
@@ -217,142 +223,142 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1227,
-      "d1_pct": -0.01,
-      "w1_pct": 0.63,
-      "m1_pct": 0.13
+      "price": 1.1222,
+      "d1_pct": 0.67,
+      "w1_pct": 0.27,
+      "m1_pct": 0.15
     },
     "GBPUSD": {
-      "price": 1.3441,
-      "d1_pct": -0.11,
-      "w1_pct": 0.41,
-      "m1_pct": 1.6
+      "price": 1.3439,
+      "d1_pct": 0.59,
+      "w1_pct": 0.22,
+      "m1_pct": 1.49
     },
     "USDJPY": {
-      "price": 157.866,
-      "d1_pct": 0.23,
-      "w1_pct": 0.12,
+      "price": 158.009,
+      "d1_pct": -0.18,
+      "w1_pct": 0.06,
       "m1_pct": -0.12
     },
     "USDCHF": {
-      "price": 0.8186,
-      "d1_pct": 0.4,
-      "w1_pct": -0.74,
-      "m1_pct": -1.53
+      "price": 0.82,
+      "d1_pct": 0.05,
+      "w1_pct": 0.19,
+      "m1_pct": -1.2
     },
     "AUDUSD": {
-      "price": 0.6929,
-      "d1_pct": -0.03,
-      "w1_pct": -1.42,
-      "m1_pct": -0.43
+      "price": 0.6923,
+      "d1_pct": 0.79,
+      "w1_pct": -1.1,
+      "m1_pct": -0.89
     },
     "NZDUSD": {
-      "price": 0.5632,
-      "d1_pct": 0.64,
-      "w1_pct": 0.12,
-      "m1_pct": 0.48
+      "price": 0.5634,
+      "d1_pct": 1.36,
+      "w1_pct": 0.26,
+      "m1_pct": 0.33
     },
     "USDCAD": {
-      "price": 1.4119,
-      "d1_pct": 0.73,
-      "w1_pct": 1.06,
-      "m1_pct": -0.74
+      "price": 1.4125,
+      "d1_pct": 0.05,
+      "w1_pct": 1.02,
+      "m1_pct": -0.94
     },
     "USDSEK": {
-      "price": 9.792,
-      "d1_pct": -0.18,
-      "w1_pct": -0.27,
-      "m1_pct": -1.71
+      "price": 9.8023,
+      "d1_pct": -0.9,
+      "w1_pct": 0.22,
+      "m1_pct": -1.95
     },
     "USDNOK": {
-      "price": 9.3845,
-      "d1_pct": 0.91,
-      "w1_pct": 1.85,
-      "m1_pct": -1.86
+      "price": 9.4012,
+      "d1_pct": -0.61,
+      "w1_pct": 1.08,
+      "m1_pct": -1.61
     },
     "USDCNY": {
-      "price": 6.6723,
-      "d1_pct": -0.23,
-      "w1_pct": 0.17,
-      "m1_pct": -0.44
+      "price": 6.676,
+      "d1_pct": -0.18,
+      "w1_pct": 0.23,
+      "m1_pct": -0.39
     },
     "USDMXN": {
-      "price": 18.561,
-      "d1_pct": -1.17,
-      "w1_pct": -1.24,
-      "m1_pct": 2.06
+      "price": 18.5375,
+      "d1_pct": -0.54,
+      "w1_pct": -0.18,
+      "m1_pct": 0.65
     },
     "USDBRL": {
-      "price": 5.5078,
-      "d1_pct": 0.08,
-      "w1_pct": 1.34,
-      "m1_pct": 9.77
+      "price": 5.5034,
+      "d1_pct": -0.0,
+      "w1_pct": 1.26,
+      "m1_pct": 9.68
     },
     "USDZAR": {
-      "price": 16.3744,
-      "d1_pct": -0.64,
-      "w1_pct": -1.88,
-      "m1_pct": -1.29
+      "price": 16.3717,
+      "d1_pct": -0.99,
+      "w1_pct": -1.38,
+      "m1_pct": -0.79
     },
     "USDINR": {
-      "price": 93.92,
-      "d1_pct": -0.57,
-      "w1_pct": -1.04,
-      "m1_pct": -3.0
+      "price": 93.903,
+      "d1_pct": -0.59,
+      "w1_pct": -1.06,
+      "m1_pct": -3.02
     },
     "USDKRW": {
-      "price": 1340.92,
-      "d1_pct": -1.14,
-      "w1_pct": 1.16,
-      "m1_pct": -0.15
+      "price": 1345.08,
+      "d1_pct": -1.29,
+      "w1_pct": 0.02,
+      "m1_pct": 0.32
     },
     "USDTRY": {
-      "price": 50.1902,
-      "d1_pct": 0.07,
-      "w1_pct": 0.45,
-      "m1_pct": 1.77
+      "price": 50.2046,
+      "d1_pct": 0.16,
+      "w1_pct": 0.43,
+      "m1_pct": 1.76
     },
     "USDPLN": {
-      "price": 3.9058,
-      "d1_pct": -0.32,
-      "w1_pct": -1.17,
-      "m1_pct": 0.11
+      "price": 3.9083,
+      "d1_pct": -0.79,
+      "w1_pct": -0.87,
+      "m1_pct": -0.02
     },
     "USDHUF": {
-      "price": 322.36,
-      "d1_pct": -0.54,
-      "w1_pct": -1.57,
-      "m1_pct": -0.97
+      "price": 322.78,
+      "d1_pct": -0.73,
+      "w1_pct": -0.79,
+      "m1_pct": -0.88
     },
     "USDCZK": {
-      "price": 21.659,
-      "d1_pct": 0.0,
-      "w1_pct": -0.63,
-      "m1_pct": -0.32
+      "price": 21.6917,
+      "d1_pct": -0.55,
+      "w1_pct": -0.16,
+      "m1_pct": -0.26
     },
     "USDSGD": {
-      "price": 1.2779,
-      "d1_pct": -0.01,
+      "price": 1.279,
+      "d1_pct": -0.27,
       "w1_pct": -0.01,
-      "m1_pct": -0.21
+      "m1_pct": -0.11
     },
     "USDIDR": {
-      "price": 18070.0,
-      "d1_pct": 3.38,
-      "w1_pct": -0.24,
-      "m1_pct": 1.47
+      "price": 18095.4004,
+      "d1_pct": 3.53,
+      "w1_pct": -0.1,
+      "m1_pct": 1.62
     },
     "USDTHB": {
-      "price": 33.41,
-      "d1_pct": -0.07,
-      "w1_pct": -0.85,
-      "m1_pct": -0.57
+      "price": 33.39,
+      "d1_pct": -0.4,
+      "w1_pct": -0.92,
+      "m1_pct": -0.42
     },
     "DXY": {
-      "price": 101.663,
-      "d1_pct": -0.62,
-      "w1_pct": -0.09,
-      "m1_pct": -0.54
+      "price": 101.679,
+      "d1_pct": -0.61,
+      "w1_pct": -0.07,
+      "m1_pct": -0.52
     }
   },
   "volatility": {
@@ -407,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.7425,
-      "d1_pct": 0.26,
-      "w1_pct": 0.49,
-      "m1_pct": 2.77,
+      "price": 9.7175,
+      "d1_pct": -0.21,
+      "w1_pct": 0.91,
+      "m1_pct": 2.72,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 130.055,
-      "d1_pct": 0.26,
-      "w1_pct": 1.11,
-      "m1_pct": 2.35,
+      "price": 129.72,
+      "d1_pct": 0.22,
+      "w1_pct": 1.55,
+      "m1_pct": 2.11,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -432,6 +438,27 @@
     }
   },
   "news": [
+    {
+      "headline": "This retired professor has reinvented himself \u2014 as a Taylor Swift scholar",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+      "datetime": 1794268320,
+      "category": "general"
+    },
+    {
+      "headline": "Rocket Lab shares dip after the company\u2019s \u2018defining\u2019 quarter misses the mark",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+      "datetime": 1794264540,
+      "category": "general"
+    },
+    {
+      "headline": "Here\u2019s how Bernie Sanders wants to keep Social Security solvent \u2018for generations\u2019",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "datetime": 1794264540,
+      "category": "general"
+    },
     {
       "headline": "As Nvidia\u2019s stock falls, here\u2019s what Wall Street has to say about the Jensen Huang scandal",
       "source": "MarketWatch",
@@ -482,24 +509,10 @@
       "category": "general"
     },
     {
-      "headline": "I\u2019m 53 and not sure how to handle merging finances with my long-term partner.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/his-mine-or-ours-im-53-and-not-sure-how-to-handle-merging-finances-with-my-long-term-partner-4c34c914?mod=mw_rss_topstories",
-      "datetime": 1794258120,
-      "category": "general"
-    },
-    {
-      "headline": "Hot U.S. inflation hasn\u2019t cooled off. Rising consumer prices to keep Fed rate hike on track.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories",
-      "datetime": 1794258060,
-      "category": "general"
-    },
-    {
-      "headline": "Analysts say these chip stocks are bargains. Is it time to buy?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/analysts-say-these-chip-stocks-are-bargains-is-it-time-to-buy-fb5fdde8?mod=mw_rss_topstories",
-      "datetime": 1794257280,
+      "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1794268790,
       "category": "general"
     },
     {
@@ -541,7 +554,7 @@
       "headline": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1794239180,
+      "datetime": 1794268282,
       "category": "general"
     },
     {
@@ -564,18 +577,11 @@
       "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
       "datetime": 1794225982,
       "category": "general"
-    },
-    {
-      "headline": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-      "datetime": 1794152245,
-      "category": "general"
     }
   ],
   "calendar": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "[Calendar sources unavailable]",
