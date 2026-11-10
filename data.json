@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T07:35:34.751376Z",
+  "generated_at": "2026-11-10T08:15:12.139145Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 4.035,
       "y6m": null,
       "y1": null,
-      "y2": 4.26,
+      "y2": null,
       "y3": null,
-      "y5": 4.659,
+      "y5": null,
       "y7": null,
       "y10": 4.864,
       "y20": null,
@@ -19,12 +19,6 @@
         "price": 4.035,
         "prev_close": 4.0,
         "change_pct": 0.88,
-        "timestamp": "2026-11-09 00:00:00"
-      },
-      "US_5Y": {
-        "price": 4.659,
-        "prev_close": 4.648,
-        "change_pct": 0.24,
         "timestamp": "2026-11-09 00:00:00"
       },
       "US_10Y": {
@@ -43,59 +37,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 4126.0,
-      "d1_pct": 0.28,
-      "w1_pct": 4.71,
-      "m1_pct": -1.54,
+      "price": 4125.6001,
+      "d1_pct": 0.27,
+      "w1_pct": 4.7,
+      "m1_pct": -1.55,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 52.925,
-      "d1_pct": 0.69,
-      "w1_pct": 6.73,
-      "m1_pct": -12.0,
+      "price": 52.905,
+      "d1_pct": 0.65,
+      "w1_pct": 6.69,
+      "m1_pct": -12.03,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 85.65,
-      "d1_pct": -1.38,
-      "w1_pct": -10.86,
-      "m1_pct": -8.63,
+      "price": 85.25,
+      "d1_pct": -1.84,
+      "w1_pct": -11.28,
+      "m1_pct": -9.06,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 91.44,
-      "d1_pct": -1.22,
-      "w1_pct": -11.74,
-      "m1_pct": -14.26,
+      "price": 90.95,
+      "d1_pct": -1.75,
+      "w1_pct": -12.21,
+      "m1_pct": -14.72,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.222,
-      "d1_pct": 0.12,
-      "w1_pct": 11.3,
-      "m1_pct": 1.74,
+      "price": 3.231,
+      "d1_pct": 0.4,
+      "w1_pct": 11.61,
+      "m1_pct": 2.02,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 6.3185,
-      "d1_pct": -0.16,
-      "w1_pct": -0.94,
-      "m1_pct": -5.67,
+      "price": 6.3225,
+      "d1_pct": -0.09,
+      "w1_pct": -0.88,
+      "m1_pct": -5.61,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 590.25,
-      "d1_pct": 0.38,
-      "w1_pct": -1.58,
-      "m1_pct": -12.2,
+      "price": 589.5,
+      "d1_pct": 0.26,
+      "w1_pct": -1.71,
+      "m1_pct": -12.31,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 441.0,
-      "d1_pct": 0.4,
-      "w1_pct": -0.34,
-      "m1_pct": -8.7,
+      "price": 440.5,
+      "d1_pct": 0.28,
+      "w1_pct": -0.45,
+      "m1_pct": -8.8,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,82 +217,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.1236,
-      "d1_pct": 0.8,
-      "w1_pct": 0.39,
-      "m1_pct": 0.28
+      "price": 1.1244,
+      "d1_pct": 0.86,
+      "w1_pct": 0.46,
+      "m1_pct": 0.35
     },
     "GBPUSD": {
-      "price": 1.3454,
-      "d1_pct": 0.7,
-      "w1_pct": 0.33,
-      "m1_pct": 1.61
+      "price": 1.3452,
+      "d1_pct": 0.69,
+      "w1_pct": 0.32,
+      "m1_pct": 1.59
     },
     "USDJPY": {
-      "price": 157.991,
+      "price": 157.988,
       "d1_pct": -0.19,
       "w1_pct": 0.05,
-      "m1_pct": -0.13
+      "m1_pct": -0.14
     },
     "USDCHF": {
-      "price": 0.8183,
-      "d1_pct": -0.15,
-      "w1_pct": -0.01,
-      "m1_pct": -1.4
+      "price": 0.8182,
+      "d1_pct": -0.17,
+      "w1_pct": -0.03,
+      "m1_pct": -1.42
     },
     "AUDUSD": {
-      "price": 0.6925,
-      "d1_pct": 0.82,
-      "w1_pct": -1.07,
-      "m1_pct": -0.86
+      "price": 0.6921,
+      "d1_pct": 0.77,
+      "w1_pct": -1.12,
+      "m1_pct": -0.91
     },
     "NZDUSD": {
-      "price": 0.564,
-      "d1_pct": 1.46,
-      "w1_pct": 0.36,
-      "m1_pct": 0.43
+      "price": 0.5642,
+      "d1_pct": 1.51,
+      "w1_pct": 0.41,
+      "m1_pct": 0.48
     },
     "USDCAD": {
-      "price": 1.4106,
-      "d1_pct": -0.09,
-      "w1_pct": 0.88,
-      "m1_pct": -1.07
+      "price": 1.4115,
+      "d1_pct": -0.03,
+      "w1_pct": 0.94,
+      "m1_pct": -1.01
     },
     "USDSEK": {
-      "price": 9.7821,
-      "d1_pct": -1.1,
-      "w1_pct": 0.01,
-      "m1_pct": -2.15
+      "price": 9.778,
+      "d1_pct": -1.14,
+      "w1_pct": -0.03,
+      "m1_pct": -2.19
     },
     "USDNOK": {
-      "price": 9.4039,
-      "d1_pct": -0.58,
-      "w1_pct": 1.11,
-      "m1_pct": -1.58
+      "price": 9.4139,
+      "d1_pct": -0.47,
+      "w1_pct": 1.21,
+      "m1_pct": -1.48
     },
     "USDCNY": {
-      "price": 6.6686,
-      "d1_pct": -0.11,
-      "w1_pct": 0.31,
-      "m1_pct": -0.35
+      "price": 6.6681,
+      "d1_pct": -0.12,
+      "w1_pct": 0.3,
+      "m1_pct": -0.36
     },
     "USDMXN": {
-      "price": 18.51,
-      "d1_pct": -0.68,
-      "w1_pct": -0.33,
-      "m1_pct": 0.5
+      "price": 18.4979,
+      "d1_pct": -0.75,
+      "w1_pct": -0.39,
+      "m1_pct": 0.43
     },
     "USDBRL": {
-      "price": 5.517,
-      "d1_pct": 0.25,
-      "w1_pct": 1.48,
-      "m1_pct": 10.65
+      "price": 5.5109,
+      "d1_pct": 0.14,
+      "w1_pct": 1.37,
+      "m1_pct": 10.53
     },
     "USDZAR": {
-      "price": 16.3673,
-      "d1_pct": -1.02,
-      "w1_pct": -1.41,
-      "m1_pct": -0.82
+      "price": 16.3641,
+      "d1_pct": -1.04,
+      "w1_pct": -1.43,
+      "m1_pct": -0.84
     },
     "USDINR": {
       "price": 93.918,
@@ -307,40 +301,40 @@
       "m1_pct": -2.95
     },
     "USDKRW": {
-      "price": 1335.88,
-      "d1_pct": -1.97,
-      "w1_pct": -0.66,
-      "m1_pct": -0.37
+      "price": 1335.75,
+      "d1_pct": -1.98,
+      "w1_pct": -0.67,
+      "m1_pct": -0.38
     },
     "USDTRY": {
-      "price": 50.2262,
+      "price": 50.2278,
       "d1_pct": 0.21,
       "w1_pct": 0.48,
       "m1_pct": 1.81
     },
     "USDPLN": {
-      "price": 3.9009,
-      "d1_pct": -0.98,
-      "w1_pct": -1.06,
-      "m1_pct": -0.21
+      "price": 3.8979,
+      "d1_pct": -1.05,
+      "w1_pct": -1.13,
+      "m1_pct": -0.29
     },
     "USDHUF": {
-      "price": 322.05,
-      "d1_pct": -0.95,
-      "w1_pct": -1.01,
-      "m1_pct": -1.11
+      "price": 322.155,
+      "d1_pct": -0.92,
+      "w1_pct": -0.98,
+      "m1_pct": -1.07
     },
     "USDCZK": {
-      "price": 21.658,
-      "d1_pct": -0.7,
-      "w1_pct": -0.31,
-      "m1_pct": -0.42
+      "price": 21.6498,
+      "d1_pct": -0.74,
+      "w1_pct": -0.35,
+      "m1_pct": -0.46
     },
     "USDSGD": {
-      "price": 1.277,
-      "d1_pct": -0.42,
-      "w1_pct": -0.16,
-      "m1_pct": -0.27
+      "price": 1.2768,
+      "d1_pct": -0.44,
+      "w1_pct": -0.18,
+      "m1_pct": -0.28
     },
     "USDIDR": {
       "price": 18039.0,
@@ -349,16 +343,16 @@
       "m1_pct": 0.72
     },
     "USDTHB": {
-      "price": 33.35,
-      "d1_pct": -0.52,
-      "w1_pct": -1.04,
-      "m1_pct": -0.54
+      "price": 33.34,
+      "d1_pct": -0.55,
+      "w1_pct": -1.07,
+      "m1_pct": -0.57
     },
     "DXY": {
-      "price": 101.579,
-      "d1_pct": -0.07,
-      "w1_pct": -0.29,
-      "m1_pct": -0.98
+      "price": 101.549,
+      "d1_pct": -0.1,
+      "w1_pct": -0.32,
+      "m1_pct": -1.01
     }
   },
   "volatility": {
@@ -519,7 +513,7 @@
       "headline": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1794290504,
+      "datetime": 1794298036,
       "category": "general"
     },
     {
