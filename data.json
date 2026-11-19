@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:15:45.217140Z",
+  "generated_at": "2026-11-19T12:37:40.128792Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,10 +43,10 @@
   },
   "commodities": {
     "gold": {
-      "price": 3722.0,
-      "d1_pct": -0.53,
-      "w1_pct": -4.2,
-      "m1_pct": -10.31,
+      "price": 3717.2,
+      "d1_pct": -0.66,
+      "w1_pct": -4.33,
+      "m1_pct": -10.43,
       "unit": "$/oz"
     },
     "silver": {
@@ -57,45 +57,45 @@
       "unit": "$/oz"
     },
     "wti": {
-      "price": 82.54,
-      "d1_pct": -0.86,
-      "w1_pct": -6.99,
-      "m1_pct": -15.04,
+      "price": 82.92,
+      "d1_pct": -0.41,
+      "w1_pct": -6.56,
+      "m1_pct": -14.65,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 89.59,
-      "d1_pct": -2.57,
-      "w1_pct": -6.5,
-      "m1_pct": -17.67,
+      "price": 89.99,
+      "d1_pct": -2.13,
+      "w1_pct": -6.08,
+      "m1_pct": -17.3,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.405,
-      "d1_pct": 0.98,
-      "w1_pct": 1.95,
-      "m1_pct": 22.04,
+      "price": 3.395,
+      "d1_pct": 0.68,
+      "w1_pct": 1.65,
+      "m1_pct": 21.68,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.6565,
-      "d1_pct": -0.05,
-      "w1_pct": -8.51,
-      "m1_pct": -13.55,
+      "price": 5.6695,
+      "d1_pct": 0.18,
+      "w1_pct": -8.3,
+      "m1_pct": -13.35,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 590.25,
-      "d1_pct": 3.55,
-      "w1_pct": 1.03,
-      "m1_pct": -6.05,
+      "price": 591.75,
+      "d1_pct": 3.82,
+      "w1_pct": 1.28,
+      "m1_pct": -5.81,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 449.0,
-      "d1_pct": 3.1,
-      "w1_pct": 1.47,
-      "m1_pct": -3.08,
+      "price": 449.5,
+      "d1_pct": 3.21,
+      "w1_pct": 1.58,
+      "m1_pct": -2.97,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,82 +223,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0991,
-      "d1_pct": -0.01,
-      "w1_pct": -0.94,
-      "m1_pct": -2.1
+      "price": 1.0989,
+      "d1_pct": -0.04,
+      "w1_pct": -0.96,
+      "m1_pct": -2.12
     },
     "GBPUSD": {
-      "price": 1.3156,
-      "d1_pct": -0.37,
-      "w1_pct": -0.91,
-      "m1_pct": -1.63
+      "price": 1.3158,
+      "d1_pct": -0.36,
+      "w1_pct": -0.89,
+      "m1_pct": -1.61
     },
     "USDJPY": {
-      "price": 159.958,
-      "d1_pct": 0.28,
-      "w1_pct": 0.14,
-      "m1_pct": 1.07
+      "price": 159.941,
+      "d1_pct": 0.27,
+      "w1_pct": 0.13,
+      "m1_pct": 1.06
     },
     "USDCHF": {
-      "price": 0.8427,
-      "d1_pct": 0.17,
-      "w1_pct": 1.25,
-      "m1_pct": 2.07
+      "price": 0.8428,
+      "d1_pct": 0.18,
+      "w1_pct": 1.27,
+      "m1_pct": 2.08
     },
     "AUDUSD": {
-      "price": 0.671,
-      "d1_pct": -0.44,
-      "w1_pct": -1.94,
-      "m1_pct": -4.23
+      "price": 0.6713,
+      "d1_pct": -0.4,
+      "w1_pct": -1.9,
+      "m1_pct": -4.19
     },
     "NZDUSD": {
-      "price": 0.5527,
-      "d1_pct": 0.53,
-      "w1_pct": -0.66,
-      "m1_pct": -2.66
+      "price": 0.5528,
+      "d1_pct": 0.54,
+      "w1_pct": -0.64,
+      "m1_pct": -2.64
     },
     "USDCAD": {
-      "price": 1.4304,
-      "d1_pct": 0.03,
-      "w1_pct": 0.39,
-      "m1_pct": 1.69
+      "price": 1.4297,
+      "d1_pct": -0.01,
+      "w1_pct": 0.34,
+      "m1_pct": 1.64
     },
     "USDSEK": {
-      "price": 10.1444,
-      "d1_pct": 0.18,
-      "w1_pct": 1.81,
-      "m1_pct": 2.38
+      "price": 10.1436,
+      "d1_pct": 0.17,
+      "w1_pct": 1.8,
+      "m1_pct": 2.37
     },
     "USDNOK": {
-      "price": 9.6903,
-      "d1_pct": 0.69,
-      "w1_pct": 1.44,
-      "m1_pct": 3.06
+      "price": 9.675,
+      "d1_pct": 0.53,
+      "w1_pct": 1.28,
+      "m1_pct": 2.9
     },
     "USDCNY": {
-      "price": 6.656,
-      "d1_pct": -0.15,
+      "price": 6.6565,
+      "d1_pct": -0.14,
       "w1_pct": -0.21,
-      "m1_pct": -0.33
+      "m1_pct": -0.32
     },
     "USDMXN": {
-      "price": 18.8457,
-      "d1_pct": 2.34,
-      "w1_pct": 1.23,
-      "m1_pct": 2.29
+      "price": 18.8486,
+      "d1_pct": 2.35,
+      "w1_pct": 1.24,
+      "m1_pct": 2.3
     },
     "USDBRL": {
-      "price": 5.9023,
-      "d1_pct": 2.17,
-      "w1_pct": 5.74,
-      "m1_pct": 17.51
+      "price": 5.8828,
+      "d1_pct": 1.83,
+      "w1_pct": 5.39,
+      "m1_pct": 17.12
     },
     "USDZAR": {
-      "price": 17.2463,
-      "d1_pct": 1.99,
-      "w1_pct": 3.89,
-      "m1_pct": 5.22
+      "price": 17.2358,
+      "d1_pct": 1.93,
+      "w1_pct": 3.82,
+      "m1_pct": 5.16
     },
     "USDINR": {
       "price": 93.29,
@@ -307,39 +307,39 @@
       "m1_pct": -1.51
     },
     "USDKRW": {
-      "price": 1328.5699,
-      "d1_pct": -0.33,
-      "w1_pct": -0.58,
-      "m1_pct": 0.35
+      "price": 1327.85,
+      "d1_pct": -0.39,
+      "w1_pct": -0.63,
+      "m1_pct": 0.3
     },
     "USDTRY": {
-      "price": 50.4624,
+      "price": 50.4623,
       "d1_pct": 0.05,
       "w1_pct": 0.41,
       "m1_pct": 1.77
     },
     "USDPLN": {
-      "price": 4.0191,
-      "d1_pct": 0.43,
-      "w1_pct": 1.2,
-      "m1_pct": 3.37
+      "price": 4.0184,
+      "d1_pct": 0.42,
+      "w1_pct": 1.18,
+      "m1_pct": 3.35
     },
     "USDHUF": {
-      "price": 335.67,
+      "price": 335.66,
       "d1_pct": 0.75,
       "w1_pct": 2.24,
-      "m1_pct": 3.61
+      "m1_pct": 3.6
     },
     "USDCZK": {
-      "price": 22.213,
-      "d1_pct": 0.32,
-      "w1_pct": 1.22,
-      "m1_pct": 2.75
+      "price": 22.219,
+      "d1_pct": 0.34,
+      "w1_pct": 1.24,
+      "m1_pct": 2.77
     },
     "USDSGD": {
-      "price": 1.2895,
-      "d1_pct": 0.07,
-      "w1_pct": 0.44,
+      "price": 1.2896,
+      "d1_pct": 0.08,
+      "w1_pct": 0.45,
       "m1_pct": 0.91
     },
     "USDIDR": {
@@ -349,23 +349,23 @@
       "m1_pct": 1.42
     },
     "USDTHB": {
-      "price": 33.87,
-      "d1_pct": 0.23,
-      "w1_pct": 0.4,
-      "m1_pct": 0.8
+      "price": 33.88,
+      "d1_pct": 0.26,
+      "w1_pct": 0.43,
+      "m1_pct": 0.83
     },
     "DXY": {
-      "price": 103.729,
-      "d1_pct": -0.13,
-      "w1_pct": 0.54,
-      "m1_pct": 1.91
+      "price": 103.742,
+      "d1_pct": -0.11,
+      "w1_pct": 0.55,
+      "m1_pct": 1.93
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 22.11,
+      "price": 22.3,
       "prev_close": 24.56,
-      "change_pct": -9.98,
+      "change_pct": -9.2,
       "timestamp": "2026-11-19 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.4175,
-      "d1_pct": -2.28,
-      "w1_pct": -2.33,
-      "m1_pct": -1.59,
+      "price": 9.4089,
+      "d1_pct": -2.37,
+      "w1_pct": -2.42,
+      "m1_pct": -1.68,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,6 +439,27 @@
   },
   "news": [
     {
+      "headline": "Palo Alto Networks\u2019 stock gets a fresh AI-fueled boost from earnings",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "datetime": 1795091640,
+      "category": "general"
+    },
+    {
+      "headline": "Here\u2019s the precise moment when cyberattacks started increasing exponentially",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/heres-the-precise-moment-when-cyberattacks-started-increasing-exponentially-244a4294?mod=mw_rss_topstories",
+      "datetime": 1795091400,
+      "category": "general"
+    },
+    {
+      "headline": "Sandisk\u2019s stock split is almost here. This is what investors need to know.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/sandisks-stock-split-is-almost-here-this-is-what-investors-need-to-know-e0a18461?mod=mw_rss_topstories",
+      "datetime": 1795090440,
+      "category": "general"
+    },
+    {
       "headline": "Can Anthropic\u2019s IPO do for the stock market what Nvidia\u2019s earnings couldn\u2019t?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434?mod=mw_rss_topstories",
@@ -456,13 +477,6 @@
       "headline": "I have two children. How can I turn them into millionaires by the time they retire?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/i-have-two-children-how-can-i-turn-them-into-millionaires-by-the-time-they-retire-547444eb?mod=mw_rss_topstories",
-      "datetime": 1795089600,
-      "category": "general"
-    },
-    {
-      "headline": "Sandisk\u2019s stock split is almost here. This is what investors need to know.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/sandisks-stock-split-is-almost-here-this-is-what-investors-need-to-know-e0a18461?mod=mw_rss_topstories",
       "datetime": 1795089600,
       "category": "general"
     },
@@ -492,20 +506,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
       "datetime": 1795086900,
-      "category": "general"
-    },
-    {
-      "headline": "My wife pays thousands of dollars for her family to visit from Argentina. How can I convince her to stop?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
-      "datetime": 1795083300,
-      "category": "general"
-    },
-    {
-      "headline": "The real beneficiary of the AI tech revolution fueled by Anthropic may surprise you",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-real-beneficiary-of-the-ai-tech-revolution-fueled-by-anthropic-may-surprise-you-6fa098b2?mod=mw_rss_topstories",
-      "datetime": 1795082640,
       "category": "general"
     },
     {
