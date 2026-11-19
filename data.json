@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T08:14:33.994494Z",
+  "generated_at": "2026-11-19T08:36:03.455171Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -12,7 +12,7 @@
       "y7": null,
       "y10": 5.066,
       "y20": null,
-      "y30": 5.412
+      "y30": null
     },
     "US_yf": {
       "US_3M": {
@@ -32,70 +32,64 @@
         "prev_close": 5.103,
         "change_pct": -0.73,
         "timestamp": "2026-11-18 00:00:00"
-      },
-      "US_30Y": {
-        "price": 5.412,
-        "prev_close": 5.458,
-        "change_pct": -0.84,
-        "timestamp": "2026-11-18 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 3736.3,
-      "d1_pct": -0.15,
+      "price": 3736.6001,
+      "d1_pct": -0.14,
       "w1_pct": -3.83,
-      "m1_pct": -9.97,
+      "m1_pct": -9.96,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 45.225,
-      "d1_pct": 0.5,
-      "w1_pct": -9.5,
-      "m1_pct": -21.24,
+      "price": 45.175,
+      "d1_pct": 0.39,
+      "w1_pct": -9.6,
+      "m1_pct": -21.33,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 82.32,
-      "d1_pct": -1.13,
-      "w1_pct": -7.23,
-      "m1_pct": -15.27,
+      "price": 82.33,
+      "d1_pct": -1.12,
+      "w1_pct": -7.22,
+      "m1_pct": -15.25,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 89.45,
-      "d1_pct": -2.72,
-      "w1_pct": -6.65,
-      "m1_pct": -17.8,
+      "price": 89.47,
+      "d1_pct": -2.7,
+      "w1_pct": -6.63,
+      "m1_pct": -17.78,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.349,
-      "d1_pct": -0.68,
-      "w1_pct": 0.27,
-      "m1_pct": 20.04,
+      "price": 3.335,
+      "d1_pct": -1.1,
+      "w1_pct": -0.15,
+      "m1_pct": 19.53,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.673,
-      "d1_pct": 0.24,
-      "w1_pct": -8.24,
-      "m1_pct": -13.3,
+      "price": 5.681,
+      "d1_pct": 0.38,
+      "w1_pct": -8.11,
+      "m1_pct": -13.17,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 587.75,
-      "d1_pct": 3.11,
-      "w1_pct": 0.6,
-      "m1_pct": -6.45,
+      "price": 587.5,
+      "d1_pct": 3.07,
+      "w1_pct": 0.56,
+      "m1_pct": -6.49,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 448.5,
-      "d1_pct": 2.99,
-      "w1_pct": 1.36,
-      "m1_pct": -3.18,
+      "price": 448.75,
+      "d1_pct": 3.04,
+      "w1_pct": 1.41,
+      "m1_pct": -3.13,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,28 +217,28 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0988,
-      "d1_pct": -0.05,
-      "w1_pct": -0.97,
-      "m1_pct": -2.13
+      "price": 1.0989,
+      "d1_pct": -0.04,
+      "w1_pct": -0.96,
+      "m1_pct": -2.12
     },
     "GBPUSD": {
-      "price": 1.3154,
-      "d1_pct": -0.38,
-      "w1_pct": -0.92,
-      "m1_pct": -1.64
+      "price": 1.3153,
+      "d1_pct": -0.4,
+      "w1_pct": -0.94,
+      "m1_pct": -1.65
     },
     "USDJPY": {
-      "price": 159.78,
+      "price": 159.778,
       "d1_pct": 0.17,
       "w1_pct": 0.03,
-      "m1_pct": 0.96
+      "m1_pct": 0.95
     },
     "USDCHF": {
-      "price": 0.8429,
-      "d1_pct": 0.19,
-      "w1_pct": 1.27,
-      "m1_pct": 2.09
+      "price": 0.8426,
+      "d1_pct": 0.15,
+      "w1_pct": 1.24,
+      "m1_pct": 2.05
     },
     "AUDUSD": {
       "price": 0.6701,
@@ -253,40 +247,40 @@
       "m1_pct": -4.36
     },
     "NZDUSD": {
-      "price": 0.5505,
-      "d1_pct": 0.13,
-      "w1_pct": -1.05,
-      "m1_pct": -3.04
+      "price": 0.5511,
+      "d1_pct": 0.23,
+      "w1_pct": -0.96,
+      "m1_pct": -2.95
     },
     "USDCAD": {
-      "price": 1.4324,
-      "d1_pct": 0.18,
-      "w1_pct": 0.54,
-      "m1_pct": 1.83
+      "price": 1.4321,
+      "d1_pct": 0.15,
+      "w1_pct": 0.51,
+      "m1_pct": 1.81
     },
     "USDSEK": {
-      "price": 10.1586,
-      "d1_pct": 0.32,
-      "w1_pct": 1.95,
-      "m1_pct": 2.52
+      "price": 10.1526,
+      "d1_pct": 0.26,
+      "w1_pct": 1.89,
+      "m1_pct": 2.46
     },
     "USDNOK": {
-      "price": 9.7168,
-      "d1_pct": 0.97,
-      "w1_pct": 1.72,
-      "m1_pct": 3.34
+      "price": 9.7065,
+      "d1_pct": 0.86,
+      "w1_pct": 1.61,
+      "m1_pct": 3.23
     },
     "USDCNY": {
-      "price": 6.6646,
+      "price": 6.6643,
       "d1_pct": -0.02,
       "w1_pct": -0.09,
       "m1_pct": -0.2
     },
     "USDMXN": {
-      "price": 18.8789,
-      "d1_pct": 2.52,
-      "w1_pct": 1.4,
-      "m1_pct": 2.47
+      "price": 18.868,
+      "d1_pct": 2.46,
+      "w1_pct": 1.35,
+      "m1_pct": 2.41
     },
     "USDBRL": {
       "price": 5.8455,
@@ -295,46 +289,46 @@
       "m1_pct": 16.38
     },
     "USDZAR": {
-      "price": 17.2603,
-      "d1_pct": 2.07,
-      "w1_pct": 3.97,
-      "m1_pct": 5.31
+      "price": 17.2523,
+      "d1_pct": 2.02,
+      "w1_pct": 3.92,
+      "m1_pct": 5.26
     },
     "USDINR": {
-      "price": 93.1825,
-      "d1_pct": -0.31,
-      "w1_pct": -0.55,
-      "m1_pct": -1.62
+      "price": 93.2375,
+      "d1_pct": -0.25,
+      "w1_pct": -0.49,
+      "m1_pct": -1.56
     },
     "USDKRW": {
-      "price": 1330.3101,
-      "d1_pct": -0.2,
-      "w1_pct": -0.45,
-      "m1_pct": 0.48
+      "price": 1330.48,
+      "d1_pct": -0.19,
+      "w1_pct": -0.43,
+      "m1_pct": 0.49
     },
     "USDTRY": {
-      "price": 50.4627,
+      "price": 50.4638,
       "d1_pct": 0.05,
       "w1_pct": 0.42,
       "m1_pct": 1.77
     },
     "USDPLN": {
-      "price": 4.017,
-      "d1_pct": 0.38,
-      "w1_pct": 1.14,
-      "m1_pct": 3.31
+      "price": 4.0165,
+      "d1_pct": 0.37,
+      "w1_pct": 1.13,
+      "m1_pct": 3.3
     },
     "USDHUF": {
-      "price": 335.61,
+      "price": 335.618,
       "d1_pct": 0.73,
       "w1_pct": 2.23,
       "m1_pct": 3.59
     },
     "USDCZK": {
-      "price": 22.224,
-      "d1_pct": 0.37,
-      "w1_pct": 1.27,
-      "m1_pct": 2.8
+      "price": 22.23,
+      "d1_pct": 0.39,
+      "w1_pct": 1.29,
+      "m1_pct": 2.82
     },
     "USDSGD": {
       "price": 1.2894,
@@ -355,18 +349,18 @@
       "m1_pct": 0.8
     },
     "DXY": {
-      "price": 103.779,
-      "d1_pct": -0.08,
-      "w1_pct": 0.59,
-      "m1_pct": 1.96
+      "price": 103.762,
+      "d1_pct": -0.09,
+      "w1_pct": 0.57,
+      "m1_pct": 1.95
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 24.56,
-      "prev_close": 25.46,
-      "change_pct": -3.53,
-      "timestamp": "2026-11-18 00:00:00"
+      "price": 21.98,
+      "prev_close": 24.56,
+      "change_pct": -10.5,
+      "timestamp": "2026-11-19 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
       "price": 33.12,
@@ -413,18 +407,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5825,
-      "d1_pct": -0.21,
-      "w1_pct": -1.11,
-      "m1_pct": 0.68,
+      "price": 9.4234,
+      "d1_pct": -1.66,
+      "w1_pct": -2.65,
+      "m1_pct": -1.2,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 127.32,
-      "d1_pct": -0.08,
-      "w1_pct": -1.92,
-      "m1_pct": 0.33,
+      "price": 125.651,
+      "d1_pct": -1.31,
+      "w1_pct": -2.78,
+      "m1_pct": -1.43,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +432,13 @@
     }
   },
   "news": [
+    {
+      "headline": "This closely-watched guru just sold everything",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
+      "datetime": 1795076700,
+      "category": "general"
+    },
     {
       "headline": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
       "source": "MarketWatch",
@@ -502,14 +503,7 @@
       "category": "general"
     },
     {
-      "headline": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "datetime": 1795039200,
-      "category": "general"
-    },
-    {
-      "headline": "AI giant Anthropic valued at $1.5 trillion ahead of stock market debut",
+      "headline": "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "datetime": 1795054815,
@@ -523,7 +517,7 @@
       "category": "general"
     },
     {
-      "headline": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "headline": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "datetime": 1795037288,
@@ -537,10 +531,10 @@
       "category": "general"
     },
     {
-      "headline": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+      "headline": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795057146,
+      "url": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795046731,
       "category": "general"
     },
     {
@@ -548,6 +542,13 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
       "datetime": 1794960024,
+      "category": "general"
+    },
+    {
+      "headline": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795057146,
       "category": "general"
     },
     {
@@ -569,13 +570,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
       "datetime": 1795007826,
-      "category": "general"
-    },
-    {
-      "headline": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/ckq6eg55n221o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795007401,
       "category": "general"
     }
   ],
