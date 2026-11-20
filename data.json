@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T10:35:46.875265Z",
+  "generated_at": "2026-11-20T11:09:46.077097Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 4.147,
+      "y3m": null,
       "y6m": null,
       "y1": null,
-      "y2": 4.406,
+      "y2": 4.716,
       "y3": null,
       "y5": 4.866,
       "y7": null,
@@ -15,12 +15,6 @@
       "y30": 5.401
     },
     "US_yf": {
-      "US_3M": {
-        "price": 4.147,
-        "prev_close": 4.145,
-        "change_pct": 0.05,
-        "timestamp": "2026-11-19 00:00:00"
-      },
       "US_5Y": {
         "price": 4.866,
         "prev_close": 4.884,
@@ -43,52 +37,52 @@
   },
   "commodities": {
     "gold": {
-      "price": 3583.3999,
-      "d1_pct": -2.77,
-      "w1_pct": -7.79,
-      "m1_pct": -11.75,
+      "price": 3588.5,
+      "d1_pct": -2.63,
+      "w1_pct": -7.66,
+      "m1_pct": -11.62,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 42.38,
-      "d1_pct": -4.37,
-      "w1_pct": -13.56,
-      "m1_pct": -22.61,
+      "price": 42.53,
+      "d1_pct": -4.03,
+      "w1_pct": -13.26,
+      "m1_pct": -22.34,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 81.15,
-      "d1_pct": -2.48,
-      "w1_pct": -8.37,
-      "m1_pct": -18.42,
+      "price": 81.64,
+      "d1_pct": -1.89,
+      "w1_pct": -7.81,
+      "m1_pct": -17.93,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 87.93,
-      "d1_pct": -4.4,
-      "w1_pct": -8.25,
-      "m1_pct": -22.3,
+      "price": 88.46,
+      "d1_pct": -3.83,
+      "w1_pct": -7.7,
+      "m1_pct": -21.83,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.592,
-      "d1_pct": 9.91,
-      "w1_pct": 11.21,
-      "m1_pct": 28.47,
+      "price": 3.584,
+      "d1_pct": 9.67,
+      "w1_pct": 10.96,
+      "m1_pct": 28.18,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.5605,
-      "d1_pct": -1.15,
-      "w1_pct": -8.54,
-      "m1_pct": -12.61,
+      "price": 5.5635,
+      "d1_pct": -1.09,
+      "w1_pct": -8.49,
+      "m1_pct": -12.56,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 594.75,
-      "d1_pct": 2.85,
-      "w1_pct": 0.25,
-      "m1_pct": -4.8,
+      "price": 595.0,
+      "d1_pct": 2.9,
+      "w1_pct": 0.29,
+      "m1_pct": -4.76,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -229,28 +223,28 @@
       "m1_pct": -2.38
     },
     "GBPUSD": {
-      "price": 1.3106,
-      "d1_pct": -0.31,
-      "w1_pct": -0.95,
-      "m1_pct": -2.16
+      "price": 1.3108,
+      "d1_pct": -0.29,
+      "w1_pct": -0.93,
+      "m1_pct": -2.15
     },
     "USDJPY": {
-      "price": 158.913,
-      "d1_pct": -0.29,
-      "w1_pct": -0.6,
-      "m1_pct": 0.49
+      "price": 158.825,
+      "d1_pct": -0.35,
+      "w1_pct": -0.66,
+      "m1_pct": 0.44
     },
     "USDCHF": {
-      "price": 0.842,
-      "d1_pct": -0.18,
-      "w1_pct": 0.72,
-      "m1_pct": 2.18
+      "price": 0.8417,
+      "d1_pct": -0.21,
+      "w1_pct": 0.69,
+      "m1_pct": 2.15
     },
     "AUDUSD": {
-      "price": 0.6666,
-      "d1_pct": -0.69,
-      "w1_pct": -2.07,
-      "m1_pct": -5.17
+      "price": 0.6665,
+      "d1_pct": -0.71,
+      "w1_pct": -2.09,
+      "m1_pct": -5.18
     },
     "NZDUSD": {
       "price": 0.5497,
@@ -259,88 +253,88 @@
       "m1_pct": -3.65
     },
     "USDCAD": {
-      "price": 1.4326,
-      "d1_pct": -0.03,
-      "w1_pct": 0.46,
-      "m1_pct": 2.03
+      "price": 1.4322,
+      "d1_pct": -0.06,
+      "w1_pct": 0.43,
+      "m1_pct": 1.99
     },
     "USDSEK": {
-      "price": 10.2128,
-      "d1_pct": 0.43,
-      "w1_pct": 1.81,
-      "m1_pct": 3.28
+      "price": 10.2164,
+      "d1_pct": 0.47,
+      "w1_pct": 1.85,
+      "m1_pct": 3.31
     },
     "USDNOK": {
-      "price": 9.783,
-      "d1_pct": 0.85,
-      "w1_pct": 2.29,
-      "m1_pct": 4.5
+      "price": 9.7663,
+      "d1_pct": 0.68,
+      "w1_pct": 2.12,
+      "m1_pct": 4.32
     },
     "USDCNY": {
-      "price": 6.6766,
-      "d1_pct": 0.13,
-      "w1_pct": 0.09,
-      "m1_pct": -0.02
+      "price": 6.6781,
+      "d1_pct": 0.16,
+      "w1_pct": 0.12,
+      "m1_pct": 0.0
     },
     "USDMXN": {
-      "price": 19.052,
-      "d1_pct": 1.07,
-      "w1_pct": 2.48,
-      "m1_pct": 2.0
+      "price": 19.043,
+      "d1_pct": 1.02,
+      "w1_pct": 2.43,
+      "m1_pct": 1.95
     },
     "USDBRL": {
-      "price": 5.9362,
-      "d1_pct": 0.93,
-      "w1_pct": 5.24,
-      "m1_pct": 18.24
+      "price": 5.9345,
+      "d1_pct": 0.9,
+      "w1_pct": 5.21,
+      "m1_pct": 18.21
     },
     "USDZAR": {
-      "price": 17.4329,
-      "d1_pct": 0.94,
-      "w1_pct": 4.03,
-      "m1_pct": 6.49
+      "price": 17.4535,
+      "d1_pct": 1.06,
+      "w1_pct": 4.15,
+      "m1_pct": 6.62
     },
     "USDINR": {
-      "price": 92.66,
-      "d1_pct": -0.86,
-      "w1_pct": -1.46,
-      "m1_pct": -1.75
+      "price": 92.69,
+      "d1_pct": -0.83,
+      "w1_pct": -1.43,
+      "m1_pct": -1.72
     },
     "USDKRW": {
-      "price": 1337.74,
-      "d1_pct": 0.55,
-      "w1_pct": 0.3,
-      "m1_pct": 0.92
+      "price": 1338.74,
+      "d1_pct": 0.63,
+      "w1_pct": 0.37,
+      "m1_pct": 0.99
     },
     "USDTRY": {
-      "price": 50.574,
+      "price": 50.5714,
       "d1_pct": 0.22,
       "w1_pct": 0.58,
-      "m1_pct": 1.92
+      "m1_pct": 1.91
     },
     "USDPLN": {
-      "price": 4.0659,
-      "d1_pct": 1.16,
-      "w1_pct": 2.06,
-      "m1_pct": 4.95
+      "price": 4.0626,
+      "d1_pct": 1.08,
+      "w1_pct": 1.98,
+      "m1_pct": 4.87
     },
     "USDHUF": {
-      "price": 339.853,
-      "d1_pct": 1.25,
-      "w1_pct": 2.94,
-      "m1_pct": 4.63
+      "price": 339.738,
+      "d1_pct": 1.22,
+      "w1_pct": 2.9,
+      "m1_pct": 4.6
     },
     "USDCZK": {
-      "price": 22.2999,
-      "d1_pct": 0.36,
-      "w1_pct": 1.18,
-      "m1_pct": 3.35
+      "price": 22.288,
+      "d1_pct": 0.31,
+      "w1_pct": 1.13,
+      "m1_pct": 3.29
     },
     "USDSGD": {
-      "price": 1.2896,
-      "d1_pct": 0.02,
-      "w1_pct": 0.22,
-      "m1_pct": 0.98
+      "price": 1.2895,
+      "d1_pct": 0.01,
+      "w1_pct": 0.21,
+      "m1_pct": 0.97
     },
     "USDIDR": {
       "price": 18260.0,
@@ -355,17 +349,17 @@
       "m1_pct": 1.0
     },
     "DXY": {
-      "price": 103.87,
-      "d1_pct": -0.03,
-      "w1_pct": 0.44,
-      "m1_pct": 2.22
+      "price": 103.889,
+      "d1_pct": -0.01,
+      "w1_pct": 0.46,
+      "m1_pct": 2.24
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 29.57,
+      "price": 28.83,
       "prev_close": 28.44,
-      "change_pct": 3.97,
+      "change_pct": 1.37,
       "timestamp": "2026-11-20 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +407,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.4525,
-      "d1_pct": 0.56,
-      "w1_pct": 0.64,
-      "m1_pct": 0.72,
+      "price": 9.4425,
+      "d1_pct": 0.45,
+      "w1_pct": 0.54,
+      "m1_pct": 0.61,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,6 +433,27 @@
   },
   "news": [
     {
+      "headline": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/apple-seems-to-be-building-its-own-ai-agent-this-could-be-bad-news-for-metas-muse-8d9be2a7?mod=mw_rss_topstories",
+      "datetime": 1795172700,
+      "category": "general"
+    },
+    {
+      "headline": "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "datetime": 1795172400,
+      "category": "general"
+    },
+    {
+      "headline": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "datetime": 1795172400,
+      "category": "general"
+    },
+    {
       "headline": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who\u2019s right?",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
@@ -457,20 +472,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/how-bear-grylls-lived-in-the-harsh-conditions-of-his-own-home-on-an-abandoned-island-with-no-power-no-water-no-roof-8c3e17c4?mod=mw_rss_topstories",
       "datetime": 1795168860,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Should I sell my stocks and buy real estate \u2014 or ride out the storm?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "datetime": 1795145460,
-      "category": "general"
-    },
-    {
-      "headline": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-      "datetime": 1795138200,
       "category": "general"
     },
     {
@@ -499,13 +500,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
       "datetime": 1795128780,
-      "category": "general"
-    },
-    {
-      "headline": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
-      "datetime": 1795128060,
       "category": "general"
     },
     {
