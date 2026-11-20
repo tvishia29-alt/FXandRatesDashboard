@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:15:40.585144Z",
+  "generated_at": "2026-11-20T12:37:43.413631Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -12,7 +12,7 @@
       "y7": null,
       "y10": 5.052,
       "y20": null,
-      "y30": null
+      "y30": 5.401
     },
     "US_yf": {
       "US_3M": {
@@ -32,57 +32,63 @@
         "prev_close": 5.066,
         "change_pct": -0.28,
         "timestamp": "2026-11-19 00:00:00"
+      },
+      "US_30Y": {
+        "price": 5.401,
+        "prev_close": 5.412,
+        "change_pct": -0.2,
+        "timestamp": "2026-11-19 00:00:00"
       }
     }
   },
   "commodities": {
     "gold": {
-      "price": 3572.1001,
-      "d1_pct": -3.08,
-      "w1_pct": -8.08,
-      "m1_pct": -12.03,
+      "price": 3579.2,
+      "d1_pct": -2.88,
+      "w1_pct": -7.9,
+      "m1_pct": -11.85,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 42.12,
-      "d1_pct": -4.96,
-      "w1_pct": -14.1,
-      "m1_pct": -23.09,
+      "price": 42.215,
+      "d1_pct": -4.75,
+      "w1_pct": -13.9,
+      "m1_pct": -22.91,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 82.47,
-      "d1_pct": -0.89,
-      "w1_pct": -6.88,
-      "m1_pct": -17.09,
+      "price": 82.2,
+      "d1_pct": -1.21,
+      "w1_pct": -7.18,
+      "m1_pct": -17.36,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 89.47,
-      "d1_pct": -2.73,
-      "w1_pct": -6.65,
-      "m1_pct": -20.94,
+      "price": 89.21,
+      "d1_pct": -3.01,
+      "w1_pct": -6.92,
+      "m1_pct": -21.17,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.572,
-      "d1_pct": 9.3,
-      "w1_pct": 10.59,
-      "m1_pct": 27.75,
+      "price": 3.583,
+      "d1_pct": 9.64,
+      "w1_pct": 10.93,
+      "m1_pct": 28.15,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.541,
-      "d1_pct": -1.49,
-      "w1_pct": -8.86,
-      "m1_pct": -12.91,
+      "price": 5.5305,
+      "d1_pct": -1.68,
+      "w1_pct": -9.03,
+      "m1_pct": -13.08,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 596.25,
-      "d1_pct": 3.11,
-      "w1_pct": 0.51,
-      "m1_pct": -4.56,
+      "price": 596.5,
+      "d1_pct": 3.16,
+      "w1_pct": 0.55,
+      "m1_pct": -4.52,
       "unit": "\u00a2/bu"
     },
     "corn": {
@@ -217,52 +223,52 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0966,
-      "d1_pct": -0.05,
-      "w1_pct": -0.76,
-      "m1_pct": -2.39
+      "price": 1.0984,
+      "d1_pct": 0.11,
+      "w1_pct": -0.6,
+      "m1_pct": -2.23
     },
     "GBPUSD": {
-      "price": 1.3102,
-      "d1_pct": -0.34,
-      "w1_pct": -0.98,
-      "m1_pct": -2.19
+      "price": 1.3109,
+      "d1_pct": -0.29,
+      "w1_pct": -0.92,
+      "m1_pct": -2.14
     },
     "USDJPY": {
-      "price": 158.782,
-      "d1_pct": -0.38,
-      "w1_pct": -0.68,
-      "m1_pct": 0.41
+      "price": 158.734,
+      "d1_pct": -0.41,
+      "w1_pct": -0.71,
+      "m1_pct": 0.38
     },
     "USDCHF": {
-      "price": 0.8415,
-      "d1_pct": -0.23,
-      "w1_pct": 0.67,
-      "m1_pct": 2.13
+      "price": 0.8405,
+      "d1_pct": -0.35,
+      "w1_pct": 0.55,
+      "m1_pct": 2.01
     },
     "AUDUSD": {
-      "price": 0.6661,
-      "d1_pct": -0.77,
-      "w1_pct": -2.14,
-      "m1_pct": -5.23
+      "price": 0.6667,
+      "d1_pct": -0.69,
+      "w1_pct": -2.06,
+      "m1_pct": -5.16
     },
     "NZDUSD": {
-      "price": 0.5494,
-      "d1_pct": 0.09,
-      "w1_pct": -0.92,
-      "m1_pct": -3.71
+      "price": 0.5502,
+      "d1_pct": 0.24,
+      "w1_pct": -0.78,
+      "m1_pct": -3.56
     },
     "USDCAD": {
-      "price": 1.4327,
-      "d1_pct": -0.03,
-      "w1_pct": 0.46,
-      "m1_pct": 2.03
+      "price": 1.4312,
+      "d1_pct": -0.13,
+      "w1_pct": 0.36,
+      "m1_pct": 1.92
     },
     "USDSEK": {
-      "price": 10.2154,
-      "d1_pct": 0.46,
-      "w1_pct": 1.84,
-      "m1_pct": 3.3
+      "price": 10.2072,
+      "d1_pct": 0.38,
+      "w1_pct": 1.75,
+      "m1_pct": 3.22
     },
     "USDNOK": {
       "price": 9.7513,
@@ -271,28 +277,28 @@
       "m1_pct": 4.16
     },
     "USDCNY": {
-      "price": 6.669,
-      "d1_pct": 0.02,
-      "w1_pct": -0.02,
-      "m1_pct": -0.13
+      "price": 6.6685,
+      "d1_pct": 0.01,
+      "w1_pct": -0.03,
+      "m1_pct": -0.14
     },
     "USDMXN": {
-      "price": 19.0675,
+      "price": 19.0683,
       "d1_pct": 1.15,
-      "w1_pct": 2.56,
-      "m1_pct": 2.08
+      "w1_pct": 2.57,
+      "m1_pct": 2.09
     },
     "USDBRL": {
-      "price": 5.9371,
-      "d1_pct": 0.94,
-      "w1_pct": 5.25,
-      "m1_pct": 18.26
+      "price": 5.9389,
+      "d1_pct": 0.97,
+      "w1_pct": 5.29,
+      "m1_pct": 18.3
     },
     "USDZAR": {
-      "price": 17.4729,
-      "d1_pct": 1.18,
+      "price": 17.4718,
+      "d1_pct": 1.17,
       "w1_pct": 4.26,
-      "m1_pct": 6.74
+      "m1_pct": 6.73
     },
     "USDINR": {
       "price": 92.69,
@@ -301,40 +307,40 @@
       "m1_pct": -1.72
     },
     "USDKRW": {
-      "price": 1340.03,
-      "d1_pct": 0.72,
-      "w1_pct": 0.47,
-      "m1_pct": 1.09
+      "price": 1341.11,
+      "d1_pct": 0.81,
+      "w1_pct": 0.55,
+      "m1_pct": 1.17
     },
     "USDTRY": {
-      "price": 50.5719,
+      "price": 50.5723,
       "d1_pct": 0.22,
       "w1_pct": 0.58,
       "m1_pct": 1.91
     },
     "USDPLN": {
-      "price": 4.0614,
-      "d1_pct": 1.05,
-      "w1_pct": 1.95,
-      "m1_pct": 4.84
+      "price": 4.0574,
+      "d1_pct": 0.95,
+      "w1_pct": 1.85,
+      "m1_pct": 4.73
     },
     "USDHUF": {
-      "price": 340.404,
-      "d1_pct": 1.42,
-      "w1_pct": 3.1,
-      "m1_pct": 4.8
+      "price": 340.09,
+      "d1_pct": 1.33,
+      "w1_pct": 3.01,
+      "m1_pct": 4.7
     },
     "USDCZK": {
-      "price": 22.282,
-      "d1_pct": 0.28,
-      "w1_pct": 1.1,
-      "m1_pct": 3.27
+      "price": 22.2672,
+      "d1_pct": 0.22,
+      "w1_pct": 1.03,
+      "m1_pct": 3.2
     },
     "USDSGD": {
-      "price": 1.2895,
-      "d1_pct": 0.02,
-      "w1_pct": 0.21,
-      "m1_pct": 0.98
+      "price": 1.2891,
+      "d1_pct": -0.02,
+      "w1_pct": 0.18,
+      "m1_pct": 0.94
     },
     "USDIDR": {
       "price": 18260.0,
@@ -343,23 +349,23 @@
       "m1_pct": 1.4
     },
     "USDTHB": {
-      "price": 33.91,
-      "d1_pct": -0.1,
-      "w1_pct": 0.18,
-      "m1_pct": 1.03
+      "price": 33.89,
+      "d1_pct": -0.16,
+      "w1_pct": 0.12,
+      "m1_pct": 0.97
     },
     "DXY": {
-      "price": 103.889,
-      "d1_pct": -0.01,
-      "w1_pct": 0.46,
-      "m1_pct": 2.24
+      "price": 103.856,
+      "d1_pct": -0.04,
+      "w1_pct": 0.43,
+      "m1_pct": 2.21
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 29.89,
+      "price": 30.45,
       "prev_close": 28.44,
-      "change_pct": 5.1,
+      "change_pct": 7.07,
       "timestamp": "2026-11-20 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -415,10 +421,10 @@
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 125.61,
-      "d1_pct": 0.58,
-      "w1_pct": -1.56,
-      "m1_pct": -1.25,
+      "price": 126.34,
+      "d1_pct": 1.16,
+      "w1_pct": -0.99,
+      "m1_pct": -0.68,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -432,6 +438,27 @@
     }
   },
   "news": [
+    {
+      "headline": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who\u2019s right?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
+      "datetime": 1795177800,
+      "category": "general"
+    },
+    {
+      "headline": "GameStop has transformed from a meme stock into a \u2018real company,\u2019 analysts say",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/gamestop-has-transformed-from-a-meme-stock-into-a-real-company-analysts-say-7ae5c7ed?mod=mw_rss_topstories",
+      "datetime": 1795177440,
+      "category": "general"
+    },
+    {
+      "headline": "Anthropic soared in its debut as stocks tanked. Only one other IPO has done that since 1990.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/anthropic-soared-in-its-debut-as-stocks-tanked-only-one-other-ipo-has-done-that-since-1990-77b75258?mod=mw_rss_topstories",
+      "datetime": 1795177140,
+      "category": "general"
+    },
     {
       "headline": "Anthropic\u2019s stock surges in its debut \u2014 and the rest of the market dives anyway",
       "source": "MarketWatch",
@@ -468,13 +495,6 @@
       "category": "general"
     },
     {
-      "headline": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who\u2019s right?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
-      "datetime": 1795169700,
-      "category": "general"
-    },
-    {
       "headline": "Here\u2019s what happened next after previous times the S&P 500 losing streak reached six sessions",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
@@ -486,20 +506,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/how-bear-grylls-lived-in-the-harsh-conditions-of-his-own-home-on-an-abandoned-island-with-no-power-no-water-no-roof-8c3e17c4?mod=mw_rss_topstories",
       "datetime": 1795168860,
-      "category": "general"
-    },
-    {
-      "headline": "My wife is bankrolling her family\u2019s trips to New York and it\u2019s draining our savings. Should I ask her to stop?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
-      "datetime": 1795137720,
-      "category": "general"
-    },
-    {
-      "headline": "After Anthropic\u2019s \u2018bittersweet\u2019 IPO, here\u2019s what lies ahead",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
-      "datetime": 1795132560,
       "category": "general"
     },
     {
