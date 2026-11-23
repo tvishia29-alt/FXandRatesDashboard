@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T09:36:46.251447Z",
+  "generated_at": "2026-11-23T10:11:45.635039Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 3619.5,
-      "d1_pct": 2.96,
-      "w1_pct": -6.06,
-      "m1_pct": -9.69,
+      "price": 3615.5,
+      "d1_pct": 2.85,
+      "w1_pct": -6.16,
+      "m1_pct": -9.79,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 42.62,
-      "d1_pct": 3.86,
-      "w1_pct": -8.9,
-      "m1_pct": -20.65,
+      "price": 42.425,
+      "d1_pct": 3.39,
+      "w1_pct": -9.32,
+      "m1_pct": -21.01,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 82.71,
-      "d1_pct": -1.51,
-      "w1_pct": -3.51,
-      "m1_pct": -19.91,
+      "price": 83.08,
+      "d1_pct": -1.07,
+      "w1_pct": -3.08,
+      "m1_pct": -19.55,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 89.15,
-      "d1_pct": -3.69,
-      "w1_pct": -3.56,
-      "m1_pct": -23.62,
+      "price": 89.31,
+      "d1_pct": -3.52,
+      "w1_pct": -3.39,
+      "m1_pct": -23.48,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.485,
-      "d1_pct": 2.17,
-      "w1_pct": 11.63,
-      "m1_pct": 32.01,
+      "price": 3.484,
+      "d1_pct": 2.14,
+      "w1_pct": 11.6,
+      "m1_pct": 31.97,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.537,
-      "d1_pct": 1.1,
-      "w1_pct": -7.68,
-      "m1_pct": -14.5,
+      "price": 5.532,
+      "d1_pct": 1.0,
+      "w1_pct": -7.76,
+      "m1_pct": -14.58,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 593.5,
-      "d1_pct": 3.35,
-      "w1_pct": 1.11,
-      "m1_pct": -5.04,
+      "price": 591.75,
+      "d1_pct": 3.05,
+      "w1_pct": 0.81,
+      "m1_pct": -5.32,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 451.0,
-      "d1_pct": 3.8,
-      "w1_pct": 0.5,
-      "m1_pct": -1.1,
+      "price": 450.5,
+      "d1_pct": 3.68,
+      "w1_pct": 0.39,
+      "m1_pct": -1.21,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,94 +223,94 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0983,
-      "d1_pct": 0.12,
-      "w1_pct": -0.38,
-      "m1_pct": -2.13
+      "price": 1.0977,
+      "d1_pct": 0.07,
+      "w1_pct": -0.43,
+      "m1_pct": -2.18
     },
     "GBPUSD": {
-      "price": 1.3119,
-      "d1_pct": 0.25,
-      "w1_pct": -0.74,
-      "m1_pct": -2.12
+      "price": 1.3114,
+      "d1_pct": 0.21,
+      "w1_pct": -0.77,
+      "m1_pct": -2.16
     },
     "USDJPY": {
-      "price": 159.155,
+      "price": 159.143,
       "d1_pct": -0.35,
-      "w1_pct": -0.39,
-      "m1_pct": 1.7
+      "w1_pct": -0.4,
+      "m1_pct": 1.69
     },
     "USDCHF": {
-      "price": 0.8387,
-      "d1_pct": -0.64,
-      "w1_pct": -0.05,
-      "m1_pct": 2.3
+      "price": 0.8393,
+      "d1_pct": -0.57,
+      "w1_pct": 0.02,
+      "m1_pct": 2.38
     },
     "AUDUSD": {
-      "price": 0.6655,
-      "d1_pct": -0.02,
-      "w1_pct": -1.83,
-      "m1_pct": -5.19
+      "price": 0.6648,
+      "d1_pct": -0.12,
+      "w1_pct": -1.93,
+      "m1_pct": -5.29
     },
     "NZDUSD": {
-      "price": 0.5476,
-      "d1_pct": -0.09,
-      "w1_pct": -0.94,
-      "m1_pct": -3.67
+      "price": 0.5472,
+      "d1_pct": -0.18,
+      "w1_pct": -1.02,
+      "m1_pct": -3.75
     },
     "USDCAD": {
-      "price": 1.4319,
-      "d1_pct": -0.17,
-      "w1_pct": 0.36,
-      "m1_pct": 2.26
+      "price": 1.4326,
+      "d1_pct": -0.12,
+      "w1_pct": 0.4,
+      "m1_pct": 2.31
     },
     "USDSEK": {
-      "price": 10.2067,
-      "d1_pct": 0.11,
-      "w1_pct": 1.34,
-      "m1_pct": 3.04
+      "price": 10.2207,
+      "d1_pct": 0.24,
+      "w1_pct": 1.48,
+      "m1_pct": 3.18
     },
     "USDNOK": {
-      "price": 9.7269,
-      "d1_pct": -0.44,
-      "w1_pct": 1.72,
-      "m1_pct": 4.31
+      "price": 9.7238,
+      "d1_pct": -0.47,
+      "w1_pct": 1.68,
+      "m1_pct": 4.27
     },
     "USDCNY": {
-      "price": 6.653,
+      "price": 6.6535,
       "d1_pct": -0.2,
-      "w1_pct": -0.27,
+      "w1_pct": -0.26,
       "m1_pct": -0.37
     },
     "USDMXN": {
-      "price": 19.1533,
-      "d1_pct": 0.33,
-      "w1_pct": 3.39,
-      "m1_pct": 2.31
+      "price": 19.156,
+      "d1_pct": 0.35,
+      "w1_pct": 3.4,
+      "m1_pct": 2.32
     },
     "USDBRL": {
-      "price": 5.9488,
-      "d1_pct": 0.26,
-      "w1_pct": 5.01,
-      "m1_pct": 17.8
+      "price": 5.9074,
+      "d1_pct": -0.44,
+      "w1_pct": 4.28,
+      "m1_pct": 16.98
     },
     "USDZAR": {
-      "price": 17.4559,
-      "d1_pct": -0.22,
-      "w1_pct": 3.13,
-      "m1_pct": 5.92
+      "price": 17.4627,
+      "d1_pct": -0.18,
+      "w1_pct": 3.17,
+      "m1_pct": 5.96
     },
     "USDINR": {
-      "price": 92.9275,
-      "d1_pct": -0.39,
-      "w1_pct": -1.39,
-      "m1_pct": -1.88
+      "price": 92.91,
+      "d1_pct": -0.41,
+      "w1_pct": -1.41,
+      "m1_pct": -1.9
     },
     "USDKRW": {
-      "price": 1343.98,
-      "d1_pct": 0.69,
-      "w1_pct": 0.8,
-      "m1_pct": 1.36
+      "price": 1344.78,
+      "d1_pct": 0.75,
+      "w1_pct": 0.86,
+      "m1_pct": 1.42
     },
     "USDTRY": {
       "price": 50.5702,
@@ -319,28 +319,28 @@
       "m1_pct": 1.69
     },
     "USDPLN": {
-      "price": 4.0565,
-      "d1_pct": 0.35,
-      "w1_pct": 1.55,
-      "m1_pct": 4.09
+      "price": 4.0609,
+      "d1_pct": 0.46,
+      "w1_pct": 1.66,
+      "m1_pct": 4.2
     },
     "USDHUF": {
-      "price": 338.6,
-      "d1_pct": -0.35,
-      "w1_pct": 2.55,
-      "m1_pct": 3.93
+      "price": 339.22,
+      "d1_pct": -0.16,
+      "w1_pct": 2.73,
+      "m1_pct": 4.12
     },
     "USDCZK": {
-      "price": 22.2663,
-      "d1_pct": 0.04,
-      "w1_pct": 0.64,
-      "m1_pct": 3.05
+      "price": 22.277,
+      "d1_pct": 0.09,
+      "w1_pct": 0.68,
+      "m1_pct": 3.1
     },
     "USDSGD": {
-      "price": 1.2893,
-      "d1_pct": -0.17,
-      "w1_pct": 0.12,
-      "m1_pct": 0.99
+      "price": 1.2895,
+      "d1_pct": -0.16,
+      "w1_pct": 0.13,
+      "m1_pct": 1.0
     },
     "USDIDR": {
       "price": 18195.0,
@@ -355,17 +355,17 @@
       "m1_pct": 0.84
     },
     "DXY": {
-      "price": 103.743,
-      "d1_pct": -0.06,
-      "w1_pct": 0.19,
-      "m1_pct": 1.9
+      "price": 103.812,
+      "d1_pct": 0.0,
+      "w1_pct": 0.25,
+      "m1_pct": 1.97
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 30.11,
+      "price": 30.35,
       "prev_close": 35.89,
-      "change_pct": -16.1,
+      "change_pct": -15.44,
       "timestamp": "2026-11-23 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.45,
-      "d1_pct": -0.16,
-      "w1_pct": 0.72,
-      "m1_pct": 0.98,
+      "price": 9.4525,
+      "d1_pct": -0.13,
+      "w1_pct": 0.75,
+      "m1_pct": 1.01,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 126.4848,
-      "d1_pct": -0.09,
-      "w1_pct": 1.27,
-      "m1_pct": 1.42,
+      "price": 126.63,
+      "d1_pct": 0.03,
+      "w1_pct": 1.39,
+      "m1_pct": 1.53,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +438,27 @@
     }
   },
   "news": [
+    {
+      "headline": "James Bond films were shot all over the world. Here are 5 properties made famous by 007.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/james-bond-films-were-shot-all-over-the-world-here-are-5-properties-made-famous-by-007-dabafbe6?mod=mw_rss_topstories",
+      "datetime": 1795428120,
+      "category": "general"
+    },
+    {
+      "headline": "Google co-founder Sergey Brin and ex-wife Nicole Shanahan list Malibu home for $33.5 million",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/google-co-founder-sergey-brin-and-ex-wife-nicole-shanahan-list-malibu-home-for-33-5-million-0121adcd?mod=mw_rss_topstories",
+      "datetime": 1795428060,
+      "category": "general"
+    },
+    {
+      "headline": "Stocks are serving up a \u2018fat pitch\u2019 for investors right now, says Morgan Stanley\u2019s top strategist",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/stocks-are-serving-up-a-fat-pitch-for-investors-right-now-as-morgan-stanleys-top-strategist-19abe30a?mod=mw_rss_topstories",
+      "datetime": 1795426800,
+      "category": "general"
+    },
     {
       "headline": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
       "source": "MarketWatch",
@@ -488,27 +509,6 @@
       "category": "general"
     },
     {
-      "headline": "Private equity has been buying up hospice centers \u2014 with striking consequences",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
-      "datetime": 1795368120,
-      "category": "general"
-    },
-    {
-      "headline": "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks and buy real estate?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "datetime": 1795366800,
-      "category": "general"
-    },
-    {
-      "headline": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-      "datetime": 1795365120,
-      "category": "general"
-    },
-    {
       "headline": "Energy bills will soar - here's how you can ease the pain",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
@@ -516,17 +516,24 @@
       "category": "general"
     },
     {
+      "headline": "Catering giant to switch stock market listing to US in further blow to UK",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795427644,
+      "category": "general"
+    },
+    {
       "headline": "Poundland is facing collapse - what's gone wrong?",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795420820,
+      "datetime": 1795428565,
       "category": "general"
     },
     {
       "headline": "Pip assessments need 'fundamental overhaul', report to say",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795425174,
+      "datetime": 1795426627,
       "category": "general"
     },
     {
@@ -537,17 +544,17 @@
       "category": "general"
     },
     {
-      "headline": "Employers are being asked to give interview feedback - here's what applicants want",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795305847,
-      "category": "general"
-    },
-    {
       "headline": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
       "datetime": 1795392480,
+      "category": "general"
+    },
+    {
+      "headline": "Employers are being asked to give interview feedback - here's what applicants want",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795305847,
       "category": "general"
     },
     {
@@ -569,13 +576,6 @@
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
       "datetime": 1795192912,
-      "category": "general"
-    },
-    {
-      "headline": "MP criticises Guernsey and Jersey company ownership register plans",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795332125,
       "category": "general"
     }
   ],
