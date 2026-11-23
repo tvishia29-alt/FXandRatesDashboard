@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:04:34.694029Z",
+  "generated_at": "2026-11-23T07:13:46.674827Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,59 +43,59 @@
   },
   "commodities": {
     "gold": {
-      "price": 3515.3999,
-      "d1_pct": -4.62,
-      "w1_pct": -9.54,
-      "m1_pct": -13.42,
+      "price": 3627.5,
+      "d1_pct": 3.19,
+      "w1_pct": -5.85,
+      "m1_pct": -9.49,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 41.035,
-      "d1_pct": -7.41,
-      "w1_pct": -16.31,
-      "m1_pct": -25.07,
+      "price": 42.575,
+      "d1_pct": 3.75,
+      "w1_pct": -9.0,
+      "m1_pct": -20.73,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 83.98,
-      "d1_pct": 0.93,
-      "w1_pct": -5.17,
-      "m1_pct": -15.57,
+      "price": 83.03,
+      "d1_pct": -1.13,
+      "w1_pct": -3.14,
+      "m1_pct": -19.6,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 92.57,
-      "d1_pct": 0.64,
-      "w1_pct": -3.41,
-      "m1_pct": -18.2,
+      "price": 89.53,
+      "d1_pct": -3.28,
+      "w1_pct": -3.15,
+      "m1_pct": -23.3,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.411,
-      "d1_pct": 4.38,
-      "w1_pct": 5.6,
-      "m1_pct": 22.0,
+      "price": 3.562,
+      "d1_pct": 4.43,
+      "w1_pct": 14.09,
+      "m1_pct": 34.92,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.477,
-      "d1_pct": -2.63,
-      "w1_pct": -9.91,
-      "m1_pct": -13.92,
+      "price": 5.534,
+      "d1_pct": 1.04,
+      "w1_pct": -7.73,
+      "m1_pct": -14.55,
       "unit": "$/lb"
     },
     "wheat": {
-      "price": 574.25,
-      "d1_pct": -0.69,
-      "w1_pct": -3.2,
-      "m1_pct": -8.08,
+      "price": 592.25,
+      "d1_pct": 3.13,
+      "w1_pct": 0.89,
+      "m1_pct": -5.24,
       "unit": "\u00a2/bu"
     },
     "corn": {
-      "price": 434.5,
-      "d1_pct": -1.03,
-      "w1_pct": -2.47,
-      "m1_pct": -5.65,
+      "price": 450.25,
+      "d1_pct": 3.62,
+      "w1_pct": 0.33,
+      "m1_pct": -1.26,
       "unit": "\u00a2/bu"
     }
   },
@@ -223,142 +223,142 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.097,
-      "d1_pct": -0.02,
-      "w1_pct": -0.73,
-      "m1_pct": -2.36
+      "price": 1.1004,
+      "d1_pct": 0.31,
+      "w1_pct": -0.19,
+      "m1_pct": -1.94
     },
     "GBPUSD": {
-      "price": 1.3086,
-      "d1_pct": -0.46,
-      "w1_pct": -1.1,
-      "m1_pct": -2.31
+      "price": 1.3126,
+      "d1_pct": 0.3,
+      "w1_pct": -0.69,
+      "m1_pct": -2.08
     },
     "USDJPY": {
-      "price": 159.707,
-      "d1_pct": 0.2,
-      "w1_pct": -0.11,
-      "m1_pct": 1.0
+      "price": 159.012,
+      "d1_pct": -0.44,
+      "w1_pct": -0.48,
+      "m1_pct": 1.61
     },
     "USDCHF": {
-      "price": 0.8441,
-      "d1_pct": 0.07,
-      "w1_pct": 0.98,
-      "m1_pct": 2.44
+      "price": 0.839,
+      "d1_pct": -0.6,
+      "w1_pct": -0.01,
+      "m1_pct": 2.35
     },
     "AUDUSD": {
-      "price": 0.6619,
-      "d1_pct": -0.56,
-      "w1_pct": -2.36,
-      "m1_pct": -5.71
+      "price": 0.6649,
+      "d1_pct": -0.11,
+      "w1_pct": -1.92,
+      "m1_pct": -5.28
     },
     "NZDUSD": {
-      "price": 0.547,
-      "d1_pct": -0.2,
-      "w1_pct": -1.05,
-      "m1_pct": -3.77
+      "price": 0.5479,
+      "d1_pct": -0.04,
+      "w1_pct": -0.89,
+      "m1_pct": -3.62
     },
     "USDCAD": {
-      "price": 1.434,
-      "d1_pct": -0.02,
-      "w1_pct": 0.5,
-      "m1_pct": 2.41
+      "price": 1.4316,
+      "d1_pct": -0.19,
+      "w1_pct": 0.33,
+      "m1_pct": 2.24
     },
     "USDSEK": {
-      "price": 10.2245,
-      "d1_pct": 0.28,
-      "w1_pct": 1.52,
-      "m1_pct": 3.22
+      "price": 10.1984,
+      "d1_pct": 0.03,
+      "w1_pct": 1.26,
+      "m1_pct": 2.96
     },
     "USDNOK": {
-      "price": 9.7494,
-      "d1_pct": -0.21,
-      "w1_pct": 1.95,
-      "m1_pct": 4.55
+      "price": 9.7372,
+      "d1_pct": -0.34,
+      "w1_pct": 1.82,
+      "m1_pct": 4.42
     },
     "USDCNY": {
-      "price": 6.6772,
-      "d1_pct": 0.16,
-      "w1_pct": 0.09,
-      "m1_pct": -0.01
+      "price": 6.6637,
+      "d1_pct": -0.04,
+      "w1_pct": -0.11,
+      "m1_pct": -0.21
     },
     "USDMXN": {
-      "price": 19.0901,
-      "d1_pct": 1.27,
-      "w1_pct": 2.68,
-      "m1_pct": 2.2
+      "price": 19.0986,
+      "d1_pct": 0.04,
+      "w1_pct": 3.09,
+      "m1_pct": 2.02
     },
     "USDBRL": {
-      "price": 5.9335,
-      "d1_pct": 0.88,
-      "w1_pct": 5.19,
-      "m1_pct": 18.19
+      "price": 5.9488,
+      "d1_pct": 0.26,
+      "w1_pct": 5.01,
+      "m1_pct": 17.8
     },
     "USDZAR": {
-      "price": 17.5858,
-      "d1_pct": 0.52,
-      "w1_pct": 3.9,
-      "m1_pct": 6.71
+      "price": 17.4174,
+      "d1_pct": -0.44,
+      "w1_pct": 2.9,
+      "m1_pct": 5.69
     },
     "USDINR": {
-      "price": 92.67,
-      "d1_pct": -0.67,
-      "w1_pct": -1.66,
-      "m1_pct": -2.16
+      "price": 92.8325,
+      "d1_pct": -0.5,
+      "w1_pct": -1.49,
+      "m1_pct": -1.98
     },
     "USDKRW": {
-      "price": 1334.79,
-      "d1_pct": 0.33,
-      "w1_pct": 0.08,
-      "m1_pct": 0.69
+      "price": 1342.85,
+      "d1_pct": 0.6,
+      "w1_pct": 0.72,
+      "m1_pct": 1.27
     },
     "USDTRY": {
-      "price": 50.5623,
-      "d1_pct": 0.2,
-      "w1_pct": 0.56,
-      "m1_pct": 1.89
+      "price": 50.5964,
+      "d1_pct": 0.07,
+      "w1_pct": 0.51,
+      "m1_pct": 1.74
     },
     "USDPLN": {
-      "price": 4.0423,
-      "d1_pct": 0.57,
-      "w1_pct": 1.47,
-      "m1_pct": 4.34
+      "price": 4.0474,
+      "d1_pct": 0.13,
+      "w1_pct": 1.33,
+      "m1_pct": 3.86
     },
     "USDHUF": {
-      "price": 339.773,
-      "d1_pct": 1.23,
-      "w1_pct": 2.91,
-      "m1_pct": 4.61
+      "price": 338.157,
+      "d1_pct": -0.48,
+      "w1_pct": 2.41,
+      "m1_pct": 3.8
     },
     "USDCZK": {
-      "price": 22.257,
-      "d1_pct": 0.17,
-      "w1_pct": 0.99,
-      "m1_pct": 3.15
+      "price": 22.2364,
+      "d1_pct": -0.09,
+      "w1_pct": 0.5,
+      "m1_pct": 2.91
     },
     "USDSGD": {
-      "price": 1.29,
-      "d1_pct": -0.12,
-      "w1_pct": 0.17,
-      "m1_pct": 1.04
+      "price": 1.2894,
+      "d1_pct": -0.17,
+      "w1_pct": 0.13,
+      "m1_pct": 0.99
     },
     "USDIDR": {
-      "price": 18260.0,
-      "d1_pct": 0.03,
-      "w1_pct": 0.21,
-      "m1_pct": 1.15
+      "price": 18190.0,
+      "d1_pct": -0.35,
+      "w1_pct": -0.18,
+      "m1_pct": 0.76
     },
     "USDTHB": {
-      "price": 33.942,
-      "d1_pct": -0.0,
-      "w1_pct": 0.27,
-      "m1_pct": 1.13
+      "price": 33.99,
+      "d1_pct": 0.14,
+      "w1_pct": 0.41,
+      "m1_pct": 0.81
     },
     "DXY": {
-      "price": 103.81,
-      "d1_pct": -0.09,
-      "w1_pct": 0.39,
-      "m1_pct": 2.17
+      "price": 103.612,
+      "d1_pct": -0.19,
+      "w1_pct": 0.06,
+      "m1_pct": 1.77
     }
   },
   "volatility": {
@@ -413,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.4,
-      "d1_pct": -0.18,
-      "w1_pct": -0.23,
-      "m1_pct": 0.53,
+      "price": 9.465,
+      "d1_pct": 0.69,
+      "w1_pct": 0.78,
+      "m1_pct": 0.85,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 124.89,
-      "d1_pct": -0.3,
-      "w1_pct": -1.24,
-      "m1_pct": 0.72,
+      "price": 126.595,
+      "d1_pct": 1.37,
+      "w1_pct": 1.21,
+      "m1_pct": 1.54,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -439,87 +439,129 @@
   },
   "news": [
     {
-      "headline": "Tech outages are rattling Americans so much that they\u2019re stockpiling cash and supplies",
+      "headline": "The number of 401(k) millionaires drops amid stock-market swings",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories",
-      "datetime": 1795231200,
+      "url": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
+      "datetime": 1795410060,
       "category": "general"
     },
     {
-      "headline": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+      "headline": "Corporate America hunts for \u2018generational\u2019 growth in AI, trading cards and the L.A. airport",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-      "datetime": 1795214760,
+      "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "datetime": 1795384260,
       "category": "general"
     },
     {
-      "headline": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+      "headline": "Ron Johnson\u2019s Social Security gaffe buried important news",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-      "datetime": 1795214640,
+      "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+      "datetime": 1795382880,
       "category": "general"
     },
     {
-      "headline": "These stocks were crushed the most this week as the tech wreck accelerated",
+      "headline": "Social Security should be shut down, this Republican senator says",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-      "datetime": 1795214640,
+      "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+      "datetime": 1795379160,
       "category": "general"
     },
     {
-      "headline": "Nvidia\u2019s stock clinches a stretch of weekly losses not seen since 2008",
+      "headline": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-      "datetime": 1795211880,
+      "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+      "datetime": 1795375440,
       "category": "general"
     },
     {
-      "headline": "Everyone\u2019s making money off \u2018GTA 6\u2019 this week \u2014 except investors in Take-Two\u2019s stock",
+      "headline": "These little-known investments could be among the best bargains in a crash",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
-      "datetime": 1795210740,
+      "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "datetime": 1795371780,
       "category": "general"
     },
     {
-      "headline": "The hidden catch in Anthropic\u2019s IPO: Billions of locked-up shares are waiting in the wings",
+      "headline": "Private equity has been buying up hospice centers \u2014 with striking consequences",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
-      "datetime": 1795210740,
+      "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+      "datetime": 1795368120,
       "category": "general"
     },
     {
-      "headline": "Micron and Sandisk stocks might look like bargains, but analysts say that\u2019s actually a red flag",
+      "headline": "\u2018Nvidia\u2019s turmoil has me spooked\u2019: Is it time to sell my stocks and buy real estate?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-      "datetime": 1795210560,
+      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "datetime": 1795366800,
       "category": "general"
     },
     {
-      "headline": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year\u2019s peak",
+      "headline": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-      "datetime": 1795210440,
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "datetime": 1795365120,
       "category": "general"
     },
     {
-      "headline": "Anthropic\u2019s stock sees dramatic slide but manages to stay above its IPO price",
+      "headline": "\u2018I felt so seen\u2019: Why families across America are laughing \u2014 and crying \u2014 over SNL\u2019s \u2018Sister\u2019 sketch",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
-      "datetime": 1795209900,
+      "url": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
+      "datetime": 1795364280,
       "category": "general"
     },
     {
-      "headline": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "headline": "Energy bills will soar - here's how you can ease the pain",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795214567,
+      "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795395907,
       "category": "general"
     },
     {
-      "headline": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "headline": "What is going on with Poundland?",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795196988,
+      "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795393347,
+      "category": "general"
+    },
+    {
+      "headline": "Pip assessments need 'fundamental overhaul', report to say",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795406473,
+      "category": "general"
+    },
+    {
+      "headline": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795355421,
+      "category": "general"
+    },
+    {
+      "headline": "Employers are being asked to give interview feedback - here's what applicants want",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795305847,
+      "category": "general"
+    },
+    {
+      "headline": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795392480,
+      "category": "general"
+    },
+    {
+      "headline": "Can AI really help spot Black Friday deals? We put it to the test",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795219571,
+      "category": "general"
+    },
+    {
+      "headline": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795394016,
       "category": "general"
     },
     {
@@ -530,58 +572,16 @@
       "category": "general"
     },
     {
-      "headline": "Trump threatens ban on US firms building AI data centres overseas",
+      "headline": "MP criticises Guernsey and Jersey company ownership register plans",
       "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795208052,
-      "category": "general"
-    },
-    {
-      "headline": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795215204,
-      "category": "general"
-    },
-    {
-      "headline": "Should AI be judging our credit worthiness?",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795159939,
-      "category": "general"
-    },
-    {
-      "headline": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795167896,
-      "category": "general"
-    },
-    {
-      "headline": "Fish and eggs al desko? The dos and don'ts of lunch at work",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795133317,
-      "category": "general"
-    },
-    {
-      "headline": "Airbnb's divisive new house rules come into force",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795189715,
-      "category": "general"
-    },
-    {
-      "headline": "Mouldy, infested housing for vulnerable people sold as ethical investments abroad",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c6evre8j12vno?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795154433,
+      "url": "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo?at_medium=RSS&at_campaign=rss",
+      "datetime": 1795332125,
       "category": "general"
     }
   ],
   "calendar": [
     {
-      "date": "2026-11-21",
+      "date": "2026-11-23",
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "[Calendar sources unavailable]",
