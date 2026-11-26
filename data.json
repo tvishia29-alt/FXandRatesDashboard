@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:11:13.879390Z",
+  "generated_at": "2026-11-26T15:36:08.479864Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -43,45 +43,45 @@
   },
   "commodities": {
     "gold": {
-      "price": 3607.8,
-      "d1_pct": 2.04,
-      "w1_pct": -2.11,
-      "m1_pct": -10.95,
+      "price": 3600.8,
+      "d1_pct": 1.84,
+      "w1_pct": -2.3,
+      "m1_pct": -11.13,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 41.98,
-      "d1_pct": 4.81,
-      "w1_pct": -5.28,
-      "m1_pct": -21.47,
+      "price": 41.905,
+      "d1_pct": 4.63,
+      "w1_pct": -5.44,
+      "m1_pct": -21.61,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 84.55,
-      "d1_pct": 1.04,
-      "w1_pct": 1.61,
-      "m1_pct": -17.74,
+      "price": 84.81,
+      "d1_pct": 1.35,
+      "w1_pct": 1.92,
+      "m1_pct": -17.48,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 91.2,
-      "d1_pct": -3.6,
-      "w1_pct": -0.85,
-      "m1_pct": -20.92,
+      "price": 91.39,
+      "d1_pct": -3.4,
+      "w1_pct": -0.64,
+      "m1_pct": -20.75,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.624,
-      "d1_pct": 10.86,
-      "w1_pct": 10.89,
-      "m1_pct": 28.65,
+      "price": 3.628,
+      "d1_pct": 10.98,
+      "w1_pct": 11.02,
+      "m1_pct": 28.79,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.4695,
-      "d1_pct": 2.57,
-      "w1_pct": -2.76,
-      "m1_pct": -17.65,
+      "price": 5.4675,
+      "d1_pct": 2.53,
+      "w1_pct": -2.8,
+      "m1_pct": -17.68,
       "unit": "$/lb"
     },
     "wheat": {
@@ -223,82 +223,82 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0983,
-      "d1_pct": 0.19,
-      "w1_pct": 0.1,
-      "m1_pct": -1.32
+      "price": 1.0977,
+      "d1_pct": 0.13,
+      "w1_pct": 0.05,
+      "m1_pct": -1.37
     },
     "GBPUSD": {
-      "price": 1.3111,
-      "d1_pct": -0.0,
-      "w1_pct": -0.27,
-      "m1_pct": -1.47
+      "price": 1.3106,
+      "d1_pct": -0.04,
+      "w1_pct": -0.31,
+      "m1_pct": -1.5
     },
     "USDJPY": {
-      "price": 159.217,
-      "d1_pct": -0.03,
-      "w1_pct": -0.1,
-      "m1_pct": 0.77
+      "price": 159.272,
+      "d1_pct": 0.01,
+      "w1_pct": -0.07,
+      "m1_pct": 0.81
     },
     "USDCHF": {
-      "price": 0.8338,
-      "d1_pct": -0.24,
-      "w1_pct": -1.15,
-      "m1_pct": 0.6
+      "price": 0.8343,
+      "d1_pct": -0.17,
+      "w1_pct": -1.09,
+      "m1_pct": 0.67
     },
     "AUDUSD": {
-      "price": 0.6638,
-      "d1_pct": 0.06,
-      "w1_pct": -1.12,
-      "m1_pct": -5.58
+      "price": 0.6637,
+      "d1_pct": 0.04,
+      "w1_pct": -1.14,
+      "m1_pct": -5.6
     },
     "NZDUSD": {
-      "price": 0.5478,
-      "d1_pct": 0.02,
-      "w1_pct": -0.19,
-      "m1_pct": -3.56
+      "price": 0.5473,
+      "d1_pct": -0.07,
+      "w1_pct": -0.28,
+      "m1_pct": -3.64
     },
     "USDCAD": {
-      "price": 1.4244,
-      "d1_pct": -0.2,
-      "w1_pct": -0.61,
-      "m1_pct": 1.38
+      "price": 1.4242,
+      "d1_pct": -0.22,
+      "w1_pct": -0.62,
+      "m1_pct": 1.37
     },
     "USDSEK": {
-      "price": 10.2075,
-      "d1_pct": -0.36,
-      "w1_pct": 0.38,
-      "m1_pct": 2.57
+      "price": 10.214,
+      "d1_pct": -0.3,
+      "w1_pct": 0.44,
+      "m1_pct": 2.63
     },
     "USDNOK": {
-      "price": 9.7507,
-      "d1_pct": -0.5,
-      "w1_pct": 0.52,
-      "m1_pct": 4.46
+      "price": 9.7546,
+      "d1_pct": -0.46,
+      "w1_pct": 0.56,
+      "m1_pct": 4.5
     },
     "USDCNY": {
-      "price": 6.6501,
+      "price": 6.6503,
       "d1_pct": -0.21,
       "w1_pct": -0.26,
       "m1_pct": -0.27
     },
     "USDMXN": {
-      "price": 19.6678,
-      "d1_pct": 1.14,
-      "w1_pct": 4.33,
-      "m1_pct": 5.25
+      "price": 19.6761,
+      "d1_pct": 1.19,
+      "w1_pct": 4.38,
+      "m1_pct": 5.29
     },
     "USDBRL": {
-      "price": 5.733,
-      "d1_pct": -2.9,
-      "w1_pct": -2.53,
-      "m1_pct": 7.15
+      "price": 5.7321,
+      "d1_pct": -2.91,
+      "w1_pct": -2.54,
+      "m1_pct": 7.14
     },
     "USDZAR": {
-      "price": 17.5195,
-      "d1_pct": -0.12,
-      "w1_pct": 1.45,
-      "m1_pct": 5.29
+      "price": 17.5278,
+      "d1_pct": -0.07,
+      "w1_pct": 1.49,
+      "m1_pct": 5.34
     },
     "USDINR": {
       "price": 92.435,
@@ -307,40 +307,40 @@
       "m1_pct": -2.88
     },
     "USDKRW": {
-      "price": 1343.42,
-      "d1_pct": 0.06,
-      "w1_pct": 0.98,
-      "m1_pct": 1.25
+      "price": 1343.5601,
+      "d1_pct": 0.07,
+      "w1_pct": 0.99,
+      "m1_pct": 1.26
     },
     "USDTRY": {
-      "price": 50.6668,
-      "d1_pct": -0.0,
-      "w1_pct": 0.41,
-      "m1_pct": 1.74
+      "price": 50.6715,
+      "d1_pct": 0.01,
+      "w1_pct": 0.42,
+      "m1_pct": 1.75
     },
     "USDPLN": {
-      "price": 4.0782,
-      "d1_pct": 0.26,
-      "w1_pct": 1.47,
-      "m1_pct": 3.18
+      "price": 4.0814,
+      "d1_pct": 0.34,
+      "w1_pct": 1.55,
+      "m1_pct": 3.26
     },
     "USDHUF": {
-      "price": 338.717,
-      "d1_pct": 0.62,
-      "w1_pct": 0.92,
-      "m1_pct": 2.83
+      "price": 338.961,
+      "d1_pct": 0.69,
+      "w1_pct": 0.99,
+      "m1_pct": 2.9
     },
     "USDCZK": {
-      "price": 22.264,
-      "d1_pct": -0.01,
-      "w1_pct": 0.2,
-      "m1_pct": 1.92
+      "price": 22.2817,
+      "d1_pct": 0.07,
+      "w1_pct": 0.28,
+      "m1_pct": 2.0
     },
     "USDSGD": {
-      "price": 1.2904,
-      "d1_pct": 0.08,
-      "w1_pct": 0.08,
-      "m1_pct": 0.71
+      "price": 1.2906,
+      "d1_pct": 0.1,
+      "w1_pct": 0.1,
+      "m1_pct": 0.72
     },
     "USDIDR": {
       "price": 18303.0,
@@ -349,23 +349,23 @@
       "m1_pct": 0.9
     },
     "USDTHB": {
-      "price": 34.01,
-      "d1_pct": 0.32,
-      "w1_pct": 0.2,
-      "m1_pct": 0.71
+      "price": 34.02,
+      "d1_pct": 0.35,
+      "w1_pct": 0.23,
+      "m1_pct": 0.74
     },
     "DXY": {
-      "price": 103.698,
-      "d1_pct": 0.03,
-      "w1_pct": -0.19,
-      "m1_pct": 1.48
+      "price": 103.766,
+      "d1_pct": 0.09,
+      "w1_pct": -0.13,
+      "m1_pct": 1.54
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 26.84,
+      "price": 26.77,
       "prev_close": 28.29,
-      "change_pct": -5.13,
+      "change_pct": -5.37,
       "timestamp": "2026-11-26 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,10 +413,10 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5125,
-      "d1_pct": -0.08,
-      "w1_pct": 1.2,
-      "m1_pct": 1.36,
+      "price": 9.5115,
+      "d1_pct": -0.09,
+      "w1_pct": 1.19,
+      "m1_pct": 1.35,
       "country": "UK",
       "duration": "mixed"
     },
@@ -439,6 +439,20 @@
   },
   "news": [
     {
+      "headline": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+      "datetime": 1795707000,
+      "category": "general"
+    },
+    {
+      "headline": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "datetime": 1795705980,
+      "category": "general"
+    },
+    {
       "headline": "This retired professor has reinvented himself \u2014 as a Taylor Swift scholar",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
@@ -453,7 +467,7 @@
       "category": "general"
     },
     {
-      "headline": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
+      "headline": "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
       "datetime": 1795700460,
@@ -492,20 +506,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
       "datetime": 1795677360,
-      "category": "general"
-    },
-    {
-      "headline": "We are living in perilous times if Nvidia\u2019s Jensen Huang dictates your 401(k) balance",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-      "datetime": 1795655700,
-      "category": "general"
-    },
-    {
-      "headline": "Why this stock-market selloff is probably going to get worse before it gets better",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
-      "datetime": 1795653180,
       "category": "general"
     },
     {
@@ -554,7 +554,7 @@
       "headline": "New UK-EU treaty has 10-year termination clause",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
-      "datetime": 1795687154,
+      "datetime": 1795706597,
       "category": "general"
     },
     {
