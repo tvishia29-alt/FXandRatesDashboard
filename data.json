@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-27T11:10:07.060749Z",
+  "generated_at": "2026-11-27T11:35:59.672948Z",
   "yields": {
     "US": {
       "y1m": null,
-      "y3m": 4.155,
+      "y3m": null,
       "y6m": null,
       "y1": null,
-      "y2": 4.337,
+      "y2": 4.51,
       "y3": null,
       "y5": 4.66,
       "y7": null,
@@ -15,12 +15,6 @@
       "y30": 5.235
     },
     "US_yf": {
-      "US_3M": {
-        "price": 4.155,
-        "prev_close": 4.168,
-        "change_pct": -0.31,
-        "timestamp": "2026-11-25 00:00:00"
-      },
       "US_5Y": {
         "price": 4.66,
         "prev_close": 4.712,
@@ -43,45 +37,45 @@
   },
   "commodities": {
     "gold": {
-      "price": 3706.5,
-      "d1_pct": 4.83,
-      "w1_pct": 0.57,
-      "m1_pct": -8.52,
+      "price": 3704.3,
+      "d1_pct": 4.77,
+      "w1_pct": 0.51,
+      "m1_pct": -8.57,
       "unit": "$/oz"
     },
     "silver": {
-      "price": 44.64,
-      "d1_pct": 11.46,
-      "w1_pct": 0.73,
-      "m1_pct": -16.49,
+      "price": 44.505,
+      "d1_pct": 11.12,
+      "w1_pct": 0.42,
+      "m1_pct": -16.75,
       "unit": "$/oz"
     },
     "wti": {
-      "price": 85.45,
-      "d1_pct": 2.12,
-      "w1_pct": 2.69,
-      "m1_pct": -16.86,
+      "price": 85.46,
+      "d1_pct": 2.13,
+      "w1_pct": 2.7,
+      "m1_pct": -16.85,
       "unit": "$/bbl"
     },
     "brent": {
-      "price": 92.01,
-      "d1_pct": -2.75,
-      "w1_pct": 0.03,
-      "m1_pct": -20.21,
+      "price": 92.18,
+      "d1_pct": -2.57,
+      "w1_pct": 0.22,
+      "m1_pct": -20.07,
       "unit": "$/bbl"
     },
     "natgas": {
-      "price": 3.572,
-      "d1_pct": 9.27,
-      "w1_pct": 9.3,
-      "m1_pct": 26.8,
+      "price": 3.567,
+      "d1_pct": 9.12,
+      "w1_pct": 9.15,
+      "m1_pct": 26.62,
       "unit": "$/MMBtu"
     },
     "copper": {
-      "price": 5.676,
-      "d1_pct": 6.44,
-      "w1_pct": 0.91,
-      "m1_pct": -14.54,
+      "price": 5.6745,
+      "d1_pct": 6.41,
+      "w1_pct": 0.88,
+      "m1_pct": -14.56,
       "unit": "$/lb"
     },
     "wheat": {
@@ -223,28 +217,28 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0966,
-      "d1_pct": -0.04,
-      "w1_pct": -0.03,
-      "m1_pct": -1.7
+      "price": 1.0964,
+      "d1_pct": -0.06,
+      "w1_pct": -0.05,
+      "m1_pct": -1.72
     },
     "GBPUSD": {
-      "price": 1.3133,
-      "d1_pct": 0.15,
-      "w1_pct": 0.36,
-      "m1_pct": -1.46
+      "price": 1.3129,
+      "d1_pct": 0.12,
+      "w1_pct": 0.33,
+      "m1_pct": -1.49
     },
     "USDJPY": {
-      "price": 159.481,
-      "d1_pct": 0.17,
-      "w1_pct": -0.14,
-      "m1_pct": 1.04
+      "price": 159.452,
+      "d1_pct": 0.15,
+      "w1_pct": -0.16,
+      "m1_pct": 1.03
     },
     "USDCHF": {
-      "price": 0.8355,
-      "d1_pct": 0.52,
-      "w1_pct": -1.02,
-      "m1_pct": 0.91
+      "price": 0.8354,
+      "d1_pct": 0.5,
+      "w1_pct": -1.04,
+      "m1_pct": 0.89
     },
     "AUDUSD": {
       "price": 0.6676,
@@ -253,40 +247,40 @@
       "m1_pct": -5.41
     },
     "NZDUSD": {
-      "price": 0.5486,
-      "d1_pct": 0.02,
-      "w1_pct": 0.09,
-      "m1_pct": -2.53
+      "price": 0.5488,
+      "d1_pct": 0.05,
+      "w1_pct": 0.12,
+      "m1_pct": -2.5
     },
     "USDCAD": {
-      "price": 1.424,
-      "d1_pct": 0.18,
-      "w1_pct": -0.72,
-      "m1_pct": 1.81
+      "price": 1.4243,
+      "d1_pct": 0.19,
+      "w1_pct": -0.7,
+      "m1_pct": 1.83
     },
     "USDSEK": {
-      "price": 10.2072,
-      "d1_pct": -0.26,
-      "w1_pct": 0.11,
-      "m1_pct": 3.08
+      "price": 10.2122,
+      "d1_pct": -0.21,
+      "w1_pct": 0.16,
+      "m1_pct": 3.13
     },
     "USDNOK": {
-      "price": 9.7345,
+      "price": 9.7348,
       "d1_pct": -0.45,
-      "w1_pct": -0.37,
-      "m1_pct": 5.25
+      "w1_pct": -0.36,
+      "m1_pct": 5.26
     },
     "USDCNY": {
-      "price": 6.6436,
+      "price": 6.6435,
       "d1_pct": -0.31,
-      "w1_pct": -0.34,
+      "w1_pct": -0.35,
       "m1_pct": -0.34
     },
     "USDMXN": {
-      "price": 19.5087,
-      "d1_pct": -0.45,
-      "w1_pct": 2.19,
-      "m1_pct": 4.71
+      "price": 19.5159,
+      "d1_pct": -0.41,
+      "w1_pct": 2.23,
+      "m1_pct": 4.75
     },
     "USDBRL": {
       "price": 5.6525,
@@ -295,10 +289,10 @@
       "m1_pct": 5.74
     },
     "USDZAR": {
-      "price": 17.3283,
-      "d1_pct": -1.23,
-      "w1_pct": -0.95,
-      "m1_pct": 4.33
+      "price": 17.3303,
+      "d1_pct": -1.22,
+      "w1_pct": -0.94,
+      "m1_pct": 4.34
     },
     "USDINR": {
       "price": 92.98,
@@ -307,37 +301,37 @@
       "m1_pct": -2.34
     },
     "USDKRW": {
-      "price": 1333.2,
-      "d1_pct": -0.73,
-      "w1_pct": -0.12,
-      "m1_pct": -0.53
+      "price": 1333.4399,
+      "d1_pct": -0.71,
+      "w1_pct": -0.1,
+      "m1_pct": -0.51
     },
     "USDTRY": {
-      "price": 50.7823,
+      "price": 50.7832,
       "d1_pct": 0.21,
       "w1_pct": 0.44,
       "m1_pct": 1.91
     },
     "USDPLN": {
-      "price": 4.0722,
-      "d1_pct": 0.0,
-      "w1_pct": 0.74,
-      "m1_pct": 3.25
+      "price": 4.0746,
+      "d1_pct": 0.06,
+      "w1_pct": 0.8,
+      "m1_pct": 3.31
     },
     "USDHUF": {
-      "price": 337.308,
-      "d1_pct": -0.25,
-      "w1_pct": -0.73,
-      "m1_pct": 2.73
+      "price": 337.596,
+      "d1_pct": -0.17,
+      "w1_pct": -0.64,
+      "m1_pct": 2.82
     },
     "USDCZK": {
-      "price": 22.273,
-      "d1_pct": 0.11,
-      "w1_pct": 0.07,
-      "m1_pct": 2.07
+      "price": 22.2848,
+      "d1_pct": 0.17,
+      "w1_pct": 0.12,
+      "m1_pct": 2.12
     },
     "USDSGD": {
-      "price": 1.2893,
+      "price": 1.2894,
       "d1_pct": -0.05,
       "w1_pct": -0.17,
       "m1_pct": 0.65
@@ -349,23 +343,23 @@
       "m1_pct": 1.27
     },
     "USDTHB": {
-      "price": 33.89,
-      "d1_pct": -0.43,
-      "w1_pct": -0.15,
-      "m1_pct": 0.6
+      "price": 33.88,
+      "d1_pct": -0.46,
+      "w1_pct": -0.18,
+      "m1_pct": 0.57
     },
     "DXY": {
-      "price": 103.805,
-      "d1_pct": 0.13,
-      "w1_pct": -0.09,
-      "m1_pct": 1.58
+      "price": 103.813,
+      "d1_pct": 0.14,
+      "w1_pct": -0.08,
+      "m1_pct": 1.59
     }
   },
   "volatility": {
     "VIX (S&P 500 Vol)": {
-      "price": 24.6,
+      "price": 24.97,
       "prev_close": 26.8,
-      "change_pct": -8.21,
+      "change_pct": -6.83,
       "timestamp": "2026-11-27 00:00:00"
     },
     "VXN (Nasdaq Vol)": {
@@ -413,18 +407,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5,
-      "d1_pct": -0.21,
-      "w1_pct": 0.37,
-      "m1_pct": 0.91,
+      "price": 9.505,
+      "d1_pct": -0.16,
+      "w1_pct": 0.42,
+      "m1_pct": 0.96,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 126.96,
-      "d1_pct": -0.52,
-      "w1_pct": 0.29,
-      "m1_pct": 1.42,
+      "price": 127.14,
+      "d1_pct": -0.38,
+      "w1_pct": 0.43,
+      "m1_pct": 1.56,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -438,6 +432,13 @@
     }
   },
   "news": [
+    {
+      "headline": "I hate that Jensen Huang is back at Nvidia, but I love what it\u2019s done for my 401(k). Am I a hypocrite?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "datetime": 1795778100,
+      "category": "general"
+    },
     {
       "headline": "Stocks are poised for a Friday jump \u2014 right into a $100 billion wave of automated selling, Goldman Sachs warns",
       "source": "MarketWatch",
@@ -485,13 +486,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
       "datetime": 1795755660,
-      "category": "general"
-    },
-    {
-      "headline": "I hate that Jensen Huang is back at Nvidia, but I love what it\u2019s done for my 401(k). Am I a hypocrite?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-      "datetime": 1795742100,
       "category": "general"
     },
     {
