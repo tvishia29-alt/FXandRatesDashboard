@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T22:05:39.903898Z",
+  "generated_at": "2026-11-28T00:07:37.692991Z",
   "yields": {
     "US": {
       "y1m": null,
@@ -12,7 +12,7 @@
       "y7": null,
       "y10": 4.936,
       "y20": null,
-      "y30": null
+      "y30": 5.325
     },
     "US_yf": {
       "US_3M": {
@@ -31,6 +31,12 @@
         "price": 4.936,
         "prev_close": 4.848,
         "change_pct": 1.82,
+        "timestamp": "2026-11-27 00:00:00"
+      },
+      "US_30Y": {
+        "price": 5.325,
+        "prev_close": 5.235,
+        "change_pct": 1.72,
         "timestamp": "2026-11-27 00:00:00"
       }
     }
@@ -217,136 +223,136 @@
   },
   "fx": {
     "EURUSD": {
-      "price": 1.0939,
-      "d1_pct": -0.29,
-      "w1_pct": -0.28,
-      "m1_pct": -1.95
+      "price": 1.0972,
+      "d1_pct": 0.02,
+      "w1_pct": 0.02,
+      "m1_pct": -1.65
     },
     "GBPUSD": {
-      "price": 1.3099,
-      "d1_pct": -0.11,
-      "w1_pct": 0.1,
-      "m1_pct": -1.72
+      "price": 1.3107,
+      "d1_pct": -0.04,
+      "w1_pct": 0.16,
+      "m1_pct": -1.66
     },
     "USDJPY": {
-      "price": 159.515,
-      "d1_pct": 0.19,
-      "w1_pct": -0.12,
-      "m1_pct": 1.07
+      "price": 159.281,
+      "d1_pct": 0.04,
+      "w1_pct": -0.27,
+      "m1_pct": 0.92
     },
     "USDCHF": {
-      "price": 0.8357,
-      "d1_pct": 0.54,
-      "w1_pct": -1.0,
-      "m1_pct": 0.94
+      "price": 0.8345,
+      "d1_pct": 0.4,
+      "w1_pct": -1.14,
+      "m1_pct": 0.79
     },
     "AUDUSD": {
       "price": 0.6651,
-      "d1_pct": 0.34,
-      "w1_pct": -0.08,
-      "m1_pct": -5.77
+      "d1_pct": 0.22,
+      "w1_pct": 0.15,
+      "m1_pct": -5.36
     },
     "NZDUSD": {
       "price": 0.5464,
-      "d1_pct": -0.4,
-      "w1_pct": -0.33,
-      "m1_pct": -2.94
+      "d1_pct": -0.13,
+      "w1_pct": -0.23,
+      "m1_pct": -2.99
     },
     "USDCAD": {
       "price": 1.4248,
-      "d1_pct": 0.23,
-      "w1_pct": -0.67,
+      "d1_pct": 0.02,
+      "w1_pct": -0.63,
       "m1_pct": 1.87
     },
     "USDSEK": {
       "price": 10.2618,
-      "d1_pct": 0.27,
-      "w1_pct": 0.65,
-      "m1_pct": 3.63
+      "d1_pct": 0.53,
+      "w1_pct": 0.36,
+      "m1_pct": 4.24
     },
     "USDNOK": {
-      "price": 9.7915,
-      "d1_pct": 0.13,
-      "w1_pct": 0.22,
-      "m1_pct": 5.87
+      "price": 9.809,
+      "d1_pct": 0.54,
+      "w1_pct": 0.6,
+      "m1_pct": 6.09
     },
     "USDCNY": {
-      "price": 6.6449,
-      "d1_pct": -0.29,
-      "w1_pct": -0.32,
-      "m1_pct": -0.32
+      "price": 6.664,
+      "d1_pct": 0.0,
+      "w1_pct": -0.04,
+      "m1_pct": -0.03
     },
     "USDMXN": {
-      "price": 19.6455,
-      "d1_pct": 0.25,
-      "w1_pct": 2.91,
-      "m1_pct": 5.44
+      "price": 19.7027,
+      "d1_pct": 0.54,
+      "w1_pct": 3.21,
+      "m1_pct": 5.75
     },
     "USDBRL": {
-      "price": 5.5582,
-      "d1_pct": -4.53,
-      "w1_pct": -6.33,
-      "m1_pct": 3.97
+      "price": 5.6503,
+      "d1_pct": -2.95,
+      "w1_pct": -4.77,
+      "m1_pct": 5.69
     },
     "USDZAR": {
       "price": 17.3695,
-      "d1_pct": -1.0,
-      "w1_pct": -0.72,
-      "m1_pct": 4.58
+      "d1_pct": -0.87,
+      "w1_pct": -0.71,
+      "m1_pct": 4.59
     },
     "USDINR": {
-      "price": 92.98,
-      "d1_pct": 0.8,
-      "w1_pct": -0.34,
-      "m1_pct": -2.34
+      "price": 92.4499,
+      "d1_pct": 0.23,
+      "w1_pct": -0.91,
+      "m1_pct": -2.9
     },
     "USDKRW": {
-      "price": 1333.0,
-      "d1_pct": -0.74,
-      "w1_pct": -0.13,
-      "m1_pct": -0.55
+      "price": 1343.53,
+      "d1_pct": 0.04,
+      "w1_pct": 0.65,
+      "m1_pct": 0.24
     },
     "USDTRY": {
-      "price": 50.7368,
-      "d1_pct": 0.12,
-      "w1_pct": 0.35,
-      "m1_pct": 1.82
+      "price": 50.7738,
+      "d1_pct": 0.19,
+      "w1_pct": 0.42,
+      "m1_pct": 1.9
     },
     "USDPLN": {
-      "price": 4.0807,
-      "d1_pct": 0.21,
-      "w1_pct": 0.95,
-      "m1_pct": 3.46
+      "price": 4.0777,
+      "d1_pct": 0.14,
+      "w1_pct": 0.88,
+      "m1_pct": 3.39
     },
     "USDHUF": {
-      "price": 338.08,
-      "d1_pct": -0.02,
-      "w1_pct": -0.5,
-      "m1_pct": 2.97
+      "price": 338.195,
+      "d1_pct": 0.01,
+      "w1_pct": -0.46,
+      "m1_pct": 3.0
     },
     "USDCZK": {
-      "price": 22.323,
-      "d1_pct": 0.34,
-      "w1_pct": 0.3,
-      "m1_pct": 2.3
+      "price": 22.246,
+      "d1_pct": -0.01,
+      "w1_pct": -0.05,
+      "m1_pct": 1.95
     },
     "USDSGD": {
       "price": 1.2903,
-      "d1_pct": 0.02,
-      "w1_pct": -0.1,
-      "m1_pct": 0.73
+      "d1_pct": 0.0,
+      "w1_pct": 0.06,
+      "m1_pct": 0.83
     },
     "USDIDR": {
-      "price": 18375.0,
-      "d1_pct": 0.72,
-      "w1_pct": 0.66,
-      "m1_pct": 1.71
+      "price": 17708.0,
+      "d1_pct": -2.93,
+      "w1_pct": -2.99,
+      "m1_pct": -1.98
     },
     "USDTHB": {
-      "price": 33.89,
-      "d1_pct": -0.43,
-      "w1_pct": -0.15,
-      "m1_pct": 0.6
+      "price": 34.02,
+      "d1_pct": -0.05,
+      "w1_pct": 0.23,
+      "m1_pct": 0.99
     },
     "DXY": {
       "price": 104.014,
@@ -407,18 +413,18 @@
       "duration": "short"
     },
     "UK Gilts": {
-      "price": 9.5,
-      "d1_pct": -0.21,
-      "w1_pct": 0.37,
-      "m1_pct": 0.91,
+      "price": 9.52,
+      "d1_pct": 0.0,
+      "w1_pct": 1.28,
+      "m1_pct": 1.44,
       "country": "UK",
       "duration": "mixed"
     },
     "Eurozone Govt Bonds": {
-      "price": 127.265,
-      "d1_pct": -0.29,
-      "w1_pct": 0.53,
-      "m1_pct": 1.66,
+      "price": 127.63,
+      "d1_pct": -0.2,
+      "w1_pct": 2.19,
+      "m1_pct": 1.63,
       "country": "Eurozone",
       "duration": "mixed"
     },
@@ -432,6 +438,27 @@
     }
   },
   "news": [
+    {
+      "headline": "I\u2019m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+      "datetime": 1795824000,
+      "category": "general"
+    },
+    {
+      "headline": "I hate that Jensen Huang is back at Nvidia, but I love what it\u2019s done for my 401(k). Am I a hypocrite?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "datetime": 1795822200,
+      "category": "general"
+    },
+    {
+      "headline": "Clearing out my parents\u2019 house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
+      "datetime": 1795821300,
+      "category": "general"
+    },
     {
       "headline": "These stocks soared the most during a wild week highlighted by Huang\u2019s return to Nvidia",
       "source": "MarketWatch",
@@ -451,13 +478,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
       "datetime": 1795804800,
-      "category": "general"
-    },
-    {
-      "headline": "Clearing out my parents\u2019 house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
-      "datetime": 1795800660,
       "category": "general"
     },
     {
@@ -486,20 +506,6 @@
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
       "datetime": 1795793400,
-      "category": "general"
-    },
-    {
-      "headline": "My friends play \u2018credit-card roulette\u2019 to see who pays for dinner \u2014 but one \u2018winner\u2019 still Venmoed me afterward. Should I say something?",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/my-friends-play-credit-card-roulette-to-see-who-pays-for-dinner-but-one-winner-still-venmoed-me-afterward-should-i-say-something-0a657eee?mod=mw_rss_topstories",
-      "datetime": 1795791840,
-      "category": "general"
-    },
-    {
-      "headline": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
-      "datetime": 1795791660,
       "category": "general"
     },
     {
@@ -575,7 +581,7 @@
   ],
   "calendar": [
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "time": "08:30",
       "ctry": "\ud83c\uddfa\ud83c\uddf8",
       "ev": "[Calendar sources unavailable]",
