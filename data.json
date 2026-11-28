@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-28T00:07:37.692991Z",
+  "generated_at": "2026-11-28T02:03:27.547722Z",
   "yields": {
     "US": {
       "y1m": null,
       "y3m": 4.153,
       "y6m": null,
       "y1": null,
-      "y2": 4.366,
+      "y2": null,
       "y3": null,
-      "y5": 4.746,
+      "y5": null,
       "y7": null,
       "y10": 4.936,
       "y20": null,
@@ -19,12 +19,6 @@
         "price": 4.153,
         "prev_close": 4.155,
         "change_pct": -0.05,
-        "timestamp": "2026-11-27 00:00:00"
-      },
-      "US_5Y": {
-        "price": 4.746,
-        "prev_close": 4.66,
-        "change_pct": 1.85,
         "timestamp": "2026-11-27 00:00:00"
       },
       "US_10Y": {
@@ -101,124 +95,124 @@
   },
   "etfs": {
     "S&P 500": {
-      "price": 728.32,
-      "d1_pct": 1.62,
-      "w1_pct": 1.74,
-      "m1_pct": -5.7
+      "price": 716.7,
+      "d1_pct": -0.29,
+      "w1_pct": -1.85,
+      "m1_pct": -6.88
     },
     "Nasdaq 100": {
-      "price": 650.99,
-      "d1_pct": 2.69,
-      "w1_pct": 0.92,
-      "m1_pct": -10.28
+      "price": 633.93,
+      "d1_pct": -0.65,
+      "w1_pct": -3.88,
+      "m1_pct": -12.11
     },
     "Russell 2000": {
-      "price": 273.79,
-      "d1_pct": 1.83,
-      "w1_pct": 3.62,
-      "m1_pct": -2.67
+      "price": 268.87,
+      "d1_pct": 0.65,
+      "w1_pct": -0.46,
+      "m1_pct": -4.04
     },
     "EM Equities": {
-      "price": 58.1,
-      "d1_pct": 3.01,
-      "w1_pct": 2.38,
-      "m1_pct": -8.53
+      "price": 56.4,
+      "d1_pct": -0.51,
+      "w1_pct": -2.56,
+      "m1_pct": -9.79
     },
     "China Large Cap": {
-      "price": 31.99,
-      "d1_pct": 2.2,
-      "w1_pct": 0.63,
-      "m1_pct": -1.45
+      "price": 31.3,
+      "d1_pct": -0.41,
+      "w1_pct": -3.37,
+      "m1_pct": -3.69
     },
     "Japan Equities": {
-      "price": 89.07,
-      "d1_pct": 2.09,
-      "w1_pct": 2.37,
-      "m1_pct": -6.23
+      "price": 87.25,
+      "d1_pct": 0.7,
+      "w1_pct": -0.9,
+      "m1_pct": -8.4
     },
     "Brazil Equities": {
-      "price": 33.12,
-      "d1_pct": 9.81,
-      "w1_pct": 12.23,
-      "m1_pct": -1.49
+      "price": 30.16,
+      "d1_pct": 2.94,
+      "w1_pct": 0.3,
+      "m1_pct": -12.07
     },
     "Germany Equities": {
-      "price": 40.52,
-      "d1_pct": 1.1,
-      "w1_pct": 0.82,
-      "m1_pct": -3.06
+      "price": 40.08,
+      "d1_pct": 0.02,
+      "w1_pct": -2.32,
+      "m1_pct": -3.47
     },
     "UK Equities": {
-      "price": 46.84,
-      "d1_pct": 1.56,
-      "w1_pct": 3.04,
-      "m1_pct": -0.95
+      "price": 46.12,
+      "d1_pct": 0.55,
+      "w1_pct": 0.07,
+      "m1_pct": -2.27
     },
     "US Dollar Index": {
-      "price": 29.72,
-      "d1_pct": 0.41,
-      "w1_pct": 0.3,
-      "m1_pct": 2.27
+      "price": 29.6,
+      "d1_pct": -0.1,
+      "w1_pct": -0.07,
+      "m1_pct": 1.65
     },
     "Euro ETF": {
-      "price": 100.98,
-      "d1_pct": -0.39,
-      "w1_pct": -0.32,
-      "m1_pct": -1.9
-    },
-    "Yen ETF": {
-      "price": 57.44,
-      "d1_pct": -0.19,
-      "w1_pct": 0.1,
-      "m1_pct": -1.1
-    },
-    "GBP ETF": {
-      "price": 126.02,
-      "d1_pct": -0.13,
-      "w1_pct": 0.03,
-      "m1_pct": -1.57
-    },
-    "AUD ETF": {
-      "price": 65.8327,
-      "d1_pct": 0.23,
-      "w1_pct": -0.24,
-      "m1_pct": -5.76
-    },
-    "CAD ETF": {
-      "price": 68.66,
-      "d1_pct": -0.12,
-      "w1_pct": 0.82,
-      "m1_pct": -1.64
-    },
-    "Gold ETF": {
-      "price": 334.4,
-      "d1_pct": 2.12,
-      "w1_pct": -0.23,
-      "m1_pct": -10.47
-    },
-    "Oil ETF": {
-      "price": 137.77,
-      "d1_pct": -1.52,
-      "w1_pct": -0.23,
-      "m1_pct": -17.29
-    },
-    "Agriculture ETF": {
-      "price": 26.75,
-      "d1_pct": 1.56,
-      "w1_pct": 2.06,
+      "price": 101.38,
+      "d1_pct": 0.12,
+      "w1_pct": 0.05,
       "m1_pct": -1.33
     },
+    "Yen ETF": {
+      "price": 57.55,
+      "d1_pct": 0.0,
+      "w1_pct": 0.07,
+      "m1_pct": -0.95
+    },
+    "GBP ETF": {
+      "price": 126.19,
+      "d1_pct": -0.01,
+      "w1_pct": -0.18,
+      "m1_pct": -1.32
+    },
+    "AUD ETF": {
+      "price": 65.68,
+      "d1_pct": -0.17,
+      "w1_pct": -1.34,
+      "m1_pct": -5.55
+    },
+    "CAD ETF": {
+      "price": 68.74,
+      "d1_pct": 0.42,
+      "w1_pct": 0.78,
+      "m1_pct": -1.12
+    },
+    "Gold ETF": {
+      "price": 327.45,
+      "d1_pct": 0.61,
+      "w1_pct": -4.03,
+      "m1_pct": -12.04
+    },
+    "Oil ETF": {
+      "price": 139.89,
+      "d1_pct": 3.29,
+      "w1_pct": 2.78,
+      "m1_pct": -14.64
+    },
+    "Agriculture ETF": {
+      "price": 26.34,
+      "d1_pct": 0.23,
+      "w1_pct": 1.23,
+      "m1_pct": -3.87
+    },
     "Energy Sector": {
-      "price": 61.67,
-      "d1_pct": 1.26,
-      "w1_pct": 1.28,
-      "m1_pct": -9.91
+      "price": 60.9,
+      "d1_pct": 0.74,
+      "w1_pct": -0.64,
+      "m1_pct": -10.72
     },
     "Financials Sector": {
-      "price": 57.16,
-      "d1_pct": 1.15,
-      "w1_pct": 2.84,
-      "m1_pct": 1.84
+      "price": 56.51,
+      "d1_pct": 0.71,
+      "w1_pct": 0.16,
+      "m1_pct": 1.13
     }
   },
   "fx": {
@@ -381,34 +375,34 @@
       "timestamp": "2026-11-27 00:00:00"
     },
     "VIX Short-Term ETF": {
-      "price": 21.47,
-      "prev_close": 23.28,
-      "change_pct": -7.77,
-      "timestamp": "2026-11-27 00:00:00"
+      "price": 23.28,
+      "prev_close": 22.29,
+      "change_pct": 4.44,
+      "timestamp": "2026-11-25 00:00:00"
     }
   },
   "bond_etfs": {
     "US 20Y+ Treasury": {
-      "price": 81.27,
-      "d1_pct": -1.18,
-      "w1_pct": 1.14,
-      "m1_pct": 0.77,
+      "price": 82.24,
+      "d1_pct": 0.92,
+      "w1_pct": 2.52,
+      "m1_pct": 1.17,
       "country": "US",
       "duration": "long"
     },
     "US 7-10Y Treasury": {
-      "price": 91.66,
-      "d1_pct": -0.43,
-      "w1_pct": 0.92,
-      "m1_pct": 1.23,
+      "price": 92.06,
+      "d1_pct": 0.46,
+      "w1_pct": 1.53,
+      "m1_pct": 1.4,
       "country": "US",
       "duration": "medium"
     },
     "US 1-3Y Treasury": {
-      "price": 81.62,
-      "d1_pct": -0.02,
-      "w1_pct": 0.29,
-      "m1_pct": 0.5,
+      "price": 81.64,
+      "d1_pct": 0.09,
+      "w1_pct": 0.37,
+      "m1_pct": 0.55,
       "country": "US",
       "duration": "short"
     },
@@ -429,10 +423,10 @@
       "duration": "mixed"
     },
     "US Total Treasury": {
-      "price": 22.265,
-      "d1_pct": -0.38,
-      "w1_pct": 0.61,
-      "m1_pct": 0.85,
+      "price": 22.35,
+      "d1_pct": 0.4,
+      "w1_pct": 1.09,
+      "m1_pct": 0.97,
       "country": "US",
       "duration": "mixed"
     }
